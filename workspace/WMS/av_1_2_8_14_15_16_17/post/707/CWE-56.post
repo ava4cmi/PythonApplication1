@@ -1,0 +1,3 @@
+#CWE-56 Path Equivalence: 'filedir*' (Wildcard)
+Attributes Value
+Sanitize 0.83

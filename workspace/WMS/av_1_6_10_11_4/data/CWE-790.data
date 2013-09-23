@@ -1,0 +1,6 @@
+#CWE-790 Improper Filtering of Special Elements
+Attributes Submit Wms proxy Lb proxy Logger (interlogd) Lb
+UI_GUI 2.00 1.54 1.54 1.54 1.54
+DB_DNS_IDS_FW 2.72 0.59 2.72 2.72 0.59
+Transfering 1.61 1.61 1.61 1.61 1.61
+Sanitize 0.83 0.83 2.08 2.08 2.08

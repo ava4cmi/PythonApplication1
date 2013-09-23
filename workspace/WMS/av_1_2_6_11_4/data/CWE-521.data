@@ -1,0 +1,8 @@
+#CWE-521 Weak Password Requirements
+Attributes Submit Voms server Wms proxy Logger (interlogd) Lb
+UI_GUI 2.00 1.54 1.54 1.54 1.54
+Encryption 0.15 0.15 0.15 0.15 0.15
+DB_DNS_IDS_FW 2.72 0.59 0.59 2.72 0.59
+User 1.61 3.00 3.00 3.00 3.00
+Owner 3.63 3.63 3.63 3.63 3.63
+Trust 1.64 0.69 0.69 0.69 1.64

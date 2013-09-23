@@ -1,0 +1,4 @@
+#CWE-111 Direct Use of Unsafe JNI
+Attributes Value
+Thirdparty 0.32
+Trust 0.69

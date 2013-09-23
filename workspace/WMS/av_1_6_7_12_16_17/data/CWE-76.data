@@ -1,0 +1,3 @@
+#CWE-76 Improper Neutralization of Equivalent Special Elements
+Attributes Submit Wms proxy Workload manager Job controller (condor-g) Lrms Wn job
+Sanitize 0.83 0.83 0.83 0.83 2.08 2.08

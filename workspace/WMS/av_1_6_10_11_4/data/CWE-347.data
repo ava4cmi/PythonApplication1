@@ -1,0 +1,4 @@
+#CWE-347 Improper Verification of Cryptographic Signature
+Attributes Submit Wms proxy Lb proxy Logger (interlogd) Lb
+Encryption 0.15 0.15 0.15 0.15 0.15
+Trust 1.64 0.69 0.69 0.69 1.64

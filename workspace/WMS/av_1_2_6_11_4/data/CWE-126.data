@@ -1,0 +1,3 @@
+#CWE-126 Buffer Over-read
+Attributes Submit Voms server Wms proxy Logger (interlogd) Lb
+MaxMin 1.05 1.05 1.05 1.05 1.05

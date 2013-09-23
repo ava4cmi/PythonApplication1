@@ -1,0 +1,3 @@
+#CWE-43 Path Equivalence: 'filename....' (Multiple Trailing Dot)
+Attributes Value
+Sanitize 0.83

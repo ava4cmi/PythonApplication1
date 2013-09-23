@@ -1,0 +1,3 @@
+#CWE-55 Path Equivalence: '/./' (Single Dot Directory)
+Attributes Value
+Sanitize 0.83

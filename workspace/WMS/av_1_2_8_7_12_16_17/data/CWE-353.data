@@ -1,0 +1,5 @@
+#CWE-353 Missing Support for Integrity Check
+Attributes Submit Voms server Proxy renewal Workload manager Job controller (condor-g) Lrms Wn job
+Tampering 0.15 0.15 0.15 0.15 0.15 0.15 1.83
+DB_DNS_IDS_FW 2.72 0.59 0.59 0.59 0.59 0.59 0.59
+Transfering 1.61 2.08 2.08 1.61 1.61 1.61 1.61

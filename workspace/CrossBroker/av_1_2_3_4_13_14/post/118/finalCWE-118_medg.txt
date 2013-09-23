@@ -1,0 +1,11 @@
+1. CWE-123 Write-what-where Condition:0.5345
+2. CWE-120 Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'):0.408717506354
+3. CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer:0.320754444208
+4. CWE-125 Out-of-bounds Read:0.195
+5. CWE-805 Buffer Access with Incorrect Length Value:0.195
+6. CWE-785 Use of Path Manipulation Function without Maximum-sized Buffer:0.195
+7. CWE-127 Buffer Under-read:0.195
+8. CWE-126 Buffer Over-read:0.195
+9. CWE-124 Buffer Underwrite ('Buffer Underflow'):0.195
+10. CWE-122 Heap-based Buffer Overflow:0.195
+11. CWE-121 Stack-based Buffer Overflow:0.195

@@ -1,0 +1,5 @@
+#CWE-280 Improper Handling of Insufficient Permissions or Privileges 
+Attributes Submit Gridftp Wn job
+Owner 3.63 3.63 3.63
+Client_Server 0.40 0.70 0.70
+User 1.61 3.00 1.61

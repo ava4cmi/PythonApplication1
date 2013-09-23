@@ -1,0 +1,7 @@
+#CWE-377 Insecure Temporary File
+Attributes Submit Sandbox_dir Job
+Owner 3.63 0.52 1.52
+Trust 1.64 1.64 0.69
+Client_Server 0.40 0.70 0.70
+User 1.61 0.52 3.05
+TimeOut 1.05 0.26 1.05

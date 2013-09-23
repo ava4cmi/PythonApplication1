@@ -1,0 +1,4 @@
+#CWE-757 Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')
+Attributes Submit Wms proxy Logger (interlogd) Lb
+Encryption 0.15 0.15 0.15 0.15
+Transfering 1.61 1.61 1.61 1.61

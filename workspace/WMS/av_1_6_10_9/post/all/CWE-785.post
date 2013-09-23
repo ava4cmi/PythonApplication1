@@ -1,0 +1,3 @@
+#CWE-785 Use of Path Manipulation Function without Maximum-sized Buffer
+Attributes Value
+MaxMin 1.05

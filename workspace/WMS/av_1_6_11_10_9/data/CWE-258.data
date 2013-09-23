@@ -1,0 +1,5 @@
+#CWE-258 Empty Password in Configuration File
+Attributes Submit Wms proxy Logger (interlogd) Lb proxy Lb database
+Owner 3.63 3.63 3.63 3.63 3.63
+Encryption 0.15 0.15 0.15 0.15 1.83
+User 1.61 3.00 3.00 3.00 3.05

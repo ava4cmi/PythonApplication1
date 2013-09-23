@@ -1,0 +1,3 @@
+#CWE-50 Path Equivalence: '//multiple/leading/slash'
+Attributes Value
+Sanitize 0.83

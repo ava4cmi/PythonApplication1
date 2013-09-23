@@ -1,0 +1,4 @@
+#CWE-222 Truncation of Security-relevant Information
+Attributes Value
+DB_DNS_IDS_FW 2.72
+Transformation 0.52

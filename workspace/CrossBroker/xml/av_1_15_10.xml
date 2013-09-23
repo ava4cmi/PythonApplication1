@@ -1,0 +1,2553 @@
+<?xml version="1.0" ?>
+<Attack_Vector>
+  <Component name="Submit">
+    <CWE childof="693" id="CWE-345" name="Insufficient Verification of Data Authenticity" os="" top25="">
+      <Attribute Owner="3.63" Spoofing="0.15" Tampering="0.15" User="1.61"/>
+    </CWE>
+    <CWE childof="345" id="CWE-346" name="Origin Validation Error" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="345" id="CWE-347" name="Improper Verification of Cryptographic Signature" os="" top25="">
+      <Attribute Encryption="0.15" Trust="1.64"/>
+    </CWE>
+    <CWE childof="330" id="CWE-342" name="Predictable Exact Value from Previous Values" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="330" id="CWE-343" name="Predictable Value Range from Previous Values" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="345" id="CWE-348" name="Use of Less Trusted Source" os="" top25="">
+      <Attribute Tampering="0.15" Trust="1.64"/>
+    </CWE>
+    <CWE childof="345" id="CWE-349" name="Acceptance of Extraneous Untrusted Data With Trusted Data" os="" top25="">
+      <Attribute Tampering="0.15" Trust="1.64"/>
+    </CWE>
+    <CWE childof="672 754" id="CWE-298" name="Improper Validation of Certificate Expiration" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="404 754" id="CWE-299" name="Improper Check for Certificate Revocation" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="573 754" id="CWE-296" name="Improper Following of Chain of Trust for Certificate Validation" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="345 754" id="CWE-297" name="Improper Validation of Host-specific Certificate Data" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Spoofing="0.15" Trust="1.64"/>
+    </CWE>
+    <CWE childof="592" id="CWE-294" name="Authentication Bypass by Capture-replay" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Encryption="0.15" Owner="3.63" Spoofing="0.15" User="1.61"/>
+    </CWE>
+    <CWE childof="290" id="CWE-292" name="Trusting Self-reported DNS Name" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Spoofing="0.15" Trust="1.64"/>
+    </CWE>
+    <CWE childof="188" id="CWE-198" name="Use of Incorrect Byte Ordering" os="" top25="">
+      <Attribute ErrorHandling="0.22" Transfering="1.61" Transformation="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="681" id="CWE-195" name="Signed to Unsigned Conversion Error" os="" top25="">
+      <Attribute ErrorHandling="0.22" MaxMin="1.05" Transformation="1.61"/>
+    </CWE>
+    <CWE childof="681" id="CWE-194" name="Unexpected Sign Extension" os="" top25="">
+      <Attribute ErrorHandling="0.22" MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="681" id="CWE-197" name="Numeric Truncation Error" os="" top25="">
+      <Attribute ErrorHandling="0.22" MaxMin="1.05" Transformation="1.61"/>
+    </CWE>
+    <CWE childof="681" id="CWE-196" name="Unsigned to Signed Conversion Error" os="" top25="">
+      <Attribute ErrorHandling="0.22" MaxMin="1.05" Transformation="1.61"/>
+    </CWE>
+    <CWE childof="682" id="CWE-191" name="Integer Underflow (Wrap or Wraparound)" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="682" id="CWE-190" name="Integer Overflow or Wraparound" os="" top25="top25">
+      <Attribute MaxMin="1.22"/>
+    </CWE>
+    <CWE childof="682" id="CWE-193" name="Off-by-one Error" os="" top25="">
+      <Attribute ErrorHandling="0.22" MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="269" id="CWE-271" name="Privilege Dropping / Lowering Errors" os="" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="271" id="CWE-272" name="Least Privilege Violation" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="754 271" id="CWE-273" name="Improper Check for Dropped Privileges" os="" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="703 269" id="CWE-274" name="Improper Handling of Insufficient Privileges" os="" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="732" id="CWE-276" name="Incorrect Default Permissions" os="" top25="">
+      <Attribute Client_Server="0.40" Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="732" id="CWE-277" name="Insecure Inherited Permissions" os="" top25="">
+      <Attribute Owner="3.63" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="732" id="CWE-278" name="Insecure Preserved Inherited Permissions" os="" top25="">
+      <Attribute Owner="3.63" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="732" id="CWE-279" name="Incorrect Execution-Assigned Permissions" os="" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="446" id="CWE-449" name="The UI Performs the Wrong Action" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="446" id="CWE-448" name="Obsolete Feature in UI" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="610" id="CWE-441" name="Unintended Proxy/Intermediary" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Encryption="0.15" Owner="3.63" Spoofing="0.15" Thirdparty="0.32" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="446 671" id="CWE-447" name="Unimplemented or Unsupported Feature in UI" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="684" id="CWE-446" name="UI Discrepancy for Security Feature" os="" top25="">
+      <Attribute Owner="3.63" Trust="1.64" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="36" id="CWE-39" name="Path Traversal: 'C:dirname'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="36" id="CWE-38" name="Path Traversal: '\absolute\pathname\here'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="23" id="CWE-33" name="Path Traversal: '....' (Multiple Dot)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="23" id="CWE-32" name="Path Traversal: '...' (Triple Dot)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="36 160" id="CWE-37" name="Path Traversal: '/absolute/pathname/here'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="22" id="CWE-36" name="Absolute Path Traversal" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="23" id="CWE-35" name="Path Traversal: '.../...//'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="23" id="CWE-34" name="Path Traversal: '....//'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="99" id="CWE-641" name="Improper Restriction of Names for Files and Other Resources" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="287" id="CWE-640" name="Weak Password Recovery Mechanism for Forgotten Password" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="668" id="CWE-642" name="External Control of Critical State Data" os="" top25="">
+      <Attribute Encryption="0.15" Tampering="0.15" Transformation="1.61"/>
+    </CWE>
+    <CWE childof="287" id="CWE-645" name="Overly Restrictive Account Lockout Mechanism" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="345" id="CWE-646" name="Reliance on File Name or Extension of Externally-Supplied File" os="" top25="">
+      <Attribute Owner="3.63" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="345" id="CWE-649" name="Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="269 227" id="CWE-648" name="Incorrect Use of Privileged APIs" os="" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="669" id="CWE-434" name="Unrestricted Upload of File with Dangerous Type" os="" top25="top25">
+      <Attribute Attachment="1.54" DB_DNS_IDS_FW="3.16" Owner="4.23" Transfering="1.88" Trust="1.91" UI_GUI="2.33" User="1.96" WebAppService="0.20"/>
+    </CWE>
+    <CWE childof="364" id="CWE-432" name="Dangerous Signal Handler not Disabled During Sensitive Operations" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="335" id="CWE-339" name="Small Seed Space in PRNG" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="330" id="CWE-338" name="Use of Cryptographically Weak PRNG" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="330" id="CWE-335" name="PRNG Seed Error" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="330" id="CWE-334" name="Small Space of Random Values" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="335" id="CWE-337" name="Predictable Seed in PRNG" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="335" id="CWE-336" name="Same Seed in PRNG" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="330" id="CWE-331" name="Insufficient Entropy" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="331 703" id="CWE-333" name="Improper Handling of Insufficient Entropy in TRNG" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="331" id="CWE-332" name="Insufficient Entropy in PRNG" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="77" id="CWE-90" name="Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Owner="3.63" Sanitize="0.83" Transfering="1.61" Transformation="1.61" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="74" id="CWE-93" name="Improper Neutralization of CRLF Sequences ('CRLF Injection')" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Transformation="1.61" UI_GUI="2.00"/>
+    </CWE>
+    <CWE childof="94" id="CWE-96" name="Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection')" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Transformation="1.61"/>
+    </CWE>
+    <CWE childof="663" id="CWE-558" name="Use of getlogin() in Multithreaded Application" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="233" id="CWE-234" name="Failure to Handle Missing Parameter" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="233" id="CWE-235" name="Improper Handling of Extra Parameters" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="233" id="CWE-236" name="Improper Handling of Undefined Parameters" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="229" id="CWE-231" name="Improper Handling of Extra Values" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="229" id="CWE-232" name="Improper Handling of Undefined Values" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="140" id="CWE-146" name="Improper Neutralization of Expression/Command Delimiters" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="138" id="CWE-147" name="Improper Neutralization of Input Terminators" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="140" id="CWE-144" name="Improper Neutralization of Line Delimiters" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="140" id="CWE-145" name="Improper Neutralization of Section Delimiters" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="140" id="CWE-142" name="Improper Neutralization of Value Delimiters" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="140" id="CWE-143" name="Improper Neutralization of Record Delimiters" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="140" id="CWE-141" name="Improper Neutralization of Parameter/Argument Delimiters" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="682" id="CWE-131" name="Incorrect Calculation of Buffer Size" os="" top25="top25">
+      <Attribute MaxMin="1.22"/>
+    </CWE>
+    <CWE childof="240" id="CWE-130" name="Improper Handling of Length Parameter Inconsistency " os="" top25="">
+      <Attribute MaxMin="1.05" Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="682" id="CWE-135" name="Incorrect Calculation of Multi-Byte String Length" os="" top25="">
+      <Attribute MaxMin="1.05" Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="74" id="CWE-134" name="Uncontrolled Format String" os="" top25="top25">
+      <Attribute Sanitize="1.01" UI_GUI="2.33"/>
+    </CWE>
+    <CWE childof="669" id="CWE-494" name="Download of Code Without Integrity Check" os="" top25="top25">
+      <Attribute Client_Server="0.40" DB_DNS_IDS_FW="3.16" Owner="4.23" Tampering="0.29" Trust="1.91" UI_GUI="2.33" User="1.96"/>
+    </CWE>
+    <CWE childof="200" id="CWE-497" name="Exposure of System Data to an Unauthorized Control Sphere" os="" top25="">
+      <Attribute Owner="3.63" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="23" id="CWE-24" name="Path Traversal: '../filedir'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="23" id="CWE-25" name="Path Traversal: '/../filedir'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="23" id="CWE-26" name="Path Traversal: '/dir/../filename'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="23" id="CWE-27" name="Path Traversal: 'dir/../../filename'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="693" id="CWE-20" name="Improper Input Validation" os="" top25="">
+      <Attribute Owner="3.63" Sanitize="0.83" Tampering="0.15" Transfering="1.61" Trust="1.64" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="706 668" id="CWE-22" name="Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')" os="" top25="top25">
+      <Attribute Client_Server="0.40" DB_DNS_IDS_FW="3.16" Owner="4.23" Sanitize="1.01" UI_GUI="2.33" User="1.96"/>
+    </CWE>
+    <CWE childof="22" id="CWE-23" name="Relative Path Traversal" os="" top25="">
+      <Attribute Owner="3.63" Sanitize="0.83" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="405" id="CWE-406" name="Insufficient Control of Network Message Volume (Network Amplification)" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" MaxMin="1.05" Owner="3.63" Thirdparty="0.32" Transfering="1.61" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="664" id="CWE-405" name="Asymmetric Resource Consumption (Amplification)" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="664" id="CWE-404" name="Improper Resource Shutdown or Release" os="" top25="">
+      <Attribute Client_Server="0.40" DB_DNS_IDS_FW="2.72" TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="664" id="CWE-400" name="Uncontrolled Resource Consumption ('Resource Exhaustion')" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" MaxMin="1.05" Owner="3.63" TimeOut="1.05" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="377" id="CWE-379" name="Creation of Temporary File in Directory with Incorrect Permissions" os="" top25="">
+      <Attribute Owner="3.63" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="377" id="CWE-378" name="Creation of Temporary File With Insecure Permissions" os="" top25="">
+      <Attribute Owner="3.63" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="299" id="CWE-370" name="Missing Check for Certificate Revocation after Initial Check" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="668" id="CWE-375" name="Returning a Mutable Object to an Untrusted Caller" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="668" id="CWE-374" name="Passing Mutable Objects to an Untrusted Method" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="668" id="CWE-377" name="Insecure Temporary File" os="" top25="">
+      <Attribute Client_Server="0.40" Owner="3.63" TimeOut="1.05" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="282" id="CWE-708" name="Incorrect Ownership Assignment" os="" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="664" id="CWE-704" name="Incorrect Type Conversion or Cast" os="" top25="">
+      <Attribute Transformation="1.61"/>
+    </CWE>
+    <CWE childof="691" id="CWE-705" name="Incorrect Control Flow Scoping" os="" top25="">
+      <Attribute Client_Server="0.40"/>
+    </CWE>
+    <CWE childof="684 703" id="CWE-393" name="Return of Wrong Status Code" os="" top25="">
+      <Attribute ErrorHandling="0.22"/>
+    </CWE>
+    <CWE childof="684 703" id="CWE-392" name="Missing Report of Error Condition" os="" top25="">
+      <Attribute ErrorHandling="0.22"/>
+    </CWE>
+    <CWE childof="703" id="CWE-391" name="Unchecked Error Condition" os="" top25="">
+      <Attribute ErrorHandling="0.22"/>
+    </CWE>
+    <CWE childof="755" id="CWE-390" name="Detection of Error Condition Without Action" os="" top25="">
+      <Attribute ErrorHandling="0.22"/>
+    </CWE>
+    <CWE childof="754" id="CWE-394" name="Unexpected Status Code or Return Value" os="" top25="">
+      <Attribute ErrorHandling="0.22"/>
+    </CWE>
+    <CWE childof="691" id="CWE-799" name="Improper Control of Interaction Frequency" os="" top25="">
+      <Attribute Owner="3.63" TimeOut="1.05" User="1.61"/>
+    </CWE>
+    <CWE childof="287 344 671" id="CWE-798" name="Use of Hard-coded Credentials" os="" top25="top25">
+      <Attribute DB_DNS_IDS_FW="3.16" Encryption="0.29" Owner="4.23" Thirdparty="0.42" Trust="1.91" User="1.96"/>
+    </CWE>
+    <CWE childof="345 807" id="CWE-247" name="Reliance on DNS Lookups in a Security Decision" os="" top25="">
+      <Attribute Client_Server="0.40" DB_DNS_IDS_FW="2.72" Spoofing="0.15" Trust="1.64"/>
+    </CWE>
+    <CWE childof="710" id="CWE-242" name="Use of Inherently Dangerous Function" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="705 703" id="CWE-248" name="Uncaught Exception" os="" top25="">
+      <Attribute Client_Server="0.40" ErrorHandling="0.22"/>
+    </CWE>
+    <CWE childof="506" id="CWE-511" name="Logic/Time Bomb" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="522" id="CWE-620" name="Unverified Password Change" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="357" id="CWE-450" name="Multiple Interpretations of UI Input" os="" top25="">
+      <Attribute Owner="3.63" Sanitize="0.83" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="221" id="CWE-451" name="UI Misrepresentation of Critical Information" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="665" id="CWE-454" name="External Initialization of Trusted Variables or Data Stores" os="" top25="">
+      <Attribute Sanitize="0.83" Trust="1.64"/>
+    </CWE>
+    <CWE childof="665 705 636" id="CWE-455" name="Non-exit on Failed Initialization" os="" top25="">
+      <Attribute ErrorHandling="0.22"/>
+    </CWE>
+    <CWE childof="693 696" id="CWE-179" name="Incorrect Behavior Order: Early Validation" os="" top25="">
+      <Attribute Transformation="1.61"/>
+    </CWE>
+    <CWE childof="706" id="CWE-178" name="Improper Handling of Case Sensitivity" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="172" id="CWE-176" name="Improper Handling of Unicode Encoding" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="172" id="CWE-175" name="Improper Handling of Mixed Encoding" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="172 675" id="CWE-174" name="Double Decoding of the Same Data" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="172" id="CWE-173" name="Improper Handling of Alternate Encoding" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="707" id="CWE-172" name="Encoding Error" os="" top25="">
+      <Attribute Encryption="0.15" ErrorHandling="0.22" Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="707" id="CWE-170" name="Improper Null Termination" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="657 693" id="CWE-656" name="Reliance on Security Through Obscurity" os="" top25="">
+      <Attribute Encryption="0.15" Trust="1.64"/>
+    </CWE>
+    <CWE childof="693 697" id="CWE-183" name="Permissive Whitelist" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="657 693" id="CWE-654" name="Reliance on a Single Factor in a Security Decision" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="657 693" id="CWE-655" name="Insufficient Psychological Acceptability" os="" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="185" id="CWE-186" name="Overly Restrictive Regular Expression" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="657 693" id="CWE-653" name="Insufficient Compartmentalization" os="" top25="">
+      <Attribute Client_Server="0.40"/>
+    </CWE>
+    <CWE childof="693 697" id="CWE-184" name="Incomplete Blacklist" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="697" id="CWE-185" name="Incorrect Regular Expression" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="733" id="CWE-14" name="Compiler Removal of Code to Clear Buffers" os="" top25="">
+      <Attribute Transformation="1.61"/>
+    </CWE>
+    <CWE childof="285" id="CWE-863" name="Incorrect Authorization" os="" top25="top25">
+      <Attribute Owner="4.23" User="1.96"/>
+    </CWE>
+    <CWE childof="285" id="CWE-862" name="Missing Authorization" os="" top25="top25">
+      <Attribute Owner="4.23" User="1.96"/>
+    </CWE>
+    <CWE childof="59" id="CWE-62" name="UNIX Hard Link" os="UNIX" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="287 345" id="CWE-322" name="Key Exchange without Entity Authentication" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" Transfering="1.61" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="344" id="CWE-323" name="Reusing a Nonce Key Pair in Encryption" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="798" id="CWE-321" name="Use of Hard-coded Cryptographic Key" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="693" id="CWE-326" name="Inadequate Encryption Strength" os="" top25="">
+      <Attribute Encryption="0.15" Transfering="1.61"/>
+    </CWE>
+    <CWE childof="693" id="CWE-327" name="Use of a Broken or Risky Cryptographic Algorithm" os="" top25="top25">
+      <Attribute Encryption="0.29" Trust="1.91"/>
+    </CWE>
+    <CWE childof="672" id="CWE-324" name="Use of a Key Past its Expiration Date" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="573" id="CWE-325" name="Missing Required Cryptographic Step" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="330 573" id="CWE-329" name="Not Using a Random IV with CBC Mode" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="668" id="CWE-200" name="Information Exposure" os="" top25="">
+      <Attribute Encryption="0.15" Thirdparty="0.32"/>
+    </CWE>
+    <CWE childof="200 755" id="CWE-209" name="Information Exposure Through an Error Message" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" ErrorHandling="0.22"/>
+    </CWE>
+    <CWE childof="203" id="CWE-208" name="Information Exposure Through Timing Discrepancy" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="400" id="CWE-779" name="Logging of Excessive Data" os="" top25="">
+      <Attribute Logs="1.35" MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="223 693" id="CWE-778" name="Insufficient Logging" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Logs="1.35" Owner="3.63" Thirdparty="0.32" User="1.61"/>
+    </CWE>
+    <CWE childof="74" id="CWE-77" name="Improper Neutralization of Special Elements used in a Command ('Command Injection')" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Owner="3.63" Sanitize="0.83" Transfering="1.61" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="75" id="CWE-76" name="Improper Neutralization of Equivalent Special Elements" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="74" id="CWE-75" name="Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="707" id="CWE-74" name="Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')" os="" top25="">
+      <Attribute Owner="3.63" Sanitize="0.83" Transfering="1.61" User="1.61"/>
+    </CWE>
+    <CWE childof="642 610" id="CWE-73" name="External Control of File Name or Path" os="UNIX Windows Mac OS" top25="">
+      <Attribute Owner="3.63" Sanitize="0.83" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="77" id="CWE-78" name="Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')" os="" top25="top25">
+      <Attribute DB_DNS_IDS_FW="3.16" Owner="4.23" Sanitize="1.01" Transfering="1.88" UI_GUI="2.33" User="1.96"/>
+    </CWE>
+    <CWE childof="200" id="CWE-359" name="Privacy Violation" os="" top25="">
+      <Attribute Client_Server="0.40" Encryption="0.15" Logs="1.35" Tampering="0.15" Trust="1.64"/>
+    </CWE>
+    <CWE childof="573 693" id="CWE-358" name="Improperly Implemented Security Check for Standard" os="" top25="">
+      <Attribute Client_Server="0.40" Owner="3.63" Sanitize="0.83" Spoofing="0.15" Tampering="0.15" User="1.61"/>
+    </CWE>
+    <CWE childof="820" id="CWE-543" name="Use of Singleton Pattern Without Synchronization in a Multithreaded Context" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="119" id="CWE-120" name="Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')" os="" top25="top25">
+      <Attribute MaxMin="1.22" Owner="4.23" User="1.96"/>
+    </CWE>
+    <CWE childof="788 787" id="CWE-121" name="Stack-based Buffer Overflow" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="788 787" id="CWE-122" name="Heap-based Buffer Overflow" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="119" id="CWE-123" name="Write-what-where Condition" os="" top25="">
+      <Attribute Owner="3.63" Sanitize="0.83" Tampering="0.15" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="786 787" id="CWE-124" name="Buffer Underwrite ('Buffer Underflow')" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="119" id="CWE-125" name="Out-of-bounds Read" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="125 788" id="CWE-126" name="Buffer Over-read" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="125 786" id="CWE-127" name="Buffer Under-read" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="682" id="CWE-128" name="Wrap-around Error" os="" top25="">
+      <Attribute ErrorHandling="0.22" MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="20" id="CWE-129" name="Improper Validation of Array Index" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="667" id="CWE-414" name="Missing Lock Check" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="667" id="CWE-412" name="Unrestricted Externally Accessible Lock" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="667" id="CWE-413" name="Improper Resource Locking" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="668" id="CWE-419" name="Unprotected Primary Channel" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" Spoofing="0.15" User="1.61"/>
+    </CWE>
+    <CWE childof="311" id="CWE-319" name="Cleartext Transmission of Sensitive Information" os="" top25="">
+      <Attribute Encryption="0.15" Transfering="1.61" Transformation="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="312" id="CWE-318" name="Plaintext Storage in Executable" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="312" id="CWE-313" name="Plaintext Storage in a File or on Disk" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="693" id="CWE-311" name="Missing Encryption of Sensitive Data" os="" top25="top25">
+      <Attribute Encryption="0.29" Transfering="1.88"/>
+    </CWE>
+    <CWE childof="312" id="CWE-316" name="Plaintext Storage in Memory" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="312" id="CWE-315" name="Plaintext Storage in a Cookie" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="312" id="CWE-314" name="Plaintext Storage in the Registry" os="" top25="">
+      <Attribute Encryption="0.15"/>
+    </CWE>
+    <CWE childof="707" id="CWE-138" name="Improper Neutralization of Special Elements" os="" top25="">
+      <Attribute Client_Server="0.40" Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="287" id="CWE-836" name="Use of Password Hash Instead of Password for Authentication" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="799" id="CWE-837" name="Improper Enforcement of a Single Unique Action" os="" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="834" id="CWE-835" name="Loop with Unreachable Exit Condition ('Infinite Loop')" os="" top25="">
+      <Attribute MaxMin="1.05" TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="116" id="CWE-838" name="Inappropriate Encoding for Output Context" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61"/>
+    </CWE>
+    <CWE childof="362" id="CWE-366" name="Race Condition within a Thread" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="362" id="CWE-367" name="Time-of-check Time-of-use (TOCTOU) Race Condition" os="" top25="">
+      <Attribute Tampering="0.15" TimeOut="1.05" Trust="1.64"/>
+    </CWE>
+    <CWE childof="362" id="CWE-364" name="Signal Handler Race Condition" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="367" id="CWE-365" name="Race Condition in Switch" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="691" id="CWE-362" name="Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="367" id="CWE-363" name="Race Condition Enabling Link Following" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="345" id="CWE-360" name="Trust of System Event Data" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="514" id="CWE-385" name="Covert Timing Channel" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="807 565" id="CWE-784" name="Reliance on Cookies without Validation and Integrity Checking in a Security Decision" os="" top25="">
+      <Attribute Spoofing="0.15" Tampering="0.15" Trust="1.64"/>
+    </CWE>
+    <CWE childof="676 120" id="CWE-785" name="Use of Path Manipulation Function without Maximum-sized Buffer" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="749" id="CWE-782" name="Exposed IOCTL with Insufficient Access Control" os="UNIX-based Windows-based" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="770 20" id="CWE-789" name="Uncontrolled Memory Allocation" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="138" id="CWE-151" name="Improper Neutralization of Comment Delimiters" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="260 521" id="CWE-258" name="Empty Password in Configuration File" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="798" id="CWE-259" name="Use of Hard-coded Password" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="754" id="CWE-252" name="Unchecked Return Value" os="" top25="">
+      <Attribute ErrorHandling="0.22"/>
+    </CWE>
+    <CWE childof="138" id="CWE-155" name="Improper Neutralization of Wildcards or Matching Symbols" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="657 269" id="CWE-250" name="Execution with Unnecessary Privileges" os="" top25="top25">
+      <Attribute Client_Server="0.40" Owner="4.23" UI_GUI="2.33" User="1.96"/>
+    </CWE>
+    <CWE childof="522" id="CWE-256" name="Plaintext Storage of a Password" os="" top25="">
+      <Attribute Client_Server="0.40" Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="522" id="CWE-257" name="Storing Passwords in a Recoverable Format" os="" top25="">
+      <Attribute Client_Server="0.40" Encryption="0.15" Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="669 693" id="CWE-602" name="Client-Side Enforcement of Server-Side Security" os="" top25="">
+      <Attribute Client_Server="0.40" Owner="3.63" Transfering="1.61" Trust="1.64" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="435 758" id="CWE-733" name="Compiler Optimization Removal or Modification of Security-critical Code" os="" top25="">
+      <Attribute Client_Server="0.40" Encryption="0.15" Transformation="1.61"/>
+    </CWE>
+    <CWE childof="285 668" id="CWE-732" name="Incorrect Permission Assignment for Critical Resource" os="" top25="top25">
+      <Attribute Owner="4.23" User="1.96"/>
+    </CWE>
+    <CWE childof="485" id="CWE-502" name="Deserialization of Untrusted Data" os="" top25="">
+      <Attribute Tampering="0.15" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="485" id="CWE-501" name="Trust Boundary Violation" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="657" id="CWE-637" name="Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')" os="" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="657 862" id="CWE-638" name="Not Using Complete Mediation" os="" top25="">
+      <Attribute Client_Server="0.40" Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="862" id="CWE-639" name="Authorization Bypass Through User-Controlled Key" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="159 703" id="CWE-168" name="Improper Handling of Inconsistent Special Elements" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="159" id="CWE-164" name="Improper Neutralization of Internal Special Elements" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="164" id="CWE-165" name="Improper Neutralization of Multiple Internal Special Elements" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="159 703" id="CWE-166" name="Improper Handling of Missing Special Element" os="" top25="">
+      <Attribute Sanitize="0.83" Trust="1.64"/>
+    </CWE>
+    <CWE childof="159 703" id="CWE-167" name="Improper Handling of Additional Special Element" os="" top25="">
+      <Attribute Sanitize="0.83" Trust="1.64"/>
+    </CWE>
+    <CWE childof="159" id="CWE-160" name="Improper Neutralization of Leading Special Elements" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="160" id="CWE-161" name="Improper Neutralization of Multiple Leading Special Elements" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="159" id="CWE-162" name="Improper Neutralization of Trailing Special Elements" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="162" id="CWE-163" name="Improper Neutralization of Multiple Trailing Special Elements" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="435" id="CWE-436" name="Interpretation Conflict" os="" top25="">
+      <Attribute Trust="1.64" UI_GUI="2.00"/>
+    </CWE>
+    <CWE childof="693" id="CWE-357" name="Insufficient UI Warning of Dangerous Operations" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="221" id="CWE-356" name="Product UI does not Warn User of Unsafe Actions" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="345 754" id="CWE-354" name="Improper Validation of Integrity Check Value" os="" top25="">
+      <Attribute Tampering="0.15"/>
+    </CWE>
+    <CWE childof="345" id="CWE-353" name="Missing Support for Integrity Check" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Tampering="0.15" Transfering="1.61"/>
+    </CWE>
+    <CWE childof="345" id="CWE-350" name="Improperly Trusted Reverse DNS" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Spoofing="0.15" Trust="1.64"/>
+    </CWE>
+    <CWE childof="693" id="CWE-807" name="Reliance on Untrusted Inputs in a Security Decision" os="" top25="top25">
+      <Attribute Owner="4.23" Sanitize="1.01" Spoofing="0.29" Trust="1.91" User="1.96"/>
+    </CWE>
+    <CWE childof="119" id="CWE-805" name="Buffer Access with Incorrect Length Value" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="200 669" id="CWE-212" name="Improper Cross-boundary Removal of Sensitive Data" os="" top25="">
+      <Attribute Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="209" id="CWE-210" name="Information Exposure Through Generated Error Message" os="" top25="">
+      <Attribute ErrorHandling="0.22"/>
+    </CWE>
+    <CWE childof="209" id="CWE-211" name="Information Exposure Through External Error Message" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" ErrorHandling="0.22" Thirdparty="0.32"/>
+    </CWE>
+    <CWE childof="592" id="CWE-289" name="Authentication Bypass by Alternate Name" os="" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="592" id="CWE-288" name="Authentication Bypass Using an Alternate Path or Channel" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="732" id="CWE-281" name="Improper Preservation of Permissions" os="" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="703" id="CWE-280" name="Improper Handling of Insufficient Permissions or Privileges " os="" top25="">
+      <Attribute Client_Server="0.40" Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="282" id="CWE-283" name="Unverified Ownership" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="284" id="CWE-282" name="Improper Ownership Management" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="284" id="CWE-285" name="Improper Authorization" os="" top25="">
+      <Attribute Owner="3.63" Tampering="0.15" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="284" id="CWE-287" name="Improper Authentication" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="284" id="CWE-286" name="Incorrect User Management" os="" top25="">
+      <Attribute Client_Server="0.40" Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="834" id="CWE-674" name="Uncontrolled Recursion" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="287 404" id="CWE-263" name="Password Aging with Long Expiration" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="287 404" id="CWE-262" name="Not Using Password Aging" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="287 326" id="CWE-261" name="Weak Cryptography for Passwords" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="522" id="CWE-260" name="Password in Configuration File" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="269" id="CWE-267" name="Privilege Defined With Unsafe Actions" os="" top25="">
+      <Attribute Owner="3.63" Tampering="0.15" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="269" id="CWE-266" name="Incorrect Privilege Assignment" os="" top25="">
+      <Attribute Client_Server="0.40" Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="284" id="CWE-269" name="Improper Privilege Management" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="269" id="CWE-268" name="Privilege Chaining" os="" top25="">
+      <Attribute Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="706" id="CWE-59" name="Improper Link Resolution Before File Access ('Link Following')" os="Windows UNIX" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="41" id="CWE-55" name="Path Equivalence: '/./' (Single Dot Directory)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="41 162" id="CWE-54" name="Path Equivalence: 'filedir\' (Trailing Backslash)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="41" id="CWE-57" name="Path Equivalence: 'fakedir/../realdir/filename'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="41 155" id="CWE-56" name="Path Equivalence: 'filedir*' (Wildcard)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="41" id="CWE-51" name="Path Equivalence: '/multiple//internal/slash'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="41 161" id="CWE-50" name="Path Equivalence: '//multiple/leading/slash'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="41 165" id="CWE-53" name="Path Equivalence: '\multiple\\internal\backslash'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="41 163" id="CWE-52" name="Path Equivalence: '/multiple/trailing/slash//'" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="200" id="CWE-538" name="File and Directory Information Exposure" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" Tampering="0.15" Trust="1.64" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="436" id="CWE-115" name="Misinterpretation of Input" os="" top25="">
+      <Attribute Owner="3.63" Sanitize="0.83" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="20" id="CWE-114" name="Process Control" os="" top25="">
+      <Attribute Owner="3.63" Tampering="0.15" Thirdparty="0.32" Trust="1.64" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="116" id="CWE-117" name="Improper Output Neutralization for Logs" os="" top25="">
+      <Attribute Logs="1.35" Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="707" id="CWE-116" name="Improper Encoding or Escaping of Output" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Transformation="1.61"/>
+    </CWE>
+    <CWE childof="118" id="CWE-119" name="Improper Restriction of Operations within the Bounds of a Memory Buffer" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="420 362" id="CWE-421" name="Race Condition During Access to Alternate Channel" os="" top25="">
+      <Attribute Owner="3.63" TimeOut="1.05" User="1.61"/>
+    </CWE>
+    <CWE childof="668" id="CWE-420" name="Unprotected Alternate Channel" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" Spoofing="0.15" User="1.61"/>
+    </CWE>
+    <CWE childof="693 638" id="CWE-424" name="Improper Protection of Alternate Path" os="" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="287 654" id="CWE-308" name="Use of Single-factor Authentication" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="287 654" id="CWE-309" name="Use of Password System for Primary Authentication" os="" top25="">
+      <Attribute Encryption="0.15" Owner="3.63" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+    <CWE childof="287" id="CWE-300" name="Channel Accessible by Non-Endpoint ('Man-in-the-Middle')" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Encryption="0.15" Owner="3.63" Spoofing="0.15" Tampering="0.15" Transfering="1.61" Transformation="1.61" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="287" id="CWE-301" name="Reflection Attack in an Authentication Protocol" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Encryption="0.15" Owner="3.63" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="592 807" id="CWE-302" name="Authentication Bypass by Assumed-Immutable Data" os="" top25="">
+      <Attribute Owner="3.63" Tampering="0.15" Transformation="1.61" Trust="1.64" User="1.61"/>
+    </CWE>
+    <CWE childof="592" id="CWE-305" name="Authentication Bypass by Primary Weakness" os="" top25="">
+      <Attribute Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="287" id="CWE-306" name="Missing Authentication for Critical Function" os="" top25="top25">
+      <Attribute Owner="4.23" User="1.96"/>
+    </CWE>
+    <CWE childof="287 799" id="CWE-307" name="Improper Restriction of Excessive Authentication Attempts" os="" top25="top25">
+      <Attribute Owner="4.23" TimeOut="1.22" User="1.96"/>
+    </CWE>
+    <CWE childof="286" id="CWE-842" name="Placement of User into Incorrect Group" os="" top25="">
+      <Attribute Client_Server="0.40" Owner="3.63" User="1.61"/>
+    </CWE>
+    <CWE childof="703" id="CWE-754" name="Improper Check for Unusual or Exceptional Conditions" os="" top25="">
+      <Attribute ErrorHandling="0.22"/>
+    </CWE>
+    <CWE childof="200 459" id="CWE-226" name="Sensitive Information Uncleared Before Release" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="221" id="CWE-222" name="Truncation of Security-relevant Information" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72" Transformation="1.61"/>
+    </CWE>
+    <CWE childof="668" id="CWE-220" name="Sensitive Data Under FTP Root" os="" top25="">
+      <Attribute Client_Server="0.40" DB_DNS_IDS_FW="2.72" Trust="1.64"/>
+    </CWE>
+    <CWE childof="77" id="CWE-88" name="Argument Injection or Modification" os="" top25="">
+      <Attribute Sanitize="0.83" Transformation="1.61" UI_GUI="2.00"/>
+    </CWE>
+    <CWE childof="77" id="CWE-89" name="Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')" os="" top25="top25">
+      <Attribute DB_DNS_IDS_FW="3.16" Owner="4.23" Sanitize="1.01" Transfering="1.88" Transformation="1.88" UI_GUI="2.33" User="1.96"/>
+    </CWE>
+    <CWE childof="675 666" id="CWE-605" name="Multiple Binds to the Same Port" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="2.72"/>
+    </CWE>
+    <CWE childof="138" id="CWE-150" name="Improper Neutralization of Escape Meta or Control Sequences" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="138" id="CWE-153" name="Improper Neutralization of Substitution Characters" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="138" id="CWE-152" name="Improper Neutralization of Macro Symbols" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="138" id="CWE-154" name="Improper Neutralization of Variable Name Delimiters" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="138" id="CWE-157" name="Failure to Sanitize Paired Delimiters" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="138" id="CWE-156" name="Improper Neutralization of Whitespace" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="138" id="CWE-159" name="Failure to Sanitize Special Element" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="138" id="CWE-158" name="Improper Neutralization of Null Byte or NUL Character" os="" top25="">
+      <Attribute Sanitize="0.83" Transfering="1.61" Trust="1.64"/>
+    </CWE>
+    <CWE childof="41" id="CWE-48" name="Path Equivalence: 'file name' (Internal Whitespace)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="41 162" id="CWE-49" name="Path Equivalence: 'filename/' (Trailing Slash)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="41 162" id="CWE-46" name="Path Equivalence: 'filename ' (Trailing Space)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="41" id="CWE-47" name="Path Equivalence: ' filename' (Leading Space)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="41" id="CWE-44" name="Path Equivalence: 'file.name' (Internal Dot)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="44 165" id="CWE-45" name="Path Equivalence: 'file...name' (Multiple Internal Dot)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="41 162" id="CWE-42" name="Path Equivalence: 'filename.' (Trailing Dot)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="42 163" id="CWE-43" name="Path Equivalence: 'filename....' (Multiple Trailing Dot)" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="706" id="CWE-41" name="Improper Resolution of Path Equivalence" os="" top25="">
+      <Attribute Sanitize="0.83"/>
+    </CWE>
+    <CWE childof="664" id="CWE-471" name="Modification of Assumed-Immutable Data (MAID)" os="" top25="">
+      <Attribute Owner="3.63" Tampering="0.15" Transformation="1.61" Trust="1.64" UI_GUI="2.00" User="1.61"/>
+    </CWE>
+  </Component>
+  <Component name="Sandbox_dir">
+    <CWE childof="200 669" id="CWE-212" name="Improper Cross-boundary Removal of Sensitive Data" os="" top25="">
+      <Attribute Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="209" id="CWE-210" name="Information Exposure Through Generated Error Message" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="209" id="CWE-211" name="Information Exposure Through External Error Message" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" ErrorHandling="1.22" Thirdparty="0.32"/>
+    </CWE>
+    <CWE childof="312" id="CWE-313" name="Plaintext Storage in a File or on Disk" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="159" id="CWE-164" name="Improper Neutralization of Internal Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="240" id="CWE-130" name="Improper Handling of Length Parameter Inconsistency " os="" top25="">
+      <Attribute MaxMin="0.26" Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="164" id="CWE-165" name="Improper Neutralization of Multiple Internal Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="669" id="CWE-494" name="Download of Code Without Integrity Check" os="" top25="top25">
+      <Attribute Client_Server="0.70" DB_DNS_IDS_FW="0.77" Owner="0.67" Tampering="1.83" Trust="1.91" UI_GUI="1.81" User="0.67"/>
+    </CWE>
+    <CWE childof="200" id="CWE-497" name="Exposure of System Data to an Unauthorized Control Sphere" os="" top25="">
+      <Attribute Owner="0.52" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="159 703" id="CWE-166" name="Improper Handling of Missing Special Element" os="" top25="">
+      <Attribute Sanitize="2.08" Trust="1.64"/>
+    </CWE>
+    <CWE childof="23" id="CWE-24" name="Path Traversal: '../filedir'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-25" name="Path Traversal: '/../filedir'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-26" name="Path Traversal: '/dir/../filename'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-27" name="Path Traversal: 'dir/../../filename'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="693" id="CWE-20" name="Improper Input Validation" os="" top25="">
+      <Attribute Owner="0.52" Sanitize="2.08" Tampering="1.83" Transfering="0.52" Trust="1.64" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="706 668" id="CWE-22" name="Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')" os="" top25="top25">
+      <Attribute Client_Server="0.70" DB_DNS_IDS_FW="0.77" Owner="0.67" Sanitize="2.42" UI_GUI="1.81" User="0.67"/>
+    </CWE>
+    <CWE childof="22" id="CWE-23" name="Relative Path Traversal" os="" top25="">
+      <Attribute Owner="0.52" Sanitize="2.08" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="188" id="CWE-198" name="Use of Incorrect Byte Ordering" os="" top25="">
+      <Attribute ErrorHandling="1.22" Transfering="0.52" Transformation="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="221" id="CWE-222" name="Truncation of Security-relevant Information" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Transformation="0.52"/>
+    </CWE>
+    <CWE childof="592" id="CWE-289" name="Authentication Bypass by Alternate Name" os="" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="592" id="CWE-288" name="Authentication Bypass Using an Alternate Path or Channel" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="345" id="CWE-346" name="Origin Validation Error" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="345" id="CWE-347" name="Improper Verification of Cryptographic Signature" os="" top25="">
+      <Attribute Encryption="1.83" Trust="1.64"/>
+    </CWE>
+    <CWE childof="159" id="CWE-162" name="Improper Neutralization of Trailing Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="330" id="CWE-342" name="Predictable Exact Value from Previous Values" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="664" id="CWE-400" name="Uncontrolled Resource Consumption ('Resource Exhaustion')" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" MaxMin="0.26" Owner="0.52" TimeOut="0.26" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="732" id="CWE-281" name="Improper Preservation of Permissions" os="" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="703" id="CWE-280" name="Improper Handling of Insufficient Permissions or Privileges " os="" top25="">
+      <Attribute Client_Server="0.70" Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="282" id="CWE-283" name="Unverified Ownership" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="284" id="CWE-282" name="Improper Ownership Management" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="284" id="CWE-285" name="Improper Authorization" os="" top25="">
+      <Attribute Owner="0.52" Tampering="1.83" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="345" id="CWE-349" name="Acceptance of Extraneous Untrusted Data With Trusted Data" os="" top25="">
+      <Attribute Tampering="1.83" Trust="1.64"/>
+    </CWE>
+    <CWE childof="284" id="CWE-287" name="Improper Authentication" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="284" id="CWE-286" name="Incorrect User Management" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="834" id="CWE-674" name="Uncontrolled Recursion" os="" top25="">
+      <Attribute TimeOut="0.26"/>
+    </CWE>
+    <CWE childof="330" id="CWE-331" name="Insufficient Entropy" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="287 404" id="CWE-263" name="Password Aging with Long Expiration" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="287 404" id="CWE-262" name="Not Using Password Aging" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="287 326" id="CWE-261" name="Weak Cryptography for Passwords" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="522" id="CWE-260" name="Password in Configuration File" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="269" id="CWE-267" name="Privilege Defined With Unsafe Actions" os="" top25="">
+      <Attribute Owner="0.52" Tampering="1.83" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="269" id="CWE-266" name="Incorrect Privilege Assignment" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="362" id="CWE-367" name="Time-of-check Time-of-use (TOCTOU) Race Condition" os="" top25="">
+      <Attribute Tampering="1.83" TimeOut="0.26" Trust="1.64"/>
+    </CWE>
+    <CWE childof="20" id="CWE-129" name="Improper Validation of Array Index" os="" top25="">
+      <Attribute MaxMin="0.26"/>
+    </CWE>
+    <CWE childof="284" id="CWE-269" name="Improper Privilege Management" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="269" id="CWE-268" name="Privilege Chaining" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="330 573" id="CWE-329" name="Not Using a Random IV with CBC Mode" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="706" id="CWE-59" name="Improper Link Resolution Before File Access ('Link Following')" os="Windows UNIX" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="41" id="CWE-55" name="Path Equivalence: '/./' (Single Dot Directory)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41 162" id="CWE-54" name="Path Equivalence: 'filedir\' (Trailing Backslash)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41" id="CWE-57" name="Path Equivalence: 'fakedir/../realdir/filename'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41 155" id="CWE-56" name="Path Equivalence: 'filedir*' (Wildcard)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41" id="CWE-51" name="Path Equivalence: '/multiple//internal/slash'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="260 521" id="CWE-258" name="Empty Password in Configuration File" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="41 165" id="CWE-53" name="Path Equivalence: '\multiple\\internal\backslash'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41 163" id="CWE-52" name="Path Equivalence: '/multiple/trailing/slash//'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="377" id="CWE-379" name="Creation of Temporary File in Directory with Incorrect Permissions" os="" top25="">
+      <Attribute Owner="0.52" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="377" id="CWE-378" name="Creation of Temporary File With Insecure Permissions" os="" top25="">
+      <Attribute Owner="0.52" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="331 703" id="CWE-333" name="Improper Handling of Insufficient Entropy in TRNG" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="672 754" id="CWE-298" name="Improper Validation of Certificate Expiration" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="404 754" id="CWE-299" name="Improper Check for Certificate Revocation" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="610" id="CWE-441" name="Unintended Proxy/Intermediary" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Encryption="1.83" Owner="0.52" Spoofing="1.83" Thirdparty="0.32" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="345 754" id="CWE-297" name="Improper Validation of Host-specific Certificate Data" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Spoofing="1.83" Trust="1.64"/>
+    </CWE>
+    <CWE childof="592" id="CWE-294" name="Authentication Bypass by Capture-replay" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Encryption="1.83" Owner="0.52" Spoofing="1.83" User="0.52"/>
+    </CWE>
+    <CWE childof="290" id="CWE-292" name="Trusting Self-reported DNS Name" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Spoofing="1.83" Trust="1.64"/>
+    </CWE>
+    <CWE childof="668" id="CWE-419" name="Unprotected Primary Channel" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" Spoofing="1.83" User="0.52"/>
+    </CWE>
+    <CWE childof="668" id="CWE-377" name="Insecure Temporary File" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="0.52" TimeOut="0.26" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="200" id="CWE-538" name="File and Directory Information Exposure" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" Tampering="1.83" Trust="1.64" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="311" id="CWE-319" name="Cleartext Transmission of Sensitive Information" os="" top25="">
+      <Attribute Encryption="1.83" Transfering="0.52" Transformation="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="312" id="CWE-318" name="Plaintext Storage in Executable" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="282" id="CWE-708" name="Incorrect Ownership Assignment" os="" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="693 696" id="CWE-179" name="Incorrect Behavior Order: Early Validation" os="" top25="">
+      <Attribute Transformation="0.52"/>
+    </CWE>
+    <CWE childof="668" id="CWE-200" name="Information Exposure" os="" top25="">
+      <Attribute Encryption="1.83" Thirdparty="0.32"/>
+    </CWE>
+    <CWE childof="664" id="CWE-704" name="Incorrect Type Conversion or Cast" os="" top25="">
+      <Attribute Transformation="0.52"/>
+    </CWE>
+    <CWE childof="691" id="CWE-705" name="Incorrect Control Flow Scoping" os="" top25="">
+      <Attribute Client_Server="0.70"/>
+    </CWE>
+    <CWE childof="693" id="CWE-311" name="Missing Encryption of Sensitive Data" os="" top25="top25">
+      <Attribute Encryption="1.83" Transfering="0.68"/>
+    </CWE>
+    <CWE childof="682" id="CWE-190" name="Integer Overflow or Wraparound" os="" top25="top25">
+      <Attribute MaxMin="0.34"/>
+    </CWE>
+    <CWE childof="682" id="CWE-193" name="Off-by-one Error" os="" top25="">
+      <Attribute ErrorHandling="1.22" MaxMin="0.26"/>
+    </CWE>
+    <CWE childof="41 161" id="CWE-50" name="Path Equivalence: '//multiple/leading/slash'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="269" id="CWE-271" name="Privilege Dropping / Lowering Errors" os="" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="271" id="CWE-272" name="Least Privilege Violation" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="754 271" id="CWE-273" name="Improper Check for Dropped Privileges" os="" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="703 269" id="CWE-274" name="Improper Handling of Insufficient Privileges" os="" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="732" id="CWE-276" name="Incorrect Default Permissions" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="732" id="CWE-277" name="Insecure Inherited Permissions" os="" top25="">
+      <Attribute Owner="0.52" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="732" id="CWE-278" name="Insecure Preserved Inherited Permissions" os="" top25="">
+      <Attribute Owner="0.52" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="732" id="CWE-279" name="Incorrect Execution-Assigned Permissions" os="" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="172" id="CWE-175" name="Improper Handling of Mixed Encoding" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="667" id="CWE-414" name="Missing Lock Check" os="" top25="">
+      <Attribute TimeOut="0.26"/>
+    </CWE>
+    <CWE childof="707" id="CWE-138" name="Improper Neutralization of Special Elements" os="" top25="">
+      <Attribute Client_Server="0.70" Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="287" id="CWE-836" name="Use of Password Hash Instead of Password for Authentication" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="799" id="CWE-837" name="Improper Enforcement of a Single Unique Action" os="" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="834" id="CWE-835" name="Loop with Unreachable Exit Condition ('Infinite Loop')" os="" top25="">
+      <Attribute MaxMin="0.26" TimeOut="0.26"/>
+    </CWE>
+    <CWE childof="172" id="CWE-173" name="Improper Handling of Alternate Encoding" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="116" id="CWE-838" name="Inappropriate Encoding for Output Context" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52"/>
+    </CWE>
+    <CWE childof="691" id="CWE-799" name="Improper Control of Interaction Frequency" os="" top25="">
+      <Attribute Owner="0.52" TimeOut="0.26" User="0.52"/>
+    </CWE>
+    <CWE childof="287 344 671" id="CWE-798" name="Use of Hard-coded Credentials" os="" top25="top25">
+      <Attribute DB_DNS_IDS_FW="0.77" Encryption="1.83" Owner="0.67" Thirdparty="0.42" Trust="1.91" User="0.67"/>
+    </CWE>
+    <CWE childof="707" id="CWE-172" name="Encoding Error" os="" top25="">
+      <Attribute Encryption="1.83" ErrorHandling="1.22" Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="420 362" id="CWE-421" name="Race Condition During Access to Alternate Channel" os="" top25="">
+      <Attribute Owner="0.52" TimeOut="0.26" User="0.52"/>
+    </CWE>
+    <CWE childof="668" id="CWE-420" name="Unprotected Alternate Channel" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" Spoofing="1.83" User="0.52"/>
+    </CWE>
+    <CWE childof="693 638" id="CWE-424" name="Improper Protection of Alternate Path" os="" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="345" id="CWE-360" name="Trust of System Event Data" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="287 654" id="CWE-308" name="Use of Single-factor Authentication" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="287 654" id="CWE-309" name="Use of Password System for Primary Authentication" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="446" id="CWE-449" name="The UI Performs the Wrong Action" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="446" id="CWE-448" name="Obsolete Feature in UI" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="693" id="CWE-345" name="Insufficient Verification of Data Authenticity" os="" top25="">
+      <Attribute Owner="0.52" Spoofing="1.83" Tampering="1.83" User="0.52"/>
+    </CWE>
+    <CWE childof="287" id="CWE-300" name="Channel Accessible by Non-Endpoint ('Man-in-the-Middle')" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Encryption="1.83" Owner="0.52" Spoofing="1.83" Tampering="1.83" Transfering="0.52" Transformation="0.52" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="287" id="CWE-301" name="Reflection Attack in an Authentication Protocol" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Encryption="1.83" Owner="0.52" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="592 807" id="CWE-302" name="Authentication Bypass by Assumed-Immutable Data" os="" top25="">
+      <Attribute Owner="0.52" Tampering="1.83" Transformation="0.52" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="667" id="CWE-413" name="Improper Resource Locking" os="" top25="">
+      <Attribute TimeOut="0.26"/>
+    </CWE>
+    <CWE childof="446 671" id="CWE-447" name="Unimplemented or Unsupported Feature in UI" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="684" id="CWE-446" name="UI Discrepancy for Security Feature" os="" top25="">
+      <Attribute Owner="0.52" Trust="1.64" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="287" id="CWE-306" name="Missing Authentication for Critical Function" os="" top25="top25">
+      <Attribute Owner="0.67" User="0.67"/>
+    </CWE>
+    <CWE childof="592" id="CWE-305" name="Authentication Bypass by Primary Weakness" os="" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="573 754" id="CWE-296" name="Improper Following of Chain of Trust for Certificate Validation" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="345 807" id="CWE-247" name="Reliance on DNS Lookups in a Security Decision" os="" top25="">
+      <Attribute Client_Server="0.70" DB_DNS_IDS_FW="0.59" Spoofing="1.83" Trust="1.64"/>
+    </CWE>
+    <CWE childof="514" id="CWE-385" name="Covert Timing Channel" os="" top25="">
+      <Attribute TimeOut="0.26"/>
+    </CWE>
+    <CWE childof="299" id="CWE-370" name="Missing Check for Certificate Revocation after Initial Check" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="200 459" id="CWE-226" name="Sensitive Information Uncleared Before Release" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="287 799" id="CWE-307" name="Improper Restriction of Excessive Authentication Attempts" os="" top25="top25">
+      <Attribute Owner="0.67" TimeOut="0.34" User="0.67"/>
+    </CWE>
+    <CWE childof="345" id="CWE-649" name="Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="807 565" id="CWE-784" name="Reliance on Cookies without Validation and Integrity Checking in a Security Decision" os="" top25="">
+      <Attribute Spoofing="1.83" Tampering="1.83" Trust="1.64"/>
+    </CWE>
+    <CWE childof="36" id="CWE-39" name="Path Traversal: 'C:dirname'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="36" id="CWE-38" name="Path Traversal: '\absolute\pathname\here'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="286" id="CWE-842" name="Placement of User into Incorrect Group" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="75" id="CWE-76" name="Improper Neutralization of Equivalent Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-33" name="Path Traversal: '....' (Multiple Dot)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-32" name="Path Traversal: '...' (Triple Dot)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="36 160" id="CWE-37" name="Path Traversal: '/absolute/pathname/here'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="22" id="CWE-36" name="Absolute Path Traversal" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-35" name="Path Traversal: '.../...//'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-34" name="Path Traversal: '....//'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="99" id="CWE-641" name="Improper Restriction of Names for Files and Other Resources" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="287" id="CWE-640" name="Weak Password Recovery Mechanism for Forgotten Password" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="668" id="CWE-642" name="External Control of Critical State Data" os="" top25="">
+      <Attribute Encryption="1.83" Tampering="1.83" Transformation="0.52"/>
+    </CWE>
+    <CWE childof="287" id="CWE-645" name="Overly Restrictive Account Lockout Mechanism" os="" top25="">
+      <Attribute TimeOut="0.26"/>
+    </CWE>
+    <CWE childof="345" id="CWE-646" name="Reliance on File Name or Extension of Externally-Supplied File" os="" top25="">
+      <Attribute Owner="0.52" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="506" id="CWE-511" name="Logic/Time Bomb" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="269 227" id="CWE-648" name="Incorrect Use of Privileged APIs" os="" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="669" id="CWE-434" name="Unrestricted Upload of File with Dangerous Type" os="" top25="top25">
+      <Attribute Attachment="0.15" DB_DNS_IDS_FW="0.77" Owner="0.67" Transfering="0.68" Trust="1.91" UI_GUI="1.81" User="0.67" WebAppService="0.20"/>
+    </CWE>
+    <CWE childof="364" id="CWE-432" name="Dangerous Signal Handler not Disabled During Sensitive Operations" os="" top25="">
+      <Attribute TimeOut="0.26"/>
+    </CWE>
+    <CWE childof="754" id="CWE-252" name="Unchecked Return Value" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="675 666" id="CWE-605" name="Multiple Binds to the Same Port" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59"/>
+    </CWE>
+    <CWE childof="522" id="CWE-620" name="Unverified Password Change" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="335" id="CWE-339" name="Small Seed Space in PRNG" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="330" id="CWE-338" name="Use of Cryptographically Weak PRNG" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="357" id="CWE-450" name="Multiple Interpretations of UI Input" os="" top25="">
+      <Attribute Owner="0.52" Sanitize="2.08" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="221" id="CWE-451" name="UI Misrepresentation of Critical Information" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="335" id="CWE-337" name="Predictable Seed in PRNG" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="335" id="CWE-336" name="Same Seed in PRNG" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="665" id="CWE-454" name="External Initialization of Trusted Variables or Data Stores" os="" top25="">
+      <Attribute Sanitize="2.08" Trust="1.64"/>
+    </CWE>
+    <CWE childof="665 705 636" id="CWE-455" name="Non-exit on Failed Initialization" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="331" id="CWE-332" name="Insufficient Entropy in PRNG" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="664" id="CWE-404" name="Improper Resource Shutdown or Release" os="" top25="">
+      <Attribute Client_Server="0.70" DB_DNS_IDS_FW="0.59" TimeOut="0.26"/>
+    </CWE>
+    <CWE childof="59" id="CWE-62" name="UNIX Hard Link" os="UNIX" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="798" id="CWE-259" name="Use of Hard-coded Password" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="116" id="CWE-117" name="Improper Output Neutralization for Logs" os="" top25="">
+      <Attribute Logs="0.44" Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="706" id="CWE-178" name="Improper Handling of Case Sensitivity" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="172" id="CWE-176" name="Improper Handling of Unicode Encoding" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="657 269" id="CWE-250" name="Execution with Unnecessary Privileges" os="" top25="top25">
+      <Attribute Client_Server="0.70" Owner="0.67" UI_GUI="1.81" User="0.67"/>
+    </CWE>
+    <CWE childof="172 675" id="CWE-174" name="Double Decoding of the Same Data" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="522" id="CWE-256" name="Plaintext Storage of a Password" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="522" id="CWE-257" name="Storing Passwords in a Recoverable Format" os="" top25="">
+      <Attribute Client_Server="0.70" Encryption="1.83" Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="138" id="CWE-154" name="Improper Neutralization of Variable Name Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="755" id="CWE-390" name="Detection of Error Condition Without Action" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="405" id="CWE-406" name="Insufficient Control of Network Message Volume (Network Amplification)" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" MaxMin="0.26" Owner="0.52" Thirdparty="0.32" Transfering="0.52" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="138" id="CWE-156" name="Improper Neutralization of Whitespace" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="435 758" id="CWE-733" name="Compiler Optimization Removal or Modification of Security-critical Code" os="" top25="">
+      <Attribute Client_Server="0.70" Encryption="1.83" Transformation="0.52"/>
+    </CWE>
+    <CWE childof="657 693" id="CWE-656" name="Reliance on Security Through Obscurity" os="" top25="">
+      <Attribute Encryption="1.83" Trust="1.64"/>
+    </CWE>
+    <CWE childof="693 697" id="CWE-183" name="Permissive Whitelist" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="94" id="CWE-96" name="Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection')" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Transformation="0.52"/>
+    </CWE>
+    <CWE childof="657 693" id="CWE-655" name="Insufficient Psychological Acceptability" os="" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="707" id="CWE-116" name="Improper Encoding or Escaping of Output" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Transformation="0.52"/>
+    </CWE>
+    <CWE childof="657 693" id="CWE-653" name="Insufficient Compartmentalization" os="" top25="">
+      <Attribute Client_Server="0.70"/>
+    </CWE>
+    <CWE childof="693 697" id="CWE-184" name="Incomplete Blacklist" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="697" id="CWE-185" name="Incorrect Regular Expression" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="185" id="CWE-186" name="Overly Restrictive Regular Expression" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="485" id="CWE-502" name="Deserialization of Untrusted Data" os="" top25="">
+      <Attribute Tampering="1.83" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="485" id="CWE-501" name="Trust Boundary Violation" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="703" id="CWE-391" name="Unchecked Error Condition" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="657" id="CWE-637" name="Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')" os="" top25="">
+      <Attribute Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="657 862" id="CWE-638" name="Not Using Complete Mediation" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="862" id="CWE-639" name="Authorization Bypass Through User-Controlled Key" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="330" id="CWE-343" name="Predictable Value Range from Previous Values" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="312" id="CWE-316" name="Plaintext Storage in Memory" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="367" id="CWE-363" name="Race Condition Enabling Link Following" os="" top25="">
+      <Attribute TimeOut="0.26"/>
+    </CWE>
+    <CWE childof="159 703" id="CWE-168" name="Improper Handling of Inconsistent Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="312" id="CWE-315" name="Plaintext Storage in a Cookie" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="77" id="CWE-90" name="Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Owner="0.52" Sanitize="2.08" Transfering="0.52" Transformation="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="74" id="CWE-93" name="Improper Neutralization of CRLF Sequences ('CRLF Injection')" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Transformation="0.52" UI_GUI="1.54"/>
+    </CWE>
+    <CWE childof="159 703" id="CWE-167" name="Improper Handling of Additional Special Element" os="" top25="">
+      <Attribute Sanitize="2.08" Trust="1.64"/>
+    </CWE>
+    <CWE childof="159" id="CWE-160" name="Improper Neutralization of Leading Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="160" id="CWE-161" name="Improper Neutralization of Multiple Leading Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="162" id="CWE-163" name="Improper Neutralization of Multiple Trailing Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="436" id="CWE-115" name="Misinterpretation of Input" os="" top25="">
+      <Attribute Owner="0.52" Sanitize="2.08" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="668" id="CWE-220" name="Sensitive Data Under FTP Root" os="" top25="">
+      <Attribute Client_Server="0.70" DB_DNS_IDS_FW="0.59" Trust="1.64"/>
+    </CWE>
+    <CWE childof="684 703" id="CWE-393" name="Return of Wrong Status Code" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="20" id="CWE-114" name="Process Control" os="" top25="">
+      <Attribute Owner="0.52" Tampering="1.83" Thirdparty="0.32" Trust="1.64" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="345" id="CWE-348" name="Use of Less Trusted Source" os="" top25="">
+      <Attribute Tampering="1.83" Trust="1.64"/>
+    </CWE>
+    <CWE childof="285" id="CWE-863" name="Incorrect Authorization" os="" top25="top25">
+      <Attribute Owner="0.67" User="0.67"/>
+    </CWE>
+    <CWE childof="285" id="CWE-862" name="Missing Authorization" os="" top25="top25">
+      <Attribute Owner="0.67" User="0.67"/>
+    </CWE>
+    <CWE childof="312" id="CWE-314" name="Plaintext Storage in the Registry" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="77" id="CWE-88" name="Argument Injection or Modification" os="" top25="">
+      <Attribute Sanitize="2.08" Transformation="0.52" UI_GUI="1.54"/>
+    </CWE>
+    <CWE childof="77" id="CWE-89" name="Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')" os="" top25="top25">
+      <Attribute DB_DNS_IDS_FW="0.77" Owner="0.67" Sanitize="2.42" Transfering="0.68" Transformation="0.68" UI_GUI="1.81" User="0.67"/>
+    </CWE>
+    <CWE childof="664" id="CWE-405" name="Asymmetric Resource Consumption (Amplification)" os="" top25="">
+      <Attribute TimeOut="0.26"/>
+    </CWE>
+    <CWE childof="667" id="CWE-412" name="Unrestricted Externally Accessible Lock" os="" top25="">
+      <Attribute TimeOut="0.26"/>
+    </CWE>
+    <CWE childof="138" id="CWE-151" name="Improper Neutralization of Comment Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="138" id="CWE-150" name="Improper Neutralization of Escape Meta or Control Sequences" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="138" id="CWE-153" name="Improper Neutralization of Substitution Characters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="138" id="CWE-152" name="Improper Neutralization of Macro Symbols" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="138" id="CWE-155" name="Improper Neutralization of Wildcards or Matching Symbols" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="138" id="CWE-157" name="Failure to Sanitize Paired Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="669 693" id="CWE-602" name="Client-Side Enforcement of Server-Side Security" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="0.52" Transfering="0.52" Trust="1.64" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="138" id="CWE-159" name="Failure to Sanitize Special Element" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="138" id="CWE-158" name="Improper Neutralization of Null Byte or NUL Character" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="770 20" id="CWE-789" name="Uncontrolled Memory Allocation" os="" top25="">
+      <Attribute MaxMin="0.26"/>
+    </CWE>
+    <CWE childof="754" id="CWE-394" name="Unexpected Status Code or Return Value" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="233" id="CWE-234" name="Failure to Handle Missing Parameter" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="233" id="CWE-235" name="Improper Handling of Extra Parameters" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="233" id="CWE-236" name="Improper Handling of Undefined Parameters" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="229" id="CWE-231" name="Improper Handling of Extra Values" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="229" id="CWE-232" name="Improper Handling of Undefined Values" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41" id="CWE-48" name="Path Equivalence: 'file name' (Internal Whitespace)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41 162" id="CWE-49" name="Path Equivalence: 'filename/' (Trailing Slash)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41 162" id="CWE-46" name="Path Equivalence: 'filename ' (Trailing Space)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41" id="CWE-47" name="Path Equivalence: ' filename' (Leading Space)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41" id="CWE-44" name="Path Equivalence: 'file.name' (Internal Dot)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="44 165" id="CWE-45" name="Path Equivalence: 'file...name' (Multiple Internal Dot)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41 162" id="CWE-42" name="Path Equivalence: 'filename.' (Trailing Dot)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="42 163" id="CWE-43" name="Path Equivalence: 'filename....' (Multiple Trailing Dot)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="706" id="CWE-41" name="Improper Resolution of Path Equivalence" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="287 345" id="CWE-322" name="Key Exchange without Entity Authentication" os="" top25="">
+      <Attribute Encryption="1.83" Owner="0.52" Transfering="0.52" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="344" id="CWE-323" name="Reusing a Nonce Key Pair in Encryption" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="345 754" id="CWE-354" name="Improper Validation of Integrity Check Value" os="" top25="">
+      <Attribute Tampering="1.83"/>
+    </CWE>
+    <CWE childof="693" id="CWE-326" name="Inadequate Encryption Strength" os="" top25="">
+      <Attribute Encryption="1.83" Transfering="0.52"/>
+    </CWE>
+    <CWE childof="693" id="CWE-327" name="Use of a Broken or Risky Cryptographic Algorithm" os="" top25="top25">
+      <Attribute Encryption="1.83" Trust="1.91"/>
+    </CWE>
+    <CWE childof="672" id="CWE-324" name="Use of a Key Past its Expiration Date" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="573" id="CWE-325" name="Missing Required Cryptographic Step" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="691" id="CWE-362" name="Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')" os="" top25="">
+      <Attribute TimeOut="0.26"/>
+    </CWE>
+    <CWE childof="657 693" id="CWE-654" name="Reliance on a Single Factor in a Security Decision" os="" top25="">
+      <Attribute Trust="1.64"/>
+    </CWE>
+    <CWE childof="330" id="CWE-335" name="PRNG Seed Error" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="140" id="CWE-146" name="Improper Neutralization of Expression/Command Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="138" id="CWE-147" name="Improper Neutralization of Input Terminators" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="140" id="CWE-144" name="Improper Neutralization of Line Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="140" id="CWE-145" name="Improper Neutralization of Section Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="140" id="CWE-142" name="Improper Neutralization of Value Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="140" id="CWE-143" name="Improper Neutralization of Record Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="140" id="CWE-141" name="Improper Neutralization of Parameter/Argument Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="0.52" Trust="1.64"/>
+    </CWE>
+    <CWE childof="200 755" id="CWE-209" name="Information Exposure Through an Error Message" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="203" id="CWE-208" name="Information Exposure Through Timing Discrepancy" os="" top25="">
+      <Attribute TimeOut="0.26"/>
+    </CWE>
+    <CWE childof="345" id="CWE-350" name="Improperly Trusted Reverse DNS" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Spoofing="1.83" Trust="1.64"/>
+    </CWE>
+    <CWE childof="400" id="CWE-779" name="Logging of Excessive Data" os="" top25="">
+      <Attribute Logs="0.44" MaxMin="0.26"/>
+    </CWE>
+    <CWE childof="223 693" id="CWE-778" name="Insufficient Logging" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Logs="0.44" Owner="0.52" Thirdparty="0.32" User="0.52"/>
+    </CWE>
+    <CWE childof="74" id="CWE-77" name="Improper Neutralization of Special Elements used in a Command ('Command Injection')" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Owner="0.52" Sanitize="2.08" Transfering="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="435" id="CWE-436" name="Interpretation Conflict" os="" top25="">
+      <Attribute Trust="1.64" UI_GUI="1.54"/>
+    </CWE>
+    <CWE childof="74" id="CWE-75" name="Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="707" id="CWE-74" name="Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')" os="" top25="">
+      <Attribute Owner="0.52" Sanitize="2.08" Transfering="0.52" User="0.52"/>
+    </CWE>
+    <CWE childof="642 610" id="CWE-73" name="External Control of File Name or Path" os="UNIX Windows Mac OS" top25="">
+      <Attribute Owner="0.52" Sanitize="2.08" Trust="1.64" User="0.52"/>
+    </CWE>
+    <CWE childof="703" id="CWE-754" name="Improper Check for Unusual or Exceptional Conditions" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="330" id="CWE-334" name="Small Space of Random Values" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="798" id="CWE-321" name="Use of Hard-coded Cryptographic Key" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="77" id="CWE-78" name="Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')" os="" top25="top25">
+      <Attribute DB_DNS_IDS_FW="0.77" Owner="0.67" Sanitize="2.42" Transfering="0.68" UI_GUI="1.81" User="0.67"/>
+    </CWE>
+    <CWE childof="285 668" id="CWE-732" name="Incorrect Permission Assignment for Critical Resource" os="" top25="top25">
+      <Attribute Owner="0.67" User="0.67"/>
+    </CWE>
+    <CWE childof="693" id="CWE-357" name="Insufficient UI Warning of Dangerous Operations" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="221" id="CWE-356" name="Product UI does not Warn User of Unsafe Actions" os="" top25="">
+      <Attribute Owner="0.52" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="664" id="CWE-471" name="Modification of Assumed-Immutable Data (MAID)" os="" top25="">
+      <Attribute Owner="0.52" Tampering="1.83" Transformation="0.52" Trust="1.64" UI_GUI="1.54" User="0.52"/>
+    </CWE>
+    <CWE childof="345" id="CWE-353" name="Missing Support for Integrity Check" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Tampering="1.83" Transfering="0.52"/>
+    </CWE>
+    <CWE childof="684 703" id="CWE-392" name="Missing Report of Error Condition" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="693" id="CWE-807" name="Reliance on Untrusted Inputs in a Security Decision" os="" top25="top25">
+      <Attribute Owner="0.67" Sanitize="2.42" Spoofing="1.83" Trust="1.91" User="0.67"/>
+    </CWE>
+    <CWE childof="200" id="CWE-359" name="Privacy Violation" os="" top25="">
+      <Attribute Client_Server="0.70" Encryption="1.83" Logs="0.44" Tampering="1.83" Trust="1.64"/>
+    </CWE>
+    <CWE childof="573 693" id="CWE-358" name="Improperly Implemented Security Check for Standard" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="0.52" Sanitize="2.08" Spoofing="1.83" Tampering="1.83" User="0.52"/>
+    </CWE>
+  </Component>
+  <Component name="Job">
+    <CWE childof="200 669" id="CWE-212" name="Improper Cross-boundary Removal of Sensitive Data" os="" top25="">
+      <Attribute Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="209" id="CWE-210" name="Information Exposure Through Generated Error Message" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="209" id="CWE-211" name="Information Exposure Through External Error Message" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" ErrorHandling="1.22" Thirdparty="0.32"/>
+    </CWE>
+    <CWE childof="312" id="CWE-313" name="Plaintext Storage in a File or on Disk" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="159" id="CWE-164" name="Improper Neutralization of Internal Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="240" id="CWE-130" name="Improper Handling of Length Parameter Inconsistency " os="" top25="">
+      <Attribute MaxMin="1.05" Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="164" id="CWE-165" name="Improper Neutralization of Multiple Internal Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="669" id="CWE-494" name="Download of Code Without Integrity Check" os="" top25="top25">
+      <Attribute Client_Server="0.70" DB_DNS_IDS_FW="0.77" Owner="1.86" Tampering="1.83" Trust="0.84" UI_GUI="1.81" User="3.58"/>
+    </CWE>
+    <CWE childof="200" id="CWE-497" name="Exposure of System Data to an Unauthorized Control Sphere" os="" top25="">
+      <Attribute Owner="1.52" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="159 703" id="CWE-166" name="Improper Handling of Missing Special Element" os="" top25="">
+      <Attribute Sanitize="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="23" id="CWE-24" name="Path Traversal: '../filedir'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-25" name="Path Traversal: '/../filedir'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-26" name="Path Traversal: '/dir/../filename'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-27" name="Path Traversal: 'dir/../../filename'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="693" id="CWE-20" name="Improper Input Validation" os="" top25="">
+      <Attribute Owner="1.52" Sanitize="2.08" Tampering="1.83" Transfering="2.08" Trust="0.69" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="706 668" id="CWE-22" name="Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')" os="" top25="top25">
+      <Attribute Client_Server="0.70" DB_DNS_IDS_FW="0.77" Owner="1.86" Sanitize="2.42" UI_GUI="1.81" User="3.58"/>
+    </CWE>
+    <CWE childof="22" id="CWE-23" name="Relative Path Traversal" os="" top25="">
+      <Attribute Owner="1.52" Sanitize="2.08" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="188" id="CWE-198" name="Use of Incorrect Byte Ordering" os="" top25="">
+      <Attribute ErrorHandling="1.22" Transfering="2.08" Transformation="0.52" Trust="0.69"/>
+    </CWE>
+    <CWE childof="221" id="CWE-222" name="Truncation of Security-relevant Information" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Transformation="0.52"/>
+    </CWE>
+    <CWE childof="592" id="CWE-289" name="Authentication Bypass by Alternate Name" os="" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="592" id="CWE-288" name="Authentication Bypass Using an Alternate Path or Channel" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="345" id="CWE-346" name="Origin Validation Error" os="" top25="">
+      <Attribute Trust="0.69"/>
+    </CWE>
+    <CWE childof="345" id="CWE-347" name="Improper Verification of Cryptographic Signature" os="" top25="">
+      <Attribute Encryption="1.83" Trust="0.69"/>
+    </CWE>
+    <CWE childof="159" id="CWE-162" name="Improper Neutralization of Trailing Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="330" id="CWE-342" name="Predictable Exact Value from Previous Values" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="664" id="CWE-400" name="Uncontrolled Resource Consumption ('Resource Exhaustion')" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" MaxMin="1.05" Owner="1.52" TimeOut="1.05" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="732" id="CWE-281" name="Improper Preservation of Permissions" os="" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="703" id="CWE-280" name="Improper Handling of Insufficient Permissions or Privileges " os="" top25="">
+      <Attribute Client_Server="0.70" Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="282" id="CWE-283" name="Unverified Ownership" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="284" id="CWE-282" name="Improper Ownership Management" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="284" id="CWE-285" name="Improper Authorization" os="" top25="">
+      <Attribute Owner="1.52" Tampering="1.83" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="345" id="CWE-349" name="Acceptance of Extraneous Untrusted Data With Trusted Data" os="" top25="">
+      <Attribute Tampering="1.83" Trust="0.69"/>
+    </CWE>
+    <CWE childof="284" id="CWE-287" name="Improper Authentication" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="284" id="CWE-286" name="Incorrect User Management" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="834" id="CWE-674" name="Uncontrolled Recursion" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="330" id="CWE-331" name="Insufficient Entropy" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="287 404" id="CWE-263" name="Password Aging with Long Expiration" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="287 404" id="CWE-262" name="Not Using Password Aging" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="287 326" id="CWE-261" name="Weak Cryptography for Passwords" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="522" id="CWE-260" name="Password in Configuration File" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="269" id="CWE-267" name="Privilege Defined With Unsafe Actions" os="" top25="">
+      <Attribute Owner="1.52" Tampering="1.83" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="269" id="CWE-266" name="Incorrect Privilege Assignment" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="362" id="CWE-367" name="Time-of-check Time-of-use (TOCTOU) Race Condition" os="" top25="">
+      <Attribute Tampering="1.83" TimeOut="1.05" Trust="0.69"/>
+    </CWE>
+    <CWE childof="20" id="CWE-129" name="Improper Validation of Array Index" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="284" id="CWE-269" name="Improper Privilege Management" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="269" id="CWE-268" name="Privilege Chaining" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="330 573" id="CWE-329" name="Not Using a Random IV with CBC Mode" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="706" id="CWE-59" name="Improper Link Resolution Before File Access ('Link Following')" os="Windows UNIX" top25="">
+      <Attribute Trust="0.69"/>
+    </CWE>
+    <CWE childof="41" id="CWE-55" name="Path Equivalence: '/./' (Single Dot Directory)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41 162" id="CWE-54" name="Path Equivalence: 'filedir\' (Trailing Backslash)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41" id="CWE-57" name="Path Equivalence: 'fakedir/../realdir/filename'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41 155" id="CWE-56" name="Path Equivalence: 'filedir*' (Wildcard)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41" id="CWE-51" name="Path Equivalence: '/multiple//internal/slash'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="260 521" id="CWE-258" name="Empty Password in Configuration File" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="41 165" id="CWE-53" name="Path Equivalence: '\multiple\\internal\backslash'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41 163" id="CWE-52" name="Path Equivalence: '/multiple/trailing/slash//'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="377" id="CWE-379" name="Creation of Temporary File in Directory with Incorrect Permissions" os="" top25="">
+      <Attribute Owner="1.52" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="377" id="CWE-378" name="Creation of Temporary File With Insecure Permissions" os="" top25="">
+      <Attribute Owner="1.52" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="331 703" id="CWE-333" name="Improper Handling of Insufficient Entropy in TRNG" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="672 754" id="CWE-298" name="Improper Validation of Certificate Expiration" os="" top25="">
+      <Attribute Trust="0.69"/>
+    </CWE>
+    <CWE childof="404 754" id="CWE-299" name="Improper Check for Certificate Revocation" os="" top25="">
+      <Attribute Trust="0.69"/>
+    </CWE>
+    <CWE childof="610" id="CWE-441" name="Unintended Proxy/Intermediary" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Encryption="1.83" Owner="1.52" Spoofing="1.83" Thirdparty="0.32" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="345 754" id="CWE-297" name="Improper Validation of Host-specific Certificate Data" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Spoofing="1.83" Trust="0.69"/>
+    </CWE>
+    <CWE childof="592" id="CWE-294" name="Authentication Bypass by Capture-replay" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Encryption="1.83" Owner="1.52" Spoofing="1.83" User="3.05"/>
+    </CWE>
+    <CWE childof="290" id="CWE-292" name="Trusting Self-reported DNS Name" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Spoofing="1.83" Trust="0.69"/>
+    </CWE>
+    <CWE childof="668" id="CWE-419" name="Unprotected Primary Channel" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" Spoofing="1.83" User="3.05"/>
+    </CWE>
+    <CWE childof="668" id="CWE-377" name="Insecure Temporary File" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="1.52" TimeOut="1.05" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="200" id="CWE-538" name="File and Directory Information Exposure" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" Tampering="1.83" Trust="0.69" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="311" id="CWE-319" name="Cleartext Transmission of Sensitive Information" os="" top25="">
+      <Attribute Encryption="1.83" Transfering="2.08" Transformation="0.52" Trust="0.69"/>
+    </CWE>
+    <CWE childof="312" id="CWE-318" name="Plaintext Storage in Executable" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="282" id="CWE-708" name="Incorrect Ownership Assignment" os="" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="693 696" id="CWE-179" name="Incorrect Behavior Order: Early Validation" os="" top25="">
+      <Attribute Transformation="0.52"/>
+    </CWE>
+    <CWE childof="668" id="CWE-200" name="Information Exposure" os="" top25="">
+      <Attribute Encryption="1.83" Thirdparty="0.32"/>
+    </CWE>
+    <CWE childof="664" id="CWE-704" name="Incorrect Type Conversion or Cast" os="" top25="">
+      <Attribute Transformation="0.52"/>
+    </CWE>
+    <CWE childof="691" id="CWE-705" name="Incorrect Control Flow Scoping" os="" top25="">
+      <Attribute Client_Server="0.70"/>
+    </CWE>
+    <CWE childof="693" id="CWE-311" name="Missing Encryption of Sensitive Data" os="" top25="top25">
+      <Attribute Encryption="1.83" Transfering="2.42"/>
+    </CWE>
+    <CWE childof="682" id="CWE-190" name="Integer Overflow or Wraparound" os="" top25="top25">
+      <Attribute MaxMin="1.22"/>
+    </CWE>
+    <CWE childof="682" id="CWE-193" name="Off-by-one Error" os="" top25="">
+      <Attribute ErrorHandling="1.22" MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="41 161" id="CWE-50" name="Path Equivalence: '//multiple/leading/slash'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="269" id="CWE-271" name="Privilege Dropping / Lowering Errors" os="" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="271" id="CWE-272" name="Least Privilege Violation" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="754 271" id="CWE-273" name="Improper Check for Dropped Privileges" os="" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="703 269" id="CWE-274" name="Improper Handling of Insufficient Privileges" os="" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="732" id="CWE-276" name="Incorrect Default Permissions" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="732" id="CWE-277" name="Insecure Inherited Permissions" os="" top25="">
+      <Attribute Owner="1.52" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="732" id="CWE-278" name="Insecure Preserved Inherited Permissions" os="" top25="">
+      <Attribute Owner="1.52" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="732" id="CWE-279" name="Incorrect Execution-Assigned Permissions" os="" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="172" id="CWE-175" name="Improper Handling of Mixed Encoding" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="667" id="CWE-414" name="Missing Lock Check" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="707" id="CWE-138" name="Improper Neutralization of Special Elements" os="" top25="">
+      <Attribute Client_Server="0.70" Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="287" id="CWE-836" name="Use of Password Hash Instead of Password for Authentication" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="799" id="CWE-837" name="Improper Enforcement of a Single Unique Action" os="" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="834" id="CWE-835" name="Loop with Unreachable Exit Condition ('Infinite Loop')" os="" top25="">
+      <Attribute MaxMin="1.05" TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="172" id="CWE-173" name="Improper Handling of Alternate Encoding" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="116" id="CWE-838" name="Inappropriate Encoding for Output Context" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08"/>
+    </CWE>
+    <CWE childof="691" id="CWE-799" name="Improper Control of Interaction Frequency" os="" top25="">
+      <Attribute Owner="1.52" TimeOut="1.05" User="3.05"/>
+    </CWE>
+    <CWE childof="287 344 671" id="CWE-798" name="Use of Hard-coded Credentials" os="" top25="top25">
+      <Attribute DB_DNS_IDS_FW="0.77" Encryption="1.83" Owner="1.86" Thirdparty="0.42" Trust="0.84" User="3.58"/>
+    </CWE>
+    <CWE childof="707" id="CWE-172" name="Encoding Error" os="" top25="">
+      <Attribute Encryption="1.83" ErrorHandling="1.22" Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="420 362" id="CWE-421" name="Race Condition During Access to Alternate Channel" os="" top25="">
+      <Attribute Owner="1.52" TimeOut="1.05" User="3.05"/>
+    </CWE>
+    <CWE childof="668" id="CWE-420" name="Unprotected Alternate Channel" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" Spoofing="1.83" User="3.05"/>
+    </CWE>
+    <CWE childof="693 638" id="CWE-424" name="Improper Protection of Alternate Path" os="" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="345" id="CWE-360" name="Trust of System Event Data" os="" top25="">
+      <Attribute Trust="0.69"/>
+    </CWE>
+    <CWE childof="287 654" id="CWE-308" name="Use of Single-factor Authentication" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="287 654" id="CWE-309" name="Use of Password System for Primary Authentication" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="446" id="CWE-449" name="The UI Performs the Wrong Action" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="446" id="CWE-448" name="Obsolete Feature in UI" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="693" id="CWE-345" name="Insufficient Verification of Data Authenticity" os="" top25="">
+      <Attribute Owner="1.52" Spoofing="1.83" Tampering="1.83" User="3.05"/>
+    </CWE>
+    <CWE childof="287" id="CWE-300" name="Channel Accessible by Non-Endpoint ('Man-in-the-Middle')" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Encryption="1.83" Owner="1.52" Spoofing="1.83" Tampering="1.83" Transfering="2.08" Transformation="0.52" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="287" id="CWE-301" name="Reflection Attack in an Authentication Protocol" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Encryption="1.83" Owner="1.52" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="592 807" id="CWE-302" name="Authentication Bypass by Assumed-Immutable Data" os="" top25="">
+      <Attribute Owner="1.52" Tampering="1.83" Transformation="0.52" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="667" id="CWE-413" name="Improper Resource Locking" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="446 671" id="CWE-447" name="Unimplemented or Unsupported Feature in UI" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="684" id="CWE-446" name="UI Discrepancy for Security Feature" os="" top25="">
+      <Attribute Owner="1.52" Trust="0.69" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="287" id="CWE-306" name="Missing Authentication for Critical Function" os="" top25="top25">
+      <Attribute Owner="1.86" User="3.58"/>
+    </CWE>
+    <CWE childof="592" id="CWE-305" name="Authentication Bypass by Primary Weakness" os="" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="573 754" id="CWE-296" name="Improper Following of Chain of Trust for Certificate Validation" os="" top25="">
+      <Attribute Trust="0.69"/>
+    </CWE>
+    <CWE childof="345 807" id="CWE-247" name="Reliance on DNS Lookups in a Security Decision" os="" top25="">
+      <Attribute Client_Server="0.70" DB_DNS_IDS_FW="0.59" Spoofing="1.83" Trust="0.69"/>
+    </CWE>
+    <CWE childof="514" id="CWE-385" name="Covert Timing Channel" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="299" id="CWE-370" name="Missing Check for Certificate Revocation after Initial Check" os="" top25="">
+      <Attribute Trust="0.69"/>
+    </CWE>
+    <CWE childof="200 459" id="CWE-226" name="Sensitive Information Uncleared Before Release" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="287 799" id="CWE-307" name="Improper Restriction of Excessive Authentication Attempts" os="" top25="top25">
+      <Attribute Owner="1.86" TimeOut="1.22" User="3.58"/>
+    </CWE>
+    <CWE childof="345" id="CWE-649" name="Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="807 565" id="CWE-784" name="Reliance on Cookies without Validation and Integrity Checking in a Security Decision" os="" top25="">
+      <Attribute Spoofing="1.83" Tampering="1.83" Trust="0.69"/>
+    </CWE>
+    <CWE childof="36" id="CWE-39" name="Path Traversal: 'C:dirname'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="36" id="CWE-38" name="Path Traversal: '\absolute\pathname\here'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="286" id="CWE-842" name="Placement of User into Incorrect Group" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="75" id="CWE-76" name="Improper Neutralization of Equivalent Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-33" name="Path Traversal: '....' (Multiple Dot)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-32" name="Path Traversal: '...' (Triple Dot)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="36 160" id="CWE-37" name="Path Traversal: '/absolute/pathname/here'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="22" id="CWE-36" name="Absolute Path Traversal" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-35" name="Path Traversal: '.../...//'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="23" id="CWE-34" name="Path Traversal: '....//'" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="99" id="CWE-641" name="Improper Restriction of Names for Files and Other Resources" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="287" id="CWE-640" name="Weak Password Recovery Mechanism for Forgotten Password" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="668" id="CWE-642" name="External Control of Critical State Data" os="" top25="">
+      <Attribute Encryption="1.83" Tampering="1.83" Transformation="0.52"/>
+    </CWE>
+    <CWE childof="287" id="CWE-645" name="Overly Restrictive Account Lockout Mechanism" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="345" id="CWE-646" name="Reliance on File Name or Extension of Externally-Supplied File" os="" top25="">
+      <Attribute Owner="1.52" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="506" id="CWE-511" name="Logic/Time Bomb" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="269 227" id="CWE-648" name="Incorrect Use of Privileged APIs" os="" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="669" id="CWE-434" name="Unrestricted Upload of File with Dangerous Type" os="" top25="top25">
+      <Attribute Attachment="1.54" DB_DNS_IDS_FW="0.77" Owner="1.86" Transfering="2.42" Trust="0.84" UI_GUI="1.81" User="3.58" WebAppService="0.20"/>
+    </CWE>
+    <CWE childof="364" id="CWE-432" name="Dangerous Signal Handler not Disabled During Sensitive Operations" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="754" id="CWE-252" name="Unchecked Return Value" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="675 666" id="CWE-605" name="Multiple Binds to the Same Port" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59"/>
+    </CWE>
+    <CWE childof="522" id="CWE-620" name="Unverified Password Change" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="335" id="CWE-339" name="Small Seed Space in PRNG" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="330" id="CWE-338" name="Use of Cryptographically Weak PRNG" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="357" id="CWE-450" name="Multiple Interpretations of UI Input" os="" top25="">
+      <Attribute Owner="1.52" Sanitize="2.08" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="221" id="CWE-451" name="UI Misrepresentation of Critical Information" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="335" id="CWE-337" name="Predictable Seed in PRNG" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="335" id="CWE-336" name="Same Seed in PRNG" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="665" id="CWE-454" name="External Initialization of Trusted Variables or Data Stores" os="" top25="">
+      <Attribute Sanitize="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="665 705 636" id="CWE-455" name="Non-exit on Failed Initialization" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="331" id="CWE-332" name="Insufficient Entropy in PRNG" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="664" id="CWE-404" name="Improper Resource Shutdown or Release" os="" top25="">
+      <Attribute Client_Server="0.70" DB_DNS_IDS_FW="0.59" TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="59" id="CWE-62" name="UNIX Hard Link" os="UNIX" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="798" id="CWE-259" name="Use of Hard-coded Password" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="116" id="CWE-117" name="Improper Output Neutralization for Logs" os="" top25="">
+      <Attribute Logs="0.44" Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="706" id="CWE-178" name="Improper Handling of Case Sensitivity" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="172" id="CWE-176" name="Improper Handling of Unicode Encoding" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="657 269" id="CWE-250" name="Execution with Unnecessary Privileges" os="" top25="top25">
+      <Attribute Client_Server="0.70" Owner="1.86" UI_GUI="1.81" User="3.58"/>
+    </CWE>
+    <CWE childof="172 675" id="CWE-174" name="Double Decoding of the Same Data" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="522" id="CWE-256" name="Plaintext Storage of a Password" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="522" id="CWE-257" name="Storing Passwords in a Recoverable Format" os="" top25="">
+      <Attribute Client_Server="0.70" Encryption="1.83" Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="138" id="CWE-154" name="Improper Neutralization of Variable Name Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="755" id="CWE-390" name="Detection of Error Condition Without Action" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="405" id="CWE-406" name="Insufficient Control of Network Message Volume (Network Amplification)" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" MaxMin="1.05" Owner="1.52" Thirdparty="0.32" Transfering="2.08" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="138" id="CWE-156" name="Improper Neutralization of Whitespace" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="435 758" id="CWE-733" name="Compiler Optimization Removal or Modification of Security-critical Code" os="" top25="">
+      <Attribute Client_Server="0.70" Encryption="1.83" Transformation="0.52"/>
+    </CWE>
+    <CWE childof="657 693" id="CWE-656" name="Reliance on Security Through Obscurity" os="" top25="">
+      <Attribute Encryption="1.83" Trust="0.69"/>
+    </CWE>
+    <CWE childof="693 697" id="CWE-183" name="Permissive Whitelist" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="94" id="CWE-96" name="Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection')" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Transformation="0.52"/>
+    </CWE>
+    <CWE childof="657 693" id="CWE-655" name="Insufficient Psychological Acceptability" os="" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="707" id="CWE-116" name="Improper Encoding or Escaping of Output" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Transformation="0.52"/>
+    </CWE>
+    <CWE childof="657 693" id="CWE-653" name="Insufficient Compartmentalization" os="" top25="">
+      <Attribute Client_Server="0.70"/>
+    </CWE>
+    <CWE childof="693 697" id="CWE-184" name="Incomplete Blacklist" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="697" id="CWE-185" name="Incorrect Regular Expression" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="185" id="CWE-186" name="Overly Restrictive Regular Expression" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="485" id="CWE-502" name="Deserialization of Untrusted Data" os="" top25="">
+      <Attribute Tampering="1.83" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="485" id="CWE-501" name="Trust Boundary Violation" os="" top25="">
+      <Attribute Trust="0.69"/>
+    </CWE>
+    <CWE childof="703" id="CWE-391" name="Unchecked Error Condition" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="657" id="CWE-637" name="Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')" os="" top25="">
+      <Attribute Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="657 862" id="CWE-638" name="Not Using Complete Mediation" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="1.52" User="3.05"/>
+    </CWE>
+    <CWE childof="862" id="CWE-639" name="Authorization Bypass Through User-Controlled Key" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="330" id="CWE-343" name="Predictable Value Range from Previous Values" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="312" id="CWE-316" name="Plaintext Storage in Memory" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="367" id="CWE-363" name="Race Condition Enabling Link Following" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="159 703" id="CWE-168" name="Improper Handling of Inconsistent Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="312" id="CWE-315" name="Plaintext Storage in a Cookie" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="77" id="CWE-90" name="Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Owner="1.52" Sanitize="2.08" Transfering="2.08" Transformation="0.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="74" id="CWE-93" name="Improper Neutralization of CRLF Sequences ('CRLF Injection')" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Transformation="0.52" UI_GUI="1.54"/>
+    </CWE>
+    <CWE childof="159 703" id="CWE-167" name="Improper Handling of Additional Special Element" os="" top25="">
+      <Attribute Sanitize="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="159" id="CWE-160" name="Improper Neutralization of Leading Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="160" id="CWE-161" name="Improper Neutralization of Multiple Leading Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="162" id="CWE-163" name="Improper Neutralization of Multiple Trailing Special Elements" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="436" id="CWE-115" name="Misinterpretation of Input" os="" top25="">
+      <Attribute Owner="1.52" Sanitize="2.08" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="668" id="CWE-220" name="Sensitive Data Under FTP Root" os="" top25="">
+      <Attribute Client_Server="0.70" DB_DNS_IDS_FW="0.59" Trust="0.69"/>
+    </CWE>
+    <CWE childof="684 703" id="CWE-393" name="Return of Wrong Status Code" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="20" id="CWE-114" name="Process Control" os="" top25="">
+      <Attribute Owner="1.52" Tampering="1.83" Thirdparty="0.32" Trust="0.69" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="345" id="CWE-348" name="Use of Less Trusted Source" os="" top25="">
+      <Attribute Tampering="1.83" Trust="0.69"/>
+    </CWE>
+    <CWE childof="285" id="CWE-863" name="Incorrect Authorization" os="" top25="top25">
+      <Attribute Owner="1.86" User="3.58"/>
+    </CWE>
+    <CWE childof="285" id="CWE-862" name="Missing Authorization" os="" top25="top25">
+      <Attribute Owner="1.86" User="3.58"/>
+    </CWE>
+    <CWE childof="312" id="CWE-314" name="Plaintext Storage in the Registry" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="77" id="CWE-88" name="Argument Injection or Modification" os="" top25="">
+      <Attribute Sanitize="2.08" Transformation="0.52" UI_GUI="1.54"/>
+    </CWE>
+    <CWE childof="77" id="CWE-89" name="Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')" os="" top25="top25">
+      <Attribute DB_DNS_IDS_FW="0.77" Owner="1.86" Sanitize="2.42" Transfering="2.42" Transformation="0.68" UI_GUI="1.81" User="3.58"/>
+    </CWE>
+    <CWE childof="664" id="CWE-405" name="Asymmetric Resource Consumption (Amplification)" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="667" id="CWE-412" name="Unrestricted Externally Accessible Lock" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="138" id="CWE-151" name="Improper Neutralization of Comment Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="138" id="CWE-150" name="Improper Neutralization of Escape Meta or Control Sequences" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="138" id="CWE-153" name="Improper Neutralization of Substitution Characters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="138" id="CWE-152" name="Improper Neutralization of Macro Symbols" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="138" id="CWE-155" name="Improper Neutralization of Wildcards or Matching Symbols" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="138" id="CWE-157" name="Failure to Sanitize Paired Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="669 693" id="CWE-602" name="Client-Side Enforcement of Server-Side Security" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="1.52" Transfering="2.08" Trust="0.69" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="138" id="CWE-159" name="Failure to Sanitize Special Element" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="138" id="CWE-158" name="Improper Neutralization of Null Byte or NUL Character" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="770 20" id="CWE-789" name="Uncontrolled Memory Allocation" os="" top25="">
+      <Attribute MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="754" id="CWE-394" name="Unexpected Status Code or Return Value" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="233" id="CWE-234" name="Failure to Handle Missing Parameter" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="233" id="CWE-235" name="Improper Handling of Extra Parameters" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="233" id="CWE-236" name="Improper Handling of Undefined Parameters" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="229" id="CWE-231" name="Improper Handling of Extra Values" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="229" id="CWE-232" name="Improper Handling of Undefined Values" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41" id="CWE-48" name="Path Equivalence: 'file name' (Internal Whitespace)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41 162" id="CWE-49" name="Path Equivalence: 'filename/' (Trailing Slash)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41 162" id="CWE-46" name="Path Equivalence: 'filename ' (Trailing Space)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41" id="CWE-47" name="Path Equivalence: ' filename' (Leading Space)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41" id="CWE-44" name="Path Equivalence: 'file.name' (Internal Dot)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="44 165" id="CWE-45" name="Path Equivalence: 'file...name' (Multiple Internal Dot)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="41 162" id="CWE-42" name="Path Equivalence: 'filename.' (Trailing Dot)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="42 163" id="CWE-43" name="Path Equivalence: 'filename....' (Multiple Trailing Dot)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="706" id="CWE-41" name="Improper Resolution of Path Equivalence" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="287 345" id="CWE-322" name="Key Exchange without Entity Authentication" os="" top25="">
+      <Attribute Encryption="1.83" Owner="1.52" Transfering="2.08" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="344" id="CWE-323" name="Reusing a Nonce Key Pair in Encryption" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="345 754" id="CWE-354" name="Improper Validation of Integrity Check Value" os="" top25="">
+      <Attribute Tampering="1.83"/>
+    </CWE>
+    <CWE childof="693" id="CWE-326" name="Inadequate Encryption Strength" os="" top25="">
+      <Attribute Encryption="1.83" Transfering="2.08"/>
+    </CWE>
+    <CWE childof="693" id="CWE-327" name="Use of a Broken or Risky Cryptographic Algorithm" os="" top25="top25">
+      <Attribute Encryption="1.83" Trust="0.84"/>
+    </CWE>
+    <CWE childof="672" id="CWE-324" name="Use of a Key Past its Expiration Date" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="573" id="CWE-325" name="Missing Required Cryptographic Step" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="691" id="CWE-362" name="Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="657 693" id="CWE-654" name="Reliance on a Single Factor in a Security Decision" os="" top25="">
+      <Attribute Trust="0.69"/>
+    </CWE>
+    <CWE childof="330" id="CWE-335" name="PRNG Seed Error" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="140" id="CWE-146" name="Improper Neutralization of Expression/Command Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="138" id="CWE-147" name="Improper Neutralization of Input Terminators" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="140" id="CWE-144" name="Improper Neutralization of Line Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="140" id="CWE-145" name="Improper Neutralization of Section Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="140" id="CWE-142" name="Improper Neutralization of Value Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="140" id="CWE-143" name="Improper Neutralization of Record Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="140" id="CWE-141" name="Improper Neutralization of Parameter/Argument Delimiters" os="" top25="">
+      <Attribute Sanitize="2.08" Transfering="2.08" Trust="0.69"/>
+    </CWE>
+    <CWE childof="200 755" id="CWE-209" name="Information Exposure Through an Error Message" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="203" id="CWE-208" name="Information Exposure Through Timing Discrepancy" os="" top25="">
+      <Attribute TimeOut="1.05"/>
+    </CWE>
+    <CWE childof="345" id="CWE-350" name="Improperly Trusted Reverse DNS" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Spoofing="1.83" Trust="0.69"/>
+    </CWE>
+    <CWE childof="400" id="CWE-779" name="Logging of Excessive Data" os="" top25="">
+      <Attribute Logs="0.44" MaxMin="1.05"/>
+    </CWE>
+    <CWE childof="223 693" id="CWE-778" name="Insufficient Logging" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Logs="0.44" Owner="1.52" Thirdparty="0.32" User="3.05"/>
+    </CWE>
+    <CWE childof="74" id="CWE-77" name="Improper Neutralization of Special Elements used in a Command ('Command Injection')" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Owner="1.52" Sanitize="2.08" Transfering="2.08" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="435" id="CWE-436" name="Interpretation Conflict" os="" top25="">
+      <Attribute Trust="0.69" UI_GUI="1.54"/>
+    </CWE>
+    <CWE childof="74" id="CWE-75" name="Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)" os="" top25="">
+      <Attribute Sanitize="2.08"/>
+    </CWE>
+    <CWE childof="707" id="CWE-74" name="Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')" os="" top25="">
+      <Attribute Owner="1.52" Sanitize="2.08" Transfering="2.08" User="3.05"/>
+    </CWE>
+    <CWE childof="642 610" id="CWE-73" name="External Control of File Name or Path" os="UNIX Windows Mac OS" top25="">
+      <Attribute Owner="1.52" Sanitize="2.08" Trust="0.69" User="3.05"/>
+    </CWE>
+    <CWE childof="703" id="CWE-754" name="Improper Check for Unusual or Exceptional Conditions" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="330" id="CWE-334" name="Small Space of Random Values" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="798" id="CWE-321" name="Use of Hard-coded Cryptographic Key" os="" top25="">
+      <Attribute Encryption="1.83"/>
+    </CWE>
+    <CWE childof="77" id="CWE-78" name="Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')" os="" top25="top25">
+      <Attribute DB_DNS_IDS_FW="0.77" Owner="1.86" Sanitize="2.42" Transfering="2.42" UI_GUI="1.81" User="3.58"/>
+    </CWE>
+    <CWE childof="285 668" id="CWE-732" name="Incorrect Permission Assignment for Critical Resource" os="" top25="top25">
+      <Attribute Owner="1.86" User="3.58"/>
+    </CWE>
+    <CWE childof="693" id="CWE-357" name="Insufficient UI Warning of Dangerous Operations" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="221" id="CWE-356" name="Product UI does not Warn User of Unsafe Actions" os="" top25="">
+      <Attribute Owner="1.52" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="664" id="CWE-471" name="Modification of Assumed-Immutable Data (MAID)" os="" top25="">
+      <Attribute Owner="1.52" Tampering="1.83" Transformation="0.52" Trust="0.69" UI_GUI="1.54" User="3.05"/>
+    </CWE>
+    <CWE childof="345" id="CWE-353" name="Missing Support for Integrity Check" os="" top25="">
+      <Attribute DB_DNS_IDS_FW="0.59" Tampering="1.83" Transfering="2.08"/>
+    </CWE>
+    <CWE childof="684 703" id="CWE-392" name="Missing Report of Error Condition" os="" top25="">
+      <Attribute ErrorHandling="1.22"/>
+    </CWE>
+    <CWE childof="693" id="CWE-807" name="Reliance on Untrusted Inputs in a Security Decision" os="" top25="top25">
+      <Attribute Owner="1.86" Sanitize="2.42" Spoofing="1.83" Trust="0.84" User="3.58"/>
+    </CWE>
+    <CWE childof="200" id="CWE-359" name="Privacy Violation" os="" top25="">
+      <Attribute Client_Server="0.70" Encryption="1.83" Logs="0.44" Tampering="1.83" Trust="0.69"/>
+    </CWE>
+    <CWE childof="573 693" id="CWE-358" name="Improperly Implemented Security Check for Standard" os="" top25="">
+      <Attribute Client_Server="0.70" Owner="1.52" Sanitize="2.08" Spoofing="1.83" Tampering="1.83" User="3.05"/>
+    </CWE>
+  </Component>
+</Attack_Vector>

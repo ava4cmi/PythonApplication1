@@ -1,0 +1,6 @@
+#CWE-198 Use of Incorrect Byte Ordering
+Attributes Submit Wms proxy Workload manager Log monitor Job controller (condor-g) Lrms Wn job
+ErrorHandling 0.22 0.22 0.22 0.22 0.22 1.22 0.22
+Trust 1.64 0.69 0.69 0.69 0.69 0.69 1.64
+Transfering 1.61 1.61 1.61 2.08 1.61 1.61 1.61
+Transformation 1.61 1.61 1.61 0.52 1.61 1.61 1.61

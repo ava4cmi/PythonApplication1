@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{f486ffbe-7171-4b99-9190-9d963dd7766d}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>post.py</StartupFile>
+    <SearchPath>C:\Users\jairo\Documents\VGA\src\vgapack\;C:\Users\jairo\Documents\Visual Studio 2010\Projects\PythonApplication1\PythonApplication1</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApplication1</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>2af0f10d-7135-4994-9156-5d01c9c11b7e</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="analyze.py" />
+    <Compile Include="cwe2sql.py" />
+    <Compile Include="cwe.py" />
+    <Compile Include="graphml.py" />
+    <Compile Include="component.py" />
+    <Compile Include="constants.py" />
+    <Compile Include="start.py" />
+    <Compile Include="utils.py" />
+    <Compile Include="post.py" />
+    <Compile Include="rules.py" />
+    <Compile Include="__init__.py" />
+    <Compile Include="static.py" />
+    <Compile Include="main.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>

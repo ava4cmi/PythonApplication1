@@ -1,0 +1,7 @@
+#CWE-302 Authentication Bypass by Assumed-Immutable Data
+Attributes Submit Uam-ns Input.fl Sa-wm Output.fl Al-jc Logbook Mysql
+Owner 3.63 3.63 3.63 3.63 3.05 3.63 3.63 3.05
+Tampering 0.15 0.15 1.83 0.15 1.83 0.15 0.15 1.83
+Trust 1.64 0.69 0.69 0.69 0.69 0.69 0.69 0.69
+Transformation 1.61 1.61 1.61 1.61 0.52 0.52 1.61 0.52
+User 1.61 3.05 3.05 3.00 3.05 3.00 3.05 3.05

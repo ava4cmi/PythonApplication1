@@ -1,0 +1,18 @@
+1. CWE-6 2EE Misconfiguration: Insufficient Session-ID Length:1.15875
+2. CWE-798 Use of Hard-coded Credentials:0.9275
+3. CWE-259 Use of Hard-coded Password:0.910833333333
+4. CWE-343 Predictable Value Range from Previous Values:0.1125
+5. CWE-342 Predictable Exact Value from Previous Values:0.1125
+6. CWE-340 Predictability Problems:0.1125
+7. CWE-339 Small Seed Space in PRNG:0.1125
+8. CWE-338 Use of Cryptographically Weak PRNG:0.1125
+9. CWE-337 Predictable Seed in PRNG:0.1125
+10. CWE-336 Same Seed in PRNG:0.1125
+11. CWE-335 PRNG Seed Error:0.1125
+12. CWE-334 Small Space of Random Values:0.1125
+13. CWE-333 Improper Handling of Insufficient Entropy in TRNG:0.1125
+14. CWE-332 Insufficient Entropy in PRNG:0.1125
+15. CWE-331 Insufficient Entropy:0.1125
+16. CWE-329 Not Using a Random IV with CBC Mode:0.1125
+17. CWE-323 Reusing a Nonce Key Pair in Encryption:0.1125
+18. CWE-321 Use of Hard-coded Cryptographic Key:0.1125

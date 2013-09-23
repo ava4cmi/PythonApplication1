@@ -1,0 +1,3 @@
+#CWE-432 Dangerous Signal Handler not Disabled During Sensitive Operations
+Attributes Value
+TimeOut 0.26

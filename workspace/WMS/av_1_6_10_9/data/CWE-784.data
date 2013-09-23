@@ -1,0 +1,5 @@
+#CWE-784 Reliance on Cookies without Validation and Integrity Checking in a Security Decision
+Attributes Submit Wms proxy Lb proxy Lb database
+Tampering 0.15 0.15 0.15 1.83
+Spoofing 0.15 0.15 1.83 1.83
+Trust 1.64 0.69 0.69 0.69

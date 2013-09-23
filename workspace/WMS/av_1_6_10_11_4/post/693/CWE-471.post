@@ -1,0 +1,8 @@
+#CWE-471 Modification of Assumed-Immutable Data (MAID)
+Attributes Value
+UI_GUI 1.54
+Tampering 0.15
+User 1.61
+Owner 3.63
+Trust 0.69
+Transformation 1.61

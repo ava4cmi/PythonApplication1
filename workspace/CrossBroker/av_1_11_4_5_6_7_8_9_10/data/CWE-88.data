@@ -1,0 +1,5 @@
+#CWE-88 Argument Injection or Modification
+Attributes Submit Logbook Sa-wm Output.fl Al-jc Condor_g Lrms Condor_startd Job
+UI_GUI 2.00 1.54 1.54 1.54 1.54 1.54 1.54 1.54 1.54
+Sanitize 0.83 0.83 2.08 2.08 2.08 2.08 2.08 2.08 2.08
+Transformation 1.61 1.61 1.61 0.52 0.52 0.52 0.52 0.52 0.52

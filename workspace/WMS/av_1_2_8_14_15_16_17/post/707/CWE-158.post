@@ -1,0 +1,5 @@
+#CWE-158 Improper Neutralization of Null Byte or NUL Character
+Attributes Value
+Trust 0.69
+Transfering 1.61
+Sanitize 0.83

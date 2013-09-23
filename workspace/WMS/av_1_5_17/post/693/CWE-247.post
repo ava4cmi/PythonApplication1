@@ -1,0 +1,6 @@
+#CWE-247 Reliance on DNS Lookups in a Security Decision
+Attributes Value
+Client_Server 0.40
+Trust 1.64
+DB_DNS_IDS_FW 0.59
+Spoofing 0.15

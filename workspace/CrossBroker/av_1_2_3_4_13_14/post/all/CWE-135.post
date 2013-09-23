@@ -1,0 +1,4 @@
+#CWE-135 Incorrect Calculation of Multi-Byte String Length
+Attributes Value
+MaxMin 0.26
+Sanitize 0.83

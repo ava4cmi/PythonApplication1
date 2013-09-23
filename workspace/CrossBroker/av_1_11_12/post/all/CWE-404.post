@@ -1,0 +1,5 @@
+#CWE-404 Improper Resource Shutdown or Release
+Attributes Value
+Client_Server 0.40
+DB_DNS_IDS_FW 2.72
+TimeOut 1.05

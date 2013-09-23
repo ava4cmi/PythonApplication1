@@ -1,0 +1,5 @@
+#CWE-144 Improper Neutralization of Line Delimiters
+Attributes Value
+Trust 0.69
+Transfering 0.52
+Sanitize 0.83

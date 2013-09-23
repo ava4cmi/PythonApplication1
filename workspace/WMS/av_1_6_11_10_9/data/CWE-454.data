@@ -1,0 +1,4 @@
+#CWE-454 External Initialization of Trusted Variables or Data Stores
+Attributes Submit Wms proxy Logger (interlogd) Lb proxy Lb database
+Trust 1.64 0.69 0.69 0.69 0.69
+Sanitize 0.83 0.83 2.08 2.08 2.08

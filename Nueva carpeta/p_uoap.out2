@@ -1,0 +1,60 @@
+['187 Partial Comparison'  3
+['20 Improper Input Validation'  3
+['202 Exposure of Sensitive Data Through Data Queries'  3
+['214 Information Exposure Through Process Environment'  3
+['219 Sensitive Data Under Web Root'  3
+['220 Sensitive Data Under FTP Root'  3
+['257 Storing Passwords in a Recoverable Format'  3
+['260 Password in Configuration File'  3
+['266 Incorrect Privilege Assignment'  3
+['268 Privilege Chaining'  3
+['270 Privilege Context Switching Error'  3
+['272 Least Privilege Violation'  3
+['277 Insecure Inherited Permissions'  3
+['279 Incorrect Execution-Assigned Permissions'  3
+['281 Improper Preservation of Permissions'  3
+['287 Improper Authentication'  3
+['307 Improper Restriction of Excessive Authentication Attempts'  3
+['321 Use of Hard-coded Cryptographic Key'  3
+['323 Reusing a Nonce Key Pair in Encryption'  3
+['327 Use of a Broken or Risky Cryptographic Algorithm'  3
+['341 Predictable from Observable State'  3
+['357 Insufficient UI Warning of Dangerous Operations'  3
+["362 Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')"  3
+['367 Time-of-check Time-of-use (TOCTOU) Race Condition'  3
+['368 Context Switching Race Condition'  3
+['378 Creation of Temporary File With Insecure Permissions'  3
+['386 Symbolic Name not Mapping to Correct Object'  3
+["400 Uncontrolled Resource Consumption ('Resource Exhaustion')"  3
+['403 Exposure of File Descriptor to Unintended Control Sphere'  3
+['420 Unprotected Alternate Channel'  3
+['447 Unimplemented or Unsupported Feature in UI'  3
+["470 Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')"  3
+['472 External Control of Assumed-Immutable Web Parameter'  3
+['512 Spyware'  3
+['565 Reliance on Cookies without Validation and Integrity Checking'  3
+['599 Trust of OpenSSL Certificate Without Validation'  3
+['6 J2EE Misconfiguration: Insufficient Session-ID Length'  3
+["614 Sensitive Cookie in HTTPS Session Without 'Secure' Attribute"  3
+['620 Unverified Password Change'  3
+["636 Not Failing Securely ('Failing Open')"  3
+['64 Windows Shortcut Following (.LNK)'  3
+["643 Improper Neutralization of Data within XPath Expressions ('XPath Injection')"  3
+['644 Improper Neutralization of HTTP Headers for Scripting Syntax'  3
+['647 Use of Non-Canonical URL Paths for Authorization Decisions'  3
+['65 Windows Hard Link'  3
+['650 Trusting HTTP Permission Methods on the Server Side'  3
+['665 Improper Initialization'  3
+['682 Incorrect Calculation'  3
+["71 Apple '.DS_Store'"  3
+['73 External Control of File Name or Path'  3
+['754 Improper Check for Unusual or Exceptional Conditions'  3
+['759 Use of a One-Way Hash without a Salt'  3
+['770 Allocation of Resources Without Limits or Throttling'  3
+['772 Missing Release of Resource after Effective Lifetime'  3
+['779 Logging of Excessive Data'  3
+['781 Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code'  3
+['804 Guessable CAPTCHA'  3
+['836 Use of Password Hash Instead of Password for Authentication'  3
+["89 Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"  3
+["94 Improper Control of Generation of Code ('Code Injection')"  3

@@ -1,0 +1,3 @@
+#CWE-412 Unrestricted Externally Accessible Lock
+Attributes Submit Voms server Wms proxy Logger (interlogd) Lb
+TimeOut 1.05 1.05 1.05 1.05 1.05

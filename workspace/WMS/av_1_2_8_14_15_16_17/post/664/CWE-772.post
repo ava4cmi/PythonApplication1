@@ -1,0 +1,3 @@
+#CWE-772 Missing Release of Resource after Effective Lifetime
+Attributes Value
+TimeOut 1.05

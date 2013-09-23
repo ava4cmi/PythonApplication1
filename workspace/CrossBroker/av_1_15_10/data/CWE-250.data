@@ -1,0 +1,6 @@
+#CWE-250 Execution with Unnecessary Privileges
+Attributes Submit Sandbox_dir Job
+Owner 4.23 0.67 1.86
+UI_GUI 2.33 1.81 1.81
+Client_Server 0.40 0.70 0.70
+User 1.96 0.67 3.58

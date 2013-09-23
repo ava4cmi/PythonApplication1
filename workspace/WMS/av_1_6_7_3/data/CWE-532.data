@@ -1,0 +1,6 @@
+#CWE-532 Information Exposure Through Log Files
+Attributes Submit Wms proxy Workload manager Information service
+Owner 3.63 3.63 3.63 3.63
+Trust 1.64 0.69 0.69 1.64
+Logs 1.35 1.35 0.44 0.44
+User 1.61 3.00 3.00 3.05

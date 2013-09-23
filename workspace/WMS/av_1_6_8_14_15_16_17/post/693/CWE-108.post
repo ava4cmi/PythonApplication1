@@ -1,0 +1,3 @@
+#CWE-108 Struts: Unvalidated Action Form
+Attributes Value
+Sanitize 2.08

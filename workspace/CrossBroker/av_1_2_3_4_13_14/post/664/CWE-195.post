@@ -1,0 +1,5 @@
+#CWE-195 Signed to Unsigned Conversion Error
+Attributes Value
+MaxMin 0.26
+ErrorHandling 0.22
+Transformation 0.52

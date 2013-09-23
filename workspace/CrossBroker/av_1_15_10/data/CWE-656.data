@@ -1,0 +1,4 @@
+#CWE-656 Reliance on Security Through Obscurity
+Attributes Submit Sandbox_dir Job
+Encryption 0.15 1.83 1.83
+Trust 1.64 1.64 0.69

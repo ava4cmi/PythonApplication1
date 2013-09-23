@@ -1,0 +1,8 @@
+#CWE-400 Uncontrolled Resource Consumption ('Resource Exhaustion')
+Attributes Value
+DB_DNS_IDS_FW 0.59
+MaxMin 1.05
+User 1.61
+TimeOut 1.05
+Owner 3.63
+Trust 1.64

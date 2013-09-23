@@ -1,0 +1,5 @@
+#CWE-638 Not Using Complete Mediation
+Attributes Submit Wms proxy Workload manager Information service
+Owner 3.63 3.63 3.63 3.63
+Client_Server 0.40 0.70 0.70 0.70
+User 1.61 3.00 3.00 3.05

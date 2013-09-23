@@ -1,0 +1,3 @@
+#CWE-826 Premature Release of Resource During Expected Lifetime
+Attributes Submit Wms proxy Logger (interlogd) Lb proxy Lb database
+TimeOut 1.05 1.05 1.05 1.05 1.05

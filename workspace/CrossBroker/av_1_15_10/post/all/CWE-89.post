@@ -1,0 +1,9 @@
+#CWE-89 Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+Attributes Value
+UI_GUI 1.81
+DB_DNS_IDS_FW 0.77
+Sanitize 1.01
+Owner 0.67
+Transfering 0.68
+Transformation 0.68
+User 0.67

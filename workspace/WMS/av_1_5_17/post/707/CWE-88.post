@@ -1,0 +1,5 @@
+#CWE-88 Argument Injection or Modification
+Attributes Value
+UI_GUI 1.54
+Sanitize 0.83
+Transformation 1.61

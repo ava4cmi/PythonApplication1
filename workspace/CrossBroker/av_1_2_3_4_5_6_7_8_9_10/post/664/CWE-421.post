@@ -1,0 +1,5 @@
+#CWE-421 Race Condition During Access to Alternate Channel
+Attributes Value
+Owner 1.52
+User 1.61
+TimeOut 0.26

@@ -1,0 +1,5 @@
+#CWE-162 Improper Neutralization of Trailing Special Elements
+Attributes Value
+Trust 1.64
+Transfering 1.61
+Sanitize 0.83

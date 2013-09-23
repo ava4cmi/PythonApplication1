@@ -1,0 +1,6 @@
+#CWE-319 Cleartext Transmission of Sensitive Information
+Attributes Submit Gridftp Wn job
+Encryption 0.15 0.15 1.83
+Trust 1.64 1.64 1.64
+Transfering 1.61 1.61 1.61
+Transformation 1.61 1.61 1.61

@@ -1,0 +1,7 @@
+#CWE-302 Authentication Bypass by Assumed-Immutable Data
+Attributes Submit Sandbox_dir Job
+Owner 3.63 0.52 1.52
+Tampering 0.15 1.83 1.83
+Trust 1.64 1.64 0.69
+Transformation 1.61 0.52 0.52
+User 1.61 0.52 3.05

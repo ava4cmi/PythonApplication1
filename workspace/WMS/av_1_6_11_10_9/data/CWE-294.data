@@ -1,0 +1,7 @@
+#CWE-294 Authentication Bypass by Capture-replay
+Attributes Submit Wms proxy Logger (interlogd) Lb proxy Lb database
+Owner 3.63 3.63 3.63 3.63 3.63
+Encryption 0.15 0.15 0.15 0.15 1.83
+DB_DNS_IDS_FW 2.72 0.59 2.72 2.72 2.72
+User 1.61 3.00 3.00 3.00 3.05
+Spoofing 0.15 0.15 1.83 1.83 1.83

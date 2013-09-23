@@ -1,0 +1,3 @@
+#CWE-765 Multiple Unlocks of a Critical Resource
+Attributes Submit Voms server Wms proxy Logger (interlogd) Lb
+TimeOut 1.05 1.05 1.05 1.05 1.05

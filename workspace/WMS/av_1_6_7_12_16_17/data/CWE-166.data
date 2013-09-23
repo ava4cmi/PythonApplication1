@@ -1,0 +1,4 @@
+#CWE-166 Improper Handling of Missing Special Element
+Attributes Submit Wms proxy Workload manager Job controller (condor-g) Lrms Wn job
+Trust 1.64 0.69 0.69 0.69 0.69 1.64
+Sanitize 0.83 0.83 0.83 0.83 2.08 2.08

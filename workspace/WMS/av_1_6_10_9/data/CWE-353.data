@@ -1,0 +1,5 @@
+#CWE-353 Missing Support for Integrity Check
+Attributes Submit Wms proxy Lb proxy Lb database
+Tampering 0.15 0.15 0.15 1.83
+DB_DNS_IDS_FW 2.72 0.59 2.72 2.72
+Transfering 1.61 1.61 1.61 2.08

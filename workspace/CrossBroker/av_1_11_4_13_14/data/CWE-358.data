@@ -1,0 +1,8 @@
+#CWE-358 Improperly Implemented Security Check for Standard
+Attributes Submit Logbook Sa-wm Rs Bdii
+Client_Server 0.40 0.70 0.70 0.70 0.70
+Tampering 0.15 0.15 0.15 1.83 1.83
+User 1.61 3.05 3.00 3.00 3.00
+Owner 3.63 3.63 3.63 0.52 0.52
+Spoofing 0.15 0.15 0.15 1.83 1.83
+Sanitize 0.83 0.83 2.08 2.08 2.08

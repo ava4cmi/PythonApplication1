@@ -1,0 +1,4 @@
+#CWE-348 Use of Less Trusted Source
+Attributes Submit Sandbox_dir Job
+Tampering 0.15 1.83 1.83
+Trust 1.64 1.64 0.69

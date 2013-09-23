@@ -1,0 +1,9 @@
+#CWE-90 Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')
+Attributes Submit Wms proxy Lb proxy Lb database
+UI_GUI 2.00 1.54 1.54 1.54
+DB_DNS_IDS_FW 2.72 0.59 2.72 2.72
+Sanitize 0.83 0.83 2.08 2.08
+Owner 3.63 3.63 3.63 3.63
+Transfering 1.61 1.61 1.61 2.08
+Transformation 1.61 1.61 1.61 0.52
+User 1.61 3.00 3.00 3.05

@@ -1,0 +1,5 @@
+#CWE-153 Improper Neutralization of Substitution Characters
+Attributes Value
+Trust 1.64
+Transfering 1.61
+Sanitize 0.83

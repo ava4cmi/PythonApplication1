@@ -1,0 +1,5 @@
+#CWE-278 Insecure Preserved Inherited Permissions
+Attributes Submit Wms proxy Lb proxy Lb database
+Owner 3.63 3.63 3.63 3.63
+Trust 1.64 0.69 0.69 0.69
+User 1.61 3.00 3.00 3.05

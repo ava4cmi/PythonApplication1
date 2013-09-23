@@ -1,0 +1,4 @@
+#CWE-135 Incorrect Calculation of Multi-Byte String Length
+Attributes Submit Wms proxy Workload manager
+MaxMin 1.05 1.05 1.05
+Sanitize 0.83 0.83 0.83

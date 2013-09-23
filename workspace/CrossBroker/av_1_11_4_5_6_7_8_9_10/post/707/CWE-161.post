@@ -1,0 +1,5 @@
+#CWE-161 Improper Neutralization of Multiple Leading Special Elements
+Attributes Value
+Trust 0.69
+Transfering 0.52
+Sanitize 0.83

@@ -1,0 +1,6 @@
+#CWE-247 Reliance on DNS Lookups in a Security Decision
+Attributes Submit Uam-ns Input.fl Sa-wm Output.fl Al-jc Logbook Mysql
+Client_Server 0.40 0.70 0.70 0.70 0.70 0.70 0.70 0.70
+Trust 1.64 0.69 0.69 0.69 0.69 0.69 0.69 0.69
+DB_DNS_IDS_FW 2.72 0.59 0.59 0.59 0.59 0.59 2.72 2.72
+Spoofing 0.15 0.15 1.83 0.15 1.83 0.15 0.15 1.83

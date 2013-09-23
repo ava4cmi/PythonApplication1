@@ -1,0 +1,3 @@
+#CWE-393 Return of Wrong Status Code
+Attributes Submit Voms server Proxy renewal Workload manager Job controller (condor-g) Lrms Wn job
+ErrorHandling 0.22 0.22 0.22 0.22 0.22 1.22 0.22

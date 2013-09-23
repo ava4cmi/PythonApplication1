@@ -1,0 +1,7 @@
+#CWE-377 Insecure Temporary File
+Attributes Submit Logbook Sa-wm Output.fl Al-jc Condor_g Lrms Condor_startd Job
+Owner 3.63 3.63 3.63 3.05 3.63 3.63 3.63 3.05 1.52
+Trust 1.64 0.69 0.69 0.69 0.69 0.69 0.69 0.69 0.69
+Client_Server 0.40 0.70 0.70 0.70 0.70 0.70 0.70 0.70 0.70
+User 1.61 3.05 3.00 3.05 3.00 3.05 3.05 3.05 3.05
+TimeOut 1.05 1.05 1.05 0.26 1.05 1.05 1.05 1.05 1.05

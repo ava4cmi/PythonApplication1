@@ -1,0 +1,5 @@
+#CWE-791 Incomplete Filtering of Special Elements
+Attributes Submit Voms server Wms proxy Logger (interlogd) Lb
+UI_GUI 2.00 1.54 1.54 1.54 1.54
+Transfering 1.61 2.08 1.61 1.61 1.61
+Sanitize 0.83 0.83 0.83 2.08 2.08

@@ -1,0 +1,7 @@
+#CWE-402 Transmission of Private Resources into a New Sphere ('Resource Leak')
+Attributes Submit Gridftp Wn job
+Owner 3.63 3.63 3.63
+Thirdparty 0.32 0.32 0.32
+Transfering 1.61 1.61 1.61
+User 1.61 3.00 1.61
+Trust 1.64 1.64 1.64

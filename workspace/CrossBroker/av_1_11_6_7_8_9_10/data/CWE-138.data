@@ -1,0 +1,6 @@
+#CWE-138 Improper Neutralization of Special Elements
+Attributes Submit Logbook Al-jc Condor_g Lrms Condor_startd Job
+Client_Server 0.40 0.70 0.70 0.70 0.70 0.70 0.70
+Trust 1.64 0.69 0.69 0.69 0.69 0.69 0.69
+Transfering 1.61 1.61 2.08 2.08 2.08 0.52 2.08
+Sanitize 0.83 0.83 2.08 2.08 2.08 2.08 2.08

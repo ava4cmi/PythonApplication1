@@ -1,0 +1,37 @@
+1. CWE-798 Use of Hard-coded Credentials: (Sp= 0.884583333333; Max= 0.884583333333; Meg= 0.432714582171; Q3= 0.1125)
+  |
+  -->CWE-259 Use of Hard-coded Password: (Sp= 0.814166666667; Max= 0.814166666667; Meg= 0.814166666667)
+
+  |
+  -->CWE-321 Use of Hard-coded Cryptographic Key: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+2. CWE-259 Use of Hard-coded Password: (Sp= 0.814166666667; Max= 0.814166666667; Meg= 0.814166666667; Q3= 0.1125)
+3. CWE-343 Predictable Value Range from Previous Values: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)
+4. CWE-342 Predictable Exact Value from Previous Values: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)
+5. CWE-339 Small Seed Space in PRNG: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)
+6. CWE-338 Use of Cryptographically Weak PRNG: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)
+7. CWE-337 Predictable Seed in PRNG: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)
+8. CWE-336 Same Seed in PRNG: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)
+9. CWE-335 PRNG Seed Error: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)
+  |
+  -->CWE-339 Small Seed Space in PRNG: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+  |
+  -->CWE-336 Same Seed in PRNG: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+  |
+  -->CWE-337 Predictable Seed in PRNG: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+10. CWE-334 Small Space of Random Values: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)
+11. CWE-333 Improper Handling of Insufficient Entropy in TRNG: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)
+12. CWE-332 Insufficient Entropy in PRNG: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)
+13. CWE-331 Insufficient Entropy: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)
+  |
+  -->CWE-333 Improper Handling of Insufficient Entropy in TRNG: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+  |
+  -->CWE-332 Insufficient Entropy in PRNG: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+14. CWE-329 Not Using a Random IV with CBC Mode: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)
+15. CWE-323 Reusing a Nonce Key Pair in Encryption: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)
+16. CWE-321 Use of Hard-coded Cryptographic Key: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 0.1125)

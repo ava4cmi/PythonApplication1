@@ -1,0 +1,8 @@
+#CWE-798 Use of Hard-coded Credentials
+Attributes Value
+Thirdparty 0.42
+Encryption 0.29
+DB_DNS_IDS_FW 0.77
+User 1.96
+Owner 4.23
+Trust 0.84

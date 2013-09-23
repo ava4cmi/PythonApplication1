@@ -1,0 +1,4 @@
+#CWE-117 Improper Output Neutralization for Logs
+Attributes Submit Sandbox_dir Job
+Logs 1.35 0.44 0.44
+Sanitize 0.83 2.08 2.08

@@ -1,0 +1,4 @@
+#CWE-130 Improper Handling of Length Parameter Inconsistency 
+Attributes Value
+MaxMin 1.05
+Sanitize 0.83

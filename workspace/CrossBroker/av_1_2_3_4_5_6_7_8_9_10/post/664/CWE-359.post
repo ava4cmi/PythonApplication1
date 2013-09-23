@@ -1,0 +1,7 @@
+#CWE-359 Privacy Violation
+Attributes Value
+Tampering 0.15
+Encryption 0.15
+Trust 0.69
+Client_Server 0.40
+Logs 0.44

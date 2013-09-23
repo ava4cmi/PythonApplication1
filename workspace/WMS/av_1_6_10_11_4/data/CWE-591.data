@@ -1,0 +1,3 @@
+#CWE-591 Sensitive Data Storage in Improperly Locked Memory
+Attributes Submit Wms proxy Lb proxy Logger (interlogd) Lb
+Tampering 0.15 0.15 0.15 0.15 0.15

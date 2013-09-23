@@ -1,0 +1,5 @@
+#CWE-282 Improper Ownership Management
+Attributes Submit Voms server Wms proxy Logger (interlogd) Lb
+Owner 3.63 3.63 3.63 3.63 3.63
+UI_GUI 2.00 1.54 1.54 1.54 1.54
+User 1.61 3.00 3.00 3.00 3.00

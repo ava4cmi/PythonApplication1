@@ -1,0 +1,8 @@
+#CWE-566 Authorization Bypass Through User-Controlled SQL Primary Key
+Attributes Value
+UI_GUI 1.54
+DB_DNS_IDS_FW 0.59
+Sanitize 0.83
+Owner 3.63
+Transfering 1.61
+User 1.61

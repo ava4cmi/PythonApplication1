@@ -1,0 +1,6 @@
+#CWE-73 External Control of File Name or Path
+Attributes Submit Voms server Proxy renewal Workload manager Job controller (condor-g) Lrms Wn job
+Owner 3.63 3.63 3.63 3.63 3.63 3.63 3.63
+Trust 1.64 0.69 0.69 0.69 0.69 0.69 1.64
+Sanitize 0.83 0.83 0.83 0.83 0.83 2.08 2.08
+User 1.61 3.00 3.00 3.00 3.00 3.05 1.61

@@ -1,0 +1,3 @@
+#CWE-754 Improper Check for Unusual or Exceptional Conditions
+Attributes Submit Voms server Wms proxy Logger (interlogd) Lb
+ErrorHandling 0.22 0.22 0.22 0.22 0.22

@@ -1,0 +1,11 @@
+1. CWE-115 Misinterpretation of Input: (Sp= 0.835625; Max= 0.835625; Meg= 0.835625; Q3= 0.75)
+2. CWE-436 Interpretation Conflict: (Sp= 0.75; Max= 0.835625; Meg= 0.791655701678; Q3= 0.75)
+  |
+  -->CWE-115 Misinterpretation of Input: (Sp= 0.835625; Max= 0.835625; Meg= 0.835625)
+
+3. CWE-14 Compiler Removal of Code to Clear Buffers: (Sp= 0.26; Max= 0.26; Meg= 0.26; Q3= 0.75)
+4. CWE-198 Use of Incorrect Byte Ordering: (Sp= 0.2575; Max= 0.2575; Meg= 0.2575; Q3= 0.75)
+5. CWE-733 Compiler Optimization Removal or Modification of Security-critical Code: (Sp= 0.165833333333; Max= 0.26; Meg= 0.207645531295; Q3= 0.75)
+  |
+  -->CWE-14 Compiler Removal of Code to Clear Buffers: (Sp= 0.26; Max= 0.26; Meg= 0.26)
+

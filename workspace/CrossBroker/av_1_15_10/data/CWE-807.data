@@ -1,0 +1,7 @@
+#CWE-807 Reliance on Untrusted Inputs in a Security Decision
+Attributes Submit Sandbox_dir Job
+Owner 4.23 0.67 1.86
+Spoofing 0.29 1.83 1.83
+Trust 1.91 1.91 0.84
+Sanitize 1.01 2.42 2.42
+User 1.96 0.67 3.58

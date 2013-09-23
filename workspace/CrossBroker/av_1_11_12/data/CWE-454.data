@@ -1,0 +1,4 @@
+#CWE-454 External Initialization of Trusted Variables or Data Stores
+Attributes Submit Logbook Mysql
+Trust 1.64 0.69 0.69
+Sanitize 0.83 0.83 2.08

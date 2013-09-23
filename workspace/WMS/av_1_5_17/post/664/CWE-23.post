@@ -1,0 +1,6 @@
+#CWE-23 Relative Path Traversal
+Attributes Value
+Owner 3.63
+Trust 1.64
+Sanitize 0.83
+User 1.61

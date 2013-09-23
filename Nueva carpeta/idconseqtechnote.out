@@ -1,0 +1,684 @@
+0 102::Integrity::Unexpected state
+1 103::Other::Confidentiality::Integrity::Availability::Other::Other::Other::Disabling the validation framework for a form exposes the application to numerous types of attacks. Unchecked input is the root cause of vulnerabilities like cross-site scripting, process control, and SQL injection.::Although J2EE applications are not generally susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
+2 104::Other::Confidentiality::Integrity::Availability::Other::Other::Other::Bypassing the validation framework for a form exposes the application to numerous types of attacks. Unchecked input is an important component of vulnerabilities like cross-site scripting, process control, and SQL injection.::Although J2EE applications are not generally susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
+3 105::Integrity::Unexpected state
+4 106::Integrity::Unexpected state
+5 107::Other::Quality degradation
+6 108::Other::Confidentiality::Integrity::Availability::Other::Other::Other::If an action form mapping does not have a validation form defined, it may be vulnerable to a number of attacks that rely on unchecked input. Unchecked input is the root cause of some of today's worst and most common software security problems. Cross-site scripting, SQL injection, and process control vulnerabilities all stem from incomplete or absent input validation.::Although J2EE applications are not generally susceptible to memory corruption attacks, if a J2EE application interfaces with native code that does not perform array bounds checking, an attacker may be able to use an input validation mistake in the J2EE application to launch a buffer overflow attack.
+7 109::Access_Control::Bypass protection mechanism
+8 11::Confidentiality::Read application data:: Attackers can leverage the additional information they gain from debugging output to mount attacks targeted on the framework, database, or other resources used by the application.
+9 110::Other::Other::It is critically important that validation logic be maintained and kept in sync with the rest of the application. Unchecked input is the root cause of some of today's worst and most common software security problems. Cross-site scripting, SQL injection, and process control vulnerabilities all stem from incomplete or absent input validation.
+						
+10 111::Access_Control::Bypass protection mechanism
+11 112::Integrity::Unexpected state
+12 113::Integrity::Other::Modify application data::Other:: CR and LF characters in an HTTP header may give attackers control of the remaining headers and body of the response the application intends to send, as well as allowing them to create additional responses entirely under their control. 
+13 114::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+14 115::Integrity::Unexpected state
+15 116::Integrity::Confidentiality::Availability::Access_Control::Modify application data::Execute unauthorized code or commands::Bypass protection mechanism::The communications between components can be modified in unexpected ways. Unexpected commands can be executed, bypassing other security mechanisms. Incoming data can be misinterpreted.
+16 117::Integrity::Confidentiality::Availability::Non-Repudiation::Modify application data::Hide activities::Modify files or directories::Execute unauthorized code or commands::Interpretation of the log files may be hindered or misdirected if an attacker can supply data to the application that is subsequently logged verbatim. In the most benign case, an attacker may be able to insert false entries into the log file by providing the application with input that includes appropriate characters. Forged or otherwise corrupted log files can be used to cover an attacker's tracks, possibly by skewing statistics, or even to implicate another party in the commission of a malicious act. If the log file is processed automatically, the attacker can render the file unusable by corrupting the format of the file or injecting unexpected characters. An attacker may inject code or other commands into the log file and take advantage of a vulnerability in the log processing utility.
+17 118::Other::Varies by context
+18 119::Integrity::Confidentiality::Availability::Availability::Confidentiality::Confidentiality::Execute unauthorized code or commands::Modify memory::Read memory::DoS: crash / exit / restart::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::Read memory::If the memory accessible by the attacker can be effectively controlled, it may be possible to execute arbitrary code, as with a standard buffer overflow.::Out of bounds memory access will very likely result in the corruption of relevant memory, and perhaps instructions, possibly leading to a crash. Other attacks leading to lack of availability are possible, including putting the program into an infinite loop.::In the case of an out-of-bounds read, the attacker may have access to sensitive information. If the sensitive information contains system details, such as the current buffers position in memory, this knowledge can be used to craft further attacks, possibly with more severe consequences.
+19 12::Confidentiality::Read application data::Default error pages gives detailed information about the error that occurred, and should not be used in production environments.
+20 120::Integrity::Confidentiality::Availability::Availability::Execute unauthorized code or commands::DoS: crash / exit / restart::DoS: resource consumption (CPU)::Buffer overflows often can be used to execute arbitrary code, which is usually outside the scope of a program's implicit security policy. This can often be used to subvert any other security service.::Buffer overflows generally lead to crashes. Other attacks leading to lack of availability are possible, including putting the program into an infinite loop.
+21 121::Availability::Integrity::Confidentiality::Availability::Access_Control::Integrity::Confidentiality::Availability::Access_Control::Other::DoS: crash / exit / restart::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::Execute unauthorized code or commands::Bypass protection mechanism::Execute unauthorized code or commands::Bypass protection mechanism::Other::Buffer overflows generally lead to crashes. Other attacks leading to lack of availability are possible, including putting the program into an infinite loop.::Buffer overflows often can be used to execute arbitrary code, which is usually outside the scope of a program's implicit security policy.::When the consequence is arbitrary code execution, this can often be used to subvert any other security service.
+22 122::Availability::Integrity::Confidentiality::Availability::Access_Control::Integrity::Confidentiality::Availability::Access_Control::Other::DoS: crash / exit / restart::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::Execute unauthorized code or commands::Bypass protection mechanism::Modify memory::Execute unauthorized code or commands::Bypass protection mechanism::Other::Buffer overflows generally lead to crashes. Other attacks leading to lack of availability are possible, including putting the program into an infinite loop.::Buffer overflows often can be used to execute arbitrary code, which is usually outside the scope of a program's implicit security policy.::When the consequence is arbitrary code execution, this can often be used to subvert any other security service.
+23 123::Integrity::Confidentiality::Availability::Access_Control::Integrity::Availability::Access_Control::Other::Modify memory::Execute unauthorized code or commands::Modify application data::Gain privileges / assume identity::DoS: crash / exit / restart::Modify memory::Bypass protection mechanism::Other::Clearly, write-what-where conditions can be used to write data to areas of memory outside the scope of a policy. Also, they almost invariably can be used to execute arbitrary code, which is usually outside the scope of a program's implicit security policy.::Many memory accesses can lead to program termination, such as when writing to addresses that are invalid for the current process.::When the consequence is arbitrary code execution, this can often be used to subvert any other security service.
+24 124::Integrity::Availability::Integrity::Confidentiality::Availability::Access_Control::Other::Access_Control::Other::Modify memory::DoS: crash / exit / restart::Execute unauthorized code or commands::Modify memory::Bypass protection mechanism::Other::Bypass protection mechanism::Other::Out of bounds memory access will very likely result in the corruption of relevant memory, and perhaps instructions, possibly leading to a crash.::If the corrupted memory can be effectively controlled, it may be possible to execute arbitrary code. If the corrupted memory is data rather than instructions, the system will continue to function with improper changes, possibly in violation of an implicit or explicit policy. The consequences would only be limited by how the affected data is used, such as an adjacent memory location that is used to specify whether the user has special privileges.::When the consequence is arbitrary code execution, this can often be used to subvert any other security service.
+25 125::Confidentiality::Read memory
+26 126::Confidentiality::Read memory
+27 127::Confidentiality::Read memory
+28 128::Availability::Integrity::Other::Integrity::Confidentiality::Availability::Access_Control::DoS: crash / exit / restart::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::DoS: instability::Modify memory::Other::Execute unauthorized code or commands::Bypass protection mechanism::Wrap-around errors generally lead to undefined behavior, infinite loops, and therefore crashes.::If the value in question is important to data (as opposed to flow), simple data corruption has occurred. Also, if the wrap around results in other conditions such as buffer overflows, further memory corruption may occur.::A wrap around can sometimes trigger buffer overflows which can be used to execute arbitrary code. This is usually outside the scope of a program's implicit security policy.
+29 129::Integrity::Availability::Integrity::Confidentiality::Integrity::Integrity::Confidentiality::Availability::Integrity::Availability::Confidentiality::DoS: crash / exit / restart::Modify memory::Modify memory::Read memory::Execute unauthorized code or commands::DoS: crash / exit / restart::Execute unauthorized code or commands::Read memory::Modify memory::Use of an index that is outside the bounds of an array will very likely result in the corruption of relevant memory and perhaps instructions, leading to a crash, if the values are outside of the valid memory area.::If the memory corrupted is data, rather than instructions, the system will continue to function with improper values.::Use of an index that is outside the bounds of an array can also trigger out-of-bounds read or write operations, or operations on the wrong objects; i.e., 'buffer overflows' are not always the result. This may result in the exposure or modification of sensitive data.::If the memory accessible by the attacker can be effectively controlled, it may be possible to execute arbitrary code, as with a standard buffer overflow and possibly without the use of large inputs if a precise index can be controlled.::A single fault could allow either an overflow (CWE-788) or underflow (CWE-786) of the array index. What happens next will depend on the type of operation being performed out of bounds, but can expose sensitive information, cause a system crash, or possibly lead to arbitrary code execution.
+30 13::Access_Control::Gain privileges / assume identity
+31 130::Other::Varies by context
+32 131::Integrity::Availability::Confidentiality::DoS: crash / exit / restart::Execute unauthorized code or commands::Read memory::Modify memory::If the incorrect calculation is used in the context of memory allocation, then the software may create a buffer that is smaller or larger than expected. If the allocated buffer is smaller than expected, this could lead to an out-of-bounds read or write (CWE-119), possibly causing a crash, allowing arbitrary code execution, or exposing sensitive data.
+33 134::Confidentiality::Integrity::Confidentiality::Availability::Read memory::Execute unauthorized code or commands::Format string problems allow for information disclosure which can severely simplify exploitation of the program.::Format string problems can result in the execution of arbitrary code.
+34 135::Other::Varies by context
+35 138::Other::Alter execution logic
+36 14::Confidentiality::Read memory
+37 140::Integrity::Unexpected state
+38 141::Integrity::Unexpected state
+39 142::Integrity::Unexpected state
+40 143::Integrity::Unexpected state
+41 144::Integrity::Unexpected state
+42 145::Integrity::Unexpected state
+43 146::Confidentiality::Integrity::Availability::Other::Execute unauthorized code or commands::Alter execution logic
+44 147::Integrity::Unexpected state
+45 148::Integrity::Unexpected state
+46 149::Integrity::Unexpected state
+47 15::Other::Varies by context
+48 150::Integrity::Unexpected state
+49 151::Integrity::Unexpected state
+50 152::Integrity::Unexpected state
+51 153::Integrity::Unexpected state
+52 154::Integrity::Unexpected state
+53 155::Integrity::Unexpected state
+54 156::Integrity::Unexpected state
+55 157::Integrity::Unexpected state
+56 158::Integrity::Unexpected state
+57 159::Integrity::Unexpected state
+58 160::Integrity::Unexpected state
+59 161::Integrity::Unexpected state
+60 162::Integrity::Unexpected state
+61 163::Integrity::Unexpected state
+62 164::Integrity::Unexpected state
+63 165::Integrity::Unexpected state
+64 166::Availability::DoS: crash / exit / restart
+65 167::Integrity::Unexpected state
+66 168::Availability::Access_Control::Non-Repudiation::DoS: crash / exit / restart::Bypass protection mechanism::Hide activities
+67 170::Confidentiality::Integrity::Availability::Confidentiality::Integrity::Availability::Integrity::Availability::Integrity::Confidentiality::Availability::Access_Control::Other::Read memory::Execute unauthorized code or commands::DoS: crash / exit / restart::Read memory::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::Modify memory::DoS: crash / exit / restart::Alter execution logic::Execute unauthorized code or commands::The case of an omitted null character is the most dangerous of the possible issues. This will almost certainly result in information disclosure, and possibly a buffer overflow condition, which may be exploited to execute arbitrary code. ::If a null character is omitted from a string, then most string-copying functions will read data until they locate a null character, even outside of the intended boundaries of the string. This could:::Misplaced null characters may result in any number of security problems. The biggest issue is a subset of buffer overflow, and write-what-where conditions, where data corruption occurs from the writing of a null character over valid data, or even instructions. A randomly placed null character may put the system into an undefined state, and therefore make it prone to crashing. A misplaced null character may corrupt other data in memory.::Should the null character corrupt the process flow, or affect a flag controlling access, it may lead to logical errors which allow for the execution of arbitrary code.
+68 172::Integrity::Unexpected state
+69 173::Access_Control::Bypass protection mechanism
+70 174::Access_Control::Bypass protection mechanism
+71 175::Integrity::Unexpected state
+72 176::Integrity::Unexpected state
+73 177::Integrity::Unexpected state
+74 178::Access_Control::Bypass protection mechanism
+75 179::Access_Control::Bypass protection mechanism
+76 180::Access_Control::Bypass protection mechanism
+77 181::Access_Control::Bypass protection mechanism
+78 182::Access_Control::Bypass protection mechanism
+79 183::Access_Control::Bypass protection mechanism
+80 184::Access_Control::Bypass protection mechanism
+81 185::Access_Control::Bypass protection mechanism::In PHP, regular expression checks can sometimes be bypassed with a null byte, leading to any number of weaknesses.
+82 186::Access_Control::Bypass protection mechanism
+83 187::Integrity::Access_Control::Alter execution logic::Bypass protection mechanism
+84 188::Integrity::Confidentiality::Modify memory::Read memory::Can result in unintended modifications or exposure of sensitive memory.
+85 190::Availability::Integrity::Integrity::Confidentiality::Availability::DoS: crash / exit / restart::DoS: resource consumption (CPU)::Modify memory::Execute unauthorized code or commands::Integer overflows generally lead to undefined behavior and therefore crashes. In the case of overflows involving loop index variables, the likelihood of infinite loops is also high.::If the value in question is important to data (as opposed to flow), simple data corruption may occur. Also, if the integer overflow results in a buffer overflow condition, data corruption may take place.::Integer overflows can sometimes trigger buffer overflows which can be used to execute arbitrary code. This is usually outside the scope of a program's implicit security policy.
+86 191::Integrity::Unexpected state
+87 193::Integrity::Unexpected state
+88 194::Integrity::Confidentiality::Availability::Other::Read memory::Modify memory::Other::When an unexpected sign extension occurs in code that operates directly on memory buffers, such as a size value or a memory index, then it could cause the program to write or read outside the boundaries of the intended buffer. If the numeric value is associated with an application-level resource, such as a quantity or price for a product in an e-commerce site, then the sign extension could produce a value that is much higher (or lower) than the application's allowable range.
+89 195::Integrity::Unexpected state::Conversion between signed and unsigned values can lead to a variety of errors, but from a security standpoint is most commonly associated with integer overflow and buffer overflow vulnerabilities.
+90 196::Availability::Integrity::Integrity::Confidentiality::Availability::Access_Control::DoS: crash / exit / restart::Modify memory::Execute unauthorized code or commands::Bypass protection mechanism::Incorrect sign conversions generally lead to undefined behavior, and therefore crashes.::If a poor cast lead to a buffer overflow or similar condition, data integrity may be affected.::Improper signed-to-unsigned conversions without proper checking can sometimes trigger buffer overflows which can be used to execute arbitrary code. This is usually outside the scope of a program's implicit security policy.
+91 197::Integrity::Modify memory::The true value of the data is lost and corrupted data is used.
+92 198::Integrity::Unexpected state
+93 20::Availability::Confidentiality::Integrity::Confidentiality::Availability::DoS: crash / exit / restart::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::Read memory::Read files or directories::Modify memory::Execute unauthorized code or commands::An attacker could provide unexpected values and cause a program crash or excessive consumption of resources, such as memory and CPU.::An attacker could read confidential data if they are able to control resource references.::An attacker could use malicious input to modify data or possibly alter control flow in unexpected ways, including arbitrary command execution.
+94 200::Confidentiality::Read application data
+95 201::Confidentiality::Read files or directories::Read memory::Read application data::Sensitive data may be exposed to attackers.
+96 202::Confidentiality::Read files or directories::Read application data::Sensitive information may possibly be leaked through data queries accidentally.
+97 203::Confidentiality::Access_Control::Read application data::Bypass protection mechanism
+98 204::Confidentiality::Access_Control::Read application data::Bypass protection mechanism
+99 205::Confidentiality::Access_Control::Read application data::Bypass protection mechanism
+100 206::Confidentiality::Access_Control::Read application data::Bypass protection mechanism
+101 207::Confidentiality::Access_Control::Read application data::Bypass protection mechanism
+102 208::Confidentiality::Access_Control::Read application data::Bypass protection mechanism
+103 209::Confidentiality::Read application data::Often this will either reveal sensitive information which may be used for a later attack or private information stored in the server.
+104 210::Confidentiality::Read application data
+105 211::Confidentiality::Read application data
+106 212::Confidentiality::Read files or directories::Read application data::Sensitive data may be exposed to an unauthorized actor in another control sphere. This may have a wide range of secondary consequences which will depend on what data is exposed. One possibility is the exposure of system data allowing an attacker to craft a specific, more effective attack.
+107 213::Confidentiality::Read application data
+108 214::Confidentiality::Read application data
+109 215::Confidentiality::Read application data
+110 216::Other::Other
+111 219::Confidentiality::Read application data
+112 22::Integrity::Confidentiality::Availability::Integrity::Confidentiality::Availability::Execute unauthorized code or commands::Modify files or directories::Read files or directories::DoS: crash / exit / restart::The attacker may be able to create or overwrite critical files that are used to execute code, such as programs or libraries.::The attacker may be able to overwrite or create critical files, such as programs, libraries, or important data. If the targeted file is used for a security mechanism, then the attacker may be able to bypass that mechanism. For example, appending a new account at the end of a password file may allow an attacker to bypass authentication.::The attacker may be able read the contents of unexpected files and expose sensitive data. If the targeted file is used for a security mechanism, then the attacker may be able to bypass that mechanism. For example, by reading a password file, the attacker could conduct brute force password guessing attacks in order to break into an account on the system.::The attacker may be able to overwrite, delete, or corrupt unexpected critical files such as programs, libraries, or important data. This may prevent the software from working at all and in the case of a protection mechanisms such as authentication, it has the potential to lockout every user of the software.
+113 220::Confidentiality::Read application data
+114 221::Non-Repudiation::Hide activities
+115 222::Non-Repudiation::Hide activities
+116 223::Non-Repudiation::Hide activities
+117 224::Non-Repudiation::Access_Control::Hide activities::Gain privileges / assume identity
+118 226::Confidentiality::Read application data
+119 227::Integrity::Other::Quality degradation::Unexpected state
+120 228::Integrity::Unexpected state
+121 229::Integrity::Unexpected state
+122 23::Confidentiality::Integrity::Read files or directories::Modify files or directories
+123 230::Integrity::Unexpected state
+124 231::Integrity::Unexpected state
+125 232::Integrity::Unexpected state
+126 233::Integrity::Unexpected state
+127 234::Integrity::Confidentiality::Availability::Access_Control::Availability::Execute unauthorized code or commands::Gain privileges / assume identity::DoS: crash / exit / restart::There is the potential for arbitrary code execution with privileges of the vulnerable program if function parameter list is exhausted.::Potentially a program could fail if it needs more arguments then are available.
+128 235::Integrity::Unexpected state
+129 236::Integrity::Unexpected state
+130 237::Integrity::Unexpected state
+131 238::Integrity::Unexpected state
+132 239::Integrity::Other::Varies by context::Unexpected state
+133 24::Confidentiality::Integrity::Read files or directories::Modify files or directories
+134 240::Integrity::Other::Varies by context::Unexpected state
+135 241::Integrity::Other::Varies by context::Unexpected state
+136 242::Other::Varies by context
+137 243::Confidentiality::Read files or directories
+138 244::Confidentiality::Other::Read memory::Other::Be careful using vfork() and fork() in security sensitive code. The process state will not be cleaned up and will contain traces of data from past use.
+139 245::Other::Quality degradation
+140 246::Other::Quality degradation
+141 247::Access_Control::Gain privileges / assume identity::Bypass protection mechanism
+142 248::Availability::DoS: crash / exit / restart
+143 25::Confidentiality::Integrity::Read files or directories::Modify files or directories
+144 250::Confidentiality::Integrity::Availability::Access_Control::Gain privileges / assume identity::Execute unauthorized code or commands::Read application data::DoS: crash / exit / restart::An attacker will be able to gain access to any resources that are allowed by the extra privileges. Common results include executing code, disabling services, and reading restricted data.
+145 252::Availability::Integrity::Unexpected state::DoS: crash / exit / restart::DoS: instability::The data which were produced as a result of a function call could be in a bad state upon return. If the return value is not checked, then this bad data may be used in operations and lead to a crash or other unintended behaviors.
+146 253::Integrity::Other::Other::The data -- which were produced as a result of an improperly checked return value of a function -- could be in a bad state.
+147 256::Access_Control::Gain privileges / assume identity
+148 257::Confidentiality::Access_Control::Access_Control::Gain privileges / assume identity::Gain privileges / assume identity::User's passwords may be revealed.::Revealed passwords may be reused elsewhere to impersonate the users in question.
+149 258::Access_Control::Gain privileges / assume identity
+150 259::Access_Control::Gain privileges / assume identity::If hard-coded passwords are used, it is almost certain that malicious users will gain access through the account in question.
+151 26::Confidentiality::Integrity::Read files or directories::Modify files or directories
+152 260::Access_Control::Gain privileges / assume identity
+153 261::Access_Control::Gain privileges / assume identity
+154 262::Access_Control::Gain privileges / assume identity::As passwords age, the probability that they are compromised grows.
+155 263::Access_Control::Gain privileges / assume identity::As passwords age, the probability that they are compromised grows.
+156 266::Access_Control::Gain privileges / assume identity
+157 267::Access_Control::Gain privileges / assume identity
+158 268::Access_Control::Gain privileges / assume identity
+159 269::Access_Control::Gain privileges / assume identity
+160 27::Confidentiality::Integrity::Read files or directories::Modify files or directories
+161 270::Access_Control::Gain privileges / assume identity
+162 271::Access_Control::Gain privileges / assume identity
+163 272::Access_Control::Confidentiality::Gain privileges / assume identity::Read application data::Read files or directories::An attacker may be able to access resources with the elevated privilege that he should not have been able to access. This is particularly likely in conjunction with another flaw -- e.g., a buffer overflow.
+164 273::Access_Control::Access_Control::Non-Repudiation::Gain privileges / assume identity::Gain privileges / assume identity::Hide activities::If privileges are not dropped, neither are access rights of the user. Often these rights can be prevented from being dropped.::If privileges are not dropped, in some cases the system may record actions as the user which is being impersonated rather than the impersonator.
+165 274::Other::Other::Alter execution logic
+166 276::Confidentiality::Integrity::Read application data::Modify application data
+167 277::Confidentiality::Integrity::Read application data::Modify application data
+168 278::Confidentiality::Integrity::Read application data::Modify application data
+169 279::Confidentiality::Integrity::Read application data::Modify application data
+170 28::Confidentiality::Integrity::Read files or directories::Modify files or directories
+171 280::Other::Other::Alter execution logic
+172 281::Confidentiality::Integrity::Read application data::Modify application data
+173 282::Access_Control::Gain privileges / assume identity
+174 283::Access_Control::Gain privileges / assume identity
+175 284::Other::Varies by context
+176 285::Confidentiality::Integrity::Access_Control::Read application data::Read files or directories::Modify application data::Modify files or directories::Gain privileges / assume identity::An attacker could read sensitive data, either by reading the data directly from a data store that is not properly restricted, or by accessing insufficiently-protected, privileged functionality to read the data.::An attacker could modify sensitive data, either by writing the data directly to a data store that is not properly restricted, or by accessing insufficiently-protected, privileged functionality to write the data.::An attacker could gain privileges by modifying or reading critical data directly, or by accessing insufficiently-protected, privileged functionality.
+177 286::Other::Varies by context
+178 287::Integrity::Confidentiality::Availability::Access_Control::Read application data::Gain privileges / assume identity::Execute unauthorized code or commands::This weakness can lead to the exposure of resources or functionality to unintended actors, possibly providing attackers with sensitive information or even execute arbitrary code.
+179 288::Access_Control::Bypass protection mechanism
+180 289::Access_Control::Bypass protection mechanism
+181 29::Confidentiality::Integrity::Read files or directories::Modify files or directories
+182 290::Access_Control::Bypass protection mechanism::Gain privileges / assume identity
+183 292::Access_Control::Gain privileges / assume identity::Malicious users can fake authentication information by providing false DNS information.
+184 293::Access_Control::Access_Control::Gain privileges / assume identity::Gain privileges / assume identity::Actions, which may not be authorized otherwise, can be carried out as if they were validated by the server referred to.::Actions may be taken in the name of the server referred to.
+185 294::Access_Control::Gain privileges / assume identity::Messages sent with a capture-relay attack allow access to resources which are not otherwise accessible without proper authentication.
+186 296::Non-Repudiation::Integrity::Confidentiality::Availability::Access_Control::Hide activities::Gain privileges / assume identity::Execute unauthorized code or commands::Exploitation of this flaw can lead to the trust of data that may have originated with a spoofed source.::Data, requests, or actions taken by the attacking entity can be carried out as a spoofed benign entity.
+187 297::Access_Control::Authentication::Other::Gain privileges / assume identity::Other::The data read from the system vouched for by the certificate may not be from the expected system.::Trust afforded to the system in question -- based on the expired certificate -- may allow for spoofing or redirection attacks.
+188 298::Integrity::Other::Authentication::Other::Other::Other::The data read from the system vouched for by the expired certificate may be flawed due to malicious spoofing.::Trust afforded to the system in question -- based on the expired certificate -- may allow for spoofing attacks.
+189 299::Access_Control::Integrity::Other::Confidentiality::Gain privileges / assume identity::Other::Read application data::Trust may be assigned to an entity who is not who it claims to be.::Data from an untrusted (and possibly malicious) source may be integrated.::Data may be disclosed to an entity impersonating a trusted entity, resulting in information disclosure.
+190 30::Confidentiality::Integrity::Read files or directories::Modify files or directories
+191 300::Confidentiality::Integrity::Access_Control::Read application data::Modify application data::Gain privileges / assume identity
+192 301::Access_Control::Gain privileges / assume identity::The primary result of reflection attacks is successful authentication with a target machine -- as an impersonated user.
+193 302::Access_Control::Bypass protection mechanism
+194 303::Access_Control::Bypass protection mechanism
+195 304::Access_Control::Bypass protection mechanism
+196 305::Access_Control::Bypass protection mechanism
+197 306::Access_Control::Other::Gain privileges / assume identity::Other:: Exposing critical functionality essentially provides an attacker with the privilege level of that functionality. The consequences will depend on the associated functionality, but they can range from reading or modifying sensitive data, access to administrative or other privileged functionality, or possibly even execution of arbitrary code.
+198 307::Access_Control::Bypass protection mechanism::An attacker could perform an arbitrary number of authentication attempts using different passwords, and eventually gain access to the targeted account.
+199 308::Access_Control::Bypass protection mechanism::If the secret in a single-factor authentication scheme gets compromised, full authentication is possible.
+200 309::Access_Control::Bypass protection mechanism::Gain privileges / assume identity::A password authentication mechanism error will almost always result in attackers being authorized as valid users.
+201 31::Confidentiality::Integrity::Read files or directories::Modify files or directories
+202 311::Confidentiality::Confidentiality::Integrity::Read application data::Modify application data::If the application does not use a secure channel, such as SSL, to exchange sensitive information, it is possible for an attacker with access to the network traffic to sniff packets from the connection and uncover the data. This attack is not technically difficult, but does require physical access to some portion of the network over which the sensitive data travels. This access is usually somewhere near where the user is connected to the network (such as a colleague on the company network) but can be anywhere along the path from the user to the end server.::Omitting the use of encryption in any program which transfers data over a network of any kind should be considered on par with delivering the data sent to each user on the local networks of both the sender and receiver. Worse, this omission allows for the injection of data into a stream of communication between two parties -- with no means for the victims to separate valid data from invalid. In this day of widespread network attacks and password collection sniffers, it is an unnecessary risk to omit encryption from the design of any system which might benefit from it.
+203 312::Confidentiality::Read application data
+204 313::Confidentiality::Read application data
+205 314::Confidentiality::Read application data
+206 315::Confidentiality::Read application data
+207 316::Confidentiality::Read memory
+208 317::Confidentiality::Read memory::Read application data
+209 318::Confidentiality::Read application data
+210 319::Integrity::Confidentiality::Read application data::Modify files or directories::Anyone can read the information by gaining access to the channel being used for communication.
+211 32::Confidentiality::Integrity::Read files or directories::Modify files or directories
+212 321::Access_Control::Bypass protection mechanism::Gain privileges / assume identity::If hard-coded cryptographic keys are used, it is almost certain that malicious users will gain access through the account in question.
+213 322::Access_Control::Confidentiality::Bypass protection mechanism::Read application data::No authentication takes place in this process, bypassing an assumed protection of encryption.::The encrypted communication between a user and a trusted host may be subject to a 'man-in-the-middle' sniffing attack.
+214 323::Access_Control::Bypass protection mechanism::Gain privileges / assume identity::Potentially a replay attack, in which an attacker could send the same data twice, could be crafted if nonces are allowed to be reused. This could allow a user to send a message which masquerades as a valid message from a valid user.
+215 324::Access_Control::Bypass protection mechanism::Gain privileges / assume identity::The cryptographic key in question may be compromised, providing a malicious user with a method for authenticating as the victim.
+216 325::Access_Control::Confidentiality::Bypass protection mechanism::Read application data
+217 326::Access_Control::Confidentiality::Bypass protection mechanism::Read application data::An attacker may be able to decrypt the data using brute force attacks.
+218 327::Confidentiality::Integrity::Accountability::Non-Repudiation::Read application data::Modify application data::Hide activities::The confidentiality of sensitive data may be compromised by the use of a broken or risky cryptographic algorithm.::The integrity of sensitive data may be compromised by the use of a broken or risky cryptographic algorithm.::If the cryptographic algorithm is used to ensure the identity of the source of the data (such as digital signatures), then a broken algorithm will compromise this scheme and the source of the data cannot be proven.
+219 328::Access_Control::Bypass protection mechanism
+220 329::Confidentiality::Other::Integrity::Access_Control::Other::Read application data::Other::Modify application data::Bypass protection mechanism::Other::If the CBC is not properly initialized, data that is encrypted can be compromised and therefore be read.::If the CBC is not properly initialized, encrypted data could be tampered with in transfer.::Cryptographic based authentication systems could be defeated.
+221 33::Confidentiality::Integrity::Read files or directories::Modify files or directories
+222 330::Confidentiality::Other::Access_Control::Other::Access_Control::Other::Bypass protection mechanism::Other::Bypass protection mechanism::Gain privileges / assume identity::When a protection mechanism relies on random values to restrict access to a sensitive resource, such as a session ID or a seed for generating a cryptographic key, then the resource being protected could be accessed by guessing the ID or key.::If software relies on unique, unguessable IDs to identify a resource, an attacker might be able to guess an ID for a resource that is owned by another user. The attacker could then read the resource, or pre-create a resource with the same ID to prevent the legitimate program from properly sending the resource to the intended user. For example, a product might maintain session information in a file whose name is based on a username. An attacker could pre-create this file for a victim user, then set the permissions so that the application cannot generate the session for the victim, preventing the victim from using the application.::When an authorization or authentication mechanism relies on random values to restrict access to restricted functionality, such as a session ID or a seed for generating a cryptographic key, then an attacker may access the restricted functionality by guessing the ID or key.
+223 331::Other::Access_Control::Other::Bypass protection mechanism
+224 332::Availability::Access_Control::Other::DoS: crash / exit / restart::Bypass protection mechanism::Other::If a pseudo-random number generator is using a limited entropy source which runs out (if the generator fails closed), the program may pause or crash.::If a PRNG is using a limited entropy source which runs out, and the generator fails open, the generator could produce predictable random numbers. Potentially a weak source of random numbers could weaken the encryption method used for authentication of users. In this case, potentially a password could be discovered.
+225 333::Availability::DoS: crash / exit / restart::A program may crash or block if it runs out of random numbers.
+226 334::Other::Access_Control::Other::Bypass protection mechanism
+227 335::Other::Access_Control::Other::Bypass protection mechanism
+228 336::Other::Access_Control::Other::Bypass protection mechanism
+229 337::Other::Varies by context
+230 338::Access_Control::Bypass protection mechanism::Potentially a weak source of random numbers could weaken the encryption method used for authentication of users. In this case, a password could potentially be discovered.
+231 339::Other::Varies by context
+232 34::Confidentiality::Integrity::Read files or directories::Modify files or directories
+233 340::Other::Varies by context
+234 341::Other::Varies by context
+235 342::Other::Varies by context
+236 343::Other::Varies by context
+237 344::Other::Varies by context
+238 345::Integrity::Other::Varies by context::Unexpected state
+239 346::Access_Control::Other::Gain privileges / assume identity::Varies by context
+240 347::Integrity::Access_Control::Modify application data::Gain privileges / assume identity
+241 348::Access_Control::Bypass protection mechanism
+242 349::Integrity::Access_Control::Modify application data::Bypass protection mechanism
+243 35::Confidentiality::Integrity::Read files or directories::Modify files or directories
+244 350::Access_Control::Gain privileges / assume identity::Bypass protection mechanism
+245 351::Other::Other
+246 353::Integrity::Other::Non-Repudiation::Other::Other::Hide activities::Other::Data that is parsed and used may be corrupted.::Without a checksum it is impossible to determine if any changes have been made to the data after it was sent.
+247 354::Integrity::Other::Integrity::Other::Non-Repudiation::Other::Modify application data::Other::Other::Hide activities::Other::Integrity checks usually use a secret key that helps authenticate the data origin. Skipping integrity checking generally opens up the possibility that new data from an invalid source can be injected.::Data that is parsed and used may be corrupted.::Without a checksum check, it is impossible to determine if any changes have been made to the data after it was sent.
+248 356::Non-Repudiation::Hide activities
+249 357::Non-Repudiation::Hide activities
+250 358::Access_Control::Bypass protection mechanism
+251 359::Confidentiality::Read application data
+252 36::Confidentiality::Integrity::Read files or directories::Modify files or directories
+253 360::Integrity::Confidentiality::Availability::Access_Control::Gain privileges / assume identity::Execute unauthorized code or commands::If one trusts the system-event information and executes commands based on it, one could potentially take actions based on a spoofed identity.
+254 362::Availability::Availability::Confidentiality::Integrity::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::DoS: resource consumption (other)::DoS: crash / exit / restart::DoS: instability::Read files or directories::Read application data::When a race condition makes it possible to bypass a resource cleanup routine or trigger multiple initialization routines, it may lead to resource exhaustion (CWE-400).::When a race condition allows multiple control flows to access a resource simultaneously, it might lead the program(s) into unexpected states, possibly resulting in a crash.::When a race condition is combined with predictable resource names and loose permissions, it may be possible for an attacker to overwrite or access confidential data (CWE-59).
+255 363::Confidentiality::Integrity::Read files or directories::Modify files or directories
+256 364::Integrity::Confidentiality::Availability::Access_Control::Modify application data::Modify memory::DoS: crash / exit / restart::Execute unauthorized code or commands::Gain privileges / assume identity::It may be possible to cause data corruption and possibly execute arbitrary code by modifying global variables or data structures at unexpected times, violating the assumptions of code that uses this global data.::If a signal handler interrupts code that is executing with privileges, it may be possible that the signal handler will also be executed with elevated privileges, possibly making subsequent exploits more severe.
+257 365::Integrity::Other::Alter execution logic::Unexpected state::This flaw will result in the system state going out of sync.
+258 366::Integrity::Other::Alter execution logic::Unexpected state::The main problem is that -- if a lock is overcome -- data could be altered in a bad state.
+259 367::Integrity::Other::Integrity::Other::Integrity::Other::Non-Repudiation::Non-Repudiation::Other::Alter execution logic::Unexpected state::Modify application data::Modify files or directories::Modify memory::Other::Other::Hide activities::Other::The attacker can gain access to otherwise unauthorized resources.::Race conditions such as this kind may be employed to gain read or write access to resources which are not normally readable or writable by the user in question.::The resource in question, or other resources (through the corrupted one), may be changed in undesirable ways by a malicious user.::If a file or other resource is written in this method, as opposed to in a valid way, logging of the activity may not occur.::In some cases it may be possible to delete files a malicious user might not otherwise have access to, such as log files.
+260 368::Integrity::Confidentiality::Modify application data::Read application data
+261 369::Availability::DoS: crash / exit / restart::A Divide by Zero results in a crash.
+262 37::Confidentiality::Integrity::Read files or directories::Modify files or directories
+263 370::Access_Control::Integrity::Confidentiality::Gain privileges / assume identity::Modify application data::Read application data::Trust may be assigned to an entity who is not who it claims to be.::Data from an untrusted (and possibly malicious) source may be integrated.::Data may be disclosed to an entity impersonating a trusted entity, resulting in information disclosure.
+264 372::Integrity::Other::Varies by context::Unexpected state
+265 374::Integrity::Modify memory::Potentially data could be tampered with by another function which should not have been tampered with.
+266 375::Access_Control::Integrity::Modify memory::Potentially data could be tampered with by another function which should not have been tampered with.
+267 377::Confidentiality::Integrity::Read files or directories::Modify files or directories
+268 378::Confidentiality::Authorization::Other::Integrity::Other::Read application data::Other::Other::If the temporary file can be read by the attacker, sensitive information may be in that file which could be revealed.::If that file can be written to by the attacker, the file might be moved into a place to which the attacker does not have access. This will allow the attacker to gain selective resource access-control privileges.::Depending on the data stored in the temporary file, there is the potential for an attacker to gain an additional input vector which is trusted as non-malicious. It may be possible to make arbitrary changes to data structures, user information, or even process ownership.
+269 379::Confidentiality::Read application data::Since the file is visible and the application which is using the temp file could be known, the attacker has gained information about what the user is doing at that time.
+270 38::Confidentiality::Integrity::Read files or directories::Modify files or directories
+271 382::Availability::DoS: crash / exit / restart
+272 383::Other::Quality degradation
+273 385::Confidentiality::Other::Read application data::Other::Information exposure.
+274 386::Access_Control::Integrity::Confidentiality::Other::Integrity::Other::Non-Repudiation::Non-Repudiation::Integrity::Gain privileges / assume identity::Modify application data::Modify files or directories::Read application data::Read files or directories::Other::Modify application data::Other::Hide activities::Modify files or directories::The attacker can gain access to otherwise unauthorized resources.::Race conditions such as this kind may be employed to gain read or write access to resources not normally readable or writable by the user in question.::The resource in question, or other resources (through the corrupted one) may be changed in undesirable ways by a malicious user.::If a file or other resource is written in this method, as opposed to a valid way, logging of the activity may not occur.::In some cases it may be possible to delete files that a malicious user might not otherwise have access to -- such as log files.
+275 39::Confidentiality::Integrity::Read files or directories::Modify files or directories
+276 390::Integrity::Other::Varies by context::Unexpected state::Alter execution logic
+277 391::Integrity::Other::Varies by context::Unexpected state::Alter execution logic
+278 392::Integrity::Other::Varies by context::Unexpected state
+279 393::Integrity::Other::Unexpected state::Alter execution logic
+280 394::Integrity::Other::Unexpected state::Alter execution logic
+281 395::Availability::DoS: resource consumption (CPU)
+282 396::Non-Repudiation::Other::Hide activities::Alter execution logic
+283 397::Non-Repudiation::Other::Hide activities::Alter execution logic
+284 398::Other::Quality degradation
+285 40::Confidentiality::Integrity::Read files or directories::Modify files or directories
+286 400::Availability::Access_Control::Other::DoS: crash / exit / restart::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::DoS: resource consumption (other)::Bypass protection mechanism::Other::The most common result of resource exhaustion is denial of service. The software may slow down, crash due to unhandled errors, or lock out legitimate users.::In some cases it may be possible to force the software to 'fail open' in the event of resource exhaustion. The state of the software -- and possibly the security functionality - may then be compromised.
+287 401::Availability::DoS: crash / exit / restart::DoS: instability::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::Most memory leaks result in general software reliability problems, but if an attacker can intentionally trigger a memory leak, the attacker might be able to launch a denial of service attack (by crashing or hanging the program) or take advantage of other unexpected program behavior resulting from a low memory condition.
+288 402::Confidentiality::Read application data
+289 403::Confidentiality::Integrity::Read application data::Modify application data
+290 404::Availability::Other::Confidentiality::DoS: resource consumption (other)::Varies by context::Read application data::Most unreleased resource issues result in general software reliability problems, but if an attacker can intentionally trigger a resource leak, the attacker might be able to launch a denial of service attack by depleting the resource pool.::When a resource containing sensitive information is not correctly shutdown, it may expose the sensitive data in a subsequent allocation.
+291 405::Availability::DoS: amplification::DoS: resource consumption (other)::Sometimes this is a factor in 'flood' attacks, but other types of amplification exist.
+292 406::Availability::DoS: amplification
+293 407::Availability::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::DoS: resource consumption (other)::The typical consequence is CPU consumption, but memory consumption and consumption of other resources can also occur.
+294 408::Availability::DoS: amplification
+295 409::Availability::DoS: amplification
+296 41::Access_Control::Bypass protection mechanism
+297 410::Availability::Integrity::Other::DoS: crash / exit / restart::Other::Floods often cause a crash or other problem besides denial of the resource itself; these are likely examples of *other* vulnerabilities, not an insufficient resource pool.
+298 412::Availability::DoS: resource consumption (other)::When an attacker can control a lock, the program may wait indefinitely until the attacker releases the lock, causing a denial of service to other users of the program. This is especially problematic if there is a blocking operation on the lock.
+299 413::Integrity::Availability::Modify application data::DoS: instability::DoS: crash / exit / restart
+300 414::Integrity::Availability::Modify application data::DoS: instability::DoS: crash / exit / restart
+301 415::Integrity::Confidentiality::Availability::Execute unauthorized code or commands::Doubly freeing memory may result in a write-what-where condition, allowing an attacker to execute arbitrary code.
+302 416::Integrity::Availability::Integrity::Confidentiality::Availability::Modify memory::DoS: crash / exit / restart::Execute unauthorized code or commands::The use of previously freed memory may corrupt valid data, if the memory area in question has been allocated and used properly elsewhere.::If chunk consolidation occurs after the use of previously freed data, the process may crash when invalid data is used as chunk information.::If malicious data is entered before chunk consolidation can take place, it may be possible to take advantage of a write-what-where primitive to execute arbitrary code.
+303 419::Access_Control::Gain privileges / assume identity::Bypass protection mechanism
+304 42::Access_Control::Bypass protection mechanism
+305 420::Access_Control::Gain privileges / assume identity::Bypass protection mechanism
+306 421::Access_Control::Gain privileges / assume identity::Bypass protection mechanism
+307 422::Access_Control::Gain privileges / assume identity::Bypass protection mechanism
+308 424::Access_Control::Bypass protection mechanism::Gain privileges / assume identity
+309 425::Confidentiality::Integrity::Availability::Access_Control::Read application data::Modify application data::Execute unauthorized code or commands::Gain privileges / assume identity
+310 427::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+311 428::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+312 43::Confidentiality::Integrity::Read files or directories::Modify files or directories
+313 430::Integrity::Other::Varies by context::Unexpected state
+314 431::Other::Varies by context
+315 432::Integrity::Modify application data
+316 433::Confidentiality::Read application data
+317 434::Integrity::Confidentiality::Availability::Execute unauthorized code or commands:: Arbitrary code execution is possible if an uploaded file is interpreted and executed as code by the recipient. This is especially true for .asp and .php extensions uploaded to web servers because these file types are often treated as automatically executable, even when file system permissions do not specify execution. For example, in Unix environments, programs typically cannot run unless the execute bit is set, but PHP programs may be executed by the web server without directly invoking them on the operating system.
+318 435::Integrity::Other::Unexpected state::Varies by context
+319 436::Integrity::Other::Unexpected state::Varies by context
+320 437::Integrity::Other::Unexpected state::Varies by context
+321 439::Other::Quality degradation::Varies by context
+322 44::Confidentiality::Integrity::Read files or directories::Modify files or directories
+323 440::Other::Quality degradation::Varies by context
+324 441::Non-Repudiation::Access_Control::Gain privileges / assume identity::Hide activities
+325 444::Non-Repudiation::Access_Control::Hide activities::Bypass protection mechanism
+326 446::Other::Varies by context
+327 447::Other::Varies by context
+328 448::Other::Quality degradation::Varies by context
+329 449::Other::Quality degradation::Varies by context
+330 45::Confidentiality::Integrity::Read files or directories::Modify files or directories
+331 450::Other::Varies by context
+332 451::Non-Repudiation::Access_Control::Hide activities::Bypass protection mechanism
+333 453::Integrity::Modify application data
+334 454::Integrity::Modify application data
+335 455::Integrity::Other::Modify application data::Alter execution logic
+336 456::Integrity::Other::Unexpected state::Quality degradation::Varies by context::The uninitialized data may be invalid, causing logic errors within the program. In some cases, this could result in a security problem.
+337 457::Availability::Integrity::Other::Authorization::Other::Other::Other::Initial variables usually contain junk, which can not be trusted for consistency. This can lead to denial of service conditions, or modify control flow in unexpected ways. In some cases, an attacker can 'pre-initialize' the variable using previous actions, which might enable code execution. This can cause a race condition if a lock variable check passes when it should not.::Strings that are not initialized are especially dangerous, since many functions expect a null at the end -- and only at the end -- of a string.
+338 459::Other::Confidentiality::Integrity::Other::Read application data::Modify application data
+339 46::Confidentiality::Integrity::Read files or directories::Modify files or directories
+340 460::Other::Varies by context::The code could be left in a bad state.
+341 462::Other::Quality degradation::Varies by context
+342 463::Availability::Other::Authorization::Other::Other::Other::Generally this error will cause the data structure to not work properly.::If a control character, such as NULL is removed, one may cause resource access control problems.
+343 464::Integrity::Modify application data::Generally this error will cause the data structure to not work properly by truncating the data.
+344 466::Confidentiality::Integrity::Read memory::Modify memory
+345 467::Integrity::Confidentiality::Modify memory::Read memory::This error can often cause one to allocate a buffer that is much smaller than what is needed, leading to resultant weaknesses such as buffer overflows.
+346 468::Confidentiality::Integrity::Read memory::Modify memory::Incorrect pointer scaling will often result in buffer overflow conditions. Confidentiality can be compromised if the weakness is in the context of a buffer over-read or under-read.
+347 469::Access_Control::Integrity::Confidentiality::Availability::Execute unauthorized code or commands::Gain privileges / assume identity::There is the potential for arbitrary code execution with privileges of the vulnerable program.
+348 47::Confidentiality::Integrity::Read files or directories::Modify files or directories
+349 470::Integrity::Confidentiality::Availability::Other::Availability::Other::Confidentiality::Execute unauthorized code or commands::Alter execution logic::DoS: crash / exit / restart::Other::Read application data::The attacker might be able to execute code that is not directly accessible to the attacker. Alternately, the attacker could call unexpected code in the wrong place or the wrong time, possibly modifying critical system state.::The attacker might be able to use reflection to call the wrong code, possibly with unexpected arguments that violate the API (CWE-227). This could cause the application to exit or hang.::By causing the wrong code to be invoked, the attacker might be able to trigger a runtime error that leaks sensitive information in the error message, such as CWE-536.
+350 471::Integrity::Modify application data
+351 472::Integrity::Modify application data::Without appropriate protection mechanisms, the client can easily tamper with cookies and similar web data. Reliance on the cookies without detailed validation can lead to problems such as SQL injection. If you use cookie values for security related decisions on the server side, manipulating the cookies might lead to violations of security policies such as authentication bypassing, user impersonation and privilege escalation. In addition, storing sensitive data in the cookie without appropriate protection can also lead to disclosure of sensitive user data, especially data stored in persistent cookies.
+352 473::Integrity::Modify application data
+353 474::Other::Quality degradation::Varies by context
+354 475::Other::Quality degradation::Varies by context
+355 476::Availability::Integrity::Confidentiality::Availability::DoS: crash / exit / restart::Execute unauthorized code or commands::NULL pointer dereferences usually result in the failure of the process unless exception handling (on some platforms) is available and implemented. Even when exception handling is being used, it can still be very difficult to return the software to a safe state of operation.::In very rare circumstances and environments, code execution is possible.
+356 477::Other::Quality degradation
+357 478::Integrity::Varies by context::Alter execution logic::Depending on the logical circumstances involved, any consequences may result: e.g., issues of confidentiality, authentication, authorization, availability, integrity, accountability, or non-repudiation.
+358 479::Integrity::Confidentiality::Availability::Integrity::Execute unauthorized code or commands::Modify application data::It may be possible to execute arbitrary code through the use of a write-what-where condition.::Signal race conditions often result in data corruption.
+359 48::Confidentiality::Integrity::Read files or directories::Modify files or directories
+360 480::Other::Alter execution logic
+361 481::Other::Alter execution logic
+362 482::Availability::Integrity::Unexpected state::The assignment will not take place, which should cause obvious program execution problems. 
+363 483::Confidentiality::Integrity::Availability::Alter execution logic::This is a general logic error which will often lead to obviously-incorrect behaviors that are quickly noticed and fixed. In lightly tested or untested code, this error may be introduced it into a production environment and provide additional attack vectors by creating a control flow path leading to an unexpected state in the application. The consequences will depend on the types of behaviors that are being incorrectly executed.
+364 484::Other::Alter execution logic
+365 485::Other::Varies by context
+366 486::Integrity::Confidentiality::Availability::Execute unauthorized code or commands::If a program relies solely on the name of an object to determine identity, it may execute the incorrect or unintended code.
+367 487::Confidentiality::Integrity::Read application data::Modify application data::Any data in a Java package can be accessed outside of the Java framework if the package is distributed.::The data in a Java class can be modified by anyone outside of the Java framework if the packages is distributed.
+368 488::Confidentiality::Read application data
+369 489::Confidentiality::Integrity::Availability::Access_Control::Other::Bypass protection mechanism::Read application data::Gain privileges / assume identity::Varies by context::The severity of the exposed debug application will depend on the particular instance. At the least, it will give an attacker sensitive information about the settings and mechanics of web applications on the server. At worst, as is often the case, the debug application will allow an attacker complete control over the web application and server, as well as confidential information that either of these access.
+370 49::Confidentiality::Integrity::Read files or directories::Modify files or directories
+371 491::Integrity::Other::Unexpected state::Varies by context
+372 492::Confidentiality::Read application data::'Inner Classes' data confidentiality aspects can often be overcome.
+373 493::Integrity::Confidentiality::Modify application data::Read application data::The object could potentially be tampered with.::The object could potentially allow the object to be read.
+374 494::Integrity::Availability::Confidentiality::Other::Execute unauthorized code or commands::Alter execution logic::Other::Executing untrusted code could compromise the control flow of the program. The untrusted code could execute attacker-controlled commands, read or modify sensitive resources, or prevent the software from functioning correctly for legitimate users.
+375 495::Integrity::Modify application data
+376 496::Integrity::Modify application data
+377 497::Confidentiality::Read application data
+378 498::Access_Control::Bypass protection mechanism::A class that can be cloned can be produced without executing the constructor. This is dangerous since the constructor may perform security-related checks. By allowing the object to be cloned, those checks may be bypassed.
+379 499::Confidentiality::Read application data::an attacker can write out the class to a byte stream, then extract the important data from it.
+380 5::Confidentiality::Integrity::Read application data::Modify application data
+381 50::Confidentiality::Integrity::Read files or directories::Modify files or directories
+382 500::Integrity::Confidentiality::Modify application data::Read application data::The object could potentially be tampered with.::The object could potentially allow the object to be read.
+383 501::Access_Control::Bypass protection mechanism
+384 502::Availability::Authorization::Other::DoS: resource consumption (CPU)::Other::If a function is making an assumption on when to terminate, based on a sentry in a string, it could easily never terminate.::Code could potentially make the assumption that information in the deserialized object is valid. Functions which make this dangerous assumption could be exploited.
+385 506::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+386 507::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+387 508::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+388 509::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+389 51::Confidentiality::Integrity::Read files or directories::Modify files or directories
+390 510::Confidentiality::Integrity::Availability::Access_Control::Execute unauthorized code or commands::Bypass protection mechanism
+391 511::Other::Integrity::Varies by context::Alter execution logic
+392 512::Confidentiality::Read application data
+393 514::Confidentiality::Access_Control::Read application data::Bypass protection mechanism
+394 515::Confidentiality::Integrity::Confidentiality::Read application data::Read application data::Covert storage channels may provide attackers with important information about the system in question.::If these messages or packets are sent with unnecessary data contained within, it may tip off malicious listeners as to the process that created the message. With this information, attackers may learn any number of things, including the hardware platform, operating system, or algorithms used by the sender. This information can be of significant value to the user in launching further attacks. 
+395 52::Confidentiality::Integrity::Read files or directories::Modify files or directories
+396 520::Access_Control::Gain privileges / assume identity
+397 521::Access_Control::Gain privileges / assume identity
+398 522::Access_Control::Gain privileges / assume identity
+399 523::Access_Control::Gain privileges / assume identity
+400 524::Confidentiality::Read application data
+401 525::Confidentiality::Read application data::Browsers often store information in a client-side cache, which can leave behind sensitive information for other users to find and exploit, such as passwords or credit card numbers. The locations at most risk include public terminals, such as those in libraries and Internet cafes.
+402 526::Confidentiality::Read application data
+403 527::Confidentiality::Read application data::Read files or directories
+404 528::Confidentiality::Read application data::Read files or directories
+405 529::Confidentiality::Access_Control::Read application data::Bypass protection mechanism
+406 53::Confidentiality::Integrity::Read files or directories::Modify files or directories
+407 530::Confidentiality::Read application data::At a minimum, an attacker who retrieves this file would have all the information contained in it, whether that be database calls, the format of parameters accepted by the application, or simply information regarding the architectural structure of your site.
+408 531::Confidentiality::Read application data
+409 532::Confidentiality::Read application data::Logging sensitive user data often provides attackers with an additional, less-protected path to acquiring the information.
+410 533::Confidentiality::Read application data
+411 534::Confidentiality::Read application data
+412 535::Confidentiality::Read application data
+413 536::Confidentiality::Read application data::The error message may contain the location of the file in which the offending function is located. This may disclose the web root's absolute path as well as give the attacker the location of application files or configuration information. It may even disclose the portion of code that failed. In many cases, an attacker can use the data to launch further attacks against the system.
+414 537::Confidentiality::Read application data
+415 538::Confidentiality::Read files or directories
+416 539::Confidentiality::Read application data
+417 54::Confidentiality::Integrity::Read files or directories::Modify files or directories
+418 540::Confidentiality::Read application data
+419 541::Confidentiality::Read application data
+420 542::Confidentiality::Read application data
+421 543::Other::Integrity::Other::Modify application data
+422 544::Integrity::Other::Quality degradation::Unexpected state::Varies by context
+423 545::Other::Confidentiality::Integrity::Availability::Other::Execute unauthorized code or commands
+424 546::Other::Quality degradation
+425 547::Other::Varies by context::Quality degradation
+426 548::Confidentiality::Read files or directories::Exposing the contents of a directory can lead to an attacker gaining access to source code or providing useful information for the attacker to devise exploits, such as creation times of files or any information that may be encoded in file names. The directory listing may also compromise private or confidential data.
+427 549::Access_Control::Bypass protection mechanism
+428 55::Confidentiality::Integrity::Read files or directories::Modify files or directories
+429 550::Confidentiality::Read application data
+430 551::Access_Control::Bypass protection mechanism
+431 552::Confidentiality::Integrity::Read files or directories::Modify files or directories
+432 553::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+433 554::Integrity::Unexpected state::Unchecked input leads to cross-site scripting, process control, and SQL injection vulnerabilities, among others.
+434 555::Access_Control::Bypass protection mechanism
+435 556::Access_Control::Gain privileges / assume identity
+436 558::Integrity::Access_Control::Other::Modify application data::Bypass protection mechanism::Other
+437 56::Confidentiality::Integrity::Read files or directories::Modify files or directories
+438 560::Confidentiality::Integrity::Access_Control::Read files or directories::Modify files or directories::Bypass protection mechanism
+439 561::Other::Other::Dead code can lead to confusion during code maintenance and result in unrepaired vulnerabilities.
+440 562::Availability::DoS: crash / exit / restart
+441 563::Other::Quality degradation
+442 564::Confidentiality::Integrity::Read application data::Modify application data
+443 565::Access_Control::Gain privileges / assume identity::It is dangerous to use cookies to set a user's privileges. The cookie can be manipulated to escalate an attacker's privileges to an administrative level.
+444 566::Confidentiality::Integrity::Access_Control::Read application data::Modify application data::Bypass protection mechanism
+445 567::Confidentiality::Integrity::Availability::Read application data::Modify application data::DoS: instability::DoS: crash / exit / restart::If the shared variable contains sensitive data, it may be manipulated or displayed in another user session. If this data is used to control the application, its value can be manipulated to cause the application to crash or perform poorly.
+446 568::Other::Quality degradation
+447 57::Confidentiality::Integrity::Read files or directories::Modify files or directories
+448 570::Other::Quality degradation::Varies by context
+449 571::Other::Quality degradation::Varies by context
+450 572::Other::Quality degradation::Varies by context
+451 573::Other::Quality degradation::Varies by context
+452 574::Other::Quality degradation
+453 575::Other::Quality degradation
+454 576::Other::Quality degradation
+455 577::Other::Quality degradation
+456 578::Confidentiality::Integrity::Availability::Other::Execute unauthorized code or commands::Varies by context
+457 579::Other::Quality degradation
+458 58::Confidentiality::Integrity::Read files or directories::Modify files or directories
+459 580::Integrity::Other::Unexpected state::Quality degradation
+460 581::Integrity::Other::Other::If this invariant is not upheld, it is likely to cause trouble if objects of this class are stored in a collection. If the objects of the class in question are used as a key in a Hashtable or if they are inserted into a Map or Set, it is critical that equal objects have equal hashcodes.
+461 582::Integrity::Modify application data
+462 583::Confidentiality::Integrity::Availability::Alter execution logic::Execute unauthorized code or commands::Modify application data
+463 584::Other::Alter execution logic
+464 585::Other::Other::An empty synchronized block will wait until nobody else is using the synchronizer being specified. While this may be part of the desired behavior, because you haven't protected the subsequent code by placing it inside the synchronized block, nothing is stopping somebody else from modifying whatever it was you were waiting for while you run the subsequent code.
+465 586::Integrity::Other::Unexpected state::Quality degradation
+466 587::Integrity::Confidentiality::Availability::Availability::Confidentiality::Integrity::Execute unauthorized code or commands::DoS: crash / exit / restart::Read memory::Modify memory::If one executes code at a known location, an attacker might be able to inject code there beforehand.::If the code is ported to another platform or environment, the pointer is likely to be invalid and cause a crash.::The data at a known pointer location can be easily read or influenced by an attacker.
+467 588::Integrity::Availability::Modify memory::DoS: crash / exit / restart::Adjacent variables in memory may be corrupted by assignments performed on fields after the cast.::Execution may end due to a memory access error.
+468 589::Other::Quality degradation
+469 59::Confidentiality::Integrity::Read files or directories::Modify files or directories
+470 590::Integrity::Confidentiality::Availability::Execute unauthorized code or commands::Modify memory::There is the potential for arbitrary code execution with privileges of the vulnerable program via a 'write, what where' primitive.
+471 591::Confidentiality::Read application data::Read memory::Sensitive data that is written to a swap file may be exposed.
+472 592::Access_Control::Bypass protection mechanism::Gain privileges / assume identity
+473 593::Access_Control::Confidentiality::Bypass protection mechanism::Read application data::No authentication takes place in this process, bypassing an assumed protection of encryption.::The encrypted communication between a user and a trusted host may be subject to a 'man in the middle' sniffing attack.
+474 594::Integrity::Availability::Modify application data::DoS: crash / exit / restart::Data represented by unserializable objects can be corrupted.::Non-serializability of objects can lead to system crash.
+475 595::Other::Other
+476 596::Other::Other
+477 597::Other::Other
+478 598::Confidentiality::Read application data::At a minimum, attackers can garner information from query strings that can be utilized in escalating their method of attack, such as information about the internal workings of the application or database column names. Successful exploitation of query string parameter vulnerabilities could lead to an attacker impersonating a legitimate user, obtaining proprietary data, or simply executing actions not intended by the application developers.
+479 599::Confidentiality::Access_Control::Access_Control::Read application data::Bypass protection mechanism::Gain privileges / assume identity::Gain privileges / assume identity::The data read may not be properly secured, it might be viewed by an attacker.::Trust afforded to the system in question may allow for spoofing or redirection attacks.::If the certificate is not checked, it may be possible for a redirection or spoofing attack to allow a malicious host with a valid certificate to provide data under the guise of a trusted host. While the attacker in question may have a valid certificate, it may simply be a valid certificate for a different site. In order to ensure data integrity, we must check that the certificate is valid, and that it pertains to the site we wish to access.
+480 6::Access_Control::Gain privileges / assume identity::If an attacker can guess an authenticated user's session identifier, they can take over the user's session. 
+481 600::Confidentiality::Availability::Read application data::DoS: crash / exit / restart
+482 601::Access_Control::Access_Control::Confidentiality::Other::Bypass protection mechanism::Gain privileges / assume identity::Bypass protection mechanism::Gain privileges / assume identity::Other:: The user may be redirected to an untrusted page that contains malware which may then compromise the user's machine. This will expose the user to extensive risk and the user's interaction with the web server may also be compromised if the malware conducts keylogging or other attacks that steal credentials, personally identifiable information (PII), or other important data. :: The user may be subjected to phishing attacks by being redirected to an untrusted page. The phishing attack may point to an attacker controlled web page that appears to be a trusted web site. The phishers may then steal the user's credentials and then use these credentials to access the legitimate web site.
+483 602::Access_Control::Availability::Access_Control::Bypass protection mechanism::DoS: crash / exit / restart::Bypass protection mechanism::Gain privileges / assume identity::Client-side validation checks can be easily bypassed, allowing malformed or unexpected input to pass into the application, potentially as trusted data. This may lead to unexpected states, behaviors and possibly a resulting crash.::Client-side checks for authentication can be easily bypassed, allowing clients to escalate their access levels and perform unintended actions.
+484 603::Access_Control::Bypass protection mechanism::Gain privileges / assume identity
+485 605::Confidentiality::Integrity::Read application data::Packets from a variety of network services may be stolen or the services spoofed.
+486 606::Availability::DoS: resource consumption (CPU)
+487 607::Integrity::Modify application data
+488 608::Integrity::Confidentiality::Modify application data::Read application data
+489 609::Integrity::Other::Modify application data::Alter execution logic
+490 610::Confidentiality::Integrity::Read application data::Modify application data
+491 611::Confidentiality::Read application data
+492 612::Confidentiality::Read application data
+493 613::Access_Control::Bypass protection mechanism
+494 614::Confidentiality::Read application data
+495 615::Confidentiality::Read application data
+496 616::Confidentiality::Integrity::Read files or directories::Modify files or directories
+497 617::Availability::DoS: crash / exit / restart
+498 618::Other::Other
+499 619::Confidentiality::Integrity::Read application data::Modify application data
+500 62::Confidentiality::Integrity::Read files or directories::Modify files or directories
+501 620::Access_Control::Bypass protection mechanism::Gain privileges / assume identity
+502 621::Integrity::Modify application data
+503 622::Integrity::Unexpected state
+504 623::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+505 624::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+506 625::Access_Control::Bypass protection mechanism
+507 626::Integrity::Unexpected state
+508 627::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+509 628::Other::Quality degradation
+510 636::Access_Control::Bypass protection mechanism::Intended access restrictions can be bypassed, which is often contradictory to what the product's administrator expects.
+511 637::Other::Other
+512 638::Integrity::Confidentiality::Availability::Access_Control::Other::Gain privileges / assume identity::Execute unauthorized code or commands::Bypass protection mechanism::Read application data::Other::A user might retain access to a critical resource even after privileges have been revoked, possibly allowing access to privileged functionality or sensitive information, depending on the role of the resource.
+513 639::Access_Control::Access_Control::Access_Control::Bypass protection mechanism::Gain privileges / assume identity::Gain privileges / assume identity::Access control checks for specific user data or functionality can be bypassed.::Horizontal escalation of privilege is possible (one user can view/modify information of another user).::Vertical escalation of privilege is possible if the user controlled key is actually an admin flag allowing to gain administrative access.
+514 64::Confidentiality::Integrity::Read files or directories::Modify files or directories
+515 640::Access_Control::Availability::Integrity::Other::Gain privileges / assume identity::DoS: resource consumption (other)::Other::An attacker could gain unauthorized access to the system by retrieving legitimate user's authentication credentials.::An attacker could deny service to legitimate system users by launching a brute force attack on the password recovery mechanism using user ids of legitimate users.::The system's security functionality is turned against the system by the attacker.
+516 641::Integrity::Confidentiality::Availability::Confidentiality::Availability::Execute unauthorized code or commands::Read application data::DoS: crash / exit / restart::Execution of arbitrary code in the context of usage of the resources with dangerous names.::Crash of the consumer code of these resources resulting in information leakage or denial of service.
+517 642::Access_Control::Confidentiality::Availability::Bypass protection mechanism::Gain privileges / assume identity::Read application data::DoS: crash / exit / restart::An attacker could potentially modify the state in malicious ways. If the state is related to the privileges or level of authentication that the user has, then state modification might allow the user to bypass authentication or elevate privileges.::The state variables may contain sensitive information that should not be known by the client.::By modifying state variables, the attacker could violate the application's expectations for the contents of the state, leading to a denial of service due to an unexpected error condition.
+518 643::Access_Control::Confidentiality::Bypass protection mechanism::Read application data::Controlling application flow (e.g. bypassing authentication).::The attacker could read restricted XML content.
+519 644::Integrity::Confidentiality::Availability::Confidentiality::Execute unauthorized code or commands::Read application data::Run arbitrary code.::Attackers may be able to obtain sensitive information.
+520 645::Availability::DoS: resource consumption (other)::Users could be locked out of accounts.
+521 646::Confidentiality::Availability::Access_Control::Read application data::DoS: crash / exit / restart::Gain privileges / assume identity::An attacker may be able to read sensitive data.::An attacker may be able to cause a denial of service.::An attacker may be able to gain privileges.
+522 647::Access_Control::Confidentiality::Bypass protection mechanism::Read files or directories::An attacker may be able to bypass the authorization mechanism to gain access to the otherwise-protected URL.::If a non-canonical URL is used, the server may choose to return the contents of the file, instead of pre-processing the file (e.g. as a program).
+523 648::Access_Control::Confidentiality::Integrity::Confidentiality::Availability::Gain privileges / assume identity::Read application data::Execute unauthorized code or commands::An attacker may be able to elevate privileges.::An attacker may be able to obtain sensitive information.::An attacker may be able to execute code.
+524 649::Integrity::Unexpected state::The inputs could be modified without detection, causing the software to have unexpected system state or make incorrect security decisions.
+525 65::Confidentiality::Integrity::Read files or directories::Modify files or directories
+526 650::Access_Control::Integrity::Confidentiality::Gain privileges / assume identity::Modify application data::Read application data::An attacker could escalate privileges.::An attacker could modify resources.::An attacker could obtain sensitive information.
+527 651::Confidentiality::Read application data::The attacker may find sensitive information located in the WSDL file.
+528 652::Confidentiality::Read application data::An attacker might be able to read sensitive information from the XML database.
+529 653::Access_Control::Gain privileges / assume identity::Bypass protection mechanism::The exploitation of a weakness in low-privileged areas of the software can be leveraged to reach higher-privileged areas without having to overcome any additional obstacles.
+530 654::Access_Control::Non-Repudiation::Gain privileges / assume identity::Hide activities::If the single factor is compromised (e.g. by theft or spoofing), then the integrity of the entire security mechanism can be violated with respect to the user that is identified by that factor.::It can become difficult or impossible for the product to be able to distinguish between legitimate activities by the entity who provided the factor, versus illegitimate activities by an attacker.
+531 655::Access_Control::Bypass protection mechanism::By bypassing the security mechanism, a user might leave the system in a less secure state than intended by the administrator, making it more susceptible to compromise.
+532 656::Confidentiality::Integrity::Availability::Other::Other::The security mechanism can be bypassed easily.
+533 657::Other::Other
+534 66::Other::Other
+535 662::Integrity::Confidentiality::Other::Modify application data::Read application data::Alter execution logic
+536 663::Integrity::Confidentiality::Other::Modify application data::Read application data::Alter execution logic
+537 664::Other::Other
+538 665::Confidentiality::Access_Control::Availability::Read memory::Read application data::Bypass protection mechanism::DoS: crash / exit / restart::When reusing a resource such as memory or a program variable, the original contents of that resource may not be cleared before it is sent to an untrusted party.::If security-critical decisions rely on a variable having a '0' or equivalent value, and the programming language performs this initialization on behalf of the programmer, then a bypass of security may occur.::The uninitialized data may contain values that cause program flow to change in ways that the programmer did not intend. For example, if an uninitialized variable is used as an array index in C, then its previous contents may produce an index that is outside the range of the array, possibly causing a crash or an exit in other environments.
+539 666::Other::Other
+540 667::Availability::DoS: resource consumption (CPU)::Inconsistent locking discipline can lead to deadlock.
+541 668::Confidentiality::Integrity::Other::Read application data::Modify application data::Other
+542 669::Confidentiality::Integrity::Read application data::Modify application data::Unexpected state
+543 67::Availability::Confidentiality::Other::DoS: crash / exit / restart::Read application data::Other
+544 670::Other::Other::Alter execution logic
+545 671::Other::Varies by context
+546 672::Other::Availability::Integrity::Confidentiality::Other::DoS: crash / exit / restart::Modify application data::Read application data
+547 673::Other::Other
+548 674::Availability::Confidentiality::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::Read application data::Resources including CPU, memory, and stack memory could be rapidly consumed or exhausted, eventually leading to an exit or crash.::In some cases, an application's interpreter might kill a process or thread that appears to be consuming too much resources, such as with PHP's memory_limit setting. When the interpreter kills the process/thread, it might report an error containing detailed information such as the application's installation path.
+549 675::Other::Other
+550 676::Other::Varies by context::Quality degradation::Unexpected state::If the function is used incorrectly, then it could result in security problems.
+551 681::Other::Integrity::Unexpected state::Quality degradation::The program could wind up using the wrong number and generate incorrect results. If the number is used to allocate resources or make a security decision, then this could introduce a vulnerability.
+552 682::Availability::Integrity::Confidentiality::Availability::Access_Control::Access_Control::DoS: crash / exit / restart::DoS: crash / exit / restart::DoS: resource consumption (other)::Execute unauthorized code or commands::Gain privileges / assume identity::Bypass protection mechanism::If the incorrect calculation causes the program to move into an unexpected state, it may lead to a crash or impairment of service.::If the incorrect calculation is used in the context of resource allocation, it could lead to an out-of-bounds operation (CWE-119) leading to a crash or even arbitrary code execution. Alternatively, it may result in an integer overflow (CWE-190) and / or a resource consumption problem (CWE-400).::In the context of privilege or permissions assignment, an incorrect calculation can provide an attacker with access to sensitive resources.::If the incorrect calculation leads to an insufficient comparison (CWE-697), it may compromise a protection mechanism such as a validation routine and allow an attacker to bypass the security-critical code.
+553 683::Other::Quality degradation
+554 684::Other::Quality degradation
+555 685::Other::Quality degradation
+556 686::Other::Quality degradation
+557 687::Other::Quality degradation
+558 688::Other::Quality degradation
+559 69::Access_Control::Non-Repudiation::Other::Bypass protection mechanism::Hide activities::Other
+560 691::Other::Alter execution logic
+561 693::Access_Control::Bypass protection mechanism
+562 694::Other::Quality degradation
+563 695::Other::Other
+564 696::Integrity::Alter execution logic
+565 697::Other::Other
+566 698::Other::Confidentiality::Integrity::Availability::Alter execution logic::Execute unauthorized code or commands
+567 7::Confidentiality::Read application data
+568 703::Confidentiality::Availability::Integrity::Read application data::DoS: crash / exit / restart::Unexpected state
+569 704::Other::Other
+570 705::Other::Alter execution logic::Other
+571 706::Confidentiality::Integrity::Read application data::Modify application data
+572 707::Other::Other
+573 708::Confidentiality::Integrity::Read application data::Modify application data
+574 71::Confidentiality::Integrity::Read files or directories::Modify files or directories
+575 710::Other::Other
+576 72::Confidentiality::Integrity::Read files or directories::Modify files or directories
+577 73::Integrity::Confidentiality::Integrity::Confidentiality::Availability::Availability::Read files or directories::Modify files or directories::Modify files or directories::Execute unauthorized code or commands::DoS: crash / exit / restart::DoS: resource consumption (other)::The application can operate on unexpected files. Confidentiality is violated when the targeted filename is not directly readable by the attacker. ::The application can operate on unexpected files. This may violate integrity if the filename is written to, or if the filename is for a program or other form of executable code.::The application can operate on unexpected files. Availability can be violated if the attacker specifies an unexpected file that the application modifies. Availability can also be affected if the attacker specifies a filename for a large file, or points to a special device or a file that does not have the format that the application expects.
+578 732::Confidentiality::Access_Control::Integrity::Other::Read application data::Read files or directories::Gain privileges / assume identity::Modify application data::Other::An attacker may be able to read sensitive information from the associated resource, such as credentials or configuration information stored in a file.::An attacker may be able to modify critical properties of the associated resource to gain privileges, such as replacing a world-writable executable with a Trojan horse.::An attacker may be able to destroy or corrupt critical data in the associated resource, such as deletion of records from a database.
+579 733::Access_Control::Other::Bypass protection mechanism::Other
+580 74::Confidentiality::Access_Control::Other::Integrity::Other::Non-Repudiation::Read application data::Bypass protection mechanism::Alter execution logic::Other::Hide activities::Many injection attacks involve the disclosure of important information -- in terms of both data sensitivity and usefulness in further exploitation.::In some cases, injectable code controls authentication; this may lead to a remote vulnerability.::Injection attacks are characterized by the ability to significantly change the flow of a given process, and in some cases, to the execution of arbitrary code.::Data injection attacks lead to loss of data integrity in nearly all cases as the control-plane data injected is always incidental to data recall or writing.::Often the actions performed by injected control code are unlogged.
+581 749::Integrity::Confidentiality::Availability::Access_Control::Other::Gain privileges / assume identity::Read application data::Modify application data::Execute unauthorized code or commands::Other:: Exposing critical functionality essentially provides an attacker with the privilege level of the exposed functionality. This could result in the modification or exposure of sensitive data or possibly even execution of arbitrary code. 
+582 75::Integrity::Confidentiality::Availability::Modify application data::Execute unauthorized code or commands
+583 754::Integrity::Availability::DoS: crash / exit / restart::Unexpected state::The data which were produced as a result of a function call could be in a bad state upon return. If the return value is not checked, then this bad data may be used in operations, possibly leading to a crash or other unintended behaviors.
+584 755::Other::Other
+585 756::Confidentiality::Read application data
+586 757::Access_Control::Bypass protection mechanism
+587 758::Other::Other
+588 759::Access_Control::Bypass protection mechanism::Gain privileges / assume identity::If an attacker can gain access to the hashes, then the lack of a salt makes it easier to conduct brute force attacks using techniques such as rainbow tables.
+589 76::Other::Other
+590 760::Access_Control::Bypass protection mechanism
+591 761::Integrity::Availability::Confidentiality::Modify memory::DoS: crash / exit / restart::Execute unauthorized code or commands
+592 762::Integrity::Availability::Confidentiality::Modify memory::DoS: crash / exit / restart::Execute unauthorized code or commands
+593 763::Integrity::Availability::Confidentiality::Modify memory::DoS: crash / exit / restart::Execute unauthorized code or commands
+594 764::Availability::Integrity::DoS: resource consumption (CPU)::DoS: crash / exit / restart::Unexpected state
+595 765::Availability::Integrity::DoS: crash / exit / restart::Modify memory::Unexpected state
+596 766::Integrity::Confidentiality::Read application data::Modify application data:: Making a critical variable public allows anyone with access to the object in which the variable is contained to alter or read the value.
+						
+597 767::Integrity::Other::Modify application data::Other
+598 
+599 77::Integrity::Confidentiality::Availability::Integrity::Confidentiality::Availability::Execute unauthorized code or commands::Execute unauthorized code or commands::Command injection allows for the execution of arbitrary commands and code by the attacker.:: If a malicious user injects a character (such as a semi-colon) that delimits the end of one command and the beginning of another, it may be possible to then insert an entirely new and unrelated command that was not intended to be executed. 
+600 770::Availability::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::DoS: resource consumption (other)::When allocating resources without limits, an attacker could prevent other systems, applications, or processes from accessing the same type of resource.
+601 771::Availability::DoS: resource consumption (other)::When allocating resources without limits, an attacker could prevent all other processes from accessing the same type of resource.
+602 772::Availability::DoS: resource consumption (other)::When allocating resources without limits, an attacker could prevent all other processes from accessing the same type of resource.
+603 773::Availability::DoS: resource consumption (other)::When allocating resources without limits, an attacker could prevent all other processes from accessing the same type of resource.
+604 774::Availability::DoS: resource consumption (other)::When allocating resources without limits, an attacker could prevent all other processes from accessing the same type of resource.
+605 775::Availability::DoS: resource consumption (other)::When allocating resources without limits, an attacker could prevent all other processes from accessing the same type of resource.
+606 776::Availability::DoS: resource consumption (other)::If parsed, recursive entity references allow the attacker to expand data exponentially, quickly consuming all system resources.
+607 777::Availability::Confidentiality::Access_Control::Bypass protection mechanism::An unanchored regular expression in the context of a whitelist will possibly result in a protection mechanism failure, allowing malicious or malformed data to enter trusted regions of the program. The specific consequences will depend on what functionality the whitelist was protecting.
+608 778::Non-Repudiation::Hide activities::If security critical information is not recorded, there will be no trail for forensic analysis and discovering the cause of problems or the source of attacks may become more difficult or impossible.
+609 779::Availability::Non-Repudiation::Non-Repudiation::DoS: resource consumption (CPU)::DoS: resource consumption (other)::Hide activities::Hide activities::Log files can become so large that they consume excessive resources, such as disk and CPU, which can hinder the performance of the system.::Logging too much information can make the log files of less use to forensics analysts and developers when trying to diagnose a problem or recover from an attack.::If system administrators are unable to effectively process log files, attempted attacks may go undetected, possibly leading to eventual system compromise.
+610 78::Confidentiality::Integrity::Availability::Non-Repudiation::Execute unauthorized code or commands::DoS: crash / exit / restart::Read files or directories::Modify files or directories::Read application data::Modify application data::Hide activities::Attackers could execute unauthorized commands, which could then be used to disable the software, or read and modify data for which the attacker does not have permissions to access directly. Since the targeted application is directly executing the commands instead of the attacker, any malicious activities may appear to come from the application or the application's owner.
+611 780::Access_Control::Bypass protection mechanism::Without OAEP in RSA encryption, it will take less work for an attacker to decrypt the data or to infer patterns from the ciphertext.
+612 781::Integrity::Availability::Confidentiality::Modify memory::Read memory::Execute unauthorized code or commands::DoS: crash / exit / restart::An attacker may be able to access memory that belongs to another process or user. If the attacker can control the contents that the IOCTL writes, it may lead to code execution at high privilege levels. At the least, a crash can occur.
+613 
+614 783::Confidentiality::Integrity::Availability::Varies by context::Unexpected state::The consequences will vary based on the context surrounding the incorrect precedence. In a security decision, integrity or confidentiality are the most likely results. Otherwise, a crash may occur due to the software reaching an unexpected state.
+615 784::Access_Control::Bypass protection mechanism::Gain privileges / assume identity::It is dangerous to use cookies to set a user's privileges. The cookie can be manipulated to claim a high level of authorization, or to claim that successful authentication has occurred.
+616 785::Integrity::Confidentiality::Availability::Modify memory::Execute unauthorized code or commands::DoS: crash / exit / restart
+617 786::Confidentiality::Integrity::Availability::Read memory::Modify memory::DoS: crash / exit / restart::Execute unauthorized code or commands
+618 787::Integrity::Availability::Confidentiality::Modify memory::DoS: crash / exit / restart::Execute unauthorized code or commands
+619 788::Confidentiality::Integrity::Availability::Read memory::Modify memory::DoS: crash / exit / restart::Execute unauthorized code or commands
+620 789::Availability::DoS: resource consumption (memory)::Not controlling memory allocation can result in a request for too much system memory, possibly leading to a crash of the application due to out-of-memory conditions, or the consumption of a large amount of memory on the system.
+621 79::Access_Control::Confidentiality::Integrity::Confidentiality::Availability::Confidentiality::Integrity::Availability::Access_Control::Bypass protection mechanism::Read application data::Execute unauthorized code or commands::Execute unauthorized code or commands::Bypass protection mechanism::Read application data::The most common attack performed with cross-site scripting involves the disclosure of information stored in user cookies. Typically, a malicious user will craft a client-side script, which -- when parsed by a web browser -- performs some activity (such as sending all site cookies to a given E-mail address). This script will be loaded and run by each user visiting the web site. Since the site requesting to run the script has access to the cookies in question, the malicious script does also.::In some circumstances it may be possible to run arbitrary code on a victim's computer when cross-site scripting is combined with other flaws.::The consequence of an XSS attack is the same regardless of whether it is stored or reflected. The difference is in how the payload arrives at the server.
+622 790::Integrity::Unexpected state
+623 791::Integrity::Unexpected state
+624 792::Integrity::Unexpected state
+625 793::Integrity::Unexpected state
+626 794::Integrity::Unexpected state
+627 795::Integrity::Unexpected state
+628 796::Integrity::Unexpected state
+629 797::Integrity::Unexpected state
+630 798::Access_Control::Integrity::Confidentiality::Availability::Access_Control::Other::Bypass protection mechanism::Read application data::Gain privileges / assume identity::Execute unauthorized code or commands::Other::If hard-coded passwords are used, it is almost certain that malicious users will gain access to the account in question.::This weakness can lead to the exposure of resources or functionality to unintended actors, possibly providing attackers with sensitive information or even execute arbitrary code.
+631 799::Availability::Access_Control::Other::DoS: resource consumption (other)::Bypass protection mechanism::Other
+632 8::Confidentiality::Integrity::Read application data::Modify application data
+633 80::Confidentiality::Integrity::Availability::Read application data::Execute unauthorized code or commands
+634 804::Access_Control::Other::Bypass protection mechanism::Other::When authorization, authentication, or another protection mechanism relies on CAPTCHA entities to ensure that only human actors can access certain functionality, then an automated attacker such as a bot may access the restricted functionality by guessing the CAPTCHA.
+635 805::Integrity::Confidentiality::Availability::Availability::Execute unauthorized code or commands::DoS: crash / exit / restart::DoS: resource consumption (CPU)::Buffer overflows often can be used to execute arbitrary code, which is usually outside the scope of a program's implicit security policy. This can often be used to subvert any other security service.::Buffer overflows generally lead to crashes. Other attacks leading to lack of availability are possible, including putting the program into an infinite loop.
+636 806::Availability::Integrity::Confidentiality::Availability::Access_Control::DoS: crash / exit / restart::DoS: resource consumption (CPU)::Execute unauthorized code or commands::Bypass protection mechanism::Buffer overflows generally lead to crashes. Other attacks leading to lack of availability are possible, including putting the program into an infinite loop.::Buffer overflows often can be used to execute arbitrary code, which is usually outside the scope of a program's implicit security policy.::When the consequence is arbitrary code execution, this can often be used to subvert any other security service.
+637 807::Confidentiality::Access_Control::Availability::Other::Bypass protection mechanism::Gain privileges / assume identity::Varies by context::Attackers can bypass the security decision to access whatever is being protected. The consequences will depend on the associated functionality, but they can range from granting additional privileges to untrusted users to bypassing important security checks. Ultimately, this weakness may lead to exposure or modification of sensitive data, system crash, or execution of arbitrary code.
+638 81::Confidentiality::Integrity::Availability::Read application data::Execute unauthorized code or commands
+639 82::Confidentiality::Integrity::Availability::Read application data::Execute unauthorized code or commands
+640 820::Integrity::Confidentiality::Other::Modify application data::Read application data::Alter execution logic
+641 821::Integrity::Confidentiality::Other::Modify application data::Read application data::Alter execution logic
+642 822::Confidentiality::Availability::Integrity::Confidentiality::Availability::Read memory::DoS: crash / exit / restart::Execute unauthorized code or commands::Modify memory::If the untrusted pointer is used in a read operation, an attacker might be able to read sensitive portions of memory.::If the untrusted pointer references a memory location that is not accessible to the program, or points to a location that is 'malformed' or larger than expected by a read or write operation, the application may terminate unexpectedly.::If the untrusted pointer is used in a function call, or points to unexpected data in a write operation, then code execution may be possible.
+643 823::Confidentiality::Availability::Integrity::Confidentiality::Availability::Read memory::DoS: crash / exit / restart::Execute unauthorized code or commands::Modify memory::If the untrusted pointer is used in a read operation, an attacker might be able to read sensitive portions of memory.::If the untrusted pointer references a memory location that is not accessible to the program, or points to a location that is 'malformed' or larger than expected by a read or write operation, the application may terminate unexpectedly.::If the untrusted pointer is used in a function call, or points to unexpected data in a write operation, then code execution may be possible.
+644 824::Confidentiality::Availability::Integrity::Confidentiality::Availability::Read memory::DoS: crash / exit / restart::Execute unauthorized code or commands::If the uninitialized pointer is used in a read operation, an attacker might be able to read sensitive portions of memory.::If the uninitialized pointer references a memory location that is not accessible to the program, or points to a location that is 'malformed' (such as NULL) or larger than expected by a read or write operation, then a crash may occur.::If the uninitialized pointer is used in a function call, or points to unexpected data in a write operation, then code execution may be possible.
+645 825::Confidentiality::Availability::Integrity::Confidentiality::Availability::Read memory::DoS: crash / exit / restart::Execute unauthorized code or commands::If the expired pointer is used in a read operation, an attacker might be able to control data read in by the application.::If the expired pointer references a memory location that is not accessible to the program, or points to a location that is 'malformed' (such as NULL) or larger than expected by a read or write operation, then a crash may occur.::If the expired pointer is used in a function call, or points to unexpected data in a write operation, then code execution may be possible.
+646 826::Confidentiality::Availability::Integrity::Confidentiality::Availability::Read application data::Read memory::DoS: crash / exit / restart::Execute unauthorized code or commands::Modify application data::Modify memory::If the released resource is subsequently reused or reallocated, then a read operation on the original resource might access sensitive data that is associated with a different user or entity.::When the resource is released, the software might modify some of its structure, or close associated channels (such as a file descriptor). When the software later accesses the resource as if it is valid, the resource might not be in an expected state, leading to resultant errors that may lead to a crash.::When the resource is released, the software might modify some of its structure. This might affect program logic in the sections of code that still assume the resource is active.
+647 827::Confidentiality::Availability::Integrity::Confidentiality::Availability::Access_Control::Read files or directories::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::Execute unauthorized code or commands::Gain privileges / assume identity:: If the attacker is able to include a crafted DTD and a default entity resolver is enabled, the attacker may be able to access arbitrary files on the system. ::The DTD may cause the parser to consume excessive CPU cycles or memory using techniques such as nested or recursive entity references (CWE-776).::The DTD may include arbitrary HTTP requests that the server may execute. This could lead to other attacks leveraging the server's trust relationship with other entities.
+648 828::Integrity::Confidentiality::Availability::DoS: crash / exit / restart::Execute unauthorized code or commands:: The most common consequence will be a corruption of the state of the software, possibly leading to a crash or exit. However, if the signal handler is operating on state variables for security relevant libraries or protection mechanisms, the consequences can be far more severe, including protection mechanism bypass, privilege escalation, or information exposure.
+649 829::Confidentiality::Integrity::Availability::Execute unauthorized code or commands::An attacker could insert malicious functionality into the program by causing the program to download code that the attacker has placed into the untrusted control sphere, such as a malicious web site.
+650 83::Confidentiality::Integrity::Availability::Read application data::Execute unauthorized code or commands
+651 830::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+652 831::Availability::Integrity::Confidentiality::Access_Control::Other::DoS: crash / exit / restart::Execute unauthorized code or commands::Read application data::Gain privileges / assume identity::Bypass protection mechanism::Varies by context:: The most common consequence will be a corruption of the state of the software, possibly leading to a crash or exit. However, if the signal handler is operating on state variables for security relevant libraries or protection mechanisms, the consequences can be far more severe, including protection mechanism bypass, privilege escalation, or information exposure.
+653 832::Integrity::Confidentiality::Availability::Other::DoS: crash / exit / restart::Execute unauthorized code or commands::Modify memory::Other:: Depending on the locking being used, an unlock operation might not have any adverse effects. When effects exist, the most common consequence will be a corruption of the state of the software, possibly leading to a crash or exit; depending on the implementation of the unlocking, memory corruption or code execution could occur.
+654 833::Availability::DoS: resource consumption (CPU)::DoS: resource consumption (other)::DoS: crash / exit / restart:: Each thread of execution will 'hang' and prevent tasks from completing. In some cases, CPU consumption may occur if a lock check occurs in a tight loop.
+655 834::Availability::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::DoS: amplification::DoS: crash / exit / restart:: Excessive looping will cause unexpected consumption of resources, such as CPU cycles or memory. The software's operation may slow down, or cause a long time to respond. If limited resources such as memory are consumed for each iteration, the loop may eventually cause a crash or program exit due to exhaustion of resources, such as an out-of-memory error.
+656 835::Availability::DoS: resource consumption (CPU)::DoS: resource consumption (memory)::DoS: amplification:: An infinite loop will cause unexpected consumption of resources, such as CPU cycles or memory. The software's operation may slow down, or cause a long time to respond.
+657 836::Access_Control::Bypass protection mechanism::Gain privileges / assume identity::An attacker could bypass the authentication routine without knowing the original password.
+658 
+659 838::Integrity::Confidentiality::Availability::Modify application data::Execute unauthorized code or commands::An attacker could modify the structure of the message or data being sent to the downstream component, possibly injecting commands.
+660 839::Integrity::Confidentiality::Availability::Availability::Confidentiality::Integrity::Modify application data::Execute unauthorized code or commands::DoS: resource consumption (other)::Modify memory::Read memory::An attacker could modify the structure of the message or data being sent to the downstream component, possibly injecting commands.::in some contexts, a negative value could lead to resource consumption.::If a negative value is used to access memory, buffers, or other indexable structures, it could access memory outside the bounds of the buffer.
+661 84::Integrity::Unexpected state
+662 841::Other::Alter execution logic::An attacker could cause the software to skip critical steps or perform them in the wrong order, bypassing its intended business logic. This can sometimes have security implications.
+663 842::Access_Control::Gain privileges / assume identity
+664 
+665 85::Confidentiality::Integrity::Availability::Read application data::Execute unauthorized code or commands
+666 86::Confidentiality::Integrity::Availability::Read application data::Execute unauthorized code or commands
+667 862::Confidentiality::Integrity::Access_Control::Read application data::Read files or directories::Modify application data::Modify files or directories::Gain privileges / assume identity::Bypass protection mechanism::An attacker could read sensitive data, either by reading the data directly from a data store that is not restricted, or by accessing insufficiently-protected, privileged functionality to read the data.::An attacker could modify sensitive data, either by writing the data directly to a data store that is not restricted, or by accessing insufficiently-protected, privileged functionality to write the data.::An attacker could gain privileges by modifying or reading critical data directly, or by accessing privileged functionality.
+668 863::Confidentiality::Integrity::Access_Control::Read application data::Read files or directories::Modify application data::Modify files or directories::Gain privileges / assume identity::Bypass protection mechanism::An attacker could read sensitive data, either by reading the data directly from a data store that is not correctly restricted, or by accessing insufficiently-protected, privileged functionality to read the data.::An attacker could modify sensitive data, either by writing the data directly to a data store that is not correctly restricted, or by accessing insufficiently-protected, privileged functionality to write the data.::An attacker could gain privileges by modifying or reading critical data directly, or by accessing privileged functionality.
+669 87::Confidentiality::Integrity::Availability::Read application data::Execute unauthorized code or commands
+670 88::Confidentiality::Integrity::Availability::Other::Execute unauthorized code or commands::Alter execution logic::Read application data::Modify application data
+671 89::Confidentiality::Access_Control::Access_Control::Integrity::Read application data::Bypass protection mechanism::Bypass protection mechanism::Modify application data::Since SQL databases generally hold sensitive data, loss of confidentiality is a frequent problem with SQL injection vulnerabilities.::If poor SQL commands are used to check user names and passwords, it may be possible to connect to a system as another user with no previous knowledge of the password.::If authorization information is held in a SQL database, it may be possible to change this information through the successful exploitation of a SQL injection vulnerability.::Just as it may be possible to read sensitive information, it is also possible to make changes or even delete this information with a SQL injection attack.
+672 9::Other::Other
+673 90::Confidentiality::Integrity::Availability::Execute unauthorized code or commands::Read application data::Modify application data
+674 91::Confidentiality::Integrity::Availability::Execute unauthorized code or commands::Read application data::Modify application data
+675 93::Integrity::Modify application data
+676 94::Confidentiality::Access_Control::Access_Control::Integrity::Confidentiality::Availability::Other::Non-Repudiation::Read files or directories::Read application data::Bypass protection mechanism::Gain privileges / assume identity::Other::Execute unauthorized code or commands::Hide activities::The injected code could access restricted data / files.::In some cases, injectable code controls authentication; this may lead to a remote vulnerability.::Injected code can access resources that the attacker is directly prevented from accessing.::Code injection attacks can lead to loss of data integrity in nearly all cases as the control-plane data injected is always incidental to data recall or writing. Additionally, code injection can often result in the execution of arbitrary code.::Often the actions performed by injected control code are unlogged.
+677 95::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+678 96::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+679 97::Confidentiality::Integrity::Availability::Execute unauthorized code or commands
+680 98::Integrity::Confidentiality::Availability::Execute unauthorized code or commands::The attacker may be able to specify arbitrary code to be executed from a remote location. Alternatively, it may be possible to use normal program behavior to insert php code into files on the local machine which can then be included and force the code to execute since php ignores everything in the file except for the content between php specifiers.
+681 99::Confidentiality::Integrity::Read application data::Modify application data

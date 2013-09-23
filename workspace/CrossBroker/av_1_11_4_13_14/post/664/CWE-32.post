@@ -1,0 +1,3 @@
+#CWE-32 Path Traversal: '...' (Triple Dot)
+Attributes Value
+Sanitize 0.83

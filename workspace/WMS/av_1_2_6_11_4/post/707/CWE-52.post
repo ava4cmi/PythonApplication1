@@ -1,0 +1,3 @@
+#CWE-52 Path Equivalence: '/multiple/trailing/slash//'
+Attributes Value
+Sanitize 0.83

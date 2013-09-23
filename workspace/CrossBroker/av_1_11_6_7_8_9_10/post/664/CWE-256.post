@@ -1,0 +1,5 @@
+#CWE-256 Plaintext Storage of a Password
+Attributes Value
+Owner 1.52
+Client_Server 0.40
+User 1.61

@@ -1,0 +1,5 @@
+#CWE-152 Improper Neutralization of Macro Symbols
+Attributes Value
+Trust 1.64
+Transfering 1.61
+Sanitize 0.83

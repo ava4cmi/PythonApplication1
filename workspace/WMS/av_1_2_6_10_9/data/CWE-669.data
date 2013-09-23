@@ -1,0 +1,4 @@
+#CWE-669 Incorrect Resource Transfer Between Spheres
+Attributes Submit Voms server Wms proxy Lb proxy Lb database
+Thirdparty 0.32 0.32 0.32 0.32 0.32
+Transfering 1.61 2.08 1.61 1.61 2.08

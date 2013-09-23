@@ -1,0 +1,5 @@
+#CWE-367 Time-of-check Time-of-use (TOCTOU) Race Condition
+Attributes Submit Sandbox_dir Job
+Tampering 0.15 1.83 1.83
+Trust 1.64 1.64 0.69
+TimeOut 1.05 0.26 1.05

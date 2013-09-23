@@ -1,0 +1,4 @@
+#CWE-306 Missing Authentication for Critical Function
+Attributes Submit Voms server Wms proxy Lb proxy Lb database
+Owner 4.23 4.23 4.23 4.23 4.23
+User 1.96 3.49 3.49 3.49 3.58

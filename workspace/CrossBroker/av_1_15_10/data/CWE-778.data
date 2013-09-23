@@ -1,0 +1,7 @@
+#CWE-778 Insufficient Logging
+Attributes Submit Sandbox_dir Job
+Owner 3.63 0.52 1.52
+Thirdparty 0.32 0.32 0.32
+DB_DNS_IDS_FW 2.72 0.59 0.59
+Logs 1.35 0.44 0.44
+User 1.61 0.52 3.05

@@ -1,0 +1,3 @@
+#CWE-47 Path Equivalence: ' filename' (Leading Space)
+Attributes Value
+Sanitize 0.83

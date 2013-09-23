@@ -1,0 +1,4 @@
+#CWE-835 Loop with Unreachable Exit Condition ('Infinite Loop')
+Attributes Value
+MaxMin 1.05
+TimeOut 1.05

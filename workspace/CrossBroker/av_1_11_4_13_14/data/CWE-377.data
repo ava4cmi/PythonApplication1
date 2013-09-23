@@ -1,0 +1,7 @@
+#CWE-377 Insecure Temporary File
+Attributes Submit Logbook Sa-wm Rs Bdii
+Owner 3.63 3.63 3.63 0.52 0.52
+Trust 1.64 0.69 0.69 1.64 1.64
+Client_Server 0.40 0.70 0.70 0.70 0.70
+User 1.61 3.05 3.00 3.00 3.00
+TimeOut 1.05 1.05 1.05 0.26 0.26

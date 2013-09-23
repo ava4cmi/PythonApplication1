@@ -1,0 +1,97 @@
+1. CWE-863 Incorrect Authorization:2.58125
+2. CWE-862 Missing Authorization:2.58125
+3. CWE-732 Incorrect Permission Assignment for Critical Resource:2.58125
+4. CWE-306 Missing Authentication for Critical Function:2.58125
+5. CWE-287 Improper Authentication:2.58125
+6. CWE-285 Improper Authorization:2.58125
+7. CWE-307 Improper Restriction of Excessive Authentication Attempts:1.8225
+8. CWE-708 Incorrect Ownership Assignment:1.7475
+9. CWE-655 Insufficient Psychological Acceptability:1.7475
+10. CWE-648 Incorrect Use of Privileged APIs:1.7475
+11. CWE-638 Not Using Complete Mediation:1.7475
+12. CWE-424 Improper Protection of Alternate Path:1.7475
+13. CWE-305 Authentication Bypass by Primary Weakness:1.7475
+14. CWE-289 Authentication Bypass by Alternate Name:1.7475
+15. CWE-282 Improper Ownership Management:1.7475
+16. CWE-281 Improper Preservation of Permissions:1.7475
+17. CWE-279 Incorrect Execution-Assigned Permissions:1.7475
+18. CWE-274 Improper Handling of Insufficient Privileges:1.7475
+19. CWE-273 Improper Check for Dropped Privileges:1.7475
+20. CWE-271 Privilege Dropping / Lowering Errors:1.7475
+21. CWE-269 Improper Privilege Management:1.7475
+22. CWE-250 Execution with Unnecessary Privileges:1.68
+23. CWE-288 Authentication Bypass Using an Alternate Path or Channel:1.61833333333
+24. CWE-639 Authorization Bypass Through User-Controlled Key:1.55
+25. CWE-357 Insufficient UI Warning of Dangerous Operations:1.55
+26. CWE-283 Unverified Ownership:1.55
+27. CWE-272 Least Privilege Violation:1.55
+28. CWE-268 Privilege Chaining:1.55
+29. CWE-184 Incomplete Blacklist:1.55
+30. CWE-183 Permissive Whitelist:1.55
+31. CWE-654 Reliance on a Single Factor in a Security Decision:1.5025
+32. CWE-308 Use of Single-factor Authentication:1.5025
+33. CWE-807 Reliance on Untrusted Inputs in a Security Decision:1.3535
+34. CWE-646 Reliance on File Name or Extension of Externally-Supplied File:1.3375
+35. CWE-345 Insufficient Verification of Data Authenticity:1.3375
+36. CWE-278 Insecure Preserved Inherited Permissions:1.3375
+37. CWE-277 Insecure Inherited Permissions:1.3375
+38. CWE-450 Multiple Interpretations of UI Input:1.318125
+39. CWE-798 Use of Hard-coded Credentials:1.3
+40. CWE-842 Placement of User into Incorrect Group:1.23166666667
+41. CWE-286 Incorrect User Management:1.23166666667
+42. CWE-256 Plaintext Storage of a Password:1.23166666667
+43. CWE-276 Incorrect Default Permissions:1.2125
+44. CWE-266 Incorrect Privilege Assignment:1.2125
+45. CWE-836 Use of Password Hash Instead of Password for Authentication:1.2025
+46. CWE-326 Inadequate Encryption Strength:1.2025
+47. CWE-263 Password Aging with Long Expiration:1.2025
+48. CWE-262 Not Using Password Aging:1.2025
+49. CWE-261 Weak Cryptography for Passwords:1.2025
+50. CWE-260 Password in Configuration File:1.2025
+51. CWE-259 Use of Hard-coded Password:1.2025
+52. CWE-258 Empty Password in Configuration File:1.2025
+53. CWE-640 Weak Password Recovery Mechanism for Forgotten Password:1.190625
+54. CWE-620 Unverified Password Change:1.190625
+55. CWE-309 Use of Password System for Primary Authentication:1.190625
+56. CWE-267 Privilege Defined With Unsafe Actions:1.190625
+57. CWE-778 Insufficient Logging:1.138
+58. CWE-301 Reflection Attack in an Authentication Protocol:1.097
+59. CWE-294 Authentication Bypass by Capture-replay:1.016
+60. CWE-257 Storing Passwords in a Recoverable Format:0.951875
+61. CWE-602 Client-Side Enforcement of Server-Side Security:0.937916666667
+62. CWE-327 Use of a Broken or Risky Cryptographic Algorithm:0.92375
+63. CWE-471 Modification of Assumed-Immutable Data (MAID):0.923333333333
+64. CWE-20 Improper Input Validation:0.906666666667
+65. CWE-114 Process Control:0.906666666667
+66. CWE-322 Key Exchange without Entity Authentication:0.877
+67. CWE-302 Authentication Bypass by Assumed-Immutable Data:0.877
+68. CWE-441 Unintended Proxy/Intermediary:0.8225
+69. CWE-311 Missing Encryption of Sensitive Data:0.77875
+70. CWE-358 Improperly Implemented Security Check for Standard:0.757083333333
+71. CWE-300 Channel Accessible by Non-Endpoint ('Man-in-the-Middle'):0.692222222222
+72. CWE-350 Improperly Trusted Reverse DNS:0.663333333333
+73. CWE-297 Improper Validation of Host-specific Certificate Data:0.663333333333
+74. CWE-292 Trusting Self-reported DNS Name:0.663333333333
+75. CWE-353 Missing Support for Integrity Check:0.5775
+76. CWE-247 Reliance on DNS Lookups in a Security Decision:0.5475
+77. CWE-360 Trust of System Event Data:0.5175
+78. CWE-346 Origin Validation Error:0.5175
+79. CWE-656 Reliance on Security Through Obscurity:0.315
+80. CWE-349 Acceptance of Extraneous Untrusted Data With Trusted Data:0.315
+81. CWE-348 Use of Less Trusted Source:0.315
+82. CWE-347 Improper Verification of Cryptographic Signature:0.315
+83. CWE-319 Cleartext Transmission of Sensitive Information:0.2875
+84. CWE-789 Uncontrolled Memory Allocation:0.2625
+85. CWE-645 Overly Restrictive Account Lockout Mechanism:0.2625
+86. CWE-129 Improper Validation of Array Index:0.2625
+87. CWE-179 Incorrect Behavior Order: Early Validation:0.26
+88. CWE-784 Reliance on Cookies without Validation and Integrity Checking in a Security Decision:0.2475
+89. CWE-653 Insufficient Compartmentalization:0.2
+90. CWE-649 Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking:0.1125
+91. CWE-354 Improper Validation of Integrity Check Value:0.1125
+92. CWE-321 Use of Hard-coded Cryptographic Key:0.1125
+93. CWE-318 Plaintext Storage in Executable:0.1125
+94. CWE-316 Plaintext Storage in Memory:0.1125
+95. CWE-315 Plaintext Storage in a Cookie:0.1125
+96. CWE-314 Plaintext Storage in the Registry:0.1125
+97. CWE-313 Plaintext Storage in a File or on Disk:0.1125

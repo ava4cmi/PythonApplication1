@@ -1,0 +1,5 @@
+#CWE-172 Encoding Error
+Attributes Submit Uam-ns Input.fl Sa-wm Logbook Al-jc Condor_g Lrms Condor_startd Job
+Encryption 0.15 0.15 1.83 0.15 0.15 0.15 0.15 1.83 1.83 1.83
+ErrorHandling 0.22 0.22 1.22 0.22 0.22 0.22 0.22 0.22 0.22 1.22
+Sanitize 0.83 0.83 0.83 2.08 0.83 2.08 2.08 2.08 2.08 2.08

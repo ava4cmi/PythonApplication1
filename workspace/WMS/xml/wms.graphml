@@ -1,0 +1,623 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:jGraph="http://www.jgraph.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<key attr.name="jgraphstyle" attr.type="string" for="node" id="jgraphstyle"/>
+<key attr.name="clientServer" attr.type="string" for="node" id="clientServer"/>
+<key attr.name="timeoutOperations" attr.type="boolean" for="node" id="timeoutOperations"/>
+<key attr.name="userInterface" attr.type="boolean" for="node" id="userInterface"/>
+<key attr.name="id" attr.type="int" for="node" id="id"/>
+<key attr.name="tampering" attr.type="boolean" for="node" id="tampering"/>
+<key attr.name="encryption" attr.type="boolean" for="node" id="encryption"/>
+<key attr.name="name" attr.type="string" for="node" id="name"/>
+<key attr.name="remote3PartyCall" attr.type="boolean" for="node" id="remote3PartyCall"/>
+<key attr.name="jgraphheight" attr.type="double" for="node" id="jgraphheight"/>
+<key attr.name="webService" attr.type="boolean" for="node" id="webService"/>
+<key attr.name="jgraphwidth" attr.type="double" for="node" id="jgraphwidth"/>
+<key attr.name="transformData" attr.type="boolean" for="node" id="transformData"/>
+<key attr.name="trust" attr.type="boolean" for="node" id="trust"/>
+<key attr.name="logBackupCapability" attr.type="boolean" for="node" id="logBackupCapability"/>
+<key attr.name="attackSurface" attr.type="boolean" for="node" id="attackSurface"/>
+<key attr.name="sanitize" attr.type="boolean" for="node" id="sanitize"/>
+<key attr.name="attachment" attr.type="boolean" for="node" id="attachment"/>
+<key attr.name="maxMinOperations" attr.type="boolean" for="node" id="maxMinOperations"/>
+<key attr.name="spoofing" attr.type="boolean" for="node" id="spoofing"/>
+<key attr.name="errorHandling" attr.type="boolean" for="node" id="errorHandling"/>
+<key attr.name="jgraphy" attr.type="double" for="node" id="jgraphy"/>
+<key attr.name="transferData" attr.type="boolean" for="node" id="transferData"/>
+<key attr.name="owner" attr.type="string" for="node" id="owner"/>
+<key attr.name="jgraphx" attr.type="double" for="node" id="jgraphx"/>
+<key attr.name="impactSurface" attr.type="boolean" for="node" id="impactSurface"/>
+<key attr.name="language" attr.type="string" for="node" id="language"/>
+<key attr.name="user" attr.type="string" for="node" id="user"/>
+<key attr.name="databaseInteraction" attr.type="boolean" for="node" id="databaseInteraction"/>
+<key attr.name="attack_vectors" attr.type="string" for="graph" id="attack_vectors"/>
+<key attr.name="predecesores" attr.type="string" for="edge" id="predecesores"/>
+<key attr.name="antecesores" attr.type="string" for="edge" id="antecesores"/>
+<graph edgedefault="directed" id="G">
+<data key="attack_vectors">1,5,17;1,6,10,9;1,6,11,10,9;1,6,11,4;1,6,8,14,15,16,17;1,6,7,12,16,17;1,6,7,13,12,16,17;1,6,7,8,14,15,16,17;1,6,7,3;1,2,8,14,15,16,17;1,2,6,10,9;1,2,6,11,4;1,2,8,7,12,16,17;1,5,6,7,3;1,2,8,14,7,3;1,6,10,11,4</data>
+<node id="36">
+<data key="jgraphwidth">140.0</data>
+<data key="jgraphheight">60.0</data>
+<data key="jgraphx">30.0</data>
+<data key="jgraphy">180.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#00ff00</data>
+<data key="predecesores">2,6,5</data>
+<data key="antecesores">2,6,5</data>
+<data key="id">1</data>
+<data key="name">Submit</data>
+<data key="owner">Administrator</data>
+<data key="user">Regular User</data>
+<data key="language">C/C++</data>
+<data key="userInterface">Yes</data>
+<data key="sanitize">Yes</data>
+<data key="transformData">Yes</data>
+<data key="transferData">Yes</data>
+<data key="trust">no</data>
+<data key="databaseInteraction">Yes</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">Yes</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">Yes</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Client</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">Yes</data>
+<data key="attackSurface">Yes</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="59">
+<data key="jgraphwidth">110.0</data>
+<data key="jgraphheight">100.0</data>
+<data key="jgraphx">30.0</data>
+<data key="jgraphy">320.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#ff0000</data>
+<data key="predecesores">1,6,8</data>
+<data key="antecesores">1,6,8</data>
+<data key="id">2</data>
+<data key="name">VOMS server</data>
+<data key="owner">Administrator</data>
+<data key="user">Administrator</data>
+<data key="language">C/C++</data>
+<data key="userInterface">no</data>
+<data key="sanitize">Yes</data>
+<data key="transformData">no</data>
+<data key="transferData">Yes</data>
+<data key="trust">Yes</data>
+<data key="databaseInteraction">no</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">Yes</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">Yes</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">no</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="61">
+<data key="jgraphwidth">110.0</data>
+<data key="jgraphheight">100.0</data>
+<data key="jgraphx">700.0</data>
+<data key="jgraphy">510.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#ff0000</data>
+<data key="predecesores">11</data>
+<data key="antecesores">11</data>
+<data key="id">4</data>
+<data key="name">LB</data>
+<data key="owner">Administrator</data>
+<data key="user">Administrator</data>
+<data key="language">C/C++</data>
+<data key="userInterface">no</data>
+<data key="sanitize">no</data>
+<data key="transformData">Yes</data>
+<data key="transferData">Yes</data>
+<data key="trust">no</data>
+<data key="databaseInteraction">no</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">no</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">no</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">Yes</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">Yes</data>
+</node>
+<node id="64">
+<data key="jgraphwidth">110.0</data>
+<data key="jgraphheight">100.0</data>
+<data key="jgraphx">30.0</data>
+<data key="jgraphy">610.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#00ffff</data>
+<data key="predecesores">7</data>
+<data key="antecesores">7</data>
+<data key="id">3</data>
+<data key="name">Information Service</data>
+<data key="owner">Administrator</data>
+<data key="user">Partially-Privileged User</data>
+<data key="language">Python</data>
+<data key="userInterface">no</data>
+<data key="sanitize">no</data>
+<data key="transformData">no</data>
+<data key="transferData">Yes</data>
+<data key="trust">no</data>
+<data key="databaseInteraction">no</data>
+<data key="timeoutOperations">no</data>
+<data key="maxMinOperations">no</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">no</data>
+<data key="tampering">no</data>
+<data key="encryption">no</data>
+<data key="attachment">no</data>
+<data key="errorHandling">no</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">no</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="65">
+<data key="jgraphwidth">110.0</data>
+<data key="jgraphheight">80.0</data>
+<data key="jgraphx">270.0</data>
+<data key="jgraphy">10.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#ff0000</data>
+<data key="predecesores">6,1,17</data>
+<data key="antecesores">6,1,17</data>
+<data key="id">5</data>
+<data key="name">GridFTP</data>
+<data key="owner">Administrator</data>
+<data key="user">Administrator</data>
+  <data key="language">C/C++</data>
+<data key="userInterface">no</data>
+<data key="sanitize">no</data>
+<data key="transformData">Yes</data>
+<data key="transferData">Yes</data>
+<data key="trust">no</data>
+<data key="databaseInteraction">no</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">Yes</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">Yes</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">no</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="68">
+<data key="jgraphwidth">110.0</data>
+<data key="jgraphheight">80.0</data>
+<data key="jgraphx">270.0</data>
+<data key="jgraphy">160.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#ff0000</data>
+<data key="predecesores">1,2,5,7,8,10,11</data>
+<data key="antecesores">1,2,5,7,8,10,11</data>
+<data key="id">6</data>
+<data key="name">WMS Proxy</data>
+<data key="owner">Administrator</data>
+<data key="user">Administrator</data>
+<data key="language">C/C++</data>
+<data key="userInterface">no</data>
+<data key="sanitize">Yes</data>
+<data key="transformData">Yes</data>
+<data key="transferData">Yes</data>
+<data key="trust">Yes</data>
+<data key="databaseInteraction">no</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">Yes</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">no</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Server</data>
+<data key="webService">Yes</data>
+<data key="logBackupCapability">Yes</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="69">
+<data key="jgraphwidth">110.0</data>
+<data key="jgraphheight">80.0</data>
+<data key="jgraphx">270.0</data>
+<data key="jgraphy">370.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#ff0000</data>
+<data key="predecesores">6,8,3,12,13,14</data>
+<data key="antecesores">6,8,3,12,13,14</data>
+<data key="id">7</data>
+<data key="name">Workload Manager</data>
+<data key="owner">Administrator</data>
+<data key="user">Administrator</data>
+<data key="language">C/C++</data>
+<data key="userInterface">no</data>
+<data key="sanitize">Yes</data>
+<data key="transformData">Yes</data>
+<data key="transferData">Yes</data>
+<data key="trust">Yes</data>
+<data key="databaseInteraction">no</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">Yes</data>
+<data key="spoofing">Yes</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">no</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">no</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="70">
+<data key="jgraphwidth">110.0</data>
+<data key="jgraphheight">80.0</data>
+<data key="jgraphx">270.0</data>
+<data key="jgraphy">560.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#ff0000</data>
+<data key="predecesores">7,2,6,14</data>
+<data key="antecesores">7,2,6,14</data>
+<data key="id">8</data>
+<data key="name">Proxy Renewal</data>
+<data key="owner">Administrator</data>
+<data key="user">Administrator</data>
+<data key="language">C/C++</data>
+<data key="userInterface">no</data>
+<data key="sanitize">Yes</data>
+<data key="transformData">no</data>
+<data key="transferData">Yes</data>
+<data key="trust">Yes</data>
+<data key="databaseInteraction">no</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">Yes</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">no</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">no</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="71">
+<data key="jgraphwidth">90.0</data>
+<data key="jgraphheight">110.0</data>
+<data key="jgraphx">500.0</data>
+<data key="jgraphy">10.0</data>
+<data key="jgraphstyle">shape=cylinder;fillColor=#00ffff</data>
+<data key="predecesores">10</data>
+<data key="antecesores">10</data>
+<data key="id">9</data>
+<data key="name">LB Database</data>
+<data key="owner">Administrator</data>
+<data key="user">Partially-Privileged User</data>
+<data key="language">C/C++</data>
+<data key="userInterface">no</data>
+<data key="sanitize">no</data>
+<data key="transformData">no</data>
+<data key="transferData">Yes</data>
+<data key="trust">Yes</data>
+<data key="databaseInteraction">Yes</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">no</data>
+<data key="tampering">no</data>
+<data key="encryption">no</data>
+<data key="attachment">no</data>
+<data key="errorHandling">no</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">Yes</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">Yes</data>
+</node>
+<node id="72">
+<data key="jgraphwidth">120.0</data>
+<data key="jgraphheight">80.0</data>
+<data key="jgraphx">500.0</data>
+<data key="jgraphy">170.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#ff0000</data>
+<data key="predecesores">9,11,6</data>
+<data key="antecesores">9,11,6</data>
+<data key="id">10</data>
+<data key="name">LB Proxy</data>
+<data key="owner">Administrator</data>
+<data key="user">Administrator</data>
+<data key="language">C/C++</data>
+<data key="userInterface">no</data>
+<data key="sanitize">no</data>
+<data key="transformData">Yes</data>
+<data key="transferData">Yes</data>
+<data key="trust">Yes</data>
+<data key="databaseInteraction">Yes</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">no</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">no</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">Yes</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="73">
+<data key="jgraphwidth">120.0</data>
+<data key="jgraphheight">80.0</data>
+<data key="jgraphx">500.0</data>
+<data key="jgraphy">280.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#ff0000</data>
+<data key="predecesores">10,6,4</data>
+<data key="antecesores">10,6,4</data>
+<data key="id">11</data>
+<data key="name">Logger (interlogd)</data>
+<data key="owner">Administrator</data>
+<data key="user">Administrator</data>
+<data key="language">C/C++</data>
+<data key="userInterface">no</data>
+<data key="sanitize">no</data>
+<data key="transformData">Yes</data>
+<data key="transferData">Yes</data>
+<data key="trust">Yes</data>
+<data key="databaseInteraction">Yes</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">Yes</data>
+<data key="spoofing">no</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">no</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">no</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="74">
+<data key="jgraphwidth">120.0</data>
+<data key="jgraphheight">80.0</data>
+<data key="jgraphx">500.0</data>
+<data key="jgraphy">380.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#ff0000</data>
+<data key="predecesores">13,7,16</data>
+<data key="antecesores">13,7,16</data>
+<data key="id">12</data>
+<data key="name">Job Controller (Condor-G)</data>
+<data key="owner">Administrator</data>
+<data key="user">Administrator</data>
+<data key="language">C/C++</data>
+<data key="userInterface">no</data>
+<data key="sanitize">Yes</data>
+<data key="transformData">Yes</data>
+<data key="transferData">Yes</data>
+<data key="trust">Yes</data>
+<data key="databaseInteraction">no</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">Yes</data>
+<data key="spoofing">no</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">Yes</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">no</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="75">
+<data key="jgraphwidth">130.0</data>
+<data key="jgraphheight">80.0</data>
+<data key="jgraphx">490.0</data>
+<data key="jgraphy">490.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#ff0000</data>
+<data key="predecesores">12,7</data>
+<data key="antecesores">12,7</data>
+<data key="id">13</data>
+<data key="name">Log Monitor</data>
+<data key="owner">Administrator</data>
+<data key="user">Administrator</data>
+<data key="language">C/C++</data>
+<data key="userInterface">no</data>
+<data key="sanitize">no</data>
+<data key="transformData">no</data>
+<data key="transferData">Yes</data>
+<data key="trust">Yes</data>
+<data key="databaseInteraction">no</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">no</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">no</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">Yes</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="76">
+<data key="jgraphwidth">120.0</data>
+<data key="jgraphheight">80.0</data>
+<data key="jgraphx">500.0</data>
+<data key="jgraphy">600.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#ff0000</data>
+<data key="predecesores">7,8,15</data>
+<data key="antecesores">7,8,15</data>
+<data key="id">14</data>
+<data key="name">ICE</data>
+<data key="owner">Administrator</data>
+<data key="user">Administrator</data>
+<data key="language">C/C++</data>
+<data key="userInterface">no</data>
+<data key="sanitize">no</data>
+<data key="transformData">Yes</data>
+<data key="transferData">Yes</data>
+<data key="trust">Yes</data>
+<data key="databaseInteraction">no</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">no</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">no</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">no</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="95">
+<data key="jgraphwidth">120.0</data>
+<data key="jgraphheight">80.0</data>
+<data key="jgraphx">690.0</data>
+<data key="jgraphy">40.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#00ffff</data>
+<data key="predecesores">14,16</data>
+<data key="antecesores">14,16</data>
+<data key="id">15</data>
+<data key="name">CREAM</data>
+<data key="owner">Administrator</data>
+<data key="user">Partially-Privileged User</data>
+<data key="language">Java</data>
+<data key="userInterface">no</data>
+<data key="sanitize">no</data>
+<data key="transformData">Yes</data>
+<data key="transferData">Yes</data>
+<data key="trust">Yes</data>
+<data key="databaseInteraction">no</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">no</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">no</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">no</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="96">
+<data key="jgraphwidth">120.0</data>
+<data key="jgraphheight">80.0</data>
+<data key="jgraphx">690.0</data>
+<data key="jgraphy">200.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#00ffff</data>
+<data key="predecesores">12,15,17</data>
+<data key="antecesores">12,15,17</data>
+<data key="id">16</data>
+<data key="name">LRMS</data>
+<data key="owner">Administrator</data>
+<data key="user">Partially-Privileged User</data>
+<data key="language">C/C++</data>
+<data key="userInterface">no</data>
+<data key="sanitize">no</data>
+<data key="transformData">Yes</data>
+<data key="transferData">Yes</data>
+<data key="trust">Yes</data>
+<data key="databaseInteraction">no</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">no</data>
+<data key="tampering">Yes</data>
+<data key="encryption">Yes</data>
+<data key="attachment">Yes</data>
+<data key="errorHandling">no</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">no</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">no</data>
+</node>
+<node id="97">
+<data key="jgraphwidth">120.0</data>
+<data key="jgraphheight">80.0</data>
+<data key="jgraphx">690.0</data>
+<data key="jgraphy">370.0</data>
+<data key="jgraphstyle">rounded=1;fillColor=#00ff00</data>
+<data key="predecesores">16,5</data>
+<data key="antecesores">16,5</data>
+<data key="id">17</data>
+<data key="name">WN JOB</data>
+<data key="owner">Administrator</data>
+<data key="user">Regular User</data>
+<data key="language">Bash</data>
+<data key="userInterface">no</data>
+<data key="sanitize">no</data>
+<data key="transformData">Yes</data>
+<data key="transferData">Yes</data>
+<data key="trust">no</data>
+<data key="databaseInteraction">no</data>
+<data key="timeoutOperations">Yes</data>
+<data key="maxMinOperations">Yes</data>
+<data key="remote3PartyCall">no</data>
+<data key="spoofing">no</data>
+<data key="tampering">no</data>
+<data key="encryption">no</data>
+<data key="attachment">Yes</data>
+<data key="errorHandling">Yes</data>
+<data key="clientServer">Server</data>
+<data key="webService">no</data>
+<data key="logBackupCapability">Yes</data>
+<data key="attackSurface">no</data>
+<data key="impactSurface">Yes</data>
+</node>
+<edge directed="no" id="86" source="59" target="36"/>
+<edge directed="no" id="87" source="36" target="68"/>
+<edge directed="no" id="88" source="59" target="68"/>
+<edge directed="no" id="89" source="68" target="65"/>
+<edge directed="no" id="90" source="69" target="68"/>
+<edge directed="no" id="91" source="70" target="69"/>
+<edge directed="no" id="92" source="64" target="69"/>
+<edge directed="no" id="93" source="59" target="70"/>
+<edge directed="no" id="94" source="70" target="68"/>
+<edge directed="no" id="98" source="72" target="71"/>
+<edge directed="no" id="99" source="73" target="72"/>
+<edge directed="no" id="100" source="75" target="74"/>
+<edge directed="no" id="101" source="68" target="72"/>
+<edge directed="no" id="102" source="68" target="73"/>
+<edge directed="no" id="103" source="69" target="74"/>
+<edge directed="no" id="104" source="69" target="75"/>
+<edge directed="no" id="105" source="69" target="76"/>
+<edge directed="no" id="106" source="70" target="76"/>
+<edge directed="no" id="107" source="61" target="73"/>
+<edge directed="no" id="108" source="95" target="76"/>
+<edge directed="no" id="109" source="74" target="96"/>
+<edge directed="no" id="110" source="96" target="95"/>
+<edge directed="no" id="111" source="97" target="96"/>
+<edge directed="no" id="113" source="36" target="65"/>
+<edge directed="no" id="114" source="97" target="65"/>
+</graph>
+</graphml>

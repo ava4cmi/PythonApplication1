@@ -1,0 +1,1024 @@
+(lp0
+S'114 Process Control'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'115 Misinterpretation of Input'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S"120 Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+p1
+aS' C C++ Assembly'
+p2
+aS'top25'
+p3
+a.(lp0
+S'123 Write-what-where Condition'
+p1
+aS' C C++'
+p2
+aS''
+p3
+a.(lp0
+S'13 ASP.NET Misconfiguration: Password in Configuration File'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'15 External Control of System or Configuration Setting'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'183 Permissive Whitelist'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'184 Incomplete Blacklist'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'20 Improper Input Validation'
+p1
+aS' Language-independent'
+p2
+aS''
+p3
+a.(lp0
+S"22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+p1
+aS' Language-independent'
+p2
+aS'top25'
+p3
+a.(lp0
+S'23 Relative Path Traversal'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'250 Execution with Unnecessary Privileges'
+p1
+aS' All'
+p2
+aS'top25'
+p3
+a.(lp0
+S'256 Plaintext Storage of a Password'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'257 Storing Passwords in a Recoverable Format'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'258 Empty Password in Configuration File'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'259 Use of Hard-coded Password'
+p1
+aS' Language-independent'
+p2
+aS''
+p3
+a.(lp0
+S'260 Password in Configuration File'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'261 Weak Cryptography for Passwords'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'262 Not Using Password Aging'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'263 Password Aging with Long Expiration'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'266 Incorrect Privilege Assignment'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'267 Privilege Defined With Unsafe Actions'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'268 Privilege Chaining'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'269 Improper Privilege Management'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'270 Privilege Context Switching Error'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'271 Privilege Dropping / Lowering Errors'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'272 Least Privilege Violation'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'273 Improper Check for Dropped Privileges'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'274 Improper Handling of Insufficient Privileges'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'276 Incorrect Default Permissions'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'277 Insecure Inherited Permissions'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'278 Insecure Preserved Inherited Permissions'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'279 Incorrect Execution-Assigned Permissions'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'280 Improper Handling of Insufficient Permissions or Privileges '
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'281 Improper Preservation of Permissions'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'282 Improper Ownership Management'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'283 Unverified Ownership'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'284 Improper Access Control'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'285 Improper Authorization'
+p1
+aS' Language-independent'
+p2
+aS''
+p3
+a.(lp0
+S'286 Incorrect User Management'
+p1
+aS' Language-independent'
+p2
+aS''
+p3
+a.(lp0
+S'287 Improper Authentication'
+p1
+aS' Language-independent'
+p2
+aS''
+p3
+a.(lp0
+S'288 Authentication Bypass Using an Alternate Path or Channel'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'289 Authentication Bypass by Alternate Name'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'290 Authentication Bypass by Spoofing'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'294 Authentication Bypass by Capture-replay'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S"300 Channel Accessible by Non-Endpoint ('Man-in-the-Middle')"
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'301 Reflection Attack in an Authentication Protocol'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'302 Authentication Bypass by Assumed-Immutable Data'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'305 Authentication Bypass by Primary Weakness'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'306 Missing Authentication for Critical Function'
+p1
+aS' Language-independent'
+p2
+aS'top25'
+p3
+a.(lp0
+S'307 Improper Restriction of Excessive Authentication Attempts'
+p1
+aS' Language-independent'
+p2
+aS'top25'
+p3
+a.(lp0
+S'308 Use of Single-factor Authentication'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'309 Use of Password System for Primary Authentication'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'322 Key Exchange without Entity Authentication'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'345 Insufficient Verification of Data Authenticity'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'356 Product UI does not Warn User of Unsafe Actions'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'357 Insufficient UI Warning of Dangerous Operations'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'358 Improperly Implemented Security Check for Standard'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'377 Insecure Temporary File'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'378 Creation of Temporary File With Insecure Permissions'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'379 Creation of Temporary File in Directory with Incorrect Permissions'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S"400 Uncontrolled Resource Consumption ('Resource Exhaustion')"
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S"402 Transmission of Private Resources into a New Sphere ('Resource Leak')"
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'406 Insufficient Control of Network Message Volume (Network Amplification)'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'419 Unprotected Primary Channel'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'420 Unprotected Alternate Channel'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'421 Race Condition During Access to Alternate Channel'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S"422 Unprotected Windows Messaging Channel ('Shatter')"
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'424 Improper Protection of Alternate Path'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'434 Unrestricted Upload of File with Dangerous Type'
+p1
+aS' ASP.NET PHP Language-independent'
+p2
+aS'top25'
+p3
+a.(lp0
+S'441 Unintended Proxy/Intermediary'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'446 UI Discrepancy for Security Feature'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'447 Unimplemented or Unsupported Feature in UI'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'448 Obsolete Feature in UI'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'449 The UI Performs the Wrong Action'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'450 Multiple Interpretations of UI Input'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'451 UI Misrepresentation of Critical Information'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S"470 Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')"
+p1
+aS' Java PHP Interpreted languages'
+p2
+aS''
+p3
+a.(lp0
+S'471 Modification of Assumed-Immutable Data (MAID)'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'494 Download of Code Without Integrity Check'
+p1
+aS' Language-independent'
+p2
+aS'top25'
+p3
+a.(lp0
+S'497 Exposure of System Data to an Unauthorized Control Sphere'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'506 Embedded Malicious Code'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'507 Trojan Horse'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'508 Non-Replicating Malicious Code'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'509 Replicating Malicious Code (Virus or Worm)'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'510 Trapdoor'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'511 Logic/Time Bomb'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'512 Spyware'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'520 .NET Misconfiguration: Use of Impersonation'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'521 Weak Password Requirements'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'522 Insufficiently Protected Credentials'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'523 Unprotected Transport of Credentials'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'530 Exposure of Backup File to an Unauthorized Control Sphere'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'532 Information Exposure Through Log Files'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'533 Information Exposure Through Server Log Files'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'534 Information Exposure Through Debug Log Files'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'535 Information Exposure Through Shell Error Message'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'538 File and Directory Information Exposure'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'549 Missing Password Field Masking'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'552 Files or Directories Accessible to External Parties'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'553 Command Shell in Externally Accessible Directory'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'555 J2EE Misconfiguration: Plaintext Password in Configuration File'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'556 ASP.NET Misconfiguration: Use of Identity Impersonation'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'566 Authorization Bypass Through User-Controlled SQL Primary Key'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'592 Authentication Bypass Issues'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'593 Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'599 Trust of OpenSSL Certificate Without Validation'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'6 J2EE Misconfiguration: Insufficient Session-ID Length'
+p1
+aS' Java'
+p2
+aS''
+p3
+a.(lp0
+S'602 Client-Side Enforcement of Server-Side Security'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'603 Use of Client-Side Authentication'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'613 Insufficient Session Expiration'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S"619 Dangling Database Cursor ('Cursor Injection')"
+p1
+aS' SQL'
+p2
+aS''
+p3
+a.(lp0
+S'62 UNIX Hard Link'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'620 Unverified Password Change'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S"637 Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism')"
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'638 Not Using Complete Mediation'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'639 Authorization Bypass Through User-Controlled Key'
+p1
+aS' Language-independent'
+p2
+aS''
+p3
+a.(lp0
+S'64 Windows Shortcut Following (.LNK)'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'640 Weak Password Recovery Mechanism for Forgotten Password'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'641 Improper Restriction of Names for Files and Other Resources'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'646 Reliance on File Name or Extension of Externally-Supplied File'
+p1
+aS' Language-independent'
+p2
+aS''
+p3
+a.(lp0
+S'648 Incorrect Use of Privileged APIs'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'65 Windows Hard Link'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'655 Insufficient Psychological Acceptability'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'671 Lack of Administrator Control over Security'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S'693 Protection Mechanism Failure'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'708 Incorrect Ownership Assignment'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'73 External Control of File Name or Path'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'732 Incorrect Permission Assignment for Critical Resource'
+p1
+aS' Language-independent'
+p2
+aS'top25'
+p3
+a.(lp0
+S"74 Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S"77 Improper Neutralization of Special Elements used in a Command ('Command Injection')"
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'778 Insufficient Logging'
+p1
+aS' Language-independent'
+p2
+aS''
+p3
+a.(lp0
+S"78 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+p1
+aS' All'
+p2
+aS'top25'
+p3
+a.(lp0
+S'782 Exposed IOCTL with Insufficient Access Control'
+p1
+aS' C C++'
+p2
+aS''
+p3
+a.(lp0
+S'798 Use of Hard-coded Credentials'
+p1
+aS' Language-independent'
+p2
+aS'top25'
+p3
+a.(lp0
+S'799 Improper Control of Interaction Frequency'
+p1
+aS' Language-independent'
+p2
+aS''
+p3
+a.(lp0
+S'807 Reliance on Untrusted Inputs in a Security Decision'
+p1
+aS' Language-independent'
+p2
+aS'top25'
+p3
+a.(lp0
+S'836 Use of Password Hash Instead of Password for Authentication'
+p1
+aS' Language-independent'
+p2
+aS''
+p3
+a.(lp0
+S'837 Improper Enforcement of a Single Unique Action'
+p1
+aS' Language-independent'
+p2
+aS''
+p3
+a.(lp0
+S'842 Placement of User into Incorrect Group'
+p1
+aS' Language-independent'
+p2
+aS''
+p3
+a.(lp0
+S'862 Missing Authorization'
+p1
+aS' Language-independent'
+p2
+aS'top25'
+p3
+a.(lp0
+S'863 Incorrect Authorization'
+p1
+aS' Language-independent'
+p2
+aS'top25'
+p3
+a.(lp0
+S"89 Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+p1
+aS' All'
+p2
+aS'top25'
+p3
+a.(lp0
+S'9 J2EE Misconfiguration: Weak Access Permissions for EJB Methods'
+p1
+aS''
+p2
+ag2
+a.(lp0
+S"90 Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')"
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S'91 XML Injection (aka Blind XPath Injection)'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S"94 Improper Control of Generation of Code ('Code Injection')"
+p1
+aS' Interpreted languages'
+p2
+aS''
+p3
+a.(lp0
+S"95 Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')"
+p1
+aS' Java Javascript Python Perl PHP Ruby Interpreted Languages'
+p2
+aS''
+p3
+a.(lp0
+S'97 Improper Neutralization of Server-Side Includes (SSI) Within a Web Page'
+p1
+aS' All'
+p2
+aS''
+p3
+a.(lp0
+S"98 Improper Control of Filename for Include/Require Statement in PHP Program ('PHP File Inclusion')"
+p1
+aS' PHP'
+p2
+aS''
+p3
+a.(lp0
+S"99 Improper Control of Resource Identifiers ('Resource Injection')"
+p1
+aS' All'
+p2
+aS''
+p3

@@ -1,0 +1,4 @@
+#CWE-835 Loop with Unreachable Exit Condition ('Infinite Loop')
+Attributes Submit Wms proxy Workload manager Log monitor Job controller (condor-g) Lrms Wn job
+MaxMin 1.05 1.05 1.05 1.05 1.05 1.05 1.05
+TimeOut 1.05 1.05 1.05 1.05 1.05 1.05 1.05

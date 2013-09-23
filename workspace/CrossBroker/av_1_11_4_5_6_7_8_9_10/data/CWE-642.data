@@ -1,0 +1,5 @@
+#CWE-642 External Control of Critical State Data
+Attributes Submit Logbook Sa-wm Output.fl Al-jc Condor_g Lrms Condor_startd Job
+Tampering 0.15 0.15 0.15 1.83 0.15 0.15 1.83 1.83 1.83
+Encryption 0.15 0.15 0.15 1.83 0.15 0.15 1.83 1.83 1.83
+Transformation 1.61 1.61 1.61 0.52 0.52 0.52 0.52 0.52 0.52

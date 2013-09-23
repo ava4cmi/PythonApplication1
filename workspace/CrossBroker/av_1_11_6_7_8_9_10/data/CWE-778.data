@@ -1,0 +1,7 @@
+#CWE-778 Insufficient Logging
+Attributes Submit Logbook Al-jc Condor_g Lrms Condor_startd Job
+Owner 3.63 3.63 3.63 3.63 3.63 3.05 1.52
+Thirdparty 0.32 0.32 0.32 0.32 0.32 0.32 0.32
+DB_DNS_IDS_FW 2.72 2.72 0.59 0.59 0.59 0.59 0.59
+Logs 1.35 1.35 1.35 1.35 1.35 1.35 0.44
+User 1.61 3.05 3.00 3.05 3.05 3.05 3.05

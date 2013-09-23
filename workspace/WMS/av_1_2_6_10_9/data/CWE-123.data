@@ -1,0 +1,7 @@
+#CWE-123 Write-what-where Condition
+Attributes Submit Voms server Wms proxy Lb proxy Lb database
+Owner 3.63 3.63 3.63 3.63 3.63
+Tampering 0.15 0.15 0.15 0.15 1.83
+UI_GUI 2.00 1.54 1.54 1.54 1.54
+User 1.61 3.00 3.00 3.00 3.05
+Sanitize 0.83 0.83 0.83 2.08 2.08

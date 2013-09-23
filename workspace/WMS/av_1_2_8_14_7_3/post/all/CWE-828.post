@@ -1,0 +1,3 @@
+#CWE-828 Signal Handler with Functionality that is not Asynchronous-Safe
+Attributes Value
+TimeOut 0.26

@@ -1,0 +1,6 @@
+#CWE-198 Use of Incorrect Byte Ordering
+Attributes Value
+ErrorHandling 0.22
+Trust 0.69
+Transfering 0.52
+Transformation 0.52

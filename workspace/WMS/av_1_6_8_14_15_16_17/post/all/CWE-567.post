@@ -1,0 +1,4 @@
+#CWE-567 Unsynchronized Access to Shared Data in a Multithreaded Context
+Attributes Value
+Tampering 0.15
+TimeOut 1.05

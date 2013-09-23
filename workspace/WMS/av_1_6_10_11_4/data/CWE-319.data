@@ -1,0 +1,6 @@
+#CWE-319 Cleartext Transmission of Sensitive Information
+Attributes Submit Wms proxy Lb proxy Logger (interlogd) Lb
+Encryption 0.15 0.15 0.15 0.15 0.15
+Trust 1.64 0.69 0.69 0.69 1.64
+Transfering 1.61 1.61 1.61 1.61 1.61
+Transformation 1.61 1.61 1.61 1.61 1.61

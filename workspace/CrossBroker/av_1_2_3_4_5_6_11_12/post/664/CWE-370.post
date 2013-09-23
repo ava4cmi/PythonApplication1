@@ -1,0 +1,3 @@
+#CWE-370 Missing Check for Certificate Revocation after Initial Check
+Attributes Value
+Trust 0.69

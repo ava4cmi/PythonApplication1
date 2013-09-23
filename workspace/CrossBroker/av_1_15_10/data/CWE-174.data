@@ -1,0 +1,3 @@
+#CWE-174 Double Decoding of the Same Data
+Attributes Submit Sandbox_dir Job
+Sanitize 0.83 2.08 2.08

@@ -1,0 +1,5 @@
+#CWE-502 Deserialization of Untrusted Data
+Attributes Value
+Tampering 0.15
+Trust 0.69
+Transfering 0.52

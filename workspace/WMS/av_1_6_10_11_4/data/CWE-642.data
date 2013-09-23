@@ -1,0 +1,5 @@
+#CWE-642 External Control of Critical State Data
+Attributes Submit Wms proxy Lb proxy Logger (interlogd) Lb
+Tampering 0.15 0.15 0.15 0.15 0.15
+Encryption 0.15 0.15 0.15 0.15 0.15
+Transformation 1.61 1.61 1.61 1.61 1.61

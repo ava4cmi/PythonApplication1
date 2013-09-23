@@ -1,0 +1,8 @@
+#CWE-400 Uncontrolled Resource Consumption ('Resource Exhaustion')
+Attributes Submit Voms server Proxy renewal Ice Workload manager Information service
+DB_DNS_IDS_FW 2.72 0.59 0.59 0.59 0.59 0.59
+MaxMin 1.05 1.05 1.05 1.05 1.05 0.26
+User 1.61 3.00 3.00 3.00 3.00 3.05
+TimeOut 1.05 1.05 1.05 1.05 1.05 0.26
+Owner 3.63 3.63 3.63 3.63 3.63 3.63
+Trust 1.64 0.69 0.69 0.69 0.69 1.64

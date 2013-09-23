@@ -1,0 +1,5 @@
+#CWE-269 Improper Privilege Management
+Attributes Submit Wms proxy Logger (interlogd) Lb proxy Lb database
+Owner 3.63 3.63 3.63 3.63 3.63
+UI_GUI 2.00 1.54 1.54 1.54 1.54
+User 1.61 3.00 3.00 3.00 3.05

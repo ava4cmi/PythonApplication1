@@ -1,0 +1,9 @@
+#CWE-603 Use of Client-Side Authentication
+Attributes Submit Wms proxy Logger (interlogd) Lb
+UI_GUI 2.00 1.54 1.54 1.54
+Client_Server 0.40 0.70 0.70 0.70
+User 1.61 3.00 3.00 3.00
+Owner 3.63 3.63 3.63 3.63
+Spoofing 0.15 0.15 1.83 1.83
+Trust 1.64 0.69 0.69 1.64
+Transfering 1.61 1.61 1.61 1.61

@@ -1,0 +1,5 @@
+#CWE-151 Improper Neutralization of Comment Delimiters
+Attributes Value
+Trust 1.64
+Transfering 1.61
+Sanitize 0.83

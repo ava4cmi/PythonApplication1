@@ -1,0 +1,11 @@
+#CWE-300 Channel Accessible by Non-Endpoint ('Man-in-the-Middle')
+Attributes Submit Wms proxy Workload manager Job controller (condor-g) Lrms Wn job
+Tampering 0.15 0.15 0.15 0.15 0.15 1.83
+Encryption 0.15 0.15 0.15 0.15 0.15 1.83
+DB_DNS_IDS_FW 2.72 0.59 0.59 0.59 0.59 0.59
+User 1.61 3.00 3.00 3.00 3.05 1.61
+Owner 3.63 3.63 3.63 3.63 3.63 3.63
+Spoofing 0.15 0.15 0.15 1.83 1.83 1.83
+Trust 1.64 0.69 0.69 0.69 0.69 1.64
+Transfering 1.61 1.61 1.61 1.61 1.61 1.61
+Transformation 1.61 1.61 1.61 1.61 1.61 1.61

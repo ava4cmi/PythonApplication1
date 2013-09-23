@@ -1,0 +1,6 @@
+#CWE-23 Relative Path Traversal
+Attributes Submit Wms proxy Lb proxy Lb database
+Owner 3.63 3.63 3.63 3.63
+Trust 1.64 0.69 0.69 0.69
+Sanitize 0.83 0.83 2.08 2.08
+User 1.61 3.00 3.00 3.05

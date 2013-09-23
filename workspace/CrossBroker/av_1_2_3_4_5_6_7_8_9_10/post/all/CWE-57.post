@@ -1,0 +1,3 @@
+#CWE-57 Path Equivalence: 'fakedir/../realdir/filename'
+Attributes Value
+Sanitize 0.83

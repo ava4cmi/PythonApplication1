@@ -1,0 +1,6 @@
+#CWE-345 Insufficient Verification of Data Authenticity
+Attributes Submit Logbook Sa-wm Output.fl Al-jc Condor_g Lrms Condor_startd Job
+Owner 3.63 3.63 3.63 3.05 3.63 3.63 3.63 3.05 1.52
+Spoofing 0.15 0.15 0.15 1.83 0.15 0.15 1.83 1.83 1.83
+Tampering 0.15 0.15 0.15 1.83 0.15 0.15 1.83 1.83 1.83
+User 1.61 3.05 3.00 3.05 3.00 3.05 3.05 3.05 3.05

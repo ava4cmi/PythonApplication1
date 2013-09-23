@@ -1,0 +1,5 @@
+#CWE-165 Improper Neutralization of Multiple Internal Special Elements
+Attributes Submit Wms proxy Logger (interlogd) Lb proxy Lb database
+Trust 1.64 0.69 0.69 0.69 0.69
+Transfering 1.61 1.61 1.61 1.61 2.08
+Sanitize 0.83 0.83 2.08 2.08 2.08

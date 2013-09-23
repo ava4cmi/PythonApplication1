@@ -1,0 +1,5 @@
+#CWE-297 Improper Validation of Host-specific Certificate Data
+Attributes Value
+Spoofing 0.15
+Trust 0.69
+DB_DNS_IDS_FW 0.59

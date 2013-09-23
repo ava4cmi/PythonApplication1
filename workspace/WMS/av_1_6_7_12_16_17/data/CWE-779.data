@@ -1,0 +1,4 @@
+#CWE-779 Logging of Excessive Data
+Attributes Submit Wms proxy Workload manager Job controller (condor-g) Lrms Wn job
+MaxMin 1.05 1.05 1.05 1.05 1.05 1.05
+Logs 1.35 1.35 0.44 0.44 0.44 1.35

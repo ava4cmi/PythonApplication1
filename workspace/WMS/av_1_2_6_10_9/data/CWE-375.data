@@ -1,0 +1,3 @@
+#CWE-375 Returning a Mutable Object to an Untrusted Caller
+Attributes Submit Voms server Wms proxy Lb proxy Lb database
+Trust 1.64 0.69 0.69 0.69 0.69

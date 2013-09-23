@@ -1,0 +1,3 @@
+#CWE-45 Path Equivalence: 'file...name' (Multiple Internal Dot)
+Attributes Value
+Sanitize 0.83

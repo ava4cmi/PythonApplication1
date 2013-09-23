@@ -1,0 +1,8 @@
+#CWE-400 Uncontrolled Resource Consumption ('Resource Exhaustion')
+Attributes Submit Logbook Mysql
+DB_DNS_IDS_FW 2.72 2.72 2.72
+MaxMin 1.05 1.05 1.05
+User 1.61 3.05 3.05
+TimeOut 1.05 1.05 1.05
+Owner 3.63 3.63 3.05
+Trust 1.64 0.69 0.69

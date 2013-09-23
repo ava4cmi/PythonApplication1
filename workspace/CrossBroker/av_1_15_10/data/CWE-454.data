@@ -1,0 +1,4 @@
+#CWE-454 External Initialization of Trusted Variables or Data Stores
+Attributes Submit Sandbox_dir Job
+Trust 1.64 1.64 0.69
+Sanitize 0.83 2.08 2.08

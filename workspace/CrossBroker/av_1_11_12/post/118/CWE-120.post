@@ -1,0 +1,5 @@
+#CWE-120 Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')
+Attributes Value
+MaxMin 1.22
+Owner 3.59
+User 1.96

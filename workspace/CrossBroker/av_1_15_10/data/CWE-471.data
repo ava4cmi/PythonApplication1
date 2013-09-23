@@ -1,0 +1,8 @@
+#CWE-471 Modification of Assumed-Immutable Data (MAID)
+Attributes Submit Sandbox_dir Job
+UI_GUI 2.00 1.54 1.54
+Tampering 0.15 1.83 1.83
+User 1.61 0.52 3.05
+Owner 3.63 0.52 1.52
+Trust 1.64 1.64 0.69
+Transformation 1.61 0.52 0.52

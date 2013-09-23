@@ -1,0 +1,6 @@
+#CWE-450 Multiple Interpretations of UI Input
+Attributes Value
+Owner 1.52
+UI_GUI 1.54
+Sanitize 0.83
+User 1.61

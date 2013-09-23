@@ -1,0 +1,3 @@
+#CWE-75 Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)
+Attributes Submit Wms proxy Workload manager Information service
+Sanitize 0.83 0.83 0.83 2.08

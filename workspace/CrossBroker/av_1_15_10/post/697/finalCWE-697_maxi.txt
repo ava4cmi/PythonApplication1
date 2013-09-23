@@ -1,0 +1,4 @@
+1. CWE-184 Incomplete Blacklist:0.43
+2. CWE-183 Permissive Whitelist:0.43
+3. CWE-186 Overly Restrictive Regular Expression:0.415
+4. CWE-185 Incorrect Regular Expression:0.415

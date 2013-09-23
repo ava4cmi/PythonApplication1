@@ -1,0 +1,5 @@
+#CWE-116 Improper Encoding or Escaping of Output
+Attributes Value
+Transfering 0.52
+Sanitize 0.83
+Transformation 0.52

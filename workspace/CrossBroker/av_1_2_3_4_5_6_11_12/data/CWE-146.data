@@ -1,0 +1,5 @@
+#CWE-146 Improper Neutralization of Expression/Command Delimiters
+Attributes Submit Uam-ns Input.fl Sa-wm Output.fl Al-jc Logbook Mysql
+Trust 1.64 0.69 0.69 0.69 0.69 0.69 0.69 0.69
+Transfering 1.61 1.61 1.61 1.61 2.08 2.08 1.61 0.52
+Sanitize 0.83 0.83 0.83 2.08 2.08 2.08 0.83 2.08

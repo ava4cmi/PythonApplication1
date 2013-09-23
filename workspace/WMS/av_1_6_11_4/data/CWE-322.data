@@ -1,0 +1,7 @@
+#CWE-322 Key Exchange without Entity Authentication
+Attributes Submit Wms proxy Logger (interlogd) Lb
+Owner 3.63 3.63 3.63 3.63
+Encryption 0.15 0.15 0.15 0.15
+Trust 1.64 0.69 0.69 1.64
+Transfering 1.61 1.61 1.61 1.61
+User 1.61 3.00 3.00 3.00

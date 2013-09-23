@@ -1,0 +1,5 @@
+#CWE-421 Race Condition During Access to Alternate Channel
+Attributes Submit Gridftp Wn job
+Owner 3.63 3.63 3.63
+User 1.61 3.00 1.61
+TimeOut 1.05 1.05 1.05

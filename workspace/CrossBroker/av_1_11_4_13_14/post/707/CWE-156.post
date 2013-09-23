@@ -1,0 +1,5 @@
+#CWE-156 Improper Neutralization of Whitespace
+Attributes Value
+Trust 0.69
+Transfering 0.52
+Sanitize 0.83

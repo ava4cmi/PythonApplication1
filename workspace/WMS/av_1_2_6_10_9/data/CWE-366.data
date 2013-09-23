@@ -1,0 +1,3 @@
+#CWE-366 Race Condition within a Thread
+Attributes Submit Voms server Wms proxy Lb proxy Lb database
+TimeOut 1.05 1.05 1.05 1.05 1.05

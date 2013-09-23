@@ -1,0 +1,5 @@
+#CWE-353 Missing Support for Integrity Check
+Attributes Submit Uam-ns Input.fl Sa-wm Output.fl Al-jc Logbook Mysql
+Tampering 0.15 0.15 1.83 0.15 1.83 0.15 0.15 1.83
+DB_DNS_IDS_FW 2.72 0.59 0.59 0.59 0.59 0.59 2.72 2.72
+Transfering 1.61 1.61 1.61 1.61 2.08 2.08 1.61 0.52

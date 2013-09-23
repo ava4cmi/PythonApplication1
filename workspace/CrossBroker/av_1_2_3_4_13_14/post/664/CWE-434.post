@@ -1,0 +1,10 @@
+#CWE-434 Unrestricted Upload of File with Dangerous Type
+Attributes Value
+UI_GUI 1.81
+DB_DNS_IDS_FW 0.77
+Attachment 0.15
+Owner 0.67
+WebAppService 0.20
+Trust 0.84
+Transfering 0.68
+User 1.96

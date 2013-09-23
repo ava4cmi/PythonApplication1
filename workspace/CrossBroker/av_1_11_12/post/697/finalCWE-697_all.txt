@@ -1,0 +1,7 @@
+1. CWE-184 Incomplete Blacklist: (Sp= 1.03333333333; Max= 1.03333333333; Meg= 1.03333333333; Q3= 1.03333333333)
+2. CWE-183 Permissive Whitelist: (Sp= 1.03333333333; Max= 1.03333333333; Meg= 1.03333333333; Q3= 1.03333333333)
+3. CWE-186 Overly Restrictive Regular Expression: (Sp= 0.415; Max= 0.415; Meg= 0.415; Q3= 1.03333333333)
+4. CWE-185 Incorrect Regular Expression: (Sp= 0.415; Max= 0.415; Meg= 0.415; Q3= 1.03333333333)
+  |
+  -->CWE-186 Overly Restrictive Regular Expression: (Sp= 0.415; Max= 0.415; Meg= 0.415)
+

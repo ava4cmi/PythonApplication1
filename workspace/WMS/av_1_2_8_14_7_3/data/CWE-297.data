@@ -1,0 +1,5 @@
+#CWE-297 Improper Validation of Host-specific Certificate Data
+Attributes Submit Voms server Proxy renewal Ice Workload manager Information service
+Spoofing 0.15 0.15 0.15 1.83 0.15 1.83
+Trust 1.64 0.69 0.69 0.69 0.69 1.64
+DB_DNS_IDS_FW 2.72 0.59 0.59 0.59 0.59 0.59

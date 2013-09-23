@@ -1,0 +1,5 @@
+#CWE-292 Trusting Self-reported DNS Name
+Attributes Submit Wms proxy Lb proxy Lb database
+Spoofing 0.15 0.15 1.83 1.83
+Trust 1.64 0.69 0.69 0.69
+DB_DNS_IDS_FW 2.72 0.59 2.72 2.72

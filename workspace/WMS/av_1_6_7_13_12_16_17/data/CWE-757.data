@@ -1,0 +1,4 @@
+#CWE-757 Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade')
+Attributes Submit Wms proxy Workload manager Log monitor Job controller (condor-g) Lrms Wn job
+Encryption 0.15 0.15 0.15 0.15 0.15 0.15 1.83
+Transfering 1.61 1.61 1.61 2.08 1.61 1.61 1.61

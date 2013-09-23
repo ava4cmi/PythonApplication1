@@ -1,0 +1,5 @@
+#CWE-733 Compiler Optimization Removal or Modification of Security-critical Code
+Attributes Value
+Encryption 0.15
+Client_Server 0.40
+Transformation 1.61

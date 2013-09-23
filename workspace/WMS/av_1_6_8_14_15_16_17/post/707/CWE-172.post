@@ -1,0 +1,5 @@
+#CWE-172 Encoding Error
+Attributes Value
+Encryption 0.15
+ErrorHandling 0.22
+Sanitize 0.83

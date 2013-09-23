@@ -1,0 +1,3 @@
+#CWE-663 Use of a Non-reentrant Function in a Concurrent Context
+Attributes Submit Gridftp Wms proxy Workload manager Information service
+TimeOut 1.05 1.05 1.05 1.05 0.26

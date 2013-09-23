@@ -1,0 +1,3 @@
+#CWE-668 Exposure of Resource to Wrong Sphere
+Attributes Submit Voms server Wms proxy Lb proxy Lb database
+Thirdparty 0.32 0.32 0.32 0.32 0.32

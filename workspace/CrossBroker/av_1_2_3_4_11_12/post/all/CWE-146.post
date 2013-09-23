@@ -1,0 +1,5 @@
+#CWE-146 Improper Neutralization of Expression/Command Delimiters
+Attributes Value
+Trust 0.69
+Transfering 0.52
+Sanitize 0.83

@@ -1,0 +1,6 @@
+#CWE-345 Insufficient Verification of Data Authenticity
+Attributes Value
+Owner 3.63
+Spoofing 0.15
+Tampering 0.15
+User 1.61

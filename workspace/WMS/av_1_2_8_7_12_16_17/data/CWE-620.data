@@ -1,0 +1,6 @@
+#CWE-620 Unverified Password Change
+Attributes Submit Voms server Proxy renewal Workload manager Job controller (condor-g) Lrms Wn job
+Owner 3.63 3.63 3.63 3.63 3.63 3.63 3.63
+Encryption 0.15 0.15 0.15 0.15 0.15 0.15 1.83
+User 1.61 3.00 3.00 3.00 3.00 3.05 1.61
+UI_GUI 2.00 1.54 1.54 1.54 1.54 1.54 1.54

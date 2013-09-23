@@ -1,0 +1,4 @@
+#CWE-454 External Initialization of Trusted Variables or Data Stores
+Attributes Submit Uam-ns Input.fl Sa-wm Rs Bdii
+Trust 1.64 0.69 0.69 0.69 1.64 1.64
+Sanitize 0.83 0.83 0.83 2.08 2.08 2.08

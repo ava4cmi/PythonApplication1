@@ -1,0 +1,5 @@
+#CWE-307 Improper Restriction of Excessive Authentication Attempts
+Attributes Value
+Owner 0.67
+User 0.67
+TimeOut 0.34

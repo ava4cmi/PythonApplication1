@@ -1,0 +1,4 @@
+#CWE-130 Improper Handling of Length Parameter Inconsistency 
+Attributes Submit Uam-ns Input.fl Sa-wm Output.fl Al-jc Logbook Mysql
+MaxMin 1.05 1.05 1.05 1.05 0.26 1.05 1.05 1.05
+Sanitize 0.83 0.83 0.83 2.08 2.08 2.08 0.83 2.08

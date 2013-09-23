@@ -1,0 +1,6 @@
+#CWE-267 Privilege Defined With Unsafe Actions
+Attributes Submit Wms proxy Lb proxy Logger (interlogd) Lb
+Owner 3.63 3.63 3.63 3.63 3.63
+Tampering 0.15 0.15 0.15 0.15 0.15
+User 1.61 3.00 3.00 3.00 3.00
+UI_GUI 2.00 1.54 1.54 1.54 1.54

@@ -1,0 +1,65 @@
+1. CWE-134 Uncontrolled Format String:1.33125
+2. CWE-78 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'):0.882916666667
+3. CWE-89 Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'):0.805357142857
+4. CWE-641 Improper Restriction of Names for Files and Other Resources:0.778333333333
+5. CWE-74 Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'):0.676727217947
+6. CWE-77 Improper Neutralization of Special Elements used in a Command ('Command Injection'):0.658241025855
+7. CWE-76 Improper Neutralization of Equivalent Special Elements:0.6225
+8. CWE-75 Failure to Sanitize Special Elements into a Different Plane (Special Element Injection):0.6225
+9. CWE-56 Path Equivalence: 'filedir*' (Wildcard):0.6225
+10. CWE-54 Path Equivalence: 'filedir\' (Trailing Backslash):0.6225
+11. CWE-53 Path Equivalence: '\multiple\\internal\backslash':0.6225
+12. CWE-52 Path Equivalence: '/multiple/trailing/slash//':0.6225
+13. CWE-50 Path Equivalence: '//multiple/leading/slash':0.6225
+14. CWE-49 Path Equivalence: 'filename/' (Trailing Slash):0.6225
+15. CWE-46 Path Equivalence: 'filename ' (Trailing Space):0.6225
+16. CWE-45 Path Equivalence: 'file...name' (Multiple Internal Dot):0.6225
+17. CWE-43 Path Equivalence: 'filename....' (Multiple Trailing Dot):0.6225
+18. CWE-42 Path Equivalence: 'filename.' (Trailing Dot):0.6225
+19. CWE-37 Path Traversal: '/absolute/pathname/here':0.6225
+20. CWE-236 Improper Handling of Undefined Parameters:0.6225
+21. CWE-235 Improper Handling of Extra Parameters:0.6225
+22. CWE-234 Failure to Handle Missing Parameter:0.6225
+23. CWE-232 Improper Handling of Undefined Values:0.6225
+24. CWE-231 Improper Handling of Extra Values:0.6225
+25. CWE-176 Improper Handling of Unicode Encoding:0.6225
+26. CWE-175 Improper Handling of Mixed Encoding:0.6225
+27. CWE-174 Double Decoding of the Same Data:0.6225
+28. CWE-173 Improper Handling of Alternate Encoding:0.6225
+29. CWE-170 Improper Null Termination:0.6225
+30. CWE-168 Improper Handling of Inconsistent Special Elements:0.6225
+31. CWE-157 Failure to Sanitize Paired Delimiters:0.6225
+32. CWE-130 Improper Handling of Length Parameter Inconsistency :0.57375
+33. CWE-88 Argument Injection or Modification:0.550833333333
+34. CWE-165 Improper Neutralization of Multiple Internal Special Elements:0.541243864015
+35. CWE-163 Improper Neutralization of Multiple Trailing Special Elements:0.541243864015
+36. CWE-162 Improper Neutralization of Trailing Special Elements:0.541243864015
+37. CWE-90 Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'):0.538928571429
+38. CWE-172 Encoding Error:0.526399829418
+39. CWE-161 Improper Neutralization of Multiple Leading Special Elements:0.504684307265
+40. CWE-155 Improper Neutralization of Wildcards or Matching Symbols:0.504684307265
+41. CWE-159 Failure to Sanitize Special Element:0.483889184387
+42. CWE-167 Improper Handling of Additional Special Element:0.48375
+43. CWE-166 Improper Handling of Missing Special Element:0.48375
+44. CWE-93 Improper Neutralization of CRLF Sequences ('CRLF Injection'):0.478125
+45. CWE-160 Improper Neutralization of Leading Special Elements:0.470594249532
+46. CWE-838 Inappropriate Encoding for Output Context:0.44125
+47. CWE-138 Improper Neutralization of Special Elements:0.433835167978
+48. CWE-164 Improper Neutralization of Internal Special Elements:0.409166666667
+49. CWE-158 Improper Neutralization of Null Byte or NUL Character:0.409166666667
+50. CWE-156 Improper Neutralization of Whitespace:0.409166666667
+51. CWE-154 Improper Neutralization of Variable Name Delimiters:0.409166666667
+52. CWE-153 Improper Neutralization of Substitution Characters:0.409166666667
+53. CWE-152 Improper Neutralization of Macro Symbols:0.409166666667
+54. CWE-151 Improper Neutralization of Comment Delimiters:0.409166666667
+55. CWE-150 Improper Neutralization of Escape Meta or Control Sequences:0.409166666667
+56. CWE-147 Improper Neutralization of Input Terminators:0.409166666667
+57. CWE-146 Improper Neutralization of Expression/Command Delimiters:0.409166666667
+58. CWE-145 Improper Neutralization of Section Delimiters:0.409166666667
+59. CWE-144 Improper Neutralization of Line Delimiters:0.409166666667
+60. CWE-143 Improper Neutralization of Record Delimiters:0.409166666667
+61. CWE-142 Improper Neutralization of Value Delimiters:0.409166666667
+62. CWE-141 Improper Neutralization of Parameter/Argument Delimiters:0.409166666667
+63. CWE-116 Improper Encoding or Escaping of Output:0.394819961593
+64. CWE-96 Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection'):0.380833333333
+65. CWE-117 Improper Output Neutralization for Logs:0.36625

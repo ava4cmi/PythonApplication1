@@ -1,0 +1,4 @@
+#CWE-117 Improper Output Neutralization for Logs
+Attributes Submit Logbook Sa-wm Output.fl Al-jc Condor_g Lrms Condor_startd Job
+Logs 1.35 1.35 1.35 0.44 1.35 1.35 1.35 1.35 0.44
+Sanitize 0.83 0.83 2.08 2.08 2.08 2.08 2.08 2.08 2.08

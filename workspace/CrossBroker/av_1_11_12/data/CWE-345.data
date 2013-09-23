@@ -1,0 +1,6 @@
+#CWE-345 Insufficient Verification of Data Authenticity
+Attributes Submit Logbook Mysql
+Owner 3.63 3.63 3.05
+Spoofing 0.15 0.15 1.83
+Tampering 0.15 0.15 1.83
+User 1.61 3.05 3.05

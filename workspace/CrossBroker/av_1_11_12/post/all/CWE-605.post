@@ -1,0 +1,3 @@
+#CWE-605 Multiple Binds to the Same Port
+Attributes Value
+DB_DNS_IDS_FW 2.72

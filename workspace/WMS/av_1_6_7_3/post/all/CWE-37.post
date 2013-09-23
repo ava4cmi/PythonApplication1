@@ -1,0 +1,3 @@
+#CWE-37 Path Traversal: '/absolute/pathname/here'
+Attributes Value
+Sanitize 0.83

@@ -1,0 +1,5 @@
+#CWE-161 Improper Neutralization of Multiple Leading Special Elements
+Attributes Submit Wms proxy Workload manager Information service
+Trust 1.64 0.69 0.69 1.64
+Transfering 1.61 1.61 1.61 2.08
+Sanitize 0.83 0.83 0.83 2.08

@@ -1,0 +1,8 @@
+#CWE-538 File and Directory Information Exposure
+Attributes Submit Wms proxy Logger (interlogd) Lb
+UI_GUI 2.00 1.54 1.54 1.54
+Tampering 0.15 0.15 0.15 0.15
+Encryption 0.15 0.15 0.15 0.15
+User 1.61 3.00 3.00 3.00
+Owner 3.63 3.63 3.63 3.63
+Trust 1.64 0.69 0.69 1.64

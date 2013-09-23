@@ -1,0 +1,9 @@
+#CWE-406 Insufficient Control of Network Message Volume (Network Amplification)
+Attributes Submit Logbook Sa-wm Output.fl Al-jc Condor_g Lrms Condor_startd Job
+Thirdparty 0.32 0.32 0.32 0.32 0.32 0.32 0.32 0.32 0.32
+DB_DNS_IDS_FW 2.72 2.72 0.59 0.59 0.59 0.59 0.59 0.59 0.59
+MaxMin 1.05 1.05 1.05 0.26 1.05 1.05 1.05 1.05 1.05
+User 1.61 3.05 3.00 3.05 3.00 3.05 3.05 3.05 3.05
+Owner 3.63 3.63 3.63 3.05 3.63 3.63 3.63 3.05 1.52
+Trust 1.64 0.69 0.69 0.69 0.69 0.69 0.69 0.69 0.69
+Transfering 1.61 1.61 1.61 2.08 2.08 2.08 2.08 0.52 2.08

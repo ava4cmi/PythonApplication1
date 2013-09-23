@@ -1,0 +1,6 @@
+#CWE-276 Incorrect Default Permissions
+Attributes Submit Wms proxy Workload manager Log monitor Job controller (condor-g) Lrms Wn job
+Owner 3.63 3.63 3.63 3.63 3.63 3.63 3.63
+UI_GUI 2.00 1.54 1.54 1.54 1.54 1.54 1.54
+Client_Server 0.40 0.70 0.70 0.70 0.70 0.70 0.70
+User 1.61 3.00 3.00 3.00 3.00 3.05 1.61

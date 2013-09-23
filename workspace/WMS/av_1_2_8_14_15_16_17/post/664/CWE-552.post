@@ -1,0 +1,11 @@
+#CWE-552 Files or Directories Accessible to External Parties
+Attributes Value
+UI_GUI 1.54
+Thirdparty 0.32
+Client_Server 0.40
+Tampering 0.15
+Encryption 0.15
+User 1.61
+Owner 3.63
+Trust 0.69
+Transformation 0.52

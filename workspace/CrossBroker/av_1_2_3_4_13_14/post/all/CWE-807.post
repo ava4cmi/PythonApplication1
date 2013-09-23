@@ -1,0 +1,7 @@
+#CWE-807 Reliance on Untrusted Inputs in a Security Decision
+Attributes Value
+Owner 0.67
+Spoofing 0.29
+Trust 0.84
+Sanitize 1.01
+User 1.96

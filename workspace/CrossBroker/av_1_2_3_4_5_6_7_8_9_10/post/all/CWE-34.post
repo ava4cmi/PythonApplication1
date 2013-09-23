@@ -1,0 +1,3 @@
+#CWE-34 Path Traversal: '....//'
+Attributes Value
+Sanitize 0.83

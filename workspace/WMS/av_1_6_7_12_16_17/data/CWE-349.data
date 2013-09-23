@@ -1,0 +1,4 @@
+#CWE-349 Acceptance of Extraneous Untrusted Data With Trusted Data
+Attributes Submit Wms proxy Workload manager Job controller (condor-g) Lrms Wn job
+Tampering 0.15 0.15 0.15 0.15 0.15 1.83
+Trust 1.64 0.69 0.69 0.69 0.69 1.64

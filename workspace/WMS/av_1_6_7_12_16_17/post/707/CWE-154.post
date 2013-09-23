@@ -1,0 +1,5 @@
+#CWE-154 Improper Neutralization of Variable Name Delimiters
+Attributes Value
+Trust 0.69
+Transfering 1.61
+Sanitize 0.83

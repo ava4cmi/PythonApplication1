@@ -1,0 +1,9 @@
+#CWE-603 Use of Client-Side Authentication
+Attributes Value
+UI_GUI 1.54
+Client_Server 0.40
+User 1.61
+Owner 3.63
+Spoofing 0.15
+Trust 1.64
+Transfering 1.61

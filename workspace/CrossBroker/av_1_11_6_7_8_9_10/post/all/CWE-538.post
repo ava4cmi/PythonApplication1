@@ -1,0 +1,8 @@
+#CWE-538 File and Directory Information Exposure
+Attributes Value
+UI_GUI 1.54
+Tampering 0.15
+Encryption 0.15
+User 1.61
+Owner 1.52
+Trust 0.69

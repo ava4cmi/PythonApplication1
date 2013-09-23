@@ -1,0 +1,682 @@
+0 102::Struts: Duplicate Validation Forms
+1 103::Struts: Erroneous validate() Method
+2 104::Struts: Form Bean Does Not Extend Validation Class
+3 105::Struts: Form Field Without Validator
+4 106::Struts: Plug-in Framework Not In Use
+5 107::Struts: Unused Validation Form
+6 108::Struts: Unvalidated Action Form
+7 109::Struts: Validator Turned Off
+8 11::ASP.NET Misconfiguration: Creating Debug Binary
+9 110::Struts: Validator Without Form Field
+10 111::Unsafe JNI::Define wrappers around native methods
+11 112::Missing XML Validation
+12 113::HTTP response splitting::HTTP Response Splitting::HTTP Response Splitting 
+13 114::Process Control
+14 115::Misinterpretation Error
+15 116::Improper Output Handling ::Sanitize untrusted data passed across a trust boundary::Perform lossless conversion of String data between differing character encodings::Use a subset of ASCII for file names::Character Encoding - Use Subset of ASCII for Safety::Character Encoding - UTF8 Related Issues
+16 117::Log Forging
+17 
+18 119::Buffer Overflows::Understand how arrays work::Guarantee that copies are made into storage of sufficient size::Ensure that array types in expressions are compatible::Do not allow loops to iterate beyond the end of an array::Do not make assumptions about the size of an environment variable::Do not assume character data has been read::Do not assume memory allocation routines initialize memory::Guarantee that storage for strings has sufficient space for character data and the null terminator::Null-terminate byte strings as required::Size wide character strings correctly::Buffer Overflow ::Understand when to prefer vectors over arrays::Guarantee that array and vector indices are within the valid range::Guarantee that copies are made into storage of sufficient size::Do not allow loops to iterate beyond the end of an array or container::Guarantee that storage for character arrays has sufficient space for character data and the null terminator::Null-terminate character arrays as required::Do not assume memory allocation routines initialize memory::Do not assume character data has been read::Do not make assumptions about the size of an environment variable
+19 12::ASP.NET Misconfiguration: Missing Custom Error Handling
+20 120::Unbounded Transfer ('classic overflow')::Buffer Overflow::Buffer overflow::Unvalidated Input::Buffer Overflows::Do not copy data from an unbounded source to a fixed-length array::Buffer Overflow ::Do not copy data from an unbounded source to a fixed-length array
+21 121::Stack overflow
+22 122::Heap overflow
+23 123::Write-what-where condition
+24 124::UNDER - Boundary beginning violation ('buffer underflow'?)::Buffer underwrite
+25 125::Out-of-bounds Read
+26 126::Buffer over-read
+27 127::Buffer under-read
+28 128::Wrap-around error::Ensure that the arguments to calloc(), when multiplied, can be represented as a size_t::Ensure that the arguments to calloc(), when multiplied, can be represented as a size_t
+29 129::Unchecked array indexing::INDEX - Array index overflow::Understand how arrays work::Guarantee that array indices are within the valid range::Do not add or subtract an integer to a pointer if the resulting value does not refer to a valid array element::Ensure that operations on signed integers do not result in overflow::Do not assume a positive remainder when using the % operator::Ensure that operations on signed integers do not result in overflow::Understand when to prefer vectors over arrays::Guarantee that array and vector indices are within the valid range::Do not add or subtract an integer to a pointer or iterator if the resulting value does not refer to a valid element in the array or container
+30 13::ASP.NET Misconfiguration: Password in Configuration File
+31 130::Length Parameter Inconsistency
+32 131::Other length calculation error::Allocate sufficient memory for an object::Allocate sufficient memory for an object
+33 134::Format string vulnerability::Format String::Format string problem::Exclude user input from format strings::Unvalidated Input::Exclude user input from format strings::Format String ::Exclude user input from format strings::Exclude user input from format strings
+34 135::Improper string length checking::Size wide character strings correctly::Ensure the array is filled when using read() to fill an array
+35 138::Special Elements (Characters or Reserved Words)::Custom Special Character Injection
+36 14::Insecure Compiler Optimization::Sensitive memory uncleared by compiler optimization::Insecure Storage::Be aware of compiler optimization when dealing with sensitive data::Be aware of compiler optimization when dealing with sensitive data
+37 140::Delimiter Problems
+38 141::Parameter Delimiter
+39 142::Value Delimiter
+40 143::Record Delimiter
+41 144::Line Delimiter::Do not log unsanitized user input
+42 145::Section Delimiter
+43 146::Delimiter between Expressions or Commands
+44 147::Input Terminator
+45 148::Input Leader
+46 149::Quoting Element
+47 15::Setting Manipulation::Provide a trusted environment and sanitize all inputs
+48 150::Escape, Meta, or Control Character / Sequence::Do not log unsanitized user input
+49 151::Comment Element
+50 152::Macro Symbol
+51 153::Substitution Character
+52 154::Variable Name Delimiter
+53 155::Wildcard or Matching Element
+54 156::Whitespace
+55 157::Grouping Element / Paired Delimiter
+56 158::Null Character / Null Byte::Null Byte Injection 
+57 159::Common Special Element Manipulations
+58 160::Leading Special Element
+59 161::Multiple Leading Special Elements
+60 162::Trailing Special Element
+61 163::Multiple Trailing Special Elements
+62 164::Internal Special Element
+63 165::Multiple Internal Special Element
+64 166::Missing Special Element
+65 167::Extra Special Element
+66 168::Inconsistent Special Elements
+67 170::Improper Null Termination::String Termination Error::Miscalculated null termination::Denial of Service::Use the readlink() function properly::Do not inadvertently truncate a null-terminated byte string::Null-terminate byte strings as required::Do not inadvertently truncate a null-terminated character array::Null-terminate character arrays as required
+68 172::Encoding Error
+69 173::Alternate Encoding
+70 174::Double Encoding
+71 175::Mixed Encoding
+72 176::Unicode Encoding::Character Encoding - UTF8 Related Issues::Character Encoding - UTF8 Related Issues
+73 177::URL Encoding (Hex Encoding)
+74 178::Case Sensitivity (lowercase, uppercase, mixed case)
+75 179::Early Validation Errors
+76 180::Validate-Before-Canonicalize::Unvalidated Input::Normalize strings before validating them
+77 181::Validate-Before-Filter::Unvalidated Input
+78 182::Collapse of Data into Unsafe Value::Sanitize non-character code points before performing other sanitization
+79 183::Permissive Whitelist
+80 184::Incomplete Blacklist
+81 185::Regular Expression Error
+82 186::Overly Restrictive Regular Expression
+83 187::Partial Comparison
+84 188::Reliance on data layout
+85 190::Integer overflow (wrap or wraparound)::Integer Overflow::Integer overflow::Use a secure integer library::Ensure that unsigned integer operations do not wrap::Ensure that operations on signed integers do not result in overflow::Evaluate integer expressions in a larger size before comparing or assigning to that size::Ensure that the arguments to calloc(), when multiplied, can be represented as a size_t::Allocate sufficient memory for an object::Integer Overflows ::Use a secure integer library::Ensure that unsigned integer operations do not wrap::Ensure that operations on signed integers do not result in overflow::Evaluate integer expressions in a larger size before comparing or assigning to that size::Ensure that the arguments to calloc(), when multiplied, can be represented as a size_t::Allocate sufficient memory for an object
+86 191::Integer underflow (wrap or wraparound)
+87 193::Off-by-one Error::Guarantee that storage for strings has sufficient space for character data and the null terminator::Guarantee that storage for character arrays has sufficient space for character data and the null terminator
+88 194::Sign extension error
+89 195::Signed to unsigned conversion error
+90 196::Unsigned to signed conversion error
+91 197::Numeric truncation error::Truncation error::Understand integer conversion rules::Do not use input functions to convert character data if they cannot handle all possible inputs::Ensure that integer conversions do not result in lost or misinterpreted data::Ensure conversions of numeric types to narrower types do not result in lost or misinterpreted data::Understand integer conversion rules::Do not use input functions to convert character data if they cannot handle all possible inputs::Ensure that integer conversions do not result in lost or misinterpreted data
+92 198::Numeric Byte Ordering Error::Provide methods to read and write little-endian data
+93 20::Input validation and representation::Unvalidated Input::Prefer functions that support error checking over equivalent functions that don't::Use strtol() or a related function to convert a string token to an integer::Define and use a pointer validation function::Library functions should validate their parameters::Improper Input Handling ::Use strtol() or a related function to convert a string token to an integer::Define and use a pointer validation function::Functions should validate their parameters
+94 200::Information Leak (information disclosure)::Information Leakage and Improper Error Handling::Information Leakage 
+95 201::Accidental leaking of sensitive information through sent data
+96 202::Accidental leaking of sensitive information through data queries
+97 203::Discrepancy Information Leaks::Information Leakage and Improper Error Handling::Improper Error Handling
+98 204::Response discrepancy infoleak
+99 205::Behavioral Discrepancy Infoleak::Fingerprinting 
+100 206::Internal behavioral inconsistency infoleak
+101 207::External behavioral inconsistency infoleak
+102 208::Timing discrepancy infoleak
+103 209::Accidental leaking of sensitive information through error messages::Information Leakage and Improper Error Handling::Improper Error Handling::Insecure Configuration Management::Do not allow exceptions to expose sensitive information::Do not allow exceptions to transmit sensitive information
+104 210::Product-Generated Error Message Infoleak
+105 211::Product-External Error Message Infoleak
+106 212::Cross-Boundary Cleansing Infoleak
+107 213::Intended information leak
+108 214::Process information infoleak to other processes
+109 215::Infoleak Using Debug Information::Information Leakage and Improper Error Handling::Insecure Configuration Management::Limit the lifetime of sensitive data
+110 216::Containment errors (container errors)
+111 219::Sensitive Data Under Web Root::Insecure Configuration Management
+112 22::Path Traversal::Insecure Direct Object Reference::Broken Access Control::Canonicalize path names originating from untrusted sources::Path Traversal ::Canonicalize path names originating from untrusted sources
+113 220::Sensitive Data Under FTP Root
+114 221::Information loss or omission
+115 222::Truncation of Security-relevant Information
+116 223::Omission of Security-relevant Information
+117 224::Obscured Security-relevant Information by Alternate Name
+118 226::Sensitive Information Uncleared Before Use::Clear sensitive information stored in reusable resources returned for reuse::Limit the lifetime of sensitive data::Clear sensitive information stored in returned reusable resources
+119 227::API Abuse::Abuse of Functionality 
+120 228::Structure and Validity Problems::Improper Error Handling
+121 
+122 23::Relative Path Traversal
+123 230::Missing Value Error::Do not catch NullPointerException or any of its ancestors
+124 231::Extra Value Error
+125 232::Undefined Value Error::Do not catch NullPointerException or any of its ancestors
+126 233::Parameter Problems
+127 234::Missing Parameter Error::Missing parameter
+128 235::Extra Parameter Error
+129 236::Undefined Parameter Error
+130 237::Element Problems
+131 238::Missing Element Error
+132 239::Incomplete Element
+133 24::'../filedir
+134 240::Inconsistent Elements
+135 241::Wrong Data Type::Do not assume character data has been read::Do not assume character data has been read
+136 242::Dangerous Functions::Do not use vfork()
+137 243::Directory Restriction
+138 244::Heap Inspection::Clear sensitive information stored in reusable resources returned for reuse::Clear sensitive information stored in returned reusable resources
+139 245::J2EE Bad Practices: getConnection()
+140 246::J2EE Bad Practices: Sockets
+141 
+142 248::Often Misused: Exception Handling::Do not let checked exceptions escape from a finally block::Do not let code throw undeclared checked exceptions
+143 25::'/../filedir
+144 250::Often Misused: Privilege Management::Minimize privileges before deserializing from a privilege context
+145 252::Unchecked Return Value::Ignored function return value::Improper Error Handling::Detect and handle memory allocation errors::Do not ignore values returned by methods::Detect and handle memory allocation errors
+146 253::Misinterpreted function return value
+147 256::Password Management::Store passwords using a hash function
+148 257::Storing passwords in a recoverable format
+149 258::Password Management: Empty Password in Configuration File
+150 259::Password Management: Hard-Coded Password::Use of hard-coded password::Broken Authentication and Session Management::Never hardcode sensitive information
+151 26::'/directory/../filename
+152 260::Password Management: Password in Configuration File
+153 261::Password Management: Weak Cryptography::Insecure Storage
+154 262::Not allowing password aging
+155 263::Allowing password aging
+156 266::Incorrect Privilege Assignment::Do not allow doPrivileged() blocks to leak sensitive information outside a trust boundary::Do not allow tainted variables in doPrivileged blocks
+157 267::Unsafe Privilege
+158 268::Privilege Chaining
+159 269::Privilege Management Error
+160 27::'directory/../../filename
+161 270::Privilege Context Switching Error
+162 271::Privilege Dropping / Lowering Errors
+163 272::Least Privilege Violation::Failure to drop privileges when reasonable::Follow the principle of least privilege::Do not allow doPrivileged() blocks to leak sensitive information outside a trust boundary::Do not allow tainted variables in doPrivileged blocks::Remove superfluous code from privileged blocks
+164 273::Failure to check whether privileges were dropped successfully::Ensure that privilege relinquishment is successful
+165 274::Insufficient privileges
+166 276::Insecure Default Permissions::Create files with appropriate access permissions::Create files with appropriate access permission::Create files with appropriate access permissions
+167 277::Insecure inherited permissions
+168 278::Insecure preserved inherited permissions
+169 279::Insecure execution-assigned permissions::Create files with appropriate access permissions::Create files with appropriate access permission::Create files with appropriate access permissions
+170 28::'..\filename' ('dot dot backslash')
+171 280::Fails poorly due to insufficient permissions::Improper Filesystem Permissions 
+172 281::Permission preservation failure
+173 282::Ownership errors
+174 283::Unverified Ownership
+175 284::Access Control List (ACL) errors::Insufficient Authorization 
+176 285::Missing Access Control::Failure to Restrict URL Access::Broken Access Control
+177 286::User management errors
+178 287::Authentication Error::Broken Authentication and Session Management::Broken Authentication and Session Management::Insufficient Authentication
+179 288::Authentication Bypass by Alternate Path/Channel::Failure to Restrict URL Access
+180 289::Authentication bypass by alternate name::Normalize strings before validating them
+181 29::'\..\filename' ('leading dot dot backslash')
+182 290::Authentication bypass by spoofing
+183 292::Trusting self-reported DNS name
+184 293::Using referrer field for authentication
+185 294::Authentication bypass by replay::Capture-replay
+186 296::Failure to follow chain of trust in certificate validation
+187 297::Failure to validate host-specific certificate data
+188 298::Failure to validate certificate expiration
+189 299::Failure to check for certificate revocation
+190 30::7 - '\directory\..\filename
+191 300::Man-in-the-middle (MITM)::Routing Detour ::Do not rely on the default automatic signature verification provided by URLClassLoader and java.util.jar
+192 301::Reflection attack in an auth protocol::Broken Authentication and Session Management
+193 302::Authentication Bypass via Assumed-Immutable Data::Unvalidated Input::Do not base security checks on untrusted sources
+194 303::Authentication Logic Error
+195 304::Missing Critical Step in Authentication
+196 305::Authentication Bypass by Primary Weakness
+197 306::No Authentication for Critical Function
+198 307::Multiple Failed Authentication Attempts not Prevented
+199 308::Using single-factor authentication
+200 309::Using password systems::Broken Authentication and Session Management
+201 31::8 - 'directory\..\..\filename
+202 311::Failure to encrypt data::Insecure Cryptographic Storage::Insecure Communications::Insecure Storage::Insufficient Transport Layer Protection ::Use SSLSockets rather than Sockets for secure data exchange
+203 312::Plaintext Storage of Sensitive Information
+204 313::Plaintext Storage in File or on Disk
+205 314::Plaintext Storage in Registry
+206 315::Plaintext Storage in Cookie
+207 316::Plaintext Storage in Memory
+208 317::Plaintext Storage in GUI
+209 318::Plaintext Storage in Executable
+210 319::Plaintext Transmission of Sensitive Information::Do not rely on the default automatic signature verification provided by URLClassLoader and java.util.jar::Sign and seal sensitive objects before sending them outside a trusted boundary
+211 32::'...' (triple dot)
+212 321::Use of hard-coded cryptographic key::Insecure Cryptographic Storage::Insecure Communications::Insecure Storage
+213 322::Key exchange without entity authentication
+214 323::Reusing a nonce, key pair in encryption
+215 324::Using a key past its expiration date
+216 325::Missing Required Cryptographic Step::Insecure Cryptographic Storage::Insecure Communications
+217 326::Weak Encryption::Insecure Cryptographic Storage::Insecure Communications::Insecure Storage
+218 327::Using a broken or risky cryptographic algorithm::Insecure Storage::Do not use insecure or weak cryptographic algorithms::Generate strong random numbers::Do not use the rand() function for generating pseudorandom numbers::Ensure your random number generator is properly seeded
+219 328::Reversible One-Way Hash
+220 329::Not using a random IV with CBC mode
+221 33::'....' (multiple dot)
+222 330::Randomness and Predictability::Insecure Randomness::Broken Access Control::Do not use the rand() function for generating pseudorandom numbers::Brute Force ::Credential/Session Prediction ::Generate strong random numbers::Do not use the rand() function for generating pseudorandom numbers::Ensure your random number generator is properly seeded
+223 331::Insufficient Entropy::Brute Force 
+224 332::Insufficient entropy in PRNG::Generate strong random numbers
+225 333::Failure of TRNG::Generate strong random numbers
+226 334::Small Space of Random Values
+227 335::PRNG Seed Error
+228 336::Same Seed in PRNG::Generate strong random numbers
+229 337::Predictable Seed in PRNG::Generate strong random numbers
+230 338::Non-cryptographic PRNG
+231 339::Small Seed Space in PRNG
+232 34::'....//' (doubled dot dot slash)
+233 340::Predictability problems::Brute Force 
+234 341::Predictable from Observable State
+235 342::Predictable Exact Value from Previous Values
+236 343::Predictable Value Range from Previous Values
+237 344::Static Value in Unpredictable Context
+238 345::Insufficient Verification of Data::Broken Authentication and Session Management::Content Spoofing 
+239 346::Origin Validation Error
+240 347::Improperly Verified Signature::Do not rely on the default automatic signature verification provided by URLClassLoader and java.util.jar
+241 348::Use of Less Trusted Source
+242 349::Untrusted Data Appended with Trusted Data::Place all privileged code in a single package and seal the package
+243 35::'.../...//'
+244 350::Improperly Trusted Reverse DNS
+245 351::Insufficient Type Distinction
+246 353::Failure to add integrity check value
+247 354::Failure to check integrity check value
+248 356::Product UI does not warn user of unsafe actions
+249 357::Insufficient UI warning of dangerous operations
+250 358::Improperly Implemented Security Check for Standard::Create a secure sandbox using a Security Manager
+251 359::Privacy Violation::Do not log sensitive information outside a trust boundary
+252 36::Absolute Path Traversal
+253 360::Trust of system event data
+254 362::Race Conditions::Do not simultaneously open the same file multiple times::Do not assume that a group of calls to independently atomic methods is atomic::Do not simultaneously open the same file multiple times::Use lock classes for mutex management
+255 363::Race condition enabling link following::Avoid race conditions while checking for the existence of a symbolic link
+256 364::Signal handler race condition::Signal Handling Race Conditions::Race condition in signal handler
+257 365::Race condition in switch::Avoid race conditions while checking for the existence of a symbolic link
+258 366::Race condition within a thread::Avoid race conditions with multiple threads::Ensure that compound operations on shared variables are atomic::Do not assume that a group of calls to independently atomic methods is atomic::Use lock classes for mutex management
+259 367::Time-of-check Time-of-use race condition::File Access Race Conditions: TOCTOU::Time of check, time of use race condition::Be careful using functions that use file names for identification::Be careful using functions that use file names for identification
+260 368::Context Switching Race Condition
+261 369::Denial of Service::Detect and handle floating point errors::Ensure that division and modulo operations do not result in divide-by-zero errors::Ensure that division and modulo operations do not result in divide-by-zero errors::Ensure that division and modulo operations do not result in divide-by-zero errors::Detect and handle floating point errors
+262 37::/absolute/pathname/here::Identify files using multiple file attributes::Identify files using multiple file attributes
+263 370::Race condition in checking for certificate revocation
+264 372::Incomplete Internal State Distinction
+265 374::Passing mutable objects to an untrusted method::Provide mutable classes with copy functionality to allow passing instances to untrusted code safely
+266 375::Mutable object returned::Provide mutable classes with copy functionality to allow passing instances to untrusted code safely::Defensively copy private mutable class members before returning their references
+267 377::Insecure Temporary File::Do not create temporary files in shared directories
+268 378::Improper temp file opening
+269 379::Guessed or visible temporary file::Ensure that file operations are performed in a secure directory::Do not create temporary files in shared directories::Ensure that file operations are performed in a secure directory::Do not create temporary files in shared directories
+270 38::\absolute\pathname\here ('backslash absolute path')::Identify files using multiple file attributes::Identify files using multiple file attributes
+271 382::J2EE Bad Practices: System.exit()::Denial of Service::Do not allow untrusted code to terminate the JVM
+272 383::J2EE Bad Practices: Threads
+273 385::Timing::Covert Timing Channel
+274 386::Symbolic name not mapping to correct object
+275 39::'C:dirname' or C: (Windows volume or 'drive letter')::Identify files using multiple file attributes::Identify files using multiple file attributes
+276 390::Improper error handling::Do not suppress or ignore checked exceptions::Guarantee exception safety
+277 391::Unchecked Return Value::Empty Catch Block::Uncaught exception::Improper Error Handling::Adopt and implement a consistent and comprehensive error-handling policy::Detect and handle input and output errors::Detect and handle input output errors resulting in undefined behavior::Detect and handle memory allocation errors::Detect and handle input and output errors::Detect and handle input output errors resulting in undefined behavior::Adopt and implement a consistent and comprehensive error-handling policy::Check for error conditions
+278 392::Missing Error Status Code::Ensure that tasks executing in a thread pool do not fail silently
+279 393::Wrong Status Code
+280 394::Unexpected Status Code or Return Value
+281 395::Catching NullPointerException::Do not catch NullPointerException or any of its ancestors
+282 396::Overly-Broad Catch Block
+283 397::Overly-Broad Throws Declaration::Do not throw RuntimeException, Exception, or Throwable
+284 398::Code Quality
+285 40::'\\UNC\share\name\' (Windows UNC share)
+286 400::Resource exhaustion (file descriptor, disk space, sockets, ...)::Denial of Service::Denial of Service ::XML Attribute Blowup ::Avoid memory and resource leaks during serialization::Do not assume infinite heap space
+287 401::Memory leak::Memory Leak::Failure to deallocate data::Denial of Service::Avoid memory leaks
+288 402::Resource leaks
+289 403::UNIX file descriptor leak::Ensure files are properly closed when they are no longer needed::Ensure files are properly closed when they are no longer needed
+290 404::Improper resource shutdown or release::Unreleased Resource::Denial of Service::Ensure files are properly closed when they are no longer needed::Close resources when they are no longer needed::Resources allocated by memory allocation functions must be released using the corresponding memory deallocation function::Ensure files are properly closed when they are no longer needed::Use lock classes for mutex management
+291 405::Asymmetric resource consumption (amplification)::Denial of Service::XML Attribute Blowup ::Write garbage-collection-friendly code::Use thread pools to enable graceful degradation of service during traffic bursts::Close resources when they are no longer needed
+292 406::Network Amplification
+293 407::Algorithmic Complexity
+294 408::Early Amplification
+295 409::Data Amplification::Limit the size of files passed to ZipInputStream
+296 41::Path Equivalence::Canonicalize path names originating from untrusted sources::Canonicalize path names originating from untrusted sources
+297 410::Insufficient Resource Pool::Denial of Service::Use thread pools to enable graceful degradation of service during traffic bursts
+298 412::Unrestricted Critical Resource Lock::Deadlock::Denial of Service::Use private final lock objects to synchronize classes that may interact with untrusted code::Avoid deadlock by requesting and releasing locks in the same order
+299 413::Insufficient Resource Locking::Ensure visibility when accessing shared primitive variables::Ensure that compound operations on shared variables are atomic::Use private final lock objects to synchronize classes that may interact with untrusted code
+300 414::Missing Lock Check
+301 415::DFREE - Double-Free Vulnerability::Double Free::Doubly freeing memory::Allocate and free memory in the same module, at the same level of abstraction::Store a new value in pointers immediately after free()::Free dynamically allocated memory exactly once::Store a valid value in pointers immediately after deallocation::Free dynamically allocated memory exactly once
+302 416::Use After Free::Using freed memory::Allocate and free memory in the same module, at the same level of abstraction::Store a new value in pointers immediately after free()::Do not access freed memory::Store a valid value in pointers immediately after deallocation::Do not access freed memory
+303 419::Unprotected Primary Channel
+304 42::Trailing Dot - 'filedir.'
+305 420::Unprotected Alternate Channel
+306 421::Alternate Channel Race Condition
+307 422::Unprotected Windows Messaging Channel ('Shatter')
+308 424::Alternate Path Errors
+309 425::Direct Request aka 'Forced Browsing'::Failure to Restrict URL Access::Unvalidated Input::Broken Access Control::Predictable Resource Location 
+310 427::Uncontrolled Search Path Element
+311 428::Unquoted Search Path or Element
+312 43::Multiple Trailing Dot - 'filedir....'
+313 430::Improper Handler Deployment
+314 431::Missing Handler
+315 432::Mask signals handled by noninterruptible signal handlers::Dangerous handler not cleared/disabled during sensitive operations
+316 433::Unparsed Raw Web Content Delivery
+317 434::Unrestricted File Upload::Malicious File Execution
+318 435::Interaction Errors
+319 436::Multiple Interpretation Error (MIE)::HTTP Response Smuggling 
+320 437::Extra Unhandled Features
+321 439::CHANGE Behavioral Change
+322 44::Internal Dot - 'file.ordir'
+323 440::Expected behavior violation
+324 441::Unintended proxy/intermediary::Proxied Trusted Channel::Routing Detour 
+325 444::HTTP Request Smuggling::HTTP Request Smuggling 
+326 446::User interface inconsistency
+327 447::Unimplemented or unsupported feature in UI
+328 448::Obsolete feature in UI
+329 449::The UI performs the wrong action
+330 45::Multiple Internal Dot - 'file...dir'
+331 450::Multiple Interpretations of UI Input
+332 451::UI Misrepresentation of Critical Information
+333 453::Insecure default variable initialization
+334 454::External initialization of trusted variables or values::Provide a trusted environment and sanitize all inputs
+335 455::Non-exit on Failed Initialization
+336 456::Missing Initialization
+337 457::Uninitialized variable::Uninitialized Variable
+338 459::Incomplete Cleanup::Insecure Configuration Management::Close resources when they are no longer needed::Do not create temporary files in shared directories
+339 46::Trailing Space - 'filedir '
+340 460::Improper cleanup on thrown exception::Restore prior object state on method failure::Do not let checked exceptions escape from a finally block::Guarantee exception safety
+341 462::Duplicate key in associative list (alist)::Beware of multiple environment variables with the same effective name::Beware of multiple environment variables with the same effective name
+342 463::Deletion of data-structure sentinel
+343 464::Addition of data-structure sentinel::Do not inadvertently truncate a null-terminated byte string::Do not assume that strtok() leaves the parse string unchanged::Do not inadvertently truncate a null-terminated character array::Do not assume that strtok() leaves the parse string unchanged
+344 466::Illegal Pointer Value::Take care when converting from pointer to integer or integer to pointer::Take care when converting from pointer to integer or integer to pointer
+345 467::Use of sizeof() on a pointer type::Do not apply the sizeof operator to a pointer when taking the size of an array::Do not take the size of a pointer to determine the size of the pointed-to type::Do not apply the sizeof operator to a pointer when taking the size of an array
+346 468::Unintentional pointer scaling::Ensure pointer arithmetic is used correctly
+347 469::Improper pointer subtraction::Do not subtract or compare two pointers that do not refer to the same array::Do not add or subtract an integer to a pointer to a non-array object::Do not subtract or compare two pointers or iterators that do not refer to the same array or container::Do not add or subtract an integer to a pointer to a non-array object 
+348 47::Leading Space - ' filedir'
+349 470::Unsafe Reflection::Do not use reflection to increase accessibility of classes, methods, or fields::Do not grant ReflectPermission with target suppressAccessChecks
+350 471::Modification of Assumed-Immutable Data
+351 472::Web Parameter Tampering::Insecure Direct Object Reference::Unvalidated Input
+352 473::PHP External Variable Modification
+353 474::Inconsistent Implementations
+354 475::Undefined Behavior
+355 476::Null Dereference::Null-pointer dereference::Null Dereference (Null Pointer Dereference)::Denial of Service::Ensure a null pointer is not dereferenced::Detect and handle memory allocation errors::Ensure a null pointer is not dereferenced::Detect and handle memory allocation errors
+356 477::Obsolete
+357 478::Failure to account for default case in switch
+358 479::Unsafe function call from a signal handler::Call only asynchronous-safe functions within signal handlers::Do not call longjmp() from inside a signal handler::Do not recursively invoke the raise() function::Do not call signal() from within interruptible signal handlers::Never dereference null pointers::Call only asynchronous-safe functions within signal handlers::Do not recursively invoke the raise() function::Do not call signal() from within interruptible signal handlers
+359 48::file(SPACE)name (internal space)::Denial of Service
+360 480::Using the wrong operator::Avoid errors of omission::Avoid errors of addition::Do not perform assignments in conditional statements::Do not perform assignments in conditional ressions::Avoid errors of omission::Avoid errors of addition
+361 481::Assigning instead of comparing
+362 482::Comparing instead of assigning::Avoid errors of omission::Avoid errors of omission
+363 483::Incorrect block delimitation
+364 484::Omitted break statement::Finish every set of statements associated with a case label with a break statement
+365 485::Encapsulation::Declare data members private
+366 486::Comparing Classes by Name::Comparing classes by name::Compare classes and not class names
+367 487::Relying on package-level scope::Do not increase the accessibility of overridden or hidden methods
+368 488::Data Leaking Between Users::Use lock classes for mutex management
+369 489::Leftover Debug Code::Insecure Configuration Management
+370 49::filedir/ (trailing slash, trailing /)
+371 491::Mobile Code: Object Hijack::Sensitive classes must not let themselves be copied
+372 492::Mobile Code: Use of Inner Class::Publicizing of private data when using inner classes::Do not expose sensitive private members of an outer class from within a nested class
+373 493::Mobile Code: Non-Final Public Field::Failure to provide confidentiality for stored data::Do not use public static non-final variables
+374 494::Invoking untrusted mobile code::Do not rely on the default automatic signature verification provided by URLClassLoader and java.util.jar
+375 495::Private Array-Typed Field Returned From A Public Method
+376 496::Public Data Assigned to Private Array-Typed Field
+377 497::System Information Leak::Do not allow exceptions to expose sensitive information::Do not allow exceptions to transmit sensitive information
+378 498::Information leak through class cloning::Sensitive classes must not let themselves be copied
+379 499::Information leak through serialization::Prevent serialization of unencrypted, sensitive data::Do not serialize instances of inner classes
+380 5::J2EE Misconfiguration: Insecure Transport
+381 50:://multiple/leading/slash ('multiple leading slash')
+382 500::Overflow of static internal buffer::Do not use public static non-final variables
+383 501::Trust Boundary Violation
+384 502::Deserialization of untrusted data::Do not deviate from the proper signatures of serialization methods::Prevent serialization of unencrypted, sensitive data::Make defensive copies of private mutable components during serialization::Do not use the default serialized form for implementation defined invariants
+385 506::Malicious
+386 507::Trojan Horse
+387 508::Non-Replicating
+388 509::Replicating (virus)
+389 51::/multiple//internal/slash ('multiple internal slash')
+390 510::Trapdoor
+391 511::Logic/Time Bomb
+392 
+393 514::Covert Channel
+394 515::Storage::Covert storage channel
+395 52::/multiple/trailing/slash// ('multiple trailing slash')
+396 
+397 521::Broken Authentication and Session Management
+398 522::Broken Authentication and Session Management::Broken Authentication and Session Management
+399 
+400 524::Limit the lifetime of sensitive data
+401 525::Broken Access Control::Broken Authentication and Session Management
+402 526::Limit the lifetime of sensitive data
+403 
+404 528::Ensure that sensitive data is not written out to disk::Limit the lifetime of sensitive data::Ensure that sensitive data is not written out to disk
+405 
+406 53::\multiple\\internal\backslash
+407 
+408 
+409 532::Do not log sensitive information outside a trust boundary
+410 533::Do not log sensitive information outside a trust boundary
+411 534::Limit the lifetime of sensitive data
+412 
+413 
+414 
+415 
+416 539::Do not store excess or sensitive information within cookies when using Java Servlets
+417 54::filedir\ (trailing backslash)
+418 
+419 
+420 542::Do not log sensitive information outside a trust boundary
+421 543::Address the shortcomings of the Singleton design pattern
+422 544::Adopt and implement a consistent and comprehensive error-handling policy::Adopt and implement a consistent and comprehensive error-handling policy
+423 
+424 
+425 547::Use meaningful symbolic constants to represent literal values in program logic
+426 548::Insecure Configuration Management::Directory Indexing 
+427 
+428 55::/./ (single dot directory)
+429 
+430 
+431 552::Insecure Configuration Management::Ensure that file operations are performed in a secure directory::Ensure that file operations are performed in a secure directory
+432 
+433 
+434 
+435 
+436 558::Often Misused: Authentication
+437 56::filedir* (asterisk / wildcard)
+438 
+439 561::Detect and remove dead code::Detect and remove dead code
+440 562::Do not call putenv() with a pointer to an automatic variable as the argument
+441 563::Compile cleanly at high warning levels::Compile cleanly at high warning levels
+442 
+443 
+444 
+445 567::Ensure visibility when accessing shared primitive variables::Ensure that compound operations on shared variables are atomic
+446 568::Avoid using finalizers
+447 57::dirname/fakechild/../realchild/filename
+448 570::Compile cleanly at high warning levels::Compile cleanly at high warning levels
+449 571::Compile cleanly at high warning levels::Compile cleanly at high warning levels
+450 572::Do not invoke Thread.run()
+451 573::Follow the general contract when implementing the compareTo method
+452 
+453 
+454 
+455 
+456 
+457 
+458 58::Windows 8.3 Filename
+459 
+460 581::Classes that define an equals() method must also define a hashCode() method
+461 582::Do not use public static non-final variables
+462 583::Avoid using finalizers
+463 584::Do not exit abruptly from a finally block::Do not let checked exceptions escape from a finally block
+464 
+465 586::Avoid using finalizers
+466 587::Take care when converting from pointer to integer or integer to pointer::Take care when converting from pointer to integer or integer to pointer
+467 
+468 589::Do not use deprecated or obsolete methods::Maintain serialization compatibility during class evolution
+469 59::Link Following::Canonicalize path names originating from untrusted sources::Check for the existence of links when dealing with files::Canonicalize path names originating from untrusted sources
+470 590::Only free memory allocated dynamically::Only free memory allocated dynamically
+471 591::Insecure Storage::Ensure that sensitive data is not written out to disk::Ensure that sensitive data is not written out to disk
+472 592::Broken Authentication and Session Management
+473 
+474 
+475 595::Do not confuse abstract object equality with reference equality::Use the two-argument Arrays.equals() method to compare the contents of arrays::Do not use the equality operators when comparing values of boxed primitives
+476 
+477 597::Do not confuse abstract object equality with reference equality::Do not use the equality operators when comparing values of boxed primitives
+478 
+479 
+480 6::J2EE Misconfiguration: Insufficient Session-ID Length
+481 600::Do not allow exceptions to expose sensitive information
+482 601::URl Redirector Abuse 
+483 602::Unvalidated Input
+484 
+485 
+486 606::Use a secure integer library::Use a secure integer library
+487 607::Never conflate immutability of a reference with that of the referenced object
+488 
+489 609::Do not use incorrect forms of the double-checked locking idiom
+490 
+491 611::XML External Entities 
+492 612::Insecure Indexing 
+493 613::Insufficient Session Expiration 
+494 
+495 
+496 616::Incomplete Identification of Uploaded File Variables (PHP)
+497 
+498 
+499 
+500 62::UNIX hard link::Identify files using multiple file attributes::Identify files using multiple file attributes
+501 620::Broken Authentication and Session Management
+502 
+503 
+504 
+505 
+506 625::Sanitize untrusted data passed to a regex 
+507 
+508 
+509 628::Maintain the contract between the writer and caller of variadic functions::Call functions with the arguments intended by the API::Use realloc() only to resize dynamically allocated arrays
+510 636::Improper Error Handling
+511 
+512 
+513 
+514 64::Windows Shortcut Following (.LNK)::Identify files using multiple file attributes::Identify files using multiple file attributes
+515 640::Insufficient Password Recovery 
+516 
+517 
+518 643::XPath Injection 
+519 
+520 
+521 
+522 647::Canonicalize path names before validating them
+523 
+524 
+525 65::Windows hard link::Identify files using multiple file attributes::Identify files using multiple file attributes
+526 
+527 
+528 652::XQuery Injection 
+529 
+530 
+531 
+532 
+533 
+534 66::Virtual Files
+535 662::Mask signals handled by noninterruptible signal handlers::Do not access or modify shared objects in signal handlers::State synchronization error::Do not assume that a group of calls to independently atomic methods is atomic::Mask signals handled by noninterruptible signal handlers::Do not access or modify shared objects in signal handlers
+536 
+537 
+538 665::Incorrect initialization::Explicitly specify array bounds, even if implicitly defined by an initializer::Do not assume memory allocation routines initialize memory::Prevent class initialization cycles::Explicitly specify array bounds, even if implicitly defined by an initializer::Do not assume memory allocation routines initialize memory
+539 
+540 667::Do not unlock or destroy another thread's mutex::Ensure visibility when accessing shared primitive variables::Ensure that compound operations on shared variables are atomic::Ensure atomicity when reading and writing 64-bit values::Do not use an instance lock to protect shared static data
+541 
+542 
+543 67::Windows MS-DOS device names::Do not perform operations on devices that are only appropriate for files::Do not open non-regular files when accessing regular files::Do not perform operations on devices that are only appropriate for files
+544 670::Do not place a semicolon on the same line as an if, for, or while statement
+545 
+546 
+547 
+548 674::Denial of Service
+549 675::Do not simultaneously open the same file multiple times::Do not simultaneously open the same file multiple times
+550 676::Dangerous Functions::Prefer functions that support error checking over equivalent functions that don't::Be careful using functions that use file names for identification::Use strtol() or a related function to convert a string token to an integer::Use strtol() or a related function to convert a string token to an integer::Be careful using functions that use file names for identification
+551 681::Convert integers to floating point for floating point operations::Ensure that floating point conversions are within range of the new type::Use intmax_t or uintmax_t for formatted IO on programmer-defined integer types::Ensure that integer conversions do not result in lost or misinterpreted data::Evaluate integer expressions in a larger size before comparing or assigning to that size::Ensure conversions of numeric types to narrower types do not result in lost or misinterpreted data::Use intmax_t or uintmax_t for formatted IO on programmer-defined integer types::Ensure that integer conversions do not result in lost or misinterpreted data::Evaluate integer expressions in a larger size before comparing or assigning to that size::Convert integers to floating point for floating point operations::Ensure that floating point conversions are within range of the new type
+552 682::Prevent or detect domain and range errors in math functions::Convert integers to floating point for floating point operations::Use only explicitly signed or unsigned char type for numeric values::Use bitwise operators only on unsigned operands::Use only explicitly signed or unsigned char type for numeric values::Do not assume a positive remainder when using the % operator::Use bitwise operators only on unsigned operands::Prevent or detect domain and range errors in math functions::Convert integers to floating point for floating point operations
+553 
+554 684::Do not replace secure functions with less secure functions
+555 
+556 686::Do not invoke a function using a type that does not match the function definition::Take care when creating format strings::Do not call functions expecting real values with complex values::Do not call putenv() with a pointer to an automatic variable as the argument::Arguments to character handling functions must be representable as an unsigned char::Do not call functions expecting real values with complex values::Arguments to character handling functions must be representable as an unsigned char
+557 687::Do not perform zero length allocations::Do not perform zero length allocations
+558 
+559 69::Windows ::DATA alternate data stream
+560 691::Insufficient Process Validation 
+561 
+562 
+563 
+564 696::Observe correct revocation order while relinquishing privileges
+565 697::Ensure that return values are compared against the proper type::Ensure that return values are compared against the proper type
+566 
+567 7::J2EE Misconfiguration: Missing Error Handling
+568 703::Do not let code throw undeclared checked exceptions::Detect and handle memory allocation errors::Guarantee exception safety
+569 704::Do not cast away a const qualification::Ensure that return values are compared against the proper type::Cast characters to unsigned types before converting to larger integer sizes::Arguments to character handling functions must be representable as an unsigned char::Cast characters to unsigned types before converting to larger integer sizes::Arguments to character handling functions must be representable as an unsigned char::Ensure that return values are compared against the proper type
+570 705::All atexit handlers must return normally::Choose an appropriate termination strategy::Do not use Thread.stop() to terminate threads::Do not exit abruptly from a finally block::Do not let checked exceptions escape from a finally block::All atexit handlers must return normally::Choose an appropriate termination strategy
+571 
+572 
+573 
+574 71::DS - Apple '.DS_Store
+575 
+576 72::Apple HFS+ alternate data stream
+577 73::Path Manipulation::Provide a trusted environment and sanitize all inputs::Be careful using functions that use file names for identification::Canonicalize path names originating from untrusted sources
+578 732::Create files with appropriate access permission::Never grant AllPermission to untrusted code::Create a secure sandbox using a Security Manager::Do not grant ReflectPermission with target suppressAccessChecks::Do not grant RuntimePermission with target createClassLoader::Create files with appropriate access permissions::Create files with appropriate access permissions
+579 
+580 74::Injection problem ('data' used as something else)::Injection Flaws
+581 
+582 75::Special Element Injection
+583 754::Detect and handle memory allocation errors::Guarantee exception safety::Detect and handle memory allocation errors
+584 755::Guarantee exception safety
+585 
+586 
+587 758::Do not introduce unnecessary platform dependencies::Do not depend on undefined behavior
+588 
+589 76::Equivalent Special Element Injection
+590 
+591 
+592 762::Resources allocated by memory allocation functions must be released using the corresponding memory deallocation function
+593 
+594 
+595 
+596 766::Failure to protect stored data from modification::Declare data members as private and provide accessible wrapper methods
+597 767::Failure to protect stored data from modification
+598 768::Failure to protect stored data from modification::Be aware of the short-circuit behavior of the logical AND and OR operators
+599 77::Command Injection::Command injection::Injection Flaws::Unvalidated Input::Injection Flaws
+600 770::Close resources when they are no longer needed::Avoid memory and resource leaks during serialization::Do not assume infinite heap space::Do not assume infinite heap space::Ensure files are properly closed when they are no longer needed
+601 
+602 772::Avoid memory leaks::Use lock classes for mutex management
+603 
+604 
+605 
+606 776::XML Entity Expansion 
+607 
+608 
+609 
+610 78::OS Command Injection::Malicious File Execution::Injection Flaws::Sanitize the environment when invoking external programs::Do not call system() if you do not need a command processor::Sanitize data passed to complex subsystems::OS Commanding ::Do not pass untrusted, unsanitized data to the Runtime.exec() method::Provide a trusted environment and sanitize all inputs::Sanitize data passed to complex subsystems::Sanitize the environment when invoking external programs::Do not call system() if you do not need a command processor
+611 
+612 
+613 
+614 783::Use parentheses for precedence of operation
+615 
+616 785::Often Misused: File System
+617 
+618 
+619 
+620 789::SOAP Array Abuse 
+621 79::Cross-site scripting (XSS)::Cross-site Scripting::Cross-site scripting::Cross Site Scripting (XSS)::Unvalidated Input::Cross-Site Scripting (XSS) Flaws::Cross-site Scripting 
+622 
+623 
+624 
+625 
+626 
+627 
+628 
+629 
+630 798::Never hardcode sensitive information
+631 799::Insufficient Anti-Automation 
+632 8::J2EE Misconfiguration: Unsafe Bean Declaration
+633 80::Basic XSS
+634 804::Insufficient Anti-Automation 
+635 805::Guarantee that copies are made into storage of sufficient size::Guarantee that copies are made into storage of sufficient size
+636 
+637 807::Sanitize the environment when invoking external programs::Do not base security checks on untrusted sources
+638 81::XSS in error pages
+639 82::Script in IMG tags
+640 820::Synchronize access to static fields that can be modified by untrusted code
+641 821::Do not assume that the sleep(), yield() or getState() methods provide synchronization semantics
+642 822::Define and use a pointer validation function
+643 
+644 
+645 
+646 
+647 
+648 828::Do not access or modify shared objects in signal handlers
+649 
+650 83::XSS using Script in Attributes
+651 
+652 
+653 
+654 833::Ensure actively held locks are released on exceptional conditions
+655 834::Use inequality operators to terminate a loop whose counter changes by more than one
+656 835::Use inequality operators to terminate a loop whose counter changes by more than one
+657 
+658 
+659 838::Perform lossless conversion of String data between differing character encodings::Use compatible encodings on both sides of file or network IO
+660 
+661 84::XSS using Script Via Encoded URI Schemes
+662 841::Insufficient Process Validation
+663 
+664 
+665 85::DOUBLE - Doubled character XSS manipulations, e.g. '<script'
+666 86::Invalid Characters in Identifiers
+667 
+668 
+669 87::Alternate XSS syntax
+670 88::Argument Injection or Modification::Sanitize the environment when invoking external programs::Do not call system() if you do not need a command processor::Sanitize data passed to complex subsystems::Mail Command Injection ::Sanitize data passed to complex subsystems::Sanitize the environment when invoking external programs::Do not call system() if you do not need a command processor
+671 89::SQL injection::SQL Injection::SQL injection::Injection Flaws::Unvalidated Input::Injection Flaws::SQL Injection 
+672 9::J2EE Misconfiguration: Weak Access Permissions
+673 90::LDAP injection::Injection Flaws::LDAP Injection 
+674 91::XML injection (aka Blind Xpath injection)::Injection Flaws::Injection Flaws::XML Injection 
+675 93::CRLF Injection::Injection Flaws::HTTP Request Splitting 
+676 94::Code Evaluation and Injection
+677 95::Direct Dynamic Code Evaluation ('Eval Injection')::Malicious File Execution::Injection Flaws
+678 96::Direct Static Code Injection
+679 97::Server-Side Includes (SSI) Injection::SSI Injection 
+680 98::PHP File Include::Malicious File Execution::Remote File Inclusion 
+681 99::Resource Injection

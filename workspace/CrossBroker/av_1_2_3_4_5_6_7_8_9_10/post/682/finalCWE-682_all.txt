@@ -1,0 +1,6 @@
+1. CWE-131 Incorrect Calculation of Buffer Size: (Sp= 1.61; Max= 1.61; Meg= 1.61; Q3= 1.17)
+2. CWE-190 Integer Overflow or Wraparound: (Sp= 1.17; Max= 1.17; Meg= 1.17; Q3= 1.17)
+3. CWE-191 Integer Underflow (Wrap or Wraparound): (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 1.17)
+4. CWE-135 Incorrect Calculation of Multi-Byte String Length: (Sp= 0.47; Max= 0.47; Meg= 0.47; Q3= 1.17)
+5. CWE-128 Wrap-around Error: (Sp= 0.345; Max= 0.345; Meg= 0.345; Q3= 1.17)
+6. CWE-193 Off-by-one Error: (Sp= 0.1475; Max= 0.1475; Meg= 0.1475; Q3= 1.17)

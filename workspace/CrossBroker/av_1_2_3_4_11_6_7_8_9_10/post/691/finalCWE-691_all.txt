@@ -1,0 +1,57 @@
+1. CWE-307 Improper Restriction of Excessive Authentication Attempts: (Sp= 1.17333333333; Max= 1.17333333333; Meg= 1.17333333333; Q3= 0.525)
+2. CWE-782 Exposed IOCTL with Insufficient Access Control: (Sp= 1.165; Max= 1.165; Meg= 1.165; Q3= 0.525)
+3. CWE-837 Improper Enforcement of a Single Unique Action: (Sp= 0.7825; Max= 0.7825; Meg= 0.7825; Q3= 0.525)
+4. CWE-799 Improper Control of Interaction Frequency: (Sp= 0.696666666667; Max= 1.17333333333; Meg= 0.86160907014; Q3= 0.525)
+  |
+  -->CWE-307 Improper Restriction of Excessive Authentication Attempts: (Sp= 1.17333333333; Max= 1.17333333333; Meg= 1.17333333333)
+
+  |
+  -->CWE-837 Improper Enforcement of a Single Unique Action: (Sp= 0.7825; Max= 0.7825; Meg= 0.7825)
+
+5. CWE-421 Race Condition During Access to Alternate Channel: (Sp= 0.696666666667; Max= 0.696666666667; Meg= 0.696666666667; Q3= 0.525)
+6. CWE-835 Loop with Unreachable Exit Condition ('Infinite Loop'): (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 0.525)
+7. CWE-674 Uncontrolled Recursion: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 0.525)
+8. CWE-558 Use of getlogin() in Multithreaded Application: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 0.525)
+9. CWE-543 Use of Singleton Pattern Without Synchronization in a Multithreaded Context: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 0.525)
+10. CWE-432 Dangerous Signal Handler not Disabled During Sensitive Operations: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 0.525)
+11. CWE-414 Missing Lock Check: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 0.525)
+12. CWE-413 Improper Resource Locking: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 0.525)
+13. CWE-412 Unrestricted Externally Accessible Lock: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 0.525)
+14. CWE-366 Race Condition within a Thread: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 0.525)
+15. CWE-365 Race Condition in Switch: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 0.525)
+16. CWE-364 Signal Handler Race Condition: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 0.525)
+  |
+  -->CWE-432 Dangerous Signal Handler not Disabled During Sensitive Operations: (Sp= 0.525; Max= 0.525; Meg= 0.525)
+
+17. CWE-363 Race Condition Enabling Link Following: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 0.525)
+18. CWE-362 Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'): (Sp= 0.525; Max= 0.696666666667; Meg= 0.497560234831; Q3= 0.525)
+  |
+  -->CWE-421 Race Condition During Access to Alternate Channel: (Sp= 0.696666666667; Max= 0.696666666667; Meg= 0.696666666667)
+
+  |
+  -->CWE-364 Signal Handler Race Condition: (Sp= 0.525; Max= 0.525; Meg= 0.525)
+
+  |
+  -->CWE-367 Time-of-check Time-of-use (TOCTOU) Race Condition: (Sp= 0.3025; Max= 0.525; Meg= 0.436865747623)
+
+  |
+  -->CWE-366 Race Condition within a Thread: (Sp= 0.525; Max= 0.525; Meg= 0.525)
+
+19. CWE-96 Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection'): (Sp= 0.424166666667; Max= 0.424166666667; Meg= 0.424166666667; Q3= 0.525)
+20. CWE-367 Time-of-check Time-of-use (TOCTOU) Race Condition: (Sp= 0.3025; Max= 0.525; Meg= 0.436865747623; Q3= 0.525)
+  |
+  -->CWE-365 Race Condition in Switch: (Sp= 0.525; Max= 0.525; Meg= 0.525)
+
+  |
+  -->CWE-363 Race Condition Enabling Link Following: (Sp= 0.525; Max= 0.525; Meg= 0.525)
+
+21. CWE-179 Incorrect Behavior Order: Early Validation: (Sp= 0.26; Max= 0.26; Meg= 0.26; Q3= 0.525)
+22. CWE-705 Incorrect Control Flow Scoping: (Sp= 0.2; Max= 0.2; Meg= 0.150516736365; Q3= 0.525)
+  |
+  -->CWE-455 Non-exit on Failed Initialization: (Sp= 0.11; Max= 0.11; Meg= 0.11)
+
+  |
+  -->CWE-248 Uncaught Exception: (Sp= 0.155; Max= 0.155; Meg= 0.155)
+
+23. CWE-248 Uncaught Exception: (Sp= 0.155; Max= 0.155; Meg= 0.155; Q3= 0.525)
+24. CWE-455 Non-exit on Failed Initialization: (Sp= 0.11; Max= 0.11; Meg= 0.11; Q3= 0.525)

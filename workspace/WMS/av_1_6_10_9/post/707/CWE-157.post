@@ -1,0 +1,3 @@
+#CWE-157 Failure to Sanitize Paired Delimiters
+Attributes Value
+Sanitize 0.83

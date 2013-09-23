@@ -1,0 +1,4 @@
+#CWE-327 Use of a Broken or Risky Cryptographic Algorithm
+Attributes Submit Sandbox_dir Job
+Encryption 0.29 1.83 1.83
+Trust 1.91 1.91 0.84

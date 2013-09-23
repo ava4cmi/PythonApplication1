@@ -1,0 +1,5 @@
+#CWE-211 Information Exposure Through External Error Message
+Attributes Value
+DB_DNS_IDS_FW 2.72
+Thirdparty 0.32
+ErrorHandling 0.22

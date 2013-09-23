@@ -1,0 +1,6 @@
+#CWE-93 Improper Neutralization of CRLF Sequences ('CRLF Injection')
+Attributes Value
+UI_GUI 1.54
+Transfering 1.61
+Sanitize 0.83
+Transformation 1.61

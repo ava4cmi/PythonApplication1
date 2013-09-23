@@ -1,0 +1,5 @@
+#CWE-550 Information Exposure Through Server Error Message
+Attributes Value
+DB_DNS_IDS_FW 0.59
+Thirdparty 0.32
+ErrorHandling 0.22

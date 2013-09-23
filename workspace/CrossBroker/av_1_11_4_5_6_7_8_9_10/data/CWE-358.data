@@ -1,0 +1,8 @@
+#CWE-358 Improperly Implemented Security Check for Standard
+Attributes Submit Logbook Sa-wm Output.fl Al-jc Condor_g Lrms Condor_startd Job
+Client_Server 0.40 0.70 0.70 0.70 0.70 0.70 0.70 0.70 0.70
+Tampering 0.15 0.15 0.15 1.83 0.15 0.15 1.83 1.83 1.83
+User 1.61 3.05 3.00 3.05 3.00 3.05 3.05 3.05 3.05
+Owner 3.63 3.63 3.63 3.05 3.63 3.63 3.63 3.05 1.52
+Spoofing 0.15 0.15 0.15 1.83 0.15 0.15 1.83 1.83 1.83
+Sanitize 0.83 0.83 2.08 2.08 2.08 2.08 2.08 2.08 2.08

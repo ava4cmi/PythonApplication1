@@ -1,0 +1,4 @@
+#CWE-212 Improper Cross-boundary Removal of Sensitive Data
+Attributes Submit Wms proxy Lb proxy Logger (interlogd) Lb
+Trust 1.64 0.69 0.69 0.69 1.64
+Transfering 1.61 1.61 1.61 1.61 1.61

@@ -1,0 +1,9 @@
+#CWE-494 Download of Code Without Integrity Check
+Attributes Value
+UI_GUI 1.81
+Client_Server 0.40
+Tampering 0.29
+DB_DNS_IDS_FW 0.77
+User 1.96
+Owner 4.23
+Trust 0.84

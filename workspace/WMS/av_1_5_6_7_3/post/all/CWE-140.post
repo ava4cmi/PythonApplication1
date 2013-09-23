@@ -1,0 +1,3 @@
+#CWE-140 Improper Neutralization of Delimiters
+Attributes Value
+Sanitize 0.83

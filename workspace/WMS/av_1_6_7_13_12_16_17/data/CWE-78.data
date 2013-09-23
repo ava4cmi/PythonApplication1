@@ -1,0 +1,8 @@
+#CWE-78 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+Attributes Submit Wms proxy Workload manager Log monitor Job controller (condor-g) Lrms Wn job
+UI_GUI 2.33 1.81 1.81 1.81 1.81 1.81 1.81
+DB_DNS_IDS_FW 3.16 0.77 0.77 0.77 0.77 0.77 0.77
+Sanitize 1.01 1.01 1.01 2.42 1.01 2.42 2.42
+Owner 4.23 4.23 4.23 4.23 4.23 4.23 4.23
+Transfering 1.88 1.88 1.88 2.42 1.88 1.88 1.88
+User 1.96 3.49 3.49 3.49 3.49 3.58 1.96

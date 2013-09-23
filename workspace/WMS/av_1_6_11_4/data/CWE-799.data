@@ -1,0 +1,5 @@
+#CWE-799 Improper Control of Interaction Frequency
+Attributes Submit Wms proxy Logger (interlogd) Lb
+Owner 3.63 3.63 3.63 3.63
+User 1.61 3.00 3.00 3.00
+TimeOut 1.05 1.05 1.05 1.05

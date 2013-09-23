@@ -1,0 +1,5 @@
+#CWE-144 Improper Neutralization of Line Delimiters
+Attributes Submit Wms proxy Workload manager Log monitor Job controller (condor-g) Lrms Wn job
+Trust 1.64 0.69 0.69 0.69 0.69 0.69 1.64
+Transfering 1.61 1.61 1.61 2.08 1.61 1.61 1.61
+Sanitize 0.83 0.83 0.83 2.08 0.83 2.08 2.08

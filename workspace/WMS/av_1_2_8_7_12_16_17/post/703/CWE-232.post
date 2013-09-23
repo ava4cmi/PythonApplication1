@@ -1,0 +1,3 @@
+#CWE-232 Improper Handling of Undefined Values
+Attributes Value
+Sanitize 0.83

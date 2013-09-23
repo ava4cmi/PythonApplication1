@@ -1,0 +1,59 @@
+1. CWE-250 Execution with Unnecessary Privileges: (Sp= 1.019375; Max= 1.019375; Meg= 1.019375; Q3= 0.789166666667)
+2. CWE-655 Insufficient Psychological Acceptability: (Sp= 0.79875; Max= 0.79875; Meg= 0.79875; Q3= 0.789166666667)
+3. CWE-648 Incorrect Use of Privileged APIs: (Sp= 0.79875; Max= 0.79875; Meg= 0.79875; Q3= 0.789166666667)
+4. CWE-637 Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism'): (Sp= 0.79875; Max= 0.79875; Meg= 0.79875; Q3= 0.789166666667)
+5. CWE-424 Improper Protection of Alternate Path: (Sp= 0.79875; Max= 0.79875; Meg= 0.79875; Q3= 0.789166666667)
+6. CWE-511 Logic/Time Bomb: (Sp= 0.789166666667; Max= 0.789166666667; Meg= 0.789166666667; Q3= 0.789166666667)
+7. CWE-449 The UI Performs the Wrong Action: (Sp= 0.789166666667; Max= 0.789166666667; Meg= 0.789166666667; Q3= 0.789166666667)
+8. CWE-448 Obsolete Feature in UI: (Sp= 0.789166666667; Max= 0.789166666667; Meg= 0.789166666667; Q3= 0.789166666667)
+9. CWE-447 Unimplemented or Unsupported Feature in UI: (Sp= 0.789166666667; Max= 0.789166666667; Meg= 0.789166666667; Q3= 0.789166666667)
+10. CWE-798 Use of Hard-coded Credentials: (Sp= 0.738333333333; Max= 0.738333333333; Meg= 0.313703624834; Q3= 0.789166666667)
+  |
+  -->CWE-259 Use of Hard-coded Password: (Sp= 0.5575; Max= 0.5575; Meg= 0.5575)
+
+  |
+  -->CWE-321 Use of Hard-coded Cryptographic Key: (Sp= 0.075; Max= 0.075; Meg= 0.075)
+
+11. CWE-308 Use of Single-factor Authentication: (Sp= 0.7025; Max= 0.7025; Meg= 0.7025; Q3= 0.789166666667)
+12. CWE-446 UI Discrepancy for Security Feature: (Sp= 0.678125; Max= 0.789166666667; Meg= 0.75980822163; Q3= 0.789166666667)
+  |
+  -->CWE-449 The UI Performs the Wrong Action: (Sp= 0.789166666667; Max= 0.789166666667; Meg= 0.789166666667)
+
+  |
+  -->CWE-448 Obsolete Feature in UI: (Sp= 0.789166666667; Max= 0.789166666667; Meg= 0.789166666667)
+
+  |
+  -->CWE-447 Unimplemented or Unsupported Feature in UI: (Sp= 0.789166666667; Max= 0.789166666667; Meg= 0.789166666667)
+
+13. CWE-309 Use of Password System for Primary Authentication: (Sp= 0.610625; Max= 0.610625; Meg= 0.610625; Q3= 0.789166666667)
+14. CWE-638 Not Using Complete Mediation: (Sp= 0.599166666667; Max= 0.79875; Meg= 0.691797929312; Q3= 0.789166666667)
+  |
+  -->CWE-424 Improper Protection of Alternate Path: (Sp= 0.79875; Max= 0.79875; Meg= 0.79875)
+
+15. CWE-259 Use of Hard-coded Password: (Sp= 0.5575; Max= 0.5575; Meg= 0.5575; Q3= 0.789166666667)
+16. CWE-605 Multiple Binds to the Same Port: (Sp= 0.4425; Max= 0.4425; Meg= 0.4425; Q3= 0.789166666667)
+17. CWE-358 Improperly Implemented Security Check for Standard: (Sp= 0.346666666667; Max= 0.346666666667; Meg= 0.346666666667; Q3= 0.789166666667)
+18. CWE-654 Reliance on a Single Factor in a Security Decision: (Sp= 0.345; Max= 0.7025; Meg= 0.52894843303; Q3= 0.789166666667)
+  |
+  -->CWE-308 Use of Single-factor Authentication: (Sp= 0.7025; Max= 0.7025; Meg= 0.7025)
+
+  |
+  -->CWE-309 Use of Password System for Primary Authentication: (Sp= 0.610625; Max= 0.610625; Meg= 0.610625)
+
+19. CWE-296 Improper Following of Chain of Trust for Certificate Validation: (Sp= 0.345; Max= 0.345; Meg= 0.345; Q3= 0.789166666667)
+20. CWE-242 Use of Inherently Dangerous Function: (Sp= 0.345; Max= 0.345; Meg= 0.345; Q3= 0.789166666667)
+21. CWE-14 Compiler Removal of Code to Clear Buffers: (Sp= 0.26; Max= 0.26; Meg= 0.26; Q3= 0.789166666667)
+22. CWE-198 Use of Incorrect Byte Ordering: (Sp= 0.24375; Max= 0.24375; Meg= 0.24375; Q3= 0.789166666667)
+23. CWE-656 Reliance on Security Through Obscurity: (Sp= 0.21; Max= 0.21; Meg= 0.21; Q3= 0.789166666667)
+24. CWE-174 Double Decoding of the Same Data: (Sp= 0.2075; Max= 0.2075; Meg= 0.2075; Q3= 0.789166666667)
+25. CWE-653 Insufficient Compartmentalization: (Sp= 0.2; Max= 0.2; Meg= 0.2; Q3= 0.789166666667)
+26. CWE-733 Compiler Optimization Removal or Modification of Security-critical Code: (Sp= 0.178333333333; Max= 0.26; Meg= 0.215329205327; Q3= 0.789166666667)
+  |
+  -->CWE-14 Compiler Removal of Code to Clear Buffers: (Sp= 0.26; Max= 0.26; Meg= 0.26)
+
+27. CWE-455 Non-exit on Failed Initialization: (Sp= 0.11; Max= 0.11; Meg= 0.11; Q3= 0.789166666667)
+28. CWE-393 Return of Wrong Status Code: (Sp= 0.11; Max= 0.11; Meg= 0.11; Q3= 0.789166666667)
+29. CWE-392 Missing Report of Error Condition: (Sp= 0.11; Max= 0.11; Meg= 0.11; Q3= 0.789166666667)
+30. CWE-329 Not Using a Random IV with CBC Mode: (Sp= 0.075; Max= 0.075; Meg= 0.075; Q3= 0.789166666667)
+31. CWE-325 Missing Required Cryptographic Step: (Sp= 0.075; Max= 0.075; Meg= 0.075; Q3= 0.789166666667)
+32. CWE-321 Use of Hard-coded Cryptographic Key: (Sp= 0.075; Max= 0.075; Meg= 0.075; Q3= 0.789166666667)

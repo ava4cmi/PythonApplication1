@@ -1,0 +1,5 @@
+#CWE-367 Time-of-check Time-of-use (TOCTOU) Race Condition
+Attributes Submit Voms server Proxy renewal Workload manager Job controller (condor-g) Lrms Wn job
+Tampering 0.15 0.15 0.15 0.15 0.15 0.15 1.83
+Trust 1.64 0.69 0.69 0.69 0.69 0.69 1.64
+TimeOut 1.05 1.05 1.05 1.05 1.05 1.05 1.05

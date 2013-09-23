@@ -1,0 +1,421 @@
+1. CWE-863 Incorrect Authorization: (Sp= 2.82125; Max= 2.82125; Meg= 2.82125; Q3= 1.695)
+2. CWE-862 Missing Authorization: (Sp= 2.82125; Max= 2.82125; Meg= 1.87418888176; Q3= 1.695)
+  |
+  -->CWE-638 Not Using Complete Mediation: (Sp= 1.37666666667; Max= 1.965; Meg= 1.64473402105)
+
+  |
+  -->CWE-639 Authorization Bypass Through User-Controlled Key: (Sp= 1.695; Max= 1.695; Meg= 1.38676557139)
+
+3. CWE-732 Incorrect Permission Assignment for Critical Resource: (Sp= 2.82125; Max= 2.82125; Meg= 1.86867924757; Q3= 1.695)
+  |
+  -->CWE-279 Incorrect Execution-Assigned Permissions: (Sp= 1.965; Max= 1.965; Meg= 1.965)
+
+  |
+  -->CWE-281 Improper Preservation of Permissions: (Sp= 1.965; Max= 1.965; Meg= 1.965)
+
+  |
+  -->CWE-276 Incorrect Default Permissions: (Sp= 1.32125; Max= 1.32125; Meg= 1.32125)
+
+  |
+  -->CWE-278 Insecure Preserved Inherited Permissions: (Sp= 1.72; Max= 1.72; Meg= 1.72)
+
+  |
+  -->CWE-277 Insecure Inherited Permissions: (Sp= 1.72; Max= 1.72; Meg= 1.72)
+
+4. CWE-306 Missing Authentication for Critical Function: (Sp= 2.82125; Max= 2.82125; Meg= 2.82125; Q3= 1.695)
+5. CWE-520 .NET Misconfiguration: Use of Impersonation: (Sp= 2.7225; Max= 2.7225; Meg= 2.7225; Q3= 1.695)
+6. CWE-9 J2EE Misconfiguration: Weak Access Permissions for EJB Methods: (Sp= 2.505; Max= 2.505; Meg= 2.505; Q3= 1.695)
+7. CWE-307 Improper Restriction of Excessive Authentication Attempts: (Sp= 1.9825; Max= 1.9825; Meg= 1.9825; Q3= 1.695)
+8. CWE-708 Incorrect Ownership Assignment: (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.695)
+9. CWE-655 Insufficient Psychological Acceptability: (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.695)
+10. CWE-648 Incorrect Use of Privileged APIs: (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.695)
+11. CWE-424 Improper Protection of Alternate Path: (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.695)
+12. CWE-305 Authentication Bypass by Primary Weakness: (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.695)
+13. CWE-289 Authentication Bypass by Alternate Name: (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.695)
+14. CWE-281 Improper Preservation of Permissions: (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.695)
+15. CWE-279 Incorrect Execution-Assigned Permissions: (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.695)
+16. CWE-274 Improper Handling of Insufficient Privileges: (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.695)
+17. CWE-273 Improper Check for Dropped Privileges: (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.695)
+18. CWE-271 Privilege Dropping / Lowering Errors: (Sp= 1.965; Max= 1.965; Meg= 1.87053111731; Q3= 1.695)
+  |
+  -->CWE-273 Improper Check for Dropped Privileges: (Sp= 1.965; Max= 1.965; Meg= 1.965)
+
+  |
+  -->CWE-272 Least Privilege Violation: (Sp= 1.695; Max= 1.695; Meg= 1.695)
+
+19. CWE-250 Execution with Unnecessary Privileges: (Sp= 1.8; Max= 1.8; Meg= 1.8; Q3= 1.695)
+20. CWE-646 Reliance on File Name or Extension of Externally-Supplied File: (Sp= 1.72; Max= 1.72; Meg= 1.72; Q3= 1.695)
+21. CWE-278 Insecure Preserved Inherited Permissions: (Sp= 1.72; Max= 1.72; Meg= 1.72; Q3= 1.695)
+22. CWE-277 Insecure Inherited Permissions: (Sp= 1.72; Max= 1.72; Meg= 1.72; Q3= 1.695)
+23. CWE-639 Authorization Bypass Through User-Controlled Key: (Sp= 1.695; Max= 1.695; Meg= 1.38676557139; Q3= 1.695)
+  |
+  -->CWE-566 Authorization Bypass Through User-Controlled SQL Primary Key: (Sp= 1.13458333333; Max= 1.13458333333; Meg= 1.13458333333)
+
+24. CWE-357 Insufficient UI Warning of Dangerous Operations: (Sp= 1.695; Max= 1.695; Meg= 1.55516980584; Q3= 1.695)
+  |
+  -->CWE-450 Multiple Interpretations of UI Input: (Sp= 1.426875; Max= 1.426875; Meg= 1.426875)
+
+25. CWE-287 Improper Authentication: (Sp= 1.695; Max= 2.82125; Meg= 1.23654482494; Q3= 1.695)
+  |
+  -->CWE-300 Channel Accessible by Non-Endpoint ('Man-in-the-Middle'): (Sp= 0.8225; Max= 0.8225; Meg= 0.8225)
+
+  |
+  -->CWE-322 Key Exchange without Entity Authentication: (Sp= 1.2155; Max= 1.2155; Meg= 1.2155)
+
+  |
+  -->CWE-263 Password Aging with Long Expiration: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475)
+
+  |
+  -->CWE-836 Use of Password Hash Instead of Password for Authentication: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475)
+
+  |
+  -->CWE-521 Weak Password Requirements: (Sp= 1.12041666667; Max= 1.3475; Meg= 1.22872350768)
+
+  |
+  -->CWE-640 Weak Password Recovery Mechanism for Forgotten Password: (Sp= 1.299375; Max= 1.299375; Meg= 1.299375)
+
+  |
+  -->CWE-798 Use of Hard-coded Credentials: (Sp= 1.31458333333; Max= 1.3475; Meg= 0.58410349661)
+
+  |
+  -->CWE-301 Reflection Attack in an Authentication Protocol: (Sp= 1.1135; Max= 1.1135; Meg= 1.1135)
+
+  |
+  -->CWE-261 Weak Cryptography for Passwords: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475)
+
+  |
+  -->CWE-306 Missing Authentication for Critical Function: (Sp= 2.82125; Max= 2.82125; Meg= 2.82125)
+
+  |
+  -->CWE-603 Use of Client-Side Authentication: (Sp= 1.06178571429; Max= 1.06178571429; Meg= 1.06178571429)
+
+  |
+  -->CWE-522 Insufficiently Protected Credentials: (Sp= 1.318125; Max= 1.37666666667; Meg= 1.28456882167)
+
+  |
+  -->CWE-307 Improper Restriction of Excessive Authentication Attempts: (Sp= 1.9825; Max= 1.9825; Meg= 1.9825)
+
+  |
+  -->CWE-645 Overly Restrictive Account Lockout Mechanism: (Sp= 0.2625; Max= 0.2625; Meg= 0.2625)
+
+  |
+  -->CWE-592 Authentication Bypass Issues: (Sp= 1.32125; Max= 1.965; Meg= 1.39431079814)
+
+  |
+  -->CWE-262 Not Using Password Aging: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475)
+
+  |
+  -->CWE-309 Use of Password System for Primary Authentication: (Sp= 1.299375; Max= 1.299375; Meg= 1.299375)
+
+  |
+  -->CWE-308 Use of Single-factor Authentication: (Sp= 1.345; Max= 1.345; Meg= 1.345)
+
+26. CWE-283 Unverified Ownership: (Sp= 1.695; Max= 1.695; Meg= 1.695; Q3= 1.695)
+27. CWE-282 Improper Ownership Management: (Sp= 1.695; Max= 1.965; Meg= 1.78060389864; Q3= 1.695)
+  |
+  -->CWE-708 Incorrect Ownership Assignment: (Sp= 1.965; Max= 1.965; Meg= 1.965)
+
+  |
+  -->CWE-283 Unverified Ownership: (Sp= 1.695; Max= 1.695; Meg= 1.695)
+
+28. CWE-272 Least Privilege Violation: (Sp= 1.695; Max= 1.695; Meg= 1.695; Q3= 1.695)
+29. CWE-269 Improper Privilege Management: (Sp= 1.695; Max= 1.965; Meg= 1.69259239481; Q3= 1.695)
+  |
+  -->CWE-274 Improper Handling of Insufficient Privileges: (Sp= 1.965; Max= 1.965; Meg= 1.965)
+
+  |
+  -->CWE-250 Execution with Unnecessary Privileges: (Sp= 1.8; Max= 1.8; Meg= 1.8)
+
+  |
+  -->CWE-267 Privilege Defined With Unsafe Actions: (Sp= 1.299375; Max= 1.299375; Meg= 1.299375)
+
+  |
+  -->CWE-266 Incorrect Privilege Assignment: (Sp= 1.32125; Max= 2.7225; Meg= 1.89660304887)
+
+  |
+  -->CWE-268 Privilege Chaining: (Sp= 1.695; Max= 1.695; Meg= 1.695)
+
+  |
+  -->CWE-271 Privilege Dropping / Lowering Errors: (Sp= 1.965; Max= 1.965; Meg= 1.87053111731)
+
+  |
+  -->CWE-648 Incorrect Use of Privileged APIs: (Sp= 1.965; Max= 1.965; Meg= 1.965)
+
+30. CWE-268 Privilege Chaining: (Sp= 1.695; Max= 1.695; Meg= 1.695; Q3= 1.695)
+31. CWE-184 Incomplete Blacklist: (Sp= 1.695; Max= 1.695; Meg= 1.695; Q3= 1.695)
+32. CWE-183 Permissive Whitelist: (Sp= 1.695; Max= 1.695; Meg= 1.695; Q3= 1.695)
+33. CWE-807 Reliance on Untrusted Inputs in a Security Decision: (Sp= 1.61; Max= 1.61; Meg= 0.812591889972; Q3= 1.695)
+  |
+  -->CWE-302 Authentication Bypass by Assumed-Immutable Data: (Sp= 1.2155; Max= 1.2155; Meg= 1.2155)
+
+  |
+  -->CWE-784 Reliance on Cookies without Validation and Integrity Checking in a Security Decision: (Sp= 0.485; Max= 0.485; Meg= 0.485)
+
+  |
+  -->CWE-247 Reliance on DNS Lookups in a Security Decision: (Sp= 0.459375; Max= 0.459375; Meg= 0.459375)
+
+34. CWE-109 Struts: Validator Turned Off: (Sp= 1.56; Max= 1.56; Meg= 1.56; Q3= 1.695)
+35. CWE-108 Struts: Unvalidated Action Form: (Sp= 1.56; Max= 1.56; Meg= 1.56; Q3= 1.695)
+36. CWE-106 Struts: Plug-in Framework not in Use: (Sp= 1.56; Max= 1.56; Meg= 1.56; Q3= 1.695)
+37. CWE-105 Struts: Form Field Without Validator: (Sp= 1.56; Max= 1.56; Meg= 1.56; Q3= 1.695)
+38. CWE-450 Multiple Interpretations of UI Input: (Sp= 1.426875; Max= 1.426875; Meg= 1.426875; Q3= 1.695)
+39. CWE-288 Authentication Bypass Using an Alternate Path or Channel: (Sp= 1.40833333333; Max= 1.40833333333; Meg= 1.40833333333; Q3= 1.695)
+40. CWE-284 Improper Access Control: (Sp= 1.40833333333; Max= 1.695; Meg= 1.50830444942; Q3= 1.695)
+  |
+  -->CWE-286 Incorrect User Management: (Sp= 1.32125; Max= 1.37666666667; Meg= 1.34867373124)
+
+  |
+  -->CWE-287 Improper Authentication: (Sp= 1.695; Max= 2.82125; Meg= 1.23654482494)
+
+  |
+  -->CWE-282 Improper Ownership Management: (Sp= 1.695; Max= 1.965; Meg= 1.78060389864)
+
+  |
+  -->CWE-285 Improper Authorization: (Sp= 1.299375; Max= 2.82125; Meg= 2.32415348849)
+
+  |
+  -->CWE-269 Improper Privilege Management: (Sp= 1.695; Max= 1.965; Meg= 1.69259239481)
+
+41. CWE-842 Placement of User into Incorrect Group: (Sp= 1.37666666667; Max= 1.37666666667; Meg= 1.37666666667; Q3= 1.695)
+42. CWE-638 Not Using Complete Mediation: (Sp= 1.37666666667; Max= 1.965; Meg= 1.64473402105; Q3= 1.695)
+  |
+  -->CWE-424 Improper Protection of Alternate Path: (Sp= 1.965; Max= 1.965; Meg= 1.965)
+
+43. CWE-256 Plaintext Storage of a Password: (Sp= 1.37666666667; Max= 1.37666666667; Meg= 1.37666666667; Q3= 1.695)
+44. CWE-555 J2EE Misconfiguration: Plaintext Password in Configuration File: (Sp= 1.368125; Max= 1.368125; Meg= 1.368125; Q3= 1.695)
+45. CWE-836 Use of Password Hash Instead of Password for Authentication: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475; Q3= 1.695)
+46. CWE-263 Password Aging with Long Expiration: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475; Q3= 1.695)
+47. CWE-262 Not Using Password Aging: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475; Q3= 1.695)
+48. CWE-261 Weak Cryptography for Passwords: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475; Q3= 1.695)
+49. CWE-260 Password in Configuration File: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475; Q3= 1.695)
+  |
+  -->CWE-258 Empty Password in Configuration File: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475)
+
+50. CWE-259 Use of Hard-coded Password: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475; Q3= 1.695)
+51. CWE-258 Empty Password in Configuration File: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475; Q3= 1.695)
+52. CWE-308 Use of Single-factor Authentication: (Sp= 1.345; Max= 1.345; Meg= 1.345; Q3= 1.695)
+53. CWE-327 Use of a Broken or Risky Cryptographic Algorithm: (Sp= 1.325; Max= 1.325; Meg= 0.590786302197; Q3= 1.695)
+  |
+  -->CWE-760 Use of a One-Way Hash with a Predictable Salt: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+  |
+  -->CWE-759 Use of a One-Way Hash without a Salt: (Sp= 1.2175; Max= 1.2175; Meg= 1.2175)
+
+  |
+  -->CWE-780 Use of RSA Algorithm without OAEP: (Sp= 0.67125; Max= 0.67125; Meg= 0.67125)
+
+54. CWE-592 Authentication Bypass Issues: (Sp= 1.32125; Max= 1.965; Meg= 1.39431079814; Q3= 1.695)
+  |
+  -->CWE-305 Authentication Bypass by Primary Weakness: (Sp= 1.965; Max= 1.965; Meg= 1.965)
+
+  |
+  -->CWE-302 Authentication Bypass by Assumed-Immutable Data: (Sp= 1.2155; Max= 1.2155; Meg= 1.2155)
+
+  |
+  -->CWE-289 Authentication Bypass by Alternate Name: (Sp= 1.965; Max= 1.965; Meg= 1.965)
+
+  |
+  -->CWE-294 Authentication Bypass by Capture-replay: (Sp= 0.89; Max= 0.89; Meg= 0.89)
+
+  |
+  -->CWE-593 Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created: (Sp= 1.318125; Max= 1.318125; Meg= 1.318125)
+
+  |
+  -->CWE-288 Authentication Bypass Using an Alternate Path or Channel: (Sp= 1.40833333333; Max= 1.40833333333; Meg= 1.40833333333)
+
+55. CWE-286 Incorrect User Management: (Sp= 1.32125; Max= 1.37666666667; Meg= 1.34867373124; Q3= 1.695)
+  |
+  -->CWE-842 Placement of User into Incorrect Group: (Sp= 1.37666666667; Max= 1.37666666667; Meg= 1.37666666667)
+
+56. CWE-276 Incorrect Default Permissions: (Sp= 1.32125; Max= 1.32125; Meg= 1.32125; Q3= 1.695)
+57. CWE-266 Incorrect Privilege Assignment: (Sp= 1.32125; Max= 2.7225; Meg= 1.89660304887; Q3= 1.695)
+  |
+  -->CWE-520 .NET Misconfiguration: Use of Impersonation: (Sp= 2.7225; Max= 2.7225; Meg= 2.7225)
+
+58. CWE-593 Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created: (Sp= 1.318125; Max= 1.318125; Meg= 1.318125; Q3= 1.695)
+59. CWE-523 Unprotected Transport of Credentials: (Sp= 1.318125; Max= 1.318125; Meg= 1.318125; Q3= 1.695)
+60. CWE-522 Insufficiently Protected Credentials: (Sp= 1.318125; Max= 1.37666666667; Meg= 1.28456882167; Q3= 1.695)
+  |
+  -->CWE-260 Password in Configuration File: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475)
+
+  |
+  -->CWE-549 Missing Password Field Masking: (Sp= 1.299375; Max= 1.299375; Meg= 1.299375)
+
+  |
+  -->CWE-256 Plaintext Storage of a Password: (Sp= 1.37666666667; Max= 1.37666666667; Meg= 1.37666666667)
+
+  |
+  -->CWE-523 Unprotected Transport of Credentials: (Sp= 1.318125; Max= 1.318125; Meg= 1.318125)
+
+  |
+  -->CWE-257 Storing Passwords in a Recoverable Format: (Sp= 1.060625; Max= 1.060625; Meg= 1.060625)
+
+  |
+  -->CWE-620 Unverified Password Change: (Sp= 1.299375; Max= 1.299375; Meg= 1.299375)
+
+61. CWE-798 Use of Hard-coded Credentials: (Sp= 1.31458333333; Max= 1.3475; Meg= 0.58410349661; Q3= 1.695)
+  |
+  -->CWE-321 Use of Hard-coded Cryptographic Key: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+  |
+  -->CWE-259 Use of Hard-coded Password: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475)
+
+62. CWE-640 Weak Password Recovery Mechanism for Forgotten Password: (Sp= 1.299375; Max= 1.299375; Meg= 1.299375; Q3= 1.695)
+63. CWE-620 Unverified Password Change: (Sp= 1.299375; Max= 1.299375; Meg= 1.299375; Q3= 1.695)
+64. CWE-549 Missing Password Field Masking: (Sp= 1.299375; Max= 1.299375; Meg= 1.299375; Q3= 1.695)
+65. CWE-309 Use of Password System for Primary Authentication: (Sp= 1.299375; Max= 1.299375; Meg= 1.299375; Q3= 1.695)
+66. CWE-285 Improper Authorization: (Sp= 1.299375; Max= 2.82125; Meg= 2.32415348849; Q3= 1.695)
+  |
+  -->CWE-732 Incorrect Permission Assignment for Critical Resource: (Sp= 2.82125; Max= 2.82125; Meg= 1.86867924757)
+
+  |
+  -->CWE-862 Missing Authorization: (Sp= 2.82125; Max= 2.82125; Meg= 1.87418888176)
+
+  |
+  -->CWE-863 Incorrect Authorization: (Sp= 2.82125; Max= 2.82125; Meg= 2.82125)
+
+67. CWE-267 Privilege Defined With Unsafe Actions: (Sp= 1.299375; Max= 1.299375; Meg= 1.299375; Q3= 1.695)
+68. CWE-654 Reliance on a Single Factor in a Security Decision: (Sp= 1.23; Max= 1.345; Meg= 1.29058704352; Q3= 1.695)
+  |
+  -->CWE-309 Use of Password System for Primary Authentication: (Sp= 1.299375; Max= 1.299375; Meg= 1.299375)
+
+  |
+  -->CWE-308 Use of Single-factor Authentication: (Sp= 1.345; Max= 1.345; Meg= 1.345)
+
+69. CWE-360 Trust of System Event Data: (Sp= 1.23; Max= 1.23; Meg= 1.23; Q3= 1.695)
+70. CWE-346 Origin Validation Error: (Sp= 1.23; Max= 1.23; Meg= 1.23; Q3= 1.695)
+71. CWE-602 Client-Side Enforcement of Server-Side Security: (Sp= 1.22; Max= 1.22; Meg= 1.13814699026; Q3= 1.695)
+  |
+  -->CWE-603 Use of Client-Side Authentication: (Sp= 1.06178571429; Max= 1.06178571429; Meg= 1.06178571429)
+
+72. CWE-759 Use of a One-Way Hash without a Salt: (Sp= 1.2175; Max= 1.2175; Meg= 1.2175; Q3= 1.695)
+73. CWE-322 Key Exchange without Entity Authentication: (Sp= 1.2155; Max= 1.2155; Meg= 1.2155; Q3= 1.695)
+74. CWE-302 Authentication Bypass by Assumed-Immutable Data: (Sp= 1.2155; Max= 1.2155; Meg= 1.2155; Q3= 1.695)
+75. CWE-471 Modification of Assumed-Immutable Data (MAID): (Sp= 1.20541666667; Max= 1.20541666667; Meg= 1.20541666667; Q3= 1.695)
+76. CWE-566 Authorization Bypass Through User-Controlled SQL Primary Key: (Sp= 1.13458333333; Max= 1.13458333333; Meg= 1.13458333333; Q3= 1.695)
+77. CWE-20 Improper Input Validation: (Sp= 1.12214285714; Max= 1.12214285714; Meg= 0.555396450261; Q3= 1.695)
+  |
+  -->CWE-114 Process Control: (Sp= 1.09791666667; Max= 1.09791666667; Meg= 1.09791666667)
+
+  |
+  -->CWE-789 Uncontrolled Memory Allocation: (Sp= 0.2625; Max= 0.2625; Meg= 0.2625)
+
+  |
+  -->CWE-129 Improper Validation of Array Index: (Sp= 0.2625; Max= 0.2625; Meg= 0.2625)
+
+  |
+  -->CWE-606 Unchecked Input for Loop Condition: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+78. CWE-521 Weak Password Requirements: (Sp= 1.12041666667; Max= 1.3475; Meg= 1.22872350768; Q3= 1.695)
+  |
+  -->CWE-258 Empty Password in Configuration File: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475)
+
+79. CWE-301 Reflection Attack in an Authentication Protocol: (Sp= 1.1135; Max= 1.1135; Meg= 1.1135; Q3= 1.695)
+80. CWE-114 Process Control: (Sp= 1.09791666667; Max= 1.09791666667; Meg= 1.09791666667; Q3= 1.695)
+81. CWE-311 Missing Encryption of Sensitive Data: (Sp= 1.07875; Max= 1.07875; Meg= 0.447439597223; Q3= 1.695)
+  |
+  -->CWE-319 Cleartext Transmission of Sensitive Information: (Sp= 0.738125; Max= 0.738125; Meg= 0.738125)
+
+  |
+  -->CWE-312 Cleartext Storage of Sensitive Information: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+82. CWE-603 Use of Client-Side Authentication: (Sp= 1.06178571429; Max= 1.06178571429; Meg= 1.06178571429; Q3= 1.695)
+83. CWE-257 Storing Passwords in a Recoverable Format: (Sp= 1.060625; Max= 1.060625; Meg= 1.060625; Q3= 1.695)
+84. CWE-345 Insufficient Verification of Data Authenticity: (Sp= 1.03875; Max= 1.72; Meg= 0.594919080037; Q3= 1.695)
+  |
+  -->CWE-297 Improper Validation of Host-specific Certificate Data: (Sp= 0.545833333333; Max= 0.84; Meg= 0.677126280689)
+
+  |
+  -->CWE-322 Key Exchange without Entity Authentication: (Sp= 1.2155; Max= 1.2155; Meg= 1.2155)
+
+  |
+  -->CWE-646 Reliance on File Name or Extension of Externally-Supplied File: (Sp= 1.72; Max= 1.72; Meg= 1.72)
+
+  |
+  -->CWE-360 Trust of System Event Data: (Sp= 1.23; Max= 1.23; Meg= 1.23)
+
+  |
+  -->CWE-349 Acceptance of Extraneous Untrusted Data With Trusted Data: (Sp= 0.67125; Max= 0.67125; Meg= 0.67125)
+
+  |
+  -->CWE-350 Improperly Trusted Reverse DNS: (Sp= 0.545833333333; Max= 0.545833333333; Meg= 0.545833333333)
+
+  |
+  -->CWE-346 Origin Validation Error: (Sp= 1.23; Max= 1.23; Meg= 1.23)
+
+  |
+  -->CWE-649 Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+  |
+  -->CWE-347 Improper Verification of Cryptographic Signature: (Sp= 0.67125; Max= 0.67125; Meg= 0.67125)
+
+  |
+  -->CWE-348 Use of Less Trusted Source: (Sp= 0.67125; Max= 0.67125; Meg= 0.67125)
+
+  |
+  -->CWE-353 Missing Support for Integrity Check: (Sp= 0.404166666667; Max= 0.404166666667; Meg= 0.404166666667)
+
+  |
+  -->CWE-354 Improper Validation of Integrity Check Value: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+  |
+  -->CWE-247 Reliance on DNS Lookups in a Security Decision: (Sp= 0.459375; Max= 0.459375; Meg= 0.459375)
+
+85. CWE-778 Insufficient Logging: (Sp= 0.921; Max= 0.921; Meg= 0.921; Q3= 1.695)
+86. CWE-294 Authentication Bypass by Capture-replay: (Sp= 0.89; Max= 0.89; Meg= 0.89; Q3= 1.695)
+87. CWE-599 Trust of OpenSSL Certificate Without Validation: (Sp= 0.84; Max= 0.84; Meg= 0.84; Q3= 1.695)
+88. CWE-441 Unintended Proxy/Intermediary: (Sp= 0.834285714286; Max= 0.834285714286; Meg= 0.834285714286; Q3= 1.695)
+89. CWE-358 Improperly Implemented Security Check for Standard: (Sp= 0.829583333333; Max= 0.829583333333; Meg= 0.829583333333; Q3= 1.695)
+90. CWE-300 Channel Accessible by Non-Endpoint ('Man-in-the-Middle'): (Sp= 0.8225; Max= 0.8225; Meg= 0.8225; Q3= 1.695)
+91. CWE-179 Incorrect Behavior Order: Early Validation: (Sp= 0.805; Max= 0.805; Meg= 0.805; Q3= 1.695)
+92. CWE-319 Cleartext Transmission of Sensitive Information: (Sp= 0.738125; Max= 0.738125; Meg= 0.738125; Q3= 1.695)
+93. CWE-780 Use of RSA Algorithm without OAEP: (Sp= 0.67125; Max= 0.67125; Meg= 0.67125; Q3= 1.695)
+94. CWE-656 Reliance on Security Through Obscurity: (Sp= 0.67125; Max= 0.67125; Meg= 0.67125; Q3= 1.695)
+95. CWE-349 Acceptance of Extraneous Untrusted Data With Trusted Data: (Sp= 0.67125; Max= 0.67125; Meg= 0.67125; Q3= 1.695)
+96. CWE-348 Use of Less Trusted Source: (Sp= 0.67125; Max= 0.67125; Meg= 0.67125; Q3= 1.695)
+97. CWE-347 Improper Verification of Cryptographic Signature: (Sp= 0.67125; Max= 0.67125; Meg= 0.67125; Q3= 1.695)
+98. CWE-606 Unchecked Input for Loop Condition: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 1.695)
+99. CWE-350 Improperly Trusted Reverse DNS: (Sp= 0.545833333333; Max= 0.545833333333; Meg= 0.545833333333; Q3= 1.695)
+100. CWE-297 Improper Validation of Host-specific Certificate Data: (Sp= 0.545833333333; Max= 0.84; Meg= 0.677126280689; Q3= 1.695)
+  |
+  -->CWE-599 Trust of OpenSSL Certificate Without Validation: (Sp= 0.84; Max= 0.84; Meg= 0.84)
+
+101. CWE-292 Trusting Self-reported DNS Name: (Sp= 0.545833333333; Max= 0.545833333333; Meg= 0.545833333333; Q3= 1.695)
+102. CWE-784 Reliance on Cookies without Validation and Integrity Checking in a Security Decision: (Sp= 0.485; Max= 0.485; Meg= 0.485; Q3= 1.695)
+103. CWE-5 2EE Misconfiguration: Data Transmission Without Encryption: (Sp= 0.478333333333; Max= 0.478333333333; Meg= 0.478333333333; Q3= 1.695)
+104. CWE-247 Reliance on DNS Lookups in a Security Decision: (Sp= 0.459375; Max= 0.459375; Meg= 0.459375; Q3= 1.695)
+105. CWE-757 Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade'): (Sp= 0.45875; Max= 0.45875; Meg= 0.45875; Q3= 1.695)
+106. CWE-326 Inadequate Encryption Strength: (Sp= 0.45875; Max= 1.3475; Meg= 0.786235095248; Q3= 1.695)
+  |
+  -->CWE-261 Weak Cryptography for Passwords: (Sp= 1.3475; Max= 1.3475; Meg= 1.3475)
+
+107. CWE-353 Missing Support for Integrity Check: (Sp= 0.404166666667; Max= 0.404166666667; Meg= 0.404166666667; Q3= 1.695)
+108. CWE-789 Uncontrolled Memory Allocation: (Sp= 0.2625; Max= 0.2625; Meg= 0.2625; Q3= 1.695)
+109. CWE-645 Overly Restrictive Account Lockout Mechanism: (Sp= 0.2625; Max= 0.2625; Meg= 0.2625; Q3= 1.695)
+110. CWE-129 Improper Validation of Array Index: (Sp= 0.2625; Max= 0.2625; Meg= 0.2625; Q3= 1.695)
+111. CWE-653 Insufficient Compartmentalization: (Sp= 0.2; Max= 0.2; Meg= 0.2; Q3= 1.695)
+112. CWE-760 Use of a One-Way Hash with a Predictable Salt: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 1.695)
+113. CWE-649 Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 1.695)
+114. CWE-354 Improper Validation of Integrity Check Value: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 1.695)
+115. CWE-321 Use of Hard-coded Cryptographic Key: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 1.695)
+116. CWE-318 Plaintext Storage in Executable: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 1.695)
+117. CWE-316 Plaintext Storage in Memory: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 1.695)
+118. CWE-315 Plaintext Storage in a Cookie: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 1.695)
+119. CWE-314 Plaintext Storage in the Registry: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 1.695)
+120. CWE-313 Plaintext Storage in a File or on Disk: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 1.695)
+121. CWE-312 Cleartext Storage of Sensitive Information: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125; Q3= 1.695)
+  |
+  -->CWE-316 Plaintext Storage in Memory: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+  |
+  -->CWE-314 Plaintext Storage in the Registry: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+  |
+  -->CWE-315 Plaintext Storage in a Cookie: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+  |
+  -->CWE-313 Plaintext Storage in a File or on Disk: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+
+  |
+  -->CWE-318 Plaintext Storage in Executable: (Sp= 0.1125; Max= 0.1125; Meg= 0.1125)
+

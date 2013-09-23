@@ -1,0 +1,3 @@
+#CWE-754 Improper Check for Unusual or Exceptional Conditions
+Attributes Submit Logbook Al-jc Condor_g Lrms Condor_startd Job
+ErrorHandling 0.22 0.22 0.22 0.22 0.22 0.22 1.22

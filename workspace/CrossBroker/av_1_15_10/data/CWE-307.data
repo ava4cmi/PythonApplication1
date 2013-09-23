@@ -1,0 +1,5 @@
+#CWE-307 Improper Restriction of Excessive Authentication Attempts
+Attributes Submit Sandbox_dir Job
+Owner 4.23 0.67 1.86
+User 1.96 0.67 3.58
+TimeOut 1.22 0.34 1.22

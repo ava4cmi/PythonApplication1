@@ -1,0 +1,3 @@
+#CWE-329 Not Using a Random IV with CBC Mode
+Attributes Value
+Encryption 0.15

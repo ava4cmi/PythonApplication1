@@ -1,0 +1,3 @@
+#CWE-667 Improper Locking
+Attributes Submit Voms server Wms proxy Logger (interlogd) Lb
+TimeOut 1.05 1.05 1.05 1.05 1.05

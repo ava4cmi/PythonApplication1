@@ -1,0 +1,5 @@
+#CWE-784 Reliance on Cookies without Validation and Integrity Checking in a Security Decision
+Attributes Value
+Tampering 0.15
+Spoofing 0.15
+Trust 0.69

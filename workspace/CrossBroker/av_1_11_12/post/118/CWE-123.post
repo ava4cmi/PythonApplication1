@@ -1,0 +1,7 @@
+#CWE-123 Write-what-where Condition
+Attributes Value
+Owner 3.05
+Tampering 0.15
+UI_GUI 1.54
+User 1.61
+Sanitize 0.83

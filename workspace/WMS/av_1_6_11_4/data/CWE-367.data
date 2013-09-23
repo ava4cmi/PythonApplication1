@@ -1,0 +1,5 @@
+#CWE-367 Time-of-check Time-of-use (TOCTOU) Race Condition
+Attributes Submit Wms proxy Logger (interlogd) Lb
+Tampering 0.15 0.15 0.15 0.15
+Trust 1.64 0.69 0.69 1.64
+TimeOut 1.05 1.05 1.05 1.05

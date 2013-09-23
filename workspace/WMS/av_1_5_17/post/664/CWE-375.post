@@ -1,0 +1,3 @@
+#CWE-375 Returning a Mutable Object to an Untrusted Caller
+Attributes Value
+Trust 1.64

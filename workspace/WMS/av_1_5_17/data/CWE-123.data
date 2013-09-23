@@ -1,0 +1,7 @@
+#CWE-123 Write-what-where Condition
+Attributes Submit Gridftp
+Owner 3.63 3.63
+Tampering 0.15 0.15
+UI_GUI 2.00 1.54
+User 1.61 3.00
+Sanitize 0.83 2.08

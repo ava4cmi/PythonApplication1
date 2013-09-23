@@ -1,0 +1,3 @@
+#CWE-333 Improper Handling of Insufficient Entropy in TRNG
+Attributes Submit Voms server Wms proxy Logger (interlogd) Lb
+Encryption 0.15 0.15 0.15 0.15 0.15

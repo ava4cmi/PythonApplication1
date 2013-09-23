@@ -1,0 +1,32 @@
+1. CWE-120 Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'): (Sp= 1.67; Max= 1.67; Meg= 1.14678899541; Q3= 0.7875)
+  |
+  -->CWE-785 Use of Path Manipulation Function without Maximum-sized Buffer: (Sp= 0.7875; Max= 0.7875; Meg= 0.7875)
+
+2. CWE-123 Write-what-where Condition: (Sp= 0.8455; Max= 0.8455; Meg= 0.8455; Q3= 0.7875)
+3. CWE-805 Buffer Access with Incorrect Length Value: (Sp= 0.7875; Max= 0.7875; Meg= 0.7875; Q3= 0.7875)
+4. CWE-785 Use of Path Manipulation Function without Maximum-sized Buffer: (Sp= 0.7875; Max= 0.7875; Meg= 0.7875; Q3= 0.7875)
+5. CWE-127 Buffer Under-read: (Sp= 0.7875; Max= 0.7875; Meg= 0.7875; Q3= 0.7875)
+6. CWE-126 Buffer Over-read: (Sp= 0.7875; Max= 0.7875; Meg= 0.7875; Q3= 0.7875)
+7. CWE-125 Out-of-bounds Read: (Sp= 0.7875; Max= 0.7875; Meg= 0.7875; Q3= 0.7875)
+  |
+  -->CWE-127 Buffer Under-read: (Sp= 0.7875; Max= 0.7875; Meg= 0.7875)
+
+  |
+  -->CWE-126 Buffer Over-read: (Sp= 0.7875; Max= 0.7875; Meg= 0.7875)
+
+8. CWE-124 Buffer Underwrite ('Buffer Underflow'): (Sp= 0.7875; Max= 0.7875; Meg= 0.7875; Q3= 0.7875)
+9. CWE-122 Heap-based Buffer Overflow: (Sp= 0.7875; Max= 0.7875; Meg= 0.7875; Q3= 0.7875)
+10. CWE-121 Stack-based Buffer Overflow: (Sp= 0.7875; Max= 0.7875; Meg= 0.7875; Q3= 0.7875)
+11. CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer: (Sp= 0.7875; Max= 1.67; Meg= 0.928359859423; Q3= 0.7875)
+  |
+  -->CWE-120 Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'): (Sp= 1.67; Max= 1.67; Meg= 1.14678899541)
+
+  |
+  -->CWE-125 Out-of-bounds Read: (Sp= 0.7875; Max= 0.7875; Meg= 0.7875)
+
+  |
+  -->CWE-805 Buffer Access with Incorrect Length Value: (Sp= 0.7875; Max= 0.7875; Meg= 0.7875)
+
+  |
+  -->CWE-123 Write-what-where Condition: (Sp= 0.8455; Max= 0.8455; Meg= 0.8455)
+

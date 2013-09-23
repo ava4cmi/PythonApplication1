@@ -1,0 +1,5 @@
+#CWE-152 Improper Neutralization of Macro Symbols
+Attributes Submit Sandbox_dir Job
+Trust 1.64 1.64 0.69
+Transfering 1.61 0.52 2.08
+Sanitize 0.83 2.08 2.08

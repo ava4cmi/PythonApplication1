@@ -1,0 +1,7 @@
+#CWE-377 Insecure Temporary File
+Attributes Submit Wms proxy Lb proxy Logger (interlogd) Lb
+Owner 3.63 3.63 3.63 3.63 3.63
+Trust 1.64 0.69 0.69 0.69 1.64
+Client_Server 0.40 0.70 0.70 0.70 0.70
+User 1.61 3.00 3.00 3.00 3.00
+TimeOut 1.05 1.05 1.05 1.05 1.05

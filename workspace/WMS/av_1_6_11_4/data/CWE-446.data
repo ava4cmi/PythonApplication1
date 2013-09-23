@@ -1,0 +1,6 @@
+#CWE-446 UI Discrepancy for Security Feature
+Attributes Submit Wms proxy Logger (interlogd) Lb
+Owner 3.63 3.63 3.63 3.63
+UI_GUI 2.00 1.54 1.54 1.54
+Trust 1.64 0.69 0.69 1.64
+User 1.61 3.00 3.00 3.00

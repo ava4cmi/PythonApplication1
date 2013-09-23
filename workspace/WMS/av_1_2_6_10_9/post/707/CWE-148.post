@@ -1,0 +1,3 @@
+#CWE-148 Improper Neutralization of Input Leaders
+Attributes Value
+Sanitize 0.83

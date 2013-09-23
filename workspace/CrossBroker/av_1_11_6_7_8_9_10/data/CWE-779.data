@@ -1,0 +1,4 @@
+#CWE-779 Logging of Excessive Data
+Attributes Submit Logbook Al-jc Condor_g Lrms Condor_startd Job
+MaxMin 1.05 1.05 1.05 1.05 1.05 1.05 1.05
+Logs 1.35 1.35 1.35 1.35 1.35 1.35 0.44

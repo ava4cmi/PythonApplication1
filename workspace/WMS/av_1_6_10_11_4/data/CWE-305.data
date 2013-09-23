@@ -1,0 +1,4 @@
+#CWE-305 Authentication Bypass by Primary Weakness
+Attributes Submit Wms proxy Lb proxy Logger (interlogd) Lb
+Owner 3.63 3.63 3.63 3.63 3.63
+User 1.61 3.00 3.00 3.00 3.00

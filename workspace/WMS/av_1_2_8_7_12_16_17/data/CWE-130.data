@@ -1,0 +1,4 @@
+#CWE-130 Improper Handling of Length Parameter Inconsistency 
+Attributes Submit Voms server Proxy renewal Workload manager Job controller (condor-g) Lrms Wn job
+MaxMin 1.05 1.05 1.05 1.05 1.05 1.05 1.05
+Sanitize 0.83 0.83 0.83 0.83 0.83 2.08 2.08

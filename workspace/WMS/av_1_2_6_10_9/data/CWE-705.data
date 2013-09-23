@@ -1,0 +1,3 @@
+#CWE-705 Incorrect Control Flow Scoping
+Attributes Submit Voms server Wms proxy Lb proxy Lb database
+Client_Server 0.40 0.70 0.70 0.70 0.70

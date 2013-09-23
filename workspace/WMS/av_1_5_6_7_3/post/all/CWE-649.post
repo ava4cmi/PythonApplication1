@@ -1,0 +1,3 @@
+#CWE-649 Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking
+Attributes Value
+Encryption 0.15

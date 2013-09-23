@@ -1,0 +1,3 @@
+#CWE-26 Path Traversal: '/dir/../filename'
+Attributes Value
+Sanitize 0.83

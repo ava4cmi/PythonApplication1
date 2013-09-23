@@ -1,0 +1,149 @@
+1. CWE-863 Incorrect Authorization:1.1575
+2. CWE-862 Missing Authorization:1.1575
+3. CWE-732 Incorrect Permission Assignment for Critical Resource:1.1575
+4. CWE-306 Missing Authentication for Critical Function:1.1575
+5. CWE-287 Improper Authentication:1.1575
+6. CWE-285 Improper Authorization:1.1575
+7. CWE-307 Improper Restriction of Excessive Authentication Attempts:0.856666666667
+8. CWE-269 Improper Privilege Management:0.716875
+9. CWE-250 Execution with Unnecessary Privileges:0.716875
+10. CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'):0.584166666667
+11. CWE-798 Use of Hard-coded Credentials:0.567083333333
+12. CWE-494 Download of Code Without Integrity Check:0.545357142857
+13. CWE-782 Exposed IOCTL with Insufficient Access Control:0.5325
+14. CWE-708 Incorrect Ownership Assignment:0.5325
+15. CWE-648 Incorrect Use of Privileged APIs:0.5325
+16. CWE-638 Not Using Complete Mediation:0.5325
+17. CWE-62 UNIX Hard Link:0.5325
+18. CWE-59 Improper Link Resolution Before File Access ('Link Following'):0.5325
+19. CWE-424 Improper Protection of Alternate Path:0.5325
+20. CWE-305 Authentication Bypass by Primary Weakness:0.5325
+21. CWE-289 Authentication Bypass by Alternate Name:0.5325
+22. CWE-282 Improper Ownership Management:0.5325
+23. CWE-281 Improper Preservation of Permissions:0.5325
+24. CWE-279 Incorrect Execution-Assigned Permissions:0.5325
+25. CWE-274 Improper Handling of Insufficient Privileges:0.5325
+26. CWE-273 Improper Check for Dropped Privileges:0.5325
+27. CWE-271 Privilege Dropping / Lowering Errors:0.5325
+28. CWE-434 Unrestricted Upload of File with Dangerous Type:0.5321875
+29. CWE-639 Authorization Bypass Through User-Controlled Key:0.483333333333
+30. CWE-451 UI Misrepresentation of Critical Information:0.483333333333
+31. CWE-356 Product UI does not Warn User of Unsafe Actions:0.483333333333
+32. CWE-283 Unverified Ownership:0.483333333333
+33. CWE-272 Least Privilege Violation:0.483333333333
+34. CWE-268 Privilege Chaining:0.483333333333
+35. CWE-497 Exposure of System Data to an Unauthorized Control Sphere:0.47
+36. CWE-379 Creation of Temporary File in Directory with Incorrect Permissions:0.47
+37. CWE-378 Creation of Temporary File With Insecure Permissions:0.47
+38. CWE-377 Insecure Temporary File:0.47
+39. CWE-278 Insecure Preserved Inherited Permissions:0.47
+40. CWE-277 Insecure Inherited Permissions:0.47
+41. CWE-200 Information Exposure:0.47
+42. CWE-288 Authentication Bypass Using an Alternate Path or Channel:0.453333333333
+43. CWE-308 Use of Single-factor Authentication:0.43625
+44. CWE-421 Race Condition During Access to Alternate Channel:0.42
+45. CWE-420 Unprotected Alternate Channel:0.42
+46. CWE-73 External Control of File Name or Path:0.404375
+47. CWE-642 External Control of Critical State Data:0.404375
+48. CWE-23 Relative Path Traversal:0.404375
+49. CWE-842 Placement of User into Incorrect Group:0.388333333333
+50. CWE-286 Incorrect User Management:0.388333333333
+51. CWE-256 Plaintext Storage of a Password:0.388333333333
+52. CWE-276 Incorrect Default Permissions:0.3875
+53. CWE-266 Incorrect Privilege Assignment:0.3875
+54. CWE-267 Privilege Defined With Unsafe Actions:0.38125
+55. CWE-602 Client-Side Enforcement of Server-Side Security:0.380833333333
+56. CWE-640 Weak Password Recovery Mechanism for Forgotten Password:0.371875
+57. CWE-620 Unverified Password Change:0.371875
+58. CWE-309 Use of Password System for Primary Authentication:0.371875
+59. CWE-836 Use of Password Hash Instead of Password for Authentication:0.3675
+60. CWE-404 Improper Resource Shutdown or Release:0.3675
+61. CWE-322 Key Exchange without Entity Authentication:0.3675
+62. CWE-263 Password Aging with Long Expiration:0.3675
+63. CWE-262 Not Using Password Aging:0.3675
+64. CWE-261 Weak Cryptography for Passwords:0.3675
+65. CWE-260 Password in Configuration File:0.3675
+66. CWE-259 Use of Hard-coded Password:0.3675
+67. CWE-258 Empty Password in Configuration File:0.3675
+68. CWE-212 Improper Cross-boundary Removal of Sensitive Data:0.3675
+69. CWE-301 Reflection Attack in an Authentication Protocol:0.3485
+70. CWE-778 Insufficient Logging:0.348
+71. CWE-501 Trust Boundary Violation:0.345
+72. CWE-375 Returning a Mutable Object to an Untrusted Caller:0.345
+73. CWE-374 Passing Mutable Objects to an Untrusted Method:0.345
+74. CWE-370 Missing Check for Certificate Revocation after Initial Check:0.345
+75. CWE-346 Origin Validation Error:0.345
+76. CWE-299 Improper Check for Certificate Revocation:0.345
+77. CWE-298 Improper Validation of Certificate Expiration:0.345
+78. CWE-406 Insufficient Control of Network Message Volume (Network Amplification):0.340714285714
+79. CWE-405 Asymmetric Resource Consumption (Amplification):0.340714285714
+80. CWE-400 Uncontrolled Resource Consumption ('Resource Exhaustion'):0.338333333333
+81. CWE-471 Modification of Assumed-Immutable Data (MAID):0.333333333333
+82. CWE-302 Authentication Bypass by Assumed-Immutable Data:0.323
+83. CWE-538 File and Directory Information Exposure:0.317916666667
+84. CWE-257 Storing Passwords in a Recoverable Format:0.300625
+85. CWE-605 Multiple Binds to the Same Port:0.295
+86. CWE-294 Authentication Bypass by Capture-replay:0.287
+87. CWE-419 Unprotected Primary Channel:0.285
+88. CWE-441 Unintended Proxy/Intermediary:0.277142857143
+89. CWE-454 External Initialization of Trusted Variables or Data Stores:0.27625
+90. CWE-502 Deserialization of Untrusted Data:0.27
+91. CWE-300 Channel Accessible by Non-Endpoint ('Man-in-the-Middle'):0.263888888889
+92. CWE-220 Sensitive Data Under FTP Root:0.246666666667
+93. CWE-292 Trusting Self-reported DNS Name:0.225833333333
+94. CWE-222 Truncation of Security-relevant Information:0.2125
+95. CWE-348 Use of Less Trusted Source:0.21
+96. CWE-57 Path Equivalence: 'fakedir/../realdir/filename':0.2075
+97. CWE-56 Path Equivalence: 'filedir*' (Wildcard):0.2075
+98. CWE-55 Path Equivalence: '/./' (Single Dot Directory):0.2075
+99. CWE-54 Path Equivalence: 'filedir\' (Trailing Backslash):0.2075
+100. CWE-53 Path Equivalence: '\multiple\\internal\backslash':0.2075
+101. CWE-52 Path Equivalence: '/multiple/trailing/slash//':0.2075
+102. CWE-51 Path Equivalence: '/multiple//internal/slash':0.2075
+103. CWE-50 Path Equivalence: '//multiple/leading/slash':0.2075
+104. CWE-49 Path Equivalence: 'filename/' (Trailing Slash):0.2075
+105. CWE-48 Path Equivalence: 'file name' (Internal Whitespace):0.2075
+106. CWE-47 Path Equivalence: ' filename' (Leading Space):0.2075
+107. CWE-46 Path Equivalence: 'filename ' (Trailing Space):0.2075
+108. CWE-45 Path Equivalence: 'file...name' (Multiple Internal Dot):0.2075
+109. CWE-44 Path Equivalence: 'file.name' (Internal Dot):0.2075
+110. CWE-43 Path Equivalence: 'filename....' (Multiple Trailing Dot):0.2075
+111. CWE-42 Path Equivalence: 'filename.' (Trailing Dot):0.2075
+112. CWE-41 Improper Resolution of Path Equivalence:0.2075
+113. CWE-39 Path Traversal: 'C:dirname':0.2075
+114. CWE-38 Path Traversal: '\absolute\pathname\here':0.2075
+115. CWE-37 Path Traversal: '/absolute/pathname/here':0.2075
+116. CWE-36 Absolute Path Traversal:0.2075
+117. CWE-35 Path Traversal: '.../...//':0.2075
+118. CWE-34 Path Traversal: '....//':0.2075
+119. CWE-33 Path Traversal: '....' (Multiple Dot):0.2075
+120. CWE-32 Path Traversal: '...' (Triple Dot):0.2075
+121. CWE-27 Path Traversal: 'dir/../../filename':0.2075
+122. CWE-26 Path Traversal: '/dir/../filename':0.2075
+123. CWE-25 Path Traversal: '/../filedir':0.2075
+124. CWE-24 Path Traversal: '../filedir':0.2075
+125. CWE-226 Sensitive Information Uncleared Before Release:0.2075
+126. CWE-178 Improper Handling of Case Sensitivity:0.2075
+127. CWE-209 Information Exposure Through an Error Message:0.2025
+128. CWE-645 Overly Restrictive Account Lockout Mechanism:0.195
+129. CWE-558 Use of getlogin() in Multithreaded Application:0.195
+130. CWE-543 Use of Singleton Pattern Without Synchronization in a Multithreaded Context:0.195
+131. CWE-414 Missing Lock Check:0.195
+132. CWE-413 Improper Resource Locking:0.195
+133. CWE-412 Unrestricted Externally Accessible Lock:0.195
+134. CWE-385 Covert Timing Channel:0.195
+135. CWE-208 Information Exposure Through Timing Discrepancy:0.195
+136. CWE-211 Information Exposure Through External Error Message:0.188333333333
+137. CWE-779 Logging of Excessive Data:0.175
+138. CWE-359 Privacy Violation:0.1555
+139. CWE-784 Reliance on Cookies without Validation and Integrity Checking in a Security Decision:0.1525
+140. CWE-789 Uncontrolled Memory Allocation:0.13
+141. CWE-704 Incorrect Type Conversion or Cast:0.13
+142. CWE-197 Numeric Truncation Error:0.123333333333
+143. CWE-196 Unsigned to Signed Conversion Error:0.123333333333
+144. CWE-195 Signed to Unsigned Conversion Error:0.123333333333
+145. CWE-194 Unexpected Sign Extension:0.12
+146. CWE-455 Non-exit on Failed Initialization:0.11
+147. CWE-210 Information Exposure Through Generated Error Message:0.11
+148. CWE-324 Use of a Key Past its Expiration Date:0.0375
+149. CWE-321 Use of Hard-coded Cryptographic Key:0.0375

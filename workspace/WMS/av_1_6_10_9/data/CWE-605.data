@@ -1,0 +1,3 @@
+#CWE-605 Multiple Binds to the Same Port
+Attributes Submit Wms proxy Lb proxy Lb database
+DB_DNS_IDS_FW 2.72 0.59 2.72 2.72

@@ -1,0 +1,9 @@
+#CWE-20 Improper Input Validation
+Attributes Value
+UI_GUI 1.54
+Tampering 0.15
+Sanitize 0.83
+Owner 3.05
+Trust 0.69
+Transfering 0.52
+User 1.61

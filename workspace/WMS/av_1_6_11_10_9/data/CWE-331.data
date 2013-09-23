@@ -1,0 +1,3 @@
+#CWE-331 Insufficient Entropy
+Attributes Submit Wms proxy Logger (interlogd) Lb proxy Lb database
+Encryption 0.15 0.15 0.15 0.15 1.83

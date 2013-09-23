@@ -1,0 +1,3 @@
+#CWE-524 Information Exposure Through Caching
+Attributes Submit Voms server Wms proxy Logger (interlogd) Lb
+TimeOut 1.05 1.05 1.05 1.05 1.05

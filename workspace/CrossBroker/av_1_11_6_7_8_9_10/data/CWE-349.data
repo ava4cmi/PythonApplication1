@@ -1,0 +1,4 @@
+#CWE-349 Acceptance of Extraneous Untrusted Data With Trusted Data
+Attributes Submit Logbook Al-jc Condor_g Lrms Condor_startd Job
+Tampering 0.15 0.15 0.15 0.15 1.83 1.83 1.83
+Trust 1.64 0.69 0.69 0.69 0.69 0.69 0.69

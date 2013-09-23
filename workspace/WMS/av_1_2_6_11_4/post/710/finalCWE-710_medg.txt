@@ -1,0 +1,43 @@
+1. CWE-655 Insufficient Psychological Acceptability:1.965
+2. CWE-648 Incorrect Use of Privileged APIs:1.965
+3. CWE-637 Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism'):1.965
+4. CWE-424 Improper Protection of Alternate Path:1.965
+5. CWE-250 Execution with Unnecessary Privileges:1.686875
+6. CWE-638 Not Using Complete Mediation:1.64473402105
+7. CWE-512 Spyware:1.56666666667
+8. CWE-511 Logic/Time Bomb:1.56666666667
+9. CWE-510 Trapdoor:1.56666666667
+10. CWE-509 Replicating Malicious Code (Virus or Worm):1.56666666667
+11. CWE-508 Non-Replicating Malicious Code:1.56666666667
+12. CWE-507 Trojan Horse:1.56666666667
+13. CWE-449 The UI Performs the Wrong Action:1.56666666667
+14. CWE-448 Obsolete Feature in UI:1.56666666667
+15. CWE-447 Unimplemented or Unsupported Feature in UI:1.56666666667
+16. CWE-671 Lack of Administrator Control over Security:1.53868157056
+17. CWE-506 Embedded Malicious Code:1.50592777841
+18. CWE-446 UI Discrepancy for Security Feature:1.4839960577
+19. CWE-259 Use of Hard-coded Password:1.335
+20. CWE-308 Use of Single-factor Authentication:1.285625
+21. CWE-309 Use of Password System for Primary Authentication:1.19375
+22. CWE-654 Reliance on a Single Factor in a Security Decision:0.809000759937
+23. CWE-358 Improperly Implemented Security Check for Standard:0.735416666667
+24. CWE-765 Multiple Unlocks of a Critical Resource:0.525
+25. CWE-764 Multiple Locks of a Critical Resource:0.525
+26. CWE-798 Use of Hard-coded Credentials:0.491152707522
+27. CWE-605 Multiple Binds to the Same Port:0.4425
+28. CWE-198 Use of Incorrect Byte Ordering:0.38
+29. CWE-296 Improper Following of Chain of Trust for Certificate Validation:0.345
+30. CWE-242 Use of Inherently Dangerous Function:0.345
+31. CWE-683 Function Call With Incorrect Order of Arguments:0.26
+32. CWE-14 Compiler Removal of Code to Clear Buffers:0.26
+33. CWE-684 Incorrect Provision of Specified Functionality:0.24600812323
+34. CWE-733 Compiler Optimization Removal or Modification of Security-critical Code:0.215329205327
+35. CWE-656 Reliance on Security Through Obscurity:0.21
+36. CWE-174 Double Decoding of the Same Data:0.2075
+37. CWE-653 Insufficient Compartmentalization:0.2
+38. CWE-455 Non-exit on Failed Initialization:0.11
+39. CWE-393 Return of Wrong Status Code:0.11
+40. CWE-392 Missing Report of Error Condition:0.11
+41. CWE-329 Not Using a Random IV with CBC Mode:0.075
+42. CWE-325 Missing Required Cryptographic Step:0.075
+43. CWE-321 Use of Hard-coded Cryptographic Key:0.075

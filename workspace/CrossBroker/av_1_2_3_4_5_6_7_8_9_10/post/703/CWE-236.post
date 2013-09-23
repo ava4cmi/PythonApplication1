@@ -1,0 +1,3 @@
+#CWE-236 Improper Handling of Undefined Parameters
+Attributes Value
+Sanitize 0.83

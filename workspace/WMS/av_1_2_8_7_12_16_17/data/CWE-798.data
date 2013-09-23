@@ -1,0 +1,8 @@
+#CWE-798 Use of Hard-coded Credentials
+Attributes Submit Voms server Proxy renewal Workload manager Job controller (condor-g) Lrms Wn job
+Thirdparty 0.42 0.42 0.42 2.28 2.28 0.42 0.42
+Encryption 0.29 0.29 0.29 0.29 0.29 0.29 1.83
+DB_DNS_IDS_FW 3.16 0.77 0.77 0.77 0.77 0.77 0.77
+User 1.96 3.49 3.49 3.49 3.49 3.58 1.96
+Owner 4.23 4.23 4.23 4.23 4.23 4.23 4.23
+Trust 1.91 0.84 0.84 0.84 0.84 0.84 1.91

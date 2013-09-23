@@ -1,0 +1,5 @@
+#CWE-288 Authentication Bypass Using an Alternate Path or Channel
+Attributes Submit Logbook Mysql
+Owner 3.63 3.63 3.05
+DB_DNS_IDS_FW 2.72 2.72 2.72
+User 1.61 3.05 3.05

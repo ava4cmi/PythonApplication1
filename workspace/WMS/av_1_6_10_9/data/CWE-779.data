@@ -1,0 +1,4 @@
+#CWE-779 Logging of Excessive Data
+Attributes Submit Wms proxy Lb proxy Lb database
+MaxMin 1.05 1.05 1.05 1.05
+Logs 1.35 1.35 1.35 1.35

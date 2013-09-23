@@ -1,0 +1,6 @@
+1. CWE-131 Incorrect Calculation of Buffer Size:1.61
+2. CWE-190 Integer Overflow or Wraparound:1.17
+3. CWE-191 Integer Underflow (Wrap or Wraparound):0.525
+4. CWE-135 Incorrect Calculation of Multi-Byte String Length:0.47
+5. CWE-128 Wrap-around Error:0.345
+6. CWE-193 Off-by-one Error:0.1475

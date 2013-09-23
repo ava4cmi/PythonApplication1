@@ -1,0 +1,8 @@
+#CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+Attributes Value
+UI_GUI 1.81
+Client_Server 0.40
+DB_DNS_IDS_FW 0.77
+User 1.96
+Owner 3.59
+Sanitize 1.01

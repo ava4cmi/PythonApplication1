@@ -1,0 +1,5 @@
+#CWE-96 Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection')
+Attributes Value
+Transfering 1.61
+Sanitize 0.83
+Transformation 0.52

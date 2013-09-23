@@ -1,0 +1,3 @@
+#CWE-558 Use of getlogin() in Multithreaded Application
+Attributes Value
+TimeOut 1.05

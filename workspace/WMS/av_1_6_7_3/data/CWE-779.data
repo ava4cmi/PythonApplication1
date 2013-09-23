@@ -1,0 +1,4 @@
+#CWE-779 Logging of Excessive Data
+Attributes Submit Wms proxy Workload manager Information service
+MaxMin 1.05 1.05 1.05 0.26
+Logs 1.35 1.35 0.44 0.44

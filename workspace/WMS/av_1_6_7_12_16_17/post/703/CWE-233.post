@@ -1,0 +1,4 @@
+#CWE-233 Parameter Problems
+Attributes Value
+UI_GUI 1.54
+Sanitize 0.83

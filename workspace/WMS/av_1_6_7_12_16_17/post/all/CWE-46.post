@@ -1,0 +1,3 @@
+#CWE-46 Path Equivalence: 'filename ' (Trailing Space)
+Attributes Value
+Sanitize 0.83

@@ -1,0 +1,24 @@
+1. CWE-782 Exposed IOCTL with Insufficient Access Control:1.31
+2. CWE-799 Improper Control of Interaction Frequency:0.613333333333
+3. CWE-307 Improper Restriction of Excessive Authentication Attempts:0.613333333333
+4. CWE-558 Use of getlogin() in Multithreaded Application:0.525
+5. CWE-543 Use of Singleton Pattern Without Synchronization in a Multithreaded Context:0.525
+6. CWE-367 Time-of-check Time-of-use (TOCTOU) Race Condition:0.525
+7. CWE-366 Race Condition within a Thread:0.525
+8. CWE-365 Race Condition in Switch:0.525
+9. CWE-364 Signal Handler Race Condition:0.525
+10. CWE-362 Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'):0.525
+11. CWE-96 Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection'):0.424166666667
+12. CWE-837 Improper Enforcement of a Single Unique Action:0.26
+13. CWE-179 Incorrect Behavior Order: Early Validation:0.26
+14. CWE-421 Race Condition During Access to Alternate Channel:0.216666666667
+15. CWE-705 Incorrect Control Flow Scoping:0.2
+16. CWE-248 Uncaught Exception:0.155
+17. CWE-835 Loop with Unreachable Exit Condition ('Infinite Loop'):0.13
+18. CWE-674 Uncontrolled Recursion:0.13
+19. CWE-432 Dangerous Signal Handler not Disabled During Sensitive Operations:0.13
+20. CWE-414 Missing Lock Check:0.13
+21. CWE-413 Improper Resource Locking:0.13
+22. CWE-412 Unrestricted Externally Accessible Lock:0.13
+23. CWE-363 Race Condition Enabling Link Following:0.13
+24. CWE-455 Non-exit on Failed Initialization:0.11

@@ -1,0 +1,3 @@
+#CWE-759 Use of a One-Way Hash without a Salt
+Attributes Value
+Encryption 0.29

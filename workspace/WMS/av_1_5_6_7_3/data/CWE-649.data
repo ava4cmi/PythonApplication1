@@ -1,0 +1,3 @@
+#CWE-649 Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking
+Attributes Submit Gridftp Wms proxy Workload manager Information service
+Encryption 0.15 0.15 0.15 0.15 1.83

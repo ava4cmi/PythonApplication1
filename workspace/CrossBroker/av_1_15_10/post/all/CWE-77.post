@@ -1,0 +1,8 @@
+#CWE-77 Improper Neutralization of Special Elements used in a Command ('Command Injection')
+Attributes Value
+UI_GUI 1.54
+DB_DNS_IDS_FW 0.59
+Sanitize 0.83
+Owner 0.52
+Transfering 0.52
+User 0.52

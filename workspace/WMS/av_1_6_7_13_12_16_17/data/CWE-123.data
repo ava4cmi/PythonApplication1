@@ -1,0 +1,7 @@
+#CWE-123 Write-what-where Condition
+Attributes Submit Wms proxy Workload manager Log monitor Job controller (condor-g) Lrms
+Owner 3.63 3.63 3.63 3.63 3.63 3.63
+Tampering 0.15 0.15 0.15 0.15 0.15 0.15
+UI_GUI 2.00 1.54 1.54 1.54 1.54 1.54
+User 1.61 3.00 3.00 3.00 3.00 3.05
+Sanitize 0.83 0.83 0.83 2.08 0.83 2.08

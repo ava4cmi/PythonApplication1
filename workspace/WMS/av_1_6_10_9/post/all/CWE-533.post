@@ -1,0 +1,7 @@
+#CWE-533 Information Exposure Through Server Log Files
+Attributes Value
+Owner 3.63
+Trust 0.69
+DB_DNS_IDS_FW 0.59
+Logs 1.35
+User 1.61

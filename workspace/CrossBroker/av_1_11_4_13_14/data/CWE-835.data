@@ -1,0 +1,4 @@
+#CWE-835 Loop with Unreachable Exit Condition ('Infinite Loop')
+Attributes Submit Logbook Sa-wm Rs Bdii
+MaxMin 1.05 1.05 1.05 0.26 0.26
+TimeOut 1.05 1.05 1.05 0.26 0.26

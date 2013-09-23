@@ -1,0 +1,4 @@
+#CWE-347 Improper Verification of Cryptographic Signature
+Attributes Submit Voms server Proxy renewal Workload manager Job controller (condor-g) Lrms Wn job
+Encryption 0.15 0.15 0.15 0.15 0.15 0.15 1.83
+Trust 1.64 0.69 0.69 0.69 0.69 0.69 1.64

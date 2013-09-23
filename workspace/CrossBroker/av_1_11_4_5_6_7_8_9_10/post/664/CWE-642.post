@@ -1,0 +1,5 @@
+#CWE-642 External Control of Critical State Data
+Attributes Value
+Tampering 0.15
+Encryption 0.15
+Transformation 0.52

@@ -1,0 +1,5 @@
+#CWE-220 Sensitive Data Under FTP Root
+Attributes Value
+Client_Server 0.40
+Trust 1.64
+DB_DNS_IDS_FW 0.59

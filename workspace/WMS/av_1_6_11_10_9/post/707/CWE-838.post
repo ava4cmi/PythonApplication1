@@ -1,0 +1,4 @@
+#CWE-838 Inappropriate Encoding for Output Context
+Attributes Value
+Transfering 1.61
+Sanitize 0.83

@@ -1,0 +1,8 @@
+#CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+Attributes Submit Uam-ns Input.fl Sa-wm Logbook Mysql
+UI_GUI 2.33 1.81 1.81 1.81 1.81 1.81
+Client_Server 0.40 0.70 0.70 0.70 0.70 0.70
+DB_DNS_IDS_FW 3.16 0.77 0.77 0.77 3.16 3.16
+User 1.96 3.58 3.58 3.49 3.58 3.58
+Owner 4.23 4.23 4.23 4.23 4.23 3.59
+Sanitize 1.01 1.01 1.01 2.42 1.01 2.42

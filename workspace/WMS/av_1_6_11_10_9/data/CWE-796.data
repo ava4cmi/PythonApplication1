@@ -1,0 +1,4 @@
+#CWE-796 Only Filtering Special Elements Relative to a Marker
+Attributes Submit Wms proxy Logger (interlogd) Lb proxy Lb database
+Transfering 1.61 1.61 1.61 1.61 2.08
+Sanitize 0.83 0.83 2.08 2.08 2.08

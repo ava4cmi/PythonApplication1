@@ -1,0 +1,5 @@
+#CWE-799 Improper Control of Interaction Frequency
+Attributes Submit Sandbox_dir Job
+Owner 3.63 0.52 1.52
+User 1.61 0.52 3.05
+TimeOut 1.05 0.26 1.05

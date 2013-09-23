@@ -1,0 +1,5 @@
+#CWE-197 Numeric Truncation Error
+Attributes Submit Gridftp Wms proxy Workload manager
+MaxMin 1.05 1.05 1.05 1.05
+ErrorHandling 0.22 0.22 0.22 0.22
+Transformation 1.61 1.61 1.61 1.61

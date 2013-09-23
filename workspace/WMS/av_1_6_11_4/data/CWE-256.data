@@ -1,0 +1,5 @@
+#CWE-256 Plaintext Storage of a Password
+Attributes Submit Wms proxy Logger (interlogd) Lb
+Owner 3.63 3.63 3.63 3.63
+Client_Server 0.40 0.70 0.70 0.70
+User 1.61 3.00 3.00 3.00

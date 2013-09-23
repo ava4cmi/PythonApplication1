@@ -1,0 +1,5 @@
+#CWE-378 Creation of Temporary File With Insecure Permissions
+Attributes Submit Wms proxy Logger (interlogd) Lb proxy Lb database
+Owner 3.63 3.63 3.63 3.63 3.63
+Trust 1.64 0.69 0.69 0.69 0.69
+User 1.61 3.00 3.00 3.00 3.05

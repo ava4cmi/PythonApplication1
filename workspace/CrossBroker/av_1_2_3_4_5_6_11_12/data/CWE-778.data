@@ -1,0 +1,7 @@
+#CWE-778 Insufficient Logging
+Attributes Submit Uam-ns Input.fl Sa-wm Output.fl Al-jc Logbook Mysql
+Owner 3.63 3.63 3.63 3.63 3.05 3.63 3.63 3.05
+Thirdparty 0.32 0.32 0.32 0.32 0.32 0.32 0.32 0.32
+DB_DNS_IDS_FW 2.72 0.59 0.59 0.59 0.59 0.59 2.72 2.72
+Logs 1.35 0.44 0.44 1.35 0.44 1.35 1.35 1.35
+User 1.61 3.05 3.05 3.00 3.05 3.00 3.05 3.05

@@ -1,0 +1,8 @@
+#CWE-114 Process Control
+Attributes Submit Wms proxy Workload manager Job controller (condor-g) Lrms Wn job
+UI_GUI 2.00 1.54 1.54 1.54 1.54 1.54
+Thirdparty 0.32 0.32 1.96 1.96 0.32 0.32
+Tampering 0.15 0.15 0.15 0.15 0.15 1.83
+User 1.61 3.00 3.00 3.00 3.05 1.61
+Owner 3.63 3.63 3.63 3.63 3.63 3.63
+Trust 1.64 0.69 0.69 0.69 0.69 1.64

@@ -1,0 +1,5 @@
+#CWE-150 Improper Neutralization of Escape Meta or Control Sequences
+Attributes Value
+Trust 1.64
+Transfering 1.61
+Sanitize 0.83

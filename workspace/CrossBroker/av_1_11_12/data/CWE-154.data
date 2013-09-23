@@ -1,0 +1,5 @@
+#CWE-154 Improper Neutralization of Variable Name Delimiters
+Attributes Submit Logbook Mysql
+Trust 1.64 0.69 0.69
+Transfering 1.61 1.61 0.52
+Sanitize 0.83 0.83 2.08

@@ -1,0 +1,6 @@
+#CWE-198 Use of Incorrect Byte Ordering
+Attributes Submit Logbook Mysql
+ErrorHandling 0.22 0.22 1.22
+Trust 1.64 0.69 0.69
+Transfering 1.61 1.61 0.52
+Transformation 1.61 1.61 0.52

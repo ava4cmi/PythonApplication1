@@ -1,0 +1,5 @@
+#CWE-142 Improper Neutralization of Value Delimiters
+Attributes Value
+Trust 0.69
+Transfering 0.52
+Sanitize 0.83

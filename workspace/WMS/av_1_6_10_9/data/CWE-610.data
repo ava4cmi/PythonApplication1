@@ -1,0 +1,3 @@
+#CWE-610 Externally Controlled Reference to a Resource in Another Sphere
+Attributes Submit Wms proxy Lb proxy Lb database
+Thirdparty 0.32 0.32 0.32 0.32

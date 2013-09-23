@@ -1,0 +1,3 @@
+#CWE-362 Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')
+Attributes Submit Logbook Mysql
+TimeOut 1.05 1.05 1.05

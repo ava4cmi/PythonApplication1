@@ -1,0 +1,6 @@
+#CWE-93 Improper Neutralization of CRLF Sequences ('CRLF Injection')
+Attributes Submit Uam-ns Input.fl Sa-wm Output.fl Al-jc Condor_g Lrms Condor_startd Job
+UI_GUI 2.00 1.54 1.54 1.54 1.54 1.54 1.54 1.54 1.54 1.54
+Transfering 1.61 1.61 1.61 1.61 2.08 2.08 2.08 2.08 0.52 2.08
+Sanitize 0.83 0.83 0.83 2.08 2.08 2.08 2.08 2.08 2.08 2.08
+Transformation 1.61 1.61 1.61 1.61 0.52 0.52 0.52 0.52 0.52 0.52

@@ -1,0 +1,3 @@
+#CWE-774 Allocation of File Descriptors or Handles Without Limits or Throttling
+Attributes Submit Wms proxy Workload manager Information service
+MaxMin 1.05 1.05 1.05 0.26

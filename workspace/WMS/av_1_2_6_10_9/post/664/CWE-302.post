@@ -1,0 +1,7 @@
+#CWE-302 Authentication Bypass by Assumed-Immutable Data
+Attributes Value
+Owner 3.63
+Tampering 0.15
+Trust 0.69
+Transformation 0.52
+User 1.61

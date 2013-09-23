@@ -1,0 +1,5 @@
+#CWE-836 Use of Password Hash Instead of Password for Authentication
+Attributes Submit Sandbox_dir Job
+Owner 3.63 0.52 1.52
+Encryption 0.15 1.83 1.83
+User 1.61 0.52 3.05

@@ -1,0 +1,5 @@
+#CWE-288 Authentication Bypass Using an Alternate Path or Channel
+Attributes Value
+Owner 3.63
+DB_DNS_IDS_FW 0.59
+User 1.61

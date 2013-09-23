@@ -1,0 +1,5 @@
+#CWE-353 Missing Support for Integrity Check
+Attributes Value
+Tampering 0.15
+DB_DNS_IDS_FW 0.59
+Transfering 0.52

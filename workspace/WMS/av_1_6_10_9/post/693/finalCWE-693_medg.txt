@@ -1,0 +1,121 @@
+1. CWE-863 Incorrect Authorization:2.82125
+2. CWE-306 Missing Authentication for Critical Function:2.82125
+3. CWE-520 .NET Misconfiguration: Use of Impersonation:2.7225
+4. CWE-9 J2EE Misconfiguration: Weak Access Permissions for EJB Methods:2.505
+5. CWE-285 Improper Authorization:2.32415348849
+6. CWE-307 Improper Restriction of Excessive Authentication Attempts:1.9825
+7. CWE-708 Incorrect Ownership Assignment:1.965
+8. CWE-655 Insufficient Psychological Acceptability:1.965
+9. CWE-648 Incorrect Use of Privileged APIs:1.965
+10. CWE-424 Improper Protection of Alternate Path:1.965
+11. CWE-305 Authentication Bypass by Primary Weakness:1.965
+12. CWE-289 Authentication Bypass by Alternate Name:1.965
+13. CWE-281 Improper Preservation of Permissions:1.965
+14. CWE-279 Incorrect Execution-Assigned Permissions:1.965
+15. CWE-274 Improper Handling of Insufficient Privileges:1.965
+16. CWE-273 Improper Check for Dropped Privileges:1.965
+17. CWE-266 Incorrect Privilege Assignment:1.89660304887
+18. CWE-862 Missing Authorization:1.87418888176
+19. CWE-271 Privilege Dropping / Lowering Errors:1.87053111731
+20. CWE-250 Execution with Unnecessary Privileges:1.8
+21. CWE-282 Improper Ownership Management:1.78060389864
+22. CWE-732 Incorrect Permission Assignment for Critical Resource:1.7783756953
+23. CWE-283 Unverified Ownership:1.695
+24. CWE-272 Least Privilege Violation:1.695
+25. CWE-268 Privilege Chaining:1.695
+26. CWE-184 Incomplete Blacklist:1.695
+27. CWE-183 Permissive Whitelist:1.695
+28. CWE-269 Improper Privilege Management:1.69259239481
+29. CWE-638 Not Using Complete Mediation:1.64473402105
+30. CWE-109 Struts: Validator Turned Off:1.56
+31. CWE-108 Struts: Unvalidated Action Form:1.56
+32. CWE-106 Struts: Plug-in Framework not in Use:1.56
+33. CWE-105 Struts: Form Field Without Validator:1.56
+34. CWE-357 Insufficient UI Warning of Dangerous Operations:1.55516980584
+35. CWE-284 Improper Access Control:1.50830444942
+36. CWE-646 Reliance on File Name or Extension of Externally-Supplied File:1.4825
+37. CWE-278 Insecure Preserved Inherited Permissions:1.4825
+38. CWE-277 Insecure Inherited Permissions:1.4825
+39. CWE-450 Multiple Interpretations of UI Input:1.426875
+40. CWE-288 Authentication Bypass Using an Alternate Path or Channel:1.40833333333
+41. CWE-639 Authorization Bypass Through User-Controlled Key:1.38676557139
+42. CWE-842 Placement of User into Incorrect Group:1.37666666667
+43. CWE-256 Plaintext Storage of a Password:1.37666666667
+44. CWE-555 J2EE Misconfiguration: Plaintext Password in Configuration File:1.368125
+45. CWE-286 Incorrect User Management:1.34867373124
+46. CWE-836 Use of Password Hash Instead of Password for Authentication:1.3475
+47. CWE-263 Password Aging with Long Expiration:1.3475
+48. CWE-262 Not Using Password Aging:1.3475
+49. CWE-261 Weak Cryptography for Passwords:1.3475
+50. CWE-260 Password in Configuration File:1.3475
+51. CWE-259 Use of Hard-coded Password:1.3475
+52. CWE-258 Empty Password in Configuration File:1.3475
+53. CWE-308 Use of Single-factor Authentication:1.345
+54. CWE-276 Incorrect Default Permissions:1.32125
+55. CWE-592 Authentication Bypass Issues:1.32120326167
+56. CWE-640 Weak Password Recovery Mechanism for Forgotten Password:1.299375
+57. CWE-620 Unverified Password Change:1.299375
+58. CWE-549 Missing Password Field Masking:1.299375
+59. CWE-309 Use of Password System for Primary Authentication:1.299375
+60. CWE-267 Privilege Defined With Unsafe Actions:1.299375
+61. CWE-522 Insufficiently Protected Credentials:1.23237418484
+62. CWE-759 Use of a One-Way Hash without a Salt:1.2175
+63. CWE-287 Improper Authentication:1.17852417429
+64. CWE-521 Weak Password Requirements:1.1617856228
+65. CWE-593 Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created:1.14
+66. CWE-523 Unprotected Transport of Credentials:1.14
+67. CWE-566 Authorization Bypass Through User-Controlled SQL Primary Key:1.13458333333
+68. CWE-322 Key Exchange without Entity Authentication:1.073
+69. CWE-257 Storing Passwords in a Recoverable Format:1.060625
+70. CWE-602 Client-Side Enforcement of Server-Side Security:1.02820231472
+71. CWE-778 Insufficient Logging:1.012
+72. CWE-471 Modification of Assumed-Immutable Data (MAID):0.995833333333
+73. CWE-114 Process Control:0.979166666667
+74. CWE-301 Reflection Attack in an Authentication Protocol:0.971
+75. CWE-654 Reliance on a Single Factor in a Security Decision:0.967065110117
+76. CWE-302 Authentication Bypass by Assumed-Immutable Data:0.964
+77. CWE-603 Use of Client-Side Authentication:0.96
+78. CWE-294 Authentication Bypass by Capture-replay:0.89
+79. CWE-358 Improperly Implemented Security Check for Standard:0.829583333333
+80. CWE-326 Inadequate Encryption Strength:0.786235095248
+81. CWE-599 Trust of OpenSSL Certificate Without Validation:0.738214285714
+82. CWE-441 Unintended Proxy/Intermediary:0.7325
+83. CWE-300 Channel Accessible by Non-Endpoint ('Man-in-the-Middle'):0.682777777778
+84. CWE-606 Unchecked Input for Loop Condition:0.6225
+85. CWE-798 Use of Hard-coded Credentials:0.563581376569
+86. CWE-807 Reliance on Untrusted Inputs in a Security Decision:0.558458296193
+87. CWE-20 Improper Input Validation:0.532600242902
+88. CWE-360 Trust of System Event Data:0.5175
+89. CWE-346 Origin Validation Error:0.5175
+90. CWE-5 2EE Misconfiguration: Data Transmission Without Encryption:0.478333333333
+91. CWE-297 Improper Validation of Host-specific Certificate Data:0.477091261111
+92. CWE-757 Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade'):0.45875
+93. CWE-327 Use of a Broken or Risky Cryptographic Algorithm:0.446808703627
+94. CWE-319 Cleartext Transmission of Sensitive Information:0.42375
+95. CWE-353 Missing Support for Integrity Check:0.404166666667
+96. CWE-345 Insufficient Verification of Data Authenticity:0.390125250984
+97. CWE-311 Missing Encryption of Sensitive Data:0.371872743201
+98. CWE-780 Use of RSA Algorithm without OAEP:0.315
+99. CWE-656 Reliance on Security Through Obscurity:0.315
+100. CWE-349 Acceptance of Extraneous Untrusted Data With Trusted Data:0.315
+101. CWE-348 Use of Less Trusted Source:0.315
+102. CWE-347 Improper Verification of Cryptographic Signature:0.315
+103. CWE-350 Improperly Trusted Reverse DNS:0.308333333333
+104. CWE-292 Trusting Self-reported DNS Name:0.308333333333
+105. CWE-247 Reliance on DNS Lookups in a Security Decision:0.28125
+106. CWE-789 Uncontrolled Memory Allocation:0.2625
+107. CWE-645 Overly Restrictive Account Lockout Mechanism:0.2625
+108. CWE-129 Improper Validation of Array Index:0.2625
+109. CWE-179 Incorrect Behavior Order: Early Validation:0.26
+110. CWE-784 Reliance on Cookies without Validation and Integrity Checking in a Security Decision:0.2475
+111. CWE-653 Insufficient Compartmentalization:0.2
+112. CWE-312 Cleartext Storage of Sensitive Information:0.1125
+113. CWE-760 Use of a One-Way Hash with a Predictable Salt:0.1125
+114. CWE-649 Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking:0.1125
+115. CWE-354 Improper Validation of Integrity Check Value:0.1125
+116. CWE-321 Use of Hard-coded Cryptographic Key:0.1125
+117. CWE-318 Plaintext Storage in Executable:0.1125
+118. CWE-316 Plaintext Storage in Memory:0.1125
+119. CWE-315 Plaintext Storage in a Cookie:0.1125
+120. CWE-314 Plaintext Storage in the Registry:0.1125
+121. CWE-313 Plaintext Storage in a File or on Disk:0.1125

@@ -1,0 +1,283 @@
+1. CWE-134 Uncontrolled Format String: (Sp= 1.33125; Max= 1.33125; Meg= 1.33125; Q3= 0.71375)
+2. CWE-95 Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'): (Sp= 1.24; Max= 1.24; Meg= 1.24; Q3= 0.71375)
+3. CWE-78 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'): (Sp= 1.18041666667; Max= 1.18041666667; Meg= 1.18041666667; Q3= 0.71375)
+4. CWE-89 Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'): (Sp= 1.14607142857; Max= 1.14607142857; Meg= 0.725093282176; Q3= 0.71375)
+  |
+  -->CWE-564 SQL Injection: Hibernate: (Sp= 0.45875; Max= 0.45875; Meg= 0.45875)
+
+5. CWE-641 Improper Restriction of Names for Files and Other Resources: (Sp= 1.13; Max= 1.13; Meg= 1.13; Q3= 0.71375)
+6. CWE-74 Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'): (Sp= 1.011875; Max= 1.33125; Meg= 0.882848508416; Q3= 0.71375)
+  |
+  -->CWE-75 Failure to Sanitize Special Elements into a Different Plane (Special Element Injection): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-134 Uncontrolled Format String: (Sp= 1.33125; Max= 1.33125; Meg= 1.33125)
+
+  |
+  -->CWE-77 Improper Neutralization of Special Elements used in a Command ('Command Injection'): (Sp= 0.852083333333; Max= 1.18041666667; Meg= 0.934792865153)
+
+  |
+  -->CWE-93 Improper Neutralization of CRLF Sequences ('CRLF Injection'): (Sp= 0.750625; Max= 0.750625; Meg= 0.750625)
+
+7. CWE-77 Improper Neutralization of Special Elements used in a Command ('Command Injection'): (Sp= 0.852083333333; Max= 1.18041666667; Meg= 0.934792865153; Q3= 0.71375)
+  |
+  -->CWE-78 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'): (Sp= 1.18041666667; Max= 1.18041666667; Meg= 1.18041666667)
+
+  |
+  -->CWE-89 Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'): (Sp= 1.14607142857; Max= 1.14607142857; Meg= 0.725093282176)
+
+  |
+  -->CWE-90 Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'): (Sp= 0.845357142857; Max= 0.845357142857; Meg= 0.845357142857)
+
+  |
+  -->CWE-88 Argument Injection or Modification: (Sp= 0.7325; Max= 0.7325; Meg= 0.7325)
+
+8. CWE-90 Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'): (Sp= 0.845357142857; Max= 0.845357142857; Meg= 0.845357142857; Q3= 0.71375)
+9. CWE-93 Improper Neutralization of CRLF Sequences ('CRLF Injection'): (Sp= 0.750625; Max= 0.750625; Meg= 0.750625; Q3= 0.71375)
+10. CWE-96 Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection'): (Sp= 0.744166666667; Max= 0.744166666667; Meg= 0.744166666667; Q3= 0.71375)
+11. CWE-116 Improper Encoding or Escaping of Output: (Sp= 0.744166666667; Max= 0.744166666667; Meg= 0.579426013593; Q3= 0.71375)
+  |
+  -->CWE-117 Improper Output Neutralization for Logs: (Sp= 0.36625; Max= 0.36625; Meg= 0.36625)
+
+  |
+  -->CWE-838 Inappropriate Encoding for Output Context: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375)
+
+12. CWE-88 Argument Injection or Modification: (Sp= 0.7325; Max= 0.7325; Meg= 0.7325; Q3= 0.71375)
+13. CWE-791 Incomplete Filtering of Special Elements: (Sp= 0.7325; Max= 0.7325; Meg= 0.719946056453; Q3= 0.71375)
+  |
+  -->CWE-795 Only Filtering Special Elements at a Specified Location: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375)
+
+  |
+  -->CWE-792 Incomplete Filtering of One or More Instances of Special Elements: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375)
+
+14. CWE-838 Inappropriate Encoding for Output Context: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375; Q3= 0.71375)
+15. CWE-797 Only Filtering Special Elements at an Absolute Position: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375; Q3= 0.71375)
+16. CWE-796 Only Filtering Special Elements Relative to a Marker: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375; Q3= 0.71375)
+17. CWE-795 Only Filtering Special Elements at a Specified Location: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375; Q3= 0.71375)
+  |
+  -->CWE-797 Only Filtering Special Elements at an Absolute Position: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375)
+
+  |
+  -->CWE-796 Only Filtering Special Elements Relative to a Marker: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375)
+
+18. CWE-794 Incomplete Filtering of Multiple Instances of Special Elements: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375; Q3= 0.71375)
+19. CWE-793 Only Filtering One Instance of a Special Element: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375; Q3= 0.71375)
+20. CWE-792 Incomplete Filtering of One or More Instances of Special Elements: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375; Q3= 0.71375)
+  |
+  -->CWE-793 Only Filtering One Instance of a Special Element: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375)
+
+  |
+  -->CWE-794 Incomplete Filtering of Multiple Instances of Special Elements: (Sp= 0.71375; Max= 0.71375; Meg= 0.71375)
+
+21. CWE-233 Parameter Problems: (Sp= 0.69625; Max= 0.69625; Meg= 0.640170738105; Q3= 0.71375)
+  |
+  -->CWE-235 Improper Handling of Extra Parameters: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-234 Failure to Handle Missing Parameter: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-236 Improper Handling of Undefined Parameters: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+22. CWE-790 Improper Filtering of Special Elements: (Sp= 0.623125; Max= 0.7325; Meg= 0.675602740151; Q3= 0.71375)
+  |
+  -->CWE-791 Incomplete Filtering of Special Elements: (Sp= 0.7325; Max= 0.7325; Meg= 0.719946056453)
+
+23. CWE-76 Improper Neutralization of Equivalent Special Elements: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+24. CWE-75 Failure to Sanitize Special Elements into a Different Plane (Special Element Injection): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+  |
+  -->CWE-76 Improper Neutralization of Equivalent Special Elements: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+25. CWE-56 Path Equivalence: 'filedir*' (Wildcard): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+26. CWE-54 Path Equivalence: 'filedir\' (Trailing Backslash): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+27. CWE-53 Path Equivalence: '\multiple\\internal\backslash': (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+28. CWE-52 Path Equivalence: '/multiple/trailing/slash//': (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+29. CWE-50 Path Equivalence: '//multiple/leading/slash': (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+30. CWE-49 Path Equivalence: 'filename/' (Trailing Slash): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+31. CWE-46 Path Equivalence: 'filename ' (Trailing Space): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+32. CWE-45 Path Equivalence: 'file...name' (Multiple Internal Dot): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+33. CWE-43 Path Equivalence: 'filename....' (Multiple Trailing Dot): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+34. CWE-42 Path Equivalence: 'filename.' (Trailing Dot): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+  |
+  -->CWE-43 Path Equivalence: 'filename....' (Multiple Trailing Dot): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+35. CWE-37 Path Traversal: '/absolute/pathname/here': (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+36. CWE-236 Improper Handling of Undefined Parameters: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+37. CWE-235 Improper Handling of Extra Parameters: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+38. CWE-234 Failure to Handle Missing Parameter: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+39. CWE-232 Improper Handling of Undefined Values: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+40. CWE-231 Improper Handling of Extra Values: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+41. CWE-176 Improper Handling of Unicode Encoding: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+42. CWE-175 Improper Handling of Mixed Encoding: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+43. CWE-174 Double Decoding of the Same Data: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+44. CWE-173 Improper Handling of Alternate Encoding: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+45. CWE-170 Improper Null Termination: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+46. CWE-168 Improper Handling of Inconsistent Special Elements: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+47. CWE-159 Failure to Sanitize Special Element: (Sp= 0.6225; Max= 0.6225; Meg= 0.566409860133; Q3= 0.71375)
+  |
+  -->CWE-162 Improper Neutralization of Trailing Special Elements: (Sp= 0.590833333333; Max= 0.6225; Meg= 0.611760220276)
+
+  |
+  -->CWE-164 Improper Neutralization of Internal Special Elements: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+  |
+  -->CWE-160 Improper Neutralization of Leading Special Elements: (Sp= 0.590833333333; Max= 0.6225; Meg= 0.601205730301)
+
+  |
+  -->CWE-168 Improper Handling of Inconsistent Special Elements: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-167 Improper Handling of Additional Special Element: (Sp= 0.48375; Max= 0.48375; Meg= 0.48375)
+
+  |
+  -->CWE-166 Improper Handling of Missing Special Element: (Sp= 0.48375; Max= 0.48375; Meg= 0.48375)
+
+48. CWE-157 Failure to Sanitize Paired Delimiters: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+49. CWE-149 Improper Neutralization of Quoting Syntax: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+50. CWE-148 Improper Neutralization of Input Leaders: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225; Q3= 0.71375)
+51. CWE-140 Improper Neutralization of Delimiters: (Sp= 0.6225; Max= 0.6225; Meg= 0.59525655197; Q3= 0.71375)
+  |
+  -->CWE-145 Improper Neutralization of Section Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+  |
+  -->CWE-144 Improper Neutralization of Line Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+  |
+  -->CWE-146 Improper Neutralization of Expression/Command Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+  |
+  -->CWE-143 Improper Neutralization of Record Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+  |
+  -->CWE-141 Improper Neutralization of Parameter/Argument Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+  |
+  -->CWE-142 Improper Neutralization of Value Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+52. CWE-165 Improper Neutralization of Multiple Internal Special Elements: (Sp= 0.590833333333; Max= 0.6225; Meg= 0.611760220276; Q3= 0.71375)
+  |
+  -->CWE-53 Path Equivalence: '\multiple\\internal\backslash': (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-45 Path Equivalence: 'file...name' (Multiple Internal Dot): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+53. CWE-164 Improper Neutralization of Internal Special Elements: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+  |
+  -->CWE-165 Improper Neutralization of Multiple Internal Special Elements: (Sp= 0.590833333333; Max= 0.6225; Meg= 0.611760220276)
+
+54. CWE-163 Improper Neutralization of Multiple Trailing Special Elements: (Sp= 0.590833333333; Max= 0.6225; Meg= 0.611760220276; Q3= 0.71375)
+  |
+  -->CWE-52 Path Equivalence: '/multiple/trailing/slash//': (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-43 Path Equivalence: 'filename....' (Multiple Trailing Dot): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+55. CWE-162 Improper Neutralization of Trailing Special Elements: (Sp= 0.590833333333; Max= 0.6225; Meg= 0.611760220276; Q3= 0.71375)
+  |
+  -->CWE-163 Improper Neutralization of Multiple Trailing Special Elements: (Sp= 0.590833333333; Max= 0.6225; Meg= 0.611760220276)
+
+  |
+  -->CWE-46 Path Equivalence: 'filename ' (Trailing Space): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-42 Path Equivalence: 'filename.' (Trailing Dot): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-49 Path Equivalence: 'filename/' (Trailing Slash): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-54 Path Equivalence: 'filedir\' (Trailing Backslash): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+56. CWE-161 Improper Neutralization of Multiple Leading Special Elements: (Sp= 0.590833333333; Max= 0.6225; Meg= 0.60646001517; Q3= 0.71375)
+  |
+  -->CWE-50 Path Equivalence: '//multiple/leading/slash': (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+57. CWE-160 Improper Neutralization of Leading Special Elements: (Sp= 0.590833333333; Max= 0.6225; Meg= 0.601205730301; Q3= 0.71375)
+  |
+  -->CWE-161 Improper Neutralization of Multiple Leading Special Elements: (Sp= 0.590833333333; Max= 0.6225; Meg= 0.60646001517)
+
+  |
+  -->CWE-37 Path Traversal: '/absolute/pathname/here': (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+58. CWE-158 Improper Neutralization of Null Byte or NUL Character: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+59. CWE-156 Improper Neutralization of Whitespace: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+60. CWE-155 Improper Neutralization of Wildcards or Matching Symbols: (Sp= 0.590833333333; Max= 0.6225; Meg= 0.60646001517; Q3= 0.71375)
+  |
+  -->CWE-56 Path Equivalence: 'filedir*' (Wildcard): (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+61. CWE-154 Improper Neutralization of Variable Name Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+62. CWE-153 Improper Neutralization of Substitution Characters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+63. CWE-152 Improper Neutralization of Macro Symbols: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+64. CWE-151 Improper Neutralization of Comment Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+65. CWE-150 Improper Neutralization of Escape Meta or Control Sequences: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+66. CWE-147 Improper Neutralization of Input Terminators: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+67. CWE-146 Improper Neutralization of Expression/Command Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+68. CWE-145 Improper Neutralization of Section Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+69. CWE-144 Improper Neutralization of Line Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+70. CWE-143 Improper Neutralization of Record Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+71. CWE-142 Improper Neutralization of Value Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+72. CWE-141 Improper Neutralization of Parameter/Argument Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333; Q3= 0.71375)
+73. CWE-130 Improper Handling of Length Parameter Inconsistency : (Sp= 0.57375; Max= 0.57375; Meg= 0.57375; Q3= 0.71375)
+74. CWE-138 Improper Neutralization of Special Elements: (Sp= 0.493125; Max= 0.623125; Meg= 0.595783357199; Q3= 0.71375)
+  |
+  -->CWE-790 Improper Filtering of Special Elements: (Sp= 0.623125; Max= 0.7325; Meg= 0.675602740151)
+
+  |
+  -->CWE-152 Improper Neutralization of Macro Symbols: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+  |
+  -->CWE-157 Failure to Sanitize Paired Delimiters: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-151 Improper Neutralization of Comment Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+  |
+  -->CWE-153 Improper Neutralization of Substitution Characters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+  |
+  -->CWE-159 Failure to Sanitize Special Element: (Sp= 0.6225; Max= 0.6225; Meg= 0.566409860133)
+
+  |
+  -->CWE-140 Improper Neutralization of Delimiters: (Sp= 0.6225; Max= 0.6225; Meg= 0.59525655197)
+
+  |
+  -->CWE-148 Improper Neutralization of Input Leaders: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-156 Improper Neutralization of Whitespace: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+  |
+  -->CWE-147 Improper Neutralization of Input Terminators: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+  |
+  -->CWE-155 Improper Neutralization of Wildcards or Matching Symbols: (Sp= 0.590833333333; Max= 0.6225; Meg= 0.60646001517)
+
+  |
+  -->CWE-149 Improper Neutralization of Quoting Syntax: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-158 Improper Neutralization of Null Byte or NUL Character: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+  |
+  -->CWE-154 Improper Neutralization of Variable Name Delimiters: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+  |
+  -->CWE-150 Improper Neutralization of Escape Meta or Control Sequences: (Sp= 0.590833333333; Max= 0.590833333333; Meg= 0.590833333333)
+
+75. CWE-167 Improper Handling of Additional Special Element: (Sp= 0.48375; Max= 0.48375; Meg= 0.48375; Q3= 0.71375)
+76. CWE-166 Improper Handling of Missing Special Element: (Sp= 0.48375; Max= 0.48375; Meg= 0.48375; Q3= 0.71375)
+77. CWE-564 SQL Injection: Hibernate: (Sp= 0.45875; Max= 0.45875; Meg= 0.45875; Q3= 0.71375)
+78. CWE-117 Improper Output Neutralization for Logs: (Sp= 0.36625; Max= 0.36625; Meg= 0.36625; Q3= 0.71375)
+79. CWE-172 Encoding Error: (Sp= 0.269166666667; Max= 0.6225; Meg= 0.526399829418; Q3= 0.71375)
+  |
+  -->CWE-175 Improper Handling of Mixed Encoding: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-173 Improper Handling of Alternate Encoding: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-174 Double Decoding of the Same Data: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+
+  |
+  -->CWE-176 Improper Handling of Unicode Encoding: (Sp= 0.6225; Max= 0.6225; Meg= 0.6225)
+

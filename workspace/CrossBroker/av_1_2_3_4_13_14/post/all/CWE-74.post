@@ -1,0 +1,6 @@
+#CWE-74 Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')
+Attributes Value
+Owner 0.52
+Transfering 0.52
+Sanitize 0.83
+User 1.61

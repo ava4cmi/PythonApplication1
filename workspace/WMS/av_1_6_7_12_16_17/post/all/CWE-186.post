@@ -1,0 +1,3 @@
+#CWE-186 Overly Restrictive Regular Expression
+Attributes Value
+Sanitize 0.83

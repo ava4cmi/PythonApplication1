@@ -1,0 +1,6 @@
+#CWE-829 Inclusion of Functionality from Untrusted Control Sphere
+Attributes Value
+Thirdparty 0.42
+DB_DNS_IDS_FW 0.77
+Attachment 0.15
+Trust 0.84

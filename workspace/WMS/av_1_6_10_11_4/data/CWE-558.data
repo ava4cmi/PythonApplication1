@@ -1,0 +1,3 @@
+#CWE-558 Use of getlogin() in Multithreaded Application
+Attributes Submit Wms proxy Lb proxy Logger (interlogd) Lb
+TimeOut 1.05 1.05 1.05 1.05 1.05
