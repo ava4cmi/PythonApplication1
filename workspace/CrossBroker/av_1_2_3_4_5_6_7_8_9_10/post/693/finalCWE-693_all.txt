@@ -2,7 +2,8 @@
 2. CWE-862 Missing Authorization: (Sp= 1.9325; Max= 1.9325; Meg= 1.24200433001; Q3= 1.1675)
   |
   -->CWE-638 Not Using Complete Mediation: (Sp= 0.849166666667; Max= 1.17375; Meg= 0.998353331742)
-
+      |
+      -->CWE-424 Improper Protection of Alternate Path: (Sp= 1.17375; Max= 1.17375; Meg= 1.17375; Q3= 1.1675)
   |
   -->CWE-639 Authorization Bypass Through User-Controlled Key: (Sp= 1.1675; Max= 1.1675; Meg= 1.1675)
 

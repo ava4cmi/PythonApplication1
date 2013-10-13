@@ -218,7 +218,7 @@ def postOrder(maxprio,cwe,base,type, child,dir,filename):
     if base==11:
         fprior=open("workspace/"+dir+"/"+dir+"finalCWElist_"+type+".txt","w")            
 
-    for i in range(11):
+    for i in range(12):        
         if (i==base) and (i in names):            
             #utils.makepath("workspace/"+dir)
             #utils.makepath("workspace/"+dir+"/"+dirfname)
@@ -241,7 +241,8 @@ def postOrder(maxprio,cwe,base,type, child,dir,filename):
             x=cwe[key]                         
             x=x.rstrip('\n')                            
             cont+=1                    
-            fprior.write(str(cont)+". "+x+": "+"(Sp= "+str(value)+"; Max= "+str(dmaxi[base][key])+"; Meg= "+str(dmedg[base][key])+"; Q3= "+str(Q3val)+")\n")            
+            fprior.write(str(cont)+"., "+x+": "+",Sp=, "+str(value)+", Max=, "+str(dmaxi[base][key])+"\n")            
+            #fprior.write(str(cont)+". "+x+": "+",Sp=, "+str(value)+", Max=, "+str(dmaxi[base][key])+", Meg= "+str(dmedg[base][key])+"; Q3= "+str(Q3val)+")\n")            
             #Miro si id es weakness padre es decir pertenece a l[1] 
             id=key.split()[0].split("-")[1]            
             for l in child.iteritems():
@@ -260,7 +261,7 @@ def postOrder(maxprio,cwe,base,type, child,dir,filename):
             x=cwe[key]             
             x=x.rstrip('\n')                            
             cont+=1                    
-            fprior.write(str(cont)+". "+x+":"+str(value)+"\n")            
+            fprior.write(str(cont)+"., "+x+":,"+str(value)+"\n")            
         fprior.close()
 
     return 0

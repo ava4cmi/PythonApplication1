@@ -1,31 +1,31 @@
-1. CWE-671 Lack of Administrator Control over Security: (Sp= 1.965; Max= 1.965; Meg= 1.57639718129; Q3= 1.56666666667)
+1., CWE-671 Lack of Administrator Control over Security: ,Sp=, 1.965, Max=, 1.965
   |
   -->CWE-798 Use of Hard-coded Credentials: (Sp= 1.2725; Max= 1.335; Meg= 0.503191666513)
 
   |
   -->CWE-447 Unimplemented or Unsupported Feature in UI: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667)
 
-2. CWE-655 Insufficient Psychological Acceptability: (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.56666666667)
-3. CWE-648 Incorrect Use of Privileged APIs: (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.56666666667)
-4. CWE-637 Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism'): (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.56666666667)
-5. CWE-424 Improper Protection of Alternate Path: (Sp= 1.965; Max= 1.965; Meg= 1.965; Q3= 1.56666666667)
-6. CWE-250 Execution with Unnecessary Privileges: (Sp= 1.686875; Max= 1.686875; Meg= 1.686875; Q3= 1.56666666667)
-7. CWE-512 Spyware: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667; Q3= 1.56666666667)
-8. CWE-511 Logic/Time Bomb: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667; Q3= 1.56666666667)
-9. CWE-510 Trapdoor: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667; Q3= 1.56666666667)
-10. CWE-509 Replicating Malicious Code (Virus or Worm): (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667; Q3= 1.56666666667)
-11. CWE-508 Non-Replicating Malicious Code: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667; Q3= 1.56666666667)
-12. CWE-507 Trojan Horse: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667; Q3= 1.56666666667)
+2., CWE-655 Insufficient Psychological Acceptability: ,Sp=, 1.965, Max=, 1.965
+3., CWE-648 Incorrect Use of Privileged APIs: ,Sp=, 1.965, Max=, 1.965
+4., CWE-637 Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism'): ,Sp=, 1.965, Max=, 1.965
+5., CWE-424 Improper Protection of Alternate Path: ,Sp=, 1.965, Max=, 1.965
+6., CWE-250 Execution with Unnecessary Privileges: ,Sp=, 1.686875, Max=, 1.686875
+7., CWE-512 Spyware: ,Sp=, 1.56666666667, Max=, 1.56666666667
+8., CWE-511 Logic/Time Bomb: ,Sp=, 1.56666666667, Max=, 1.56666666667
+9., CWE-510 Trapdoor: ,Sp=, 1.56666666667, Max=, 1.56666666667
+10., CWE-509 Replicating Malicious Code (Virus or Worm): ,Sp=, 1.56666666667, Max=, 1.56666666667
+11., CWE-508 Non-Replicating Malicious Code: ,Sp=, 1.56666666667, Max=, 1.56666666667
+12., CWE-507 Trojan Horse: ,Sp=, 1.56666666667, Max=, 1.56666666667
   |
   -->CWE-509 Replicating Malicious Code (Virus or Worm): (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667)
 
   |
   -->CWE-508 Non-Replicating Malicious Code: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667)
 
-13. CWE-449 The UI Performs the Wrong Action: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667; Q3= 1.56666666667)
-14. CWE-448 Obsolete Feature in UI: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667; Q3= 1.56666666667)
-15. CWE-447 Unimplemented or Unsupported Feature in UI: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667; Q3= 1.56666666667)
-16. CWE-446 UI Discrepancy for Security Feature: (Sp= 1.38; Max= 1.56666666667; Meg= 1.51775692824; Q3= 1.56666666667)
+13., CWE-449 The UI Performs the Wrong Action: ,Sp=, 1.56666666667, Max=, 1.56666666667
+14., CWE-448 Obsolete Feature in UI: ,Sp=, 1.56666666667, Max=, 1.56666666667
+15., CWE-447 Unimplemented or Unsupported Feature in UI: ,Sp=, 1.56666666667, Max=, 1.56666666667
+16., CWE-446 UI Discrepancy for Security Feature: ,Sp=, 1.38, Max=, 1.56666666667
   |
   -->CWE-449 The UI Performs the Wrong Action: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667)
 
@@ -35,12 +35,12 @@
   |
   -->CWE-447 Unimplemented or Unsupported Feature in UI: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667)
 
-17. CWE-638 Not Using Complete Mediation: (Sp= 1.37666666667; Max= 1.965; Meg= 1.64473402105; Q3= 1.56666666667)
+17., CWE-638 Not Using Complete Mediation: ,Sp=, 1.37666666667, Max=, 1.965
   |
   -->CWE-424 Improper Protection of Alternate Path: (Sp= 1.965; Max= 1.965; Meg= 1.965)
 
-18. CWE-259 Use of Hard-coded Password: (Sp= 1.335; Max= 1.335; Meg= 1.335; Q3= 1.56666666667)
-19. CWE-506 Embedded Malicious Code: (Sp= 1.285625; Max= 1.56666666667; Meg= 1.50592777841; Q3= 1.56666666667)
+18., CWE-259 Use of Hard-coded Password: ,Sp=, 1.335, Max=, 1.335
+19., CWE-506 Embedded Malicious Code: ,Sp=, 1.285625, Max=, 1.56666666667
   |
   -->CWE-511 Logic/Time Bomb: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667)
 
@@ -53,46 +53,46 @@
   |
   -->CWE-510 Trapdoor: (Sp= 1.56666666667; Max= 1.56666666667; Meg= 1.56666666667)
 
-20. CWE-308 Use of Single-factor Authentication: (Sp= 1.285625; Max= 1.285625; Meg= 1.285625; Q3= 1.56666666667)
-21. CWE-798 Use of Hard-coded Credentials: (Sp= 1.2725; Max= 1.335; Meg= 0.503191666513; Q3= 1.56666666667)
+20., CWE-308 Use of Single-factor Authentication: ,Sp=, 1.285625, Max=, 1.285625
+21., CWE-798 Use of Hard-coded Credentials: ,Sp=, 1.2725, Max=, 1.335
   |
   -->CWE-321 Use of Hard-coded Cryptographic Key: (Sp= 0.075; Max= 0.075; Meg= 0.075)
 
   |
   -->CWE-259 Use of Hard-coded Password: (Sp= 1.335; Max= 1.335; Meg= 1.335)
 
-22. CWE-309 Use of Password System for Primary Authentication: (Sp= 1.19375; Max= 1.19375; Meg= 1.19375; Q3= 1.56666666667)
-23. CWE-654 Reliance on a Single Factor in a Security Decision: (Sp= 0.82; Max= 1.285625; Meg= 1.07964385029; Q3= 1.56666666667)
+22., CWE-309 Use of Password System for Primary Authentication: ,Sp=, 1.19375, Max=, 1.19375
+23., CWE-654 Reliance on a Single Factor in a Security Decision: ,Sp=, 0.82, Max=, 1.285625
   |
   -->CWE-309 Use of Password System for Primary Authentication: (Sp= 1.19375; Max= 1.19375; Meg= 1.19375)
 
   |
   -->CWE-308 Use of Single-factor Authentication: (Sp= 1.285625; Max= 1.285625; Meg= 1.285625)
 
-24. CWE-296 Improper Following of Chain of Trust for Certificate Validation: (Sp= 0.82; Max= 0.82; Meg= 0.82; Q3= 1.56666666667)
-25. CWE-242 Use of Inherently Dangerous Function: (Sp= 0.82; Max= 0.82; Meg= 0.82; Q3= 1.56666666667)
-26. CWE-683 Function Call With Incorrect Order of Arguments: (Sp= 0.805; Max= 0.805; Meg= 0.805; Q3= 1.56666666667)
-27. CWE-14 Compiler Removal of Code to Clear Buffers: (Sp= 0.805; Max= 0.805; Meg= 0.805; Q3= 1.56666666667)
-28. CWE-358 Improperly Implemented Security Check for Standard: (Sp= 0.735416666667; Max= 0.735416666667; Meg= 0.735416666667; Q3= 1.56666666667)
-29. CWE-198 Use of Incorrect Byte Ordering: (Sp= 0.635; Max= 0.635; Meg= 0.635; Q3= 1.56666666667)
-30. CWE-765 Multiple Unlocks of a Critical Resource: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 1.56666666667)
-31. CWE-764 Multiple Locks of a Critical Resource: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 1.56666666667)
-32. CWE-585 Empty Synchronized Block: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 1.56666666667)
-33. CWE-574 EJB Bad Practices: Use of Synchronization Primitives: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 1.56666666667)
-34. CWE-383 J2EE Bad Practices: Direct Use of Threads: (Sp= 0.525; Max= 0.525; Meg= 0.525; Q3= 1.56666666667)
-35. CWE-110 Struts: Validator Without Form Field: (Sp= 0.52; Max= 0.52; Meg= 0.52; Q3= 1.56666666667)
-36. CWE-107 Struts: Unused Validation Form: (Sp= 0.52; Max= 0.52; Meg= 0.52; Q3= 1.56666666667)
-37. CWE-103 Struts: Incomplete validate() Method Definition: (Sp= 0.52; Max= 0.52; Meg= 0.52; Q3= 1.56666666667)
-38. CWE-102 Struts: Duplicate Validation Forms: (Sp= 0.52; Max= 0.52; Meg= 0.52; Q3= 1.56666666667)
-39. CWE-656 Reliance on Security Through Obscurity: (Sp= 0.4475; Max= 0.4475; Meg= 0.4475; Q3= 1.56666666667)
-40. CWE-605 Multiple Binds to the Same Port: (Sp= 0.4425; Max= 0.4425; Meg= 0.4425; Q3= 1.56666666667)
-41. CWE-246 J2EE Bad Practices: Direct Use of Sockets: (Sp= 0.39625; Max= 0.39625; Meg= 0.39625; Q3= 1.56666666667)
-42. CWE-733 Compiler Optimization Removal or Modification of Security-critical Code: (Sp= 0.36; Max= 0.805; Meg= 0.538330753348; Q3= 1.56666666667)
+24., CWE-296 Improper Following of Chain of Trust for Certificate Validation: ,Sp=, 0.82, Max=, 0.82
+25., CWE-242 Use of Inherently Dangerous Function: ,Sp=, 0.82, Max=, 0.82
+26., CWE-683 Function Call With Incorrect Order of Arguments: ,Sp=, 0.805, Max=, 0.805
+27., CWE-14 Compiler Removal of Code to Clear Buffers: ,Sp=, 0.805, Max=, 0.805
+28., CWE-358 Improperly Implemented Security Check for Standard: ,Sp=, 0.735416666667, Max=, 0.735416666667
+29., CWE-198 Use of Incorrect Byte Ordering: ,Sp=, 0.635, Max=, 0.635
+30., CWE-765 Multiple Unlocks of a Critical Resource: ,Sp=, 0.525, Max=, 0.525
+31., CWE-764 Multiple Locks of a Critical Resource: ,Sp=, 0.525, Max=, 0.525
+32., CWE-585 Empty Synchronized Block: ,Sp=, 0.525, Max=, 0.525
+33., CWE-574 EJB Bad Practices: Use of Synchronization Primitives: ,Sp=, 0.525, Max=, 0.525
+34., CWE-383 J2EE Bad Practices: Direct Use of Threads: ,Sp=, 0.525, Max=, 0.525
+35., CWE-110 Struts: Validator Without Form Field: ,Sp=, 0.52, Max=, 0.52
+36., CWE-107 Struts: Unused Validation Form: ,Sp=, 0.52, Max=, 0.52
+37., CWE-103 Struts: Incomplete validate() Method Definition: ,Sp=, 0.52, Max=, 0.52
+38., CWE-102 Struts: Duplicate Validation Forms: ,Sp=, 0.52, Max=, 0.52
+39., CWE-656 Reliance on Security Through Obscurity: ,Sp=, 0.4475, Max=, 0.4475
+40., CWE-605 Multiple Binds to the Same Port: ,Sp=, 0.4425, Max=, 0.4425
+41., CWE-246 J2EE Bad Practices: Direct Use of Sockets: ,Sp=, 0.39625, Max=, 0.39625
+42., CWE-733 Compiler Optimization Removal or Modification of Security-critical Code: ,Sp=, 0.36, Max=, 0.805
   |
   -->CWE-14 Compiler Removal of Code to Clear Buffers: (Sp= 0.805; Max= 0.805; Meg= 0.805)
 
-43. CWE-111 Direct Use of Unsafe JNI: (Sp= 0.2925; Max= 0.2925; Meg= 0.2925; Q3= 1.56666666667)
-44. CWE-684 Incorrect Provision of Specified Functionality: (Sp= 0.24; Max= 1.38; Meg= 0.25160480144; Q3= 1.56666666667)
+43., CWE-111 Direct Use of Unsafe JNI: ,Sp=, 0.2925, Max=, 0.2925
+44., CWE-684 Incorrect Provision of Specified Functionality: ,Sp=, 0.24, Max=, 1.38
   |
   -->CWE-446 UI Discrepancy for Security Feature: (Sp= 1.38; Max= 1.56666666667; Meg= 1.51775692824)
 
@@ -102,11 +102,11 @@
   |
   -->CWE-392 Missing Report of Error Condition: (Sp= 0.11; Max= 0.11; Meg= 0.11)
 
-45. CWE-174 Double Decoding of the Same Data: (Sp= 0.2075; Max= 0.2075; Meg= 0.2075; Q3= 1.56666666667)
-46. CWE-653 Insufficient Compartmentalization: (Sp= 0.2; Max= 0.2; Meg= 0.2; Q3= 1.56666666667)
-47. CWE-455 Non-exit on Failed Initialization: (Sp= 0.11; Max= 0.11; Meg= 0.11; Q3= 1.56666666667)
-48. CWE-393 Return of Wrong Status Code: (Sp= 0.11; Max= 0.11; Meg= 0.11; Q3= 1.56666666667)
-49. CWE-392 Missing Report of Error Condition: (Sp= 0.11; Max= 0.11; Meg= 0.11; Q3= 1.56666666667)
-50. CWE-329 Not Using a Random IV with CBC Mode: (Sp= 0.075; Max= 0.075; Meg= 0.075; Q3= 1.56666666667)
-51. CWE-325 Missing Required Cryptographic Step: (Sp= 0.075; Max= 0.075; Meg= 0.075; Q3= 1.56666666667)
-52. CWE-321 Use of Hard-coded Cryptographic Key: (Sp= 0.075; Max= 0.075; Meg= 0.075; Q3= 1.56666666667)
+45., CWE-174 Double Decoding of the Same Data: ,Sp=, 0.2075, Max=, 0.2075
+46., CWE-653 Insufficient Compartmentalization: ,Sp=, 0.2, Max=, 0.2
+47., CWE-455 Non-exit on Failed Initialization: ,Sp=, 0.11, Max=, 0.11
+48., CWE-393 Return of Wrong Status Code: ,Sp=, 0.11, Max=, 0.11
+49., CWE-392 Missing Report of Error Condition: ,Sp=, 0.11, Max=, 0.11
+50., CWE-329 Not Using a Random IV with CBC Mode: ,Sp=, 0.075, Max=, 0.075
+51., CWE-325 Missing Required Cryptographic Step: ,Sp=, 0.075, Max=, 0.075
+52., CWE-321 Use of Hard-coded Cryptographic Key: ,Sp=, 0.075, Max=, 0.075

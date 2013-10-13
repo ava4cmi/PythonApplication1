@@ -1,5 +1,5 @@
-1. CWE-115 Misinterpretation of Input:1.099375
-2. CWE-436 Interpretation Conflict:0.908037031183
-3. CWE-14 Compiler Removal of Code to Clear Buffers:0.805
-4. CWE-198 Use of Incorrect Byte Ordering:0.39375
-5. CWE-733 Compiler Optimization Removal or Modification of Security-critical Code:0.365370816204
+1., CWE-115 Misinterpretation of Input:,1.099375
+2., CWE-436 Interpretation Conflict:,0.908037031183
+3., CWE-14 Compiler Removal of Code to Clear Buffers:,0.805
+4., CWE-198 Use of Incorrect Byte Ordering:,0.39375
+5., CWE-733 Compiler Optimization Removal or Modification of Security-critical Code:,0.365370816204

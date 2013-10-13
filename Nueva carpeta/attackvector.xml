@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<Attack_Vector>
-  <Component name="submit">
-    <CWE id="CWE-412" name="">
-      <Attribute TimeOut="7.99"/>
-    </CWE>
-  </Component>
-</Attack_Vector>
